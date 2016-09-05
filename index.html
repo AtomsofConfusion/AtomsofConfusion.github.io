@@ -1,23 +1,36 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Atoms of Confusion : ">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+    <title>Atoms of Confusion</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+          <h1 id="project_title">Atoms of Confusion</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="welcome-to-github-pages" class="anchor"
+    href="#welcome-to-github-pages" aria-hidden="true"><span
+    aria-hidden="true" class="octicon octicon-link"></span></a>Welcome
+    to the Atoms of Confusion Project Page.</h3>
 
 <p>Today's software code is becoming larger and more complex, 
 which makes it challenging for developers to comprehend.  As new programming 
@@ -103,3 +116,15 @@ octicon-link"></span></a>Contact</h3>
 contact us at: <br>atomsofconfusion at googlegroups dot com.</p>
       </section>
     </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
