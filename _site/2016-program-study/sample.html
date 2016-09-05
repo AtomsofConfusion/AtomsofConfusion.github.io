@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="main.css" /> 
+
+<title>Sample answers</title>
+
+</head>
+<body>
+
+<h2>An sample answer for atoms impact experiment</h2>
+
+Here we show a sample answer from subject 5125, after obtaining consent.
+
+<h3>Consent form, questions and survey</h3>
+
+<a href="instrument-5125.pdf">This file</a> shows the consent form, questions and 
+survey, that need to be signed and answered by subject 5125. The question order of
+this subject is E/D/G/B.
+
+<h3>Hand-written answers</h3>
+
+The subject's hand-wrtten answers to the above questions can be found in 
+<a href="5125-answer.pdf">this file</a>. In order to protect the subject's 
+privacy, we do not include the consent form (with the subject's signature), 
+and the demographic survey (with the subject's age and programming experience).
+
+<h3>Transcribed answers</h3>
+
+<b>Program E:</b>
+
+<pre style='color:#000000;background:#ffffff;'>
+#include &lt;stdio.h>
+
+double V4;
+int V5;
+
+int F1(int V1, int V2, int V3) {
+  printf("a: %d %d %d %f\n", V1, V2, V3, V4);
+  return printf(
+      "b: %c\n",
+      (V1-- + 1 && V1 + 4 && F1(V1, -1, V1), V1 && V2)
+          ? (F1(-1, ++V2, V3),
+             ((V5 = (int)(V4 = (int)(V2 + 1) /
+                               (1 - (int)V3 * 2 - (int)V3 * (int)V3),
+                          V4 * V4 >= 1 && ((2 % 3) / 4 - 2 + (V4 / 2)) < 1),
+               printf("c: %d %d %d %f %d\n", V1, V2, V3, V4, V5), V5)["ab"]))
+          : 'c');
+}
+
+int main() {
+  F1(-1, -2, 0);
+  printf("d\n");
+}
+</pre>
+
+<b>Answer:</b>
+<p>Start Time: 14:06</p>
+<p>a: -1 -2 0 0.0</p>
+<p>b: c</p>
+<p>d</p>
+<p>End Time: 14:17</p>
+
+<hr/>
+<b>Program D</b>
+
+<pre style='color:#000000;background:#ffffff;'>
+#include &lt;stdio.h>
+
+void F1(int V1, int V2, int V3, int V4) {
+  V1 = V1 + 1;
+  V2 = V1;
+  while (V2 < 4) {
+    V3 = 0;
+
+    printf("a: %d %d %d %d\n", V1, V2, V3, V4);
+    int V9;
+    if (V3 < V2) {
+      V3 = (V3 * 8) + (V2 % 8);
+      V2 /= 8;
+      V4 = (V3 == V2) | ((V3 / 8) == V2);
+      V9 = 1;
+    } else {
+      V4 = V4 + 1;
+      if ((V1 - V4) != 0) {
+        V9 = V1 % V4;
+      } else {
+        printf("b: %d\n", V1);
+        V9 = 2 && (V1 % V4);
+      }
+    }
+
+    for (; V9;) {
+      printf("c: %d %d %d %d\n", V1, V2, V3, V4);
+      if (V3 < V2) {
+        V3 = (V3 * 8) + (V2 % 8);
+        V2 /= 8;
+        V4 = (V3 == V2) | ((V3 / 8) == V2);
+        V9 = 1;
+      } else {
+        V4 = V4 + 1;
+        if ((V1 - V4) != 0) {
+          V9 = V1 % V4;
+        } else {
+          printf("d: %d\n", V1);
+          V9 = 2 && (V1 % V4);
+        }
+      }
+    }
+
+    V1 = V1 + 1;
+    V2 = V1;
+  }
+}
+
+int main() {
+  F1(1, 0, 0, 0);
+  printf("e\n");
+}
+</pre>
+
+<b>Answer:</b>
+<p>Start Time: 14:17</p>
+<p>a: 2 2 0 0</p>
+<p>c: 2 0 0 1</p>
+<p>a: 3 3 0 1</p>
+<p>c: 3 0 0 1</p>
+<p>d: 4</p>
+<p>End Time: 14:36</p>
+
+<hr/>
+<b>Program G</b>
+<pre style='color:#000000;background:#ffffff;'>
+#include &lt;stdio.h>
+
+int F1(int V1, int V2) {
+  int V3, V4;
+
+  printf("a: %d %d\n", V1, V2);
+
+  for (V3 = V4 = 1; V3* V3 <= V1 ? V4 = V1 % V3 ? V4 : V3 : V2 + 1
+                    ? V4 < 2 ? V1 && F1(V2, 0) : F1(V4, V2),
+      printf("b: %d\n", V2 ? 10 : 32 << !V1),
+      V1 -= V4 * !!V1 : (F1(V4, V1 / V4), 0);) {
+    printf("c: %d %d\n", V1, V4);
+    V3++;
+  }
+
+  return 0;
+}
+
+int main() {
+  F1(1, 0);
+  printf("d\n");
+}
+</pre>
+
+<b>Answer:</b>
+<p>Start Time: 14:37</p>
+<p>a: 1 0</p>
+<p>c: 1 0</p>
+<p>a: 0 0</p>
+<p>d</p>
+<p>End Time: 14:49</p>
+
+<hr/>
+<b>Program B</b>
+
+<pre style='color:#000000;background:#ffffff;'>
+#include &lt;stdio.h>
+
+void F1(int V1, char *V2, int V3) {
+  printf("a: %d %s %d\n", V1, V2, V3);
+  int V4 = (V1 / V3) + V3;
+  char *V5 = V2 - V1;
+  V2 = V2 - 1;
+  int V6 = (int)V2 / (int)V2;
+  printf("b: %d %s %d\n", V4, V5, V6);
+}
+int V7;
+int main() {
+  for (; "ab"[V7] != 0;) {
+    F1(97 - 97, V7 + "zy", 122 / 122);
+    V7 = V7 + 1;
+  }
+  printf("c\n");
+}
+</pre>
+
+<b>Answer:</b>
+<p>Start Time: 14:50</p>
+<p>a: 0 zy 1</p>
+<p>b: 1 zy 1</p>
+<p>a: 0 y 1</p>
+<p>b: 0 y 1</p>
+<p>c</p>
+<p>End Time: 14:54</p>
+
+</body>
+</html>
