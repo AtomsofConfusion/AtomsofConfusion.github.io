@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
-tags: about
+title: Contact
+permalink: /contact/
+tags: contact
 ---
 
 

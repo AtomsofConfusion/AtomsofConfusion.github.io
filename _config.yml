@@ -7,6 +7,8 @@ baseurl:     ""
 url:         "http://atomsofconfusion.com"
 date_format: "%b %-d, %Y"
 
+nav_links: ['atoms', 'snippet', 'program', 'contact']
+
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
@@ -115,3 +117,6 @@ gems:
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
+
+# enable subdir site.pages - http://stackoverflow.com/questions/18401297/jekyll-not-generating-pages-in-subfolders
+relative_permalinks: false 

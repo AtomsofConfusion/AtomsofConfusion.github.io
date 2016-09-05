@@ -1,10 +1,11 @@
-{% for page in site.pages %}
-    {% if page.tags contains "atoms" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    {% endif %}
-{% endfor %}
-{% for page in site.pages %}
-    {% if page.tags contains "about" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    {% endif %}
+{% for nav_link in site.nav_links %}
+  {% for page in site.pages %}
+      {% if page.tags contains nav_link %}
+        {% if page.link %}
+            <a href="{{ page.url }}">{{ page.link }}</a>
+         {% else %}
+            <a href="{{ page.url }}">{{ page.title }}</a>
+         {% endif %}
+      {% endif %}
+  {% endfor %}
 {% endfor %}
