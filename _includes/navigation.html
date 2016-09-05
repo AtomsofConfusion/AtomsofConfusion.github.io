@@ -1,6 +1,6 @@
 {% for nav_link in site.nav_links %}
   {% for page in site.pages %}
-      {% if page.tags contains nav_link %}
+      {% if page.tags == nav_link %}
         {% if page.link %}
             <a href="{{ page.url }}">{{ page.link }}</a>
          {% else %}

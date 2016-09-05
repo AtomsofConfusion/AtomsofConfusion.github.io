@@ -44,3 +44,5 @@ hand evaluate the output of both versions of the programs. We would like
 to verify that <i>multiple atoms of confusion cause more errors than other 
 code in hand-evaluated outputs</i>.
 </p>
+
+For the details of our methods and results, please consult our [replication packet](instructions)

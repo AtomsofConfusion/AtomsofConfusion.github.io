@@ -1,15 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="main.css" /> 
-
-<title>Instructions for remote study</title>
-
-</head>
-<body>
-
-<h2>Email instructions for remote study</h2>
+---
+layout: page
+title: Email Instructions for Remote Study
+---
 
 <p>Hello, and thank you for participating in our code comprehension 
 study.</p>
@@ -37,7 +29,5 @@ be anonymized and your answers will not be attributed to you.</li>
 believe you did something that does not comply with our procedure, 
 please let us know so we can decide whether or not to use your data.</li>
 
-<p>Thanks again!</p>
-
-</body>
-</html>
+<br/>
+Thanks again!
