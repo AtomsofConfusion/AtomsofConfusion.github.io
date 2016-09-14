@@ -17,6 +17,7 @@ layout: default
    <ul>
    <li>We base our understanding on empirical evidence derived from <a href="/experiments/">experiments</a>.</li>
    <li>We strive to help the community by openly sharing all of our <a href="/data/">data</a>.</li>
+   <li>We communicate our work through peer reviewed <a href="/publications/">publications</a>.</li>
    </ul>
   </div>
   </div>
