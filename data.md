@@ -4,4 +4,4 @@ title: Data
 navbar: true
 ---
 
-Through
+Through our [experiments](experiments) we investigated 

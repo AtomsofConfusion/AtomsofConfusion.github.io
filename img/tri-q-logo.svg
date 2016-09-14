@@ -25,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2208984"
-     inkscape:cx="170.6423"
-     inkscape:cy="520"
+     inkscape:zoom="2.5152825"
+     inkscape:cx="203.35517"
+     inkscape:cy="903.15672"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1075"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1591"
+     inkscape:window-height="1275"
+     inkscape:window-x="743"
+     inkscape:window-y="29"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -74,7 +74,7 @@
            height="50.782276"
            x="130.23196"
            y="437.24142" /></flowRegion><flowPara
-         id="flowPara4150"></flowPara></flowRoot>    <flowRoot
+         id="flowPara4150" /></flowRoot>    <flowRoot
        transform="matrix(1.2015697,2.0811798,-2.9261652,1.6894223,1372.3142,-550.0398)"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot4152"
@@ -99,10 +99,77 @@
            y="397.10706" /></flowRegion><flowPara
          id="flowPara4166"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">?</flowPara></flowRoot>    <circle
-       style="fill:#8fff2b;fill-opacity:0.7754491;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8fff2b;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4168"
        cx="307.66989"
        cy="479.73001"
        r="8.1906891" />
+    <g
+       id="g4212">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4150"
+         y="177.75749"
+         x="168.36824"
+         style="font-style:normal;font-weight:normal;font-size:144.46249962px;line-height:125%;font-family:'Avenir Next Condensed';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Avenir Next Condensed, Condensed';font-stretch:condensed;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;"
+         xml:space="preserve"><tspan
+           y="177.75749"
+           x="168.36824"
+           id="tspan4152"
+           sodipodi:role="line">?</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:144.46249962px;line-height:125%;font-family:'Avenir Next Condensed';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Avenir Next Condensed, Condensed';font-stretch:condensed;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;"
+         x="168.36824"
+         y="177.75749"
+         id="text4154"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4156"
+           x="168.36824"
+           y="177.75749">?</tspan></text>
+      <text
+         transform="matrix(0.5,-0.8660254,0.8660254,0.5,0,0)"
+         sodipodi:linespacing="125%"
+         id="text4158"
+         y="283.6673"
+         x="-38.233765"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:144.4624939px;line-height:125%;font-family:'Avenir Next Condensed';-inkscape-font-specification:'Avenir Next Condensed, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="283.6673"
+           x="-38.233765"
+           id="tspan4160"
+           sodipodi:role="line">?</tspan></text>
+      <text
+         transform="matrix(0.5,0.8660254,-0.8660254,0.5,0,0)"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:144.4624939px;line-height:125%;font-family:'Avenir Next Condensed';-inkscape-font-specification:'Avenir Next Condensed, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="179.94867"
+         y="-54.119987"
+         id="text4162"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4164"
+           x="179.94867"
+           y="-54.119987">?</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4189"
+         y="283.66727"
+         x="-15.072901"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:144.4624939px;line-height:125%;font-family:'Avenir Next Condensed';-inkscape-font-specification:'Avenir Next Condensed, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"
+         transform="matrix(-0.5,0.8660254,0.8660254,0.5,0,0)"><tspan
+           y="283.66727"
+           x="-15.072901"
+           id="tspan4191"
+           sodipodi:role="line">?</tspan></text>
+      <circle
+         style="fill:#b2ff6e;fill-opacity:1;stroke:#000000;stroke-width:3.729;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4175"
+         cx="195.02158"
+         cy="125.96769"
+         r="20.713629" />
+    </g>
   </g>
 </svg>
