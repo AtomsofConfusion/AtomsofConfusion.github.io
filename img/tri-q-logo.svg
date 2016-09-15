@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1422698"
-     inkscape:cx="364.64691"
-     inkscape:cy="779.80388"
+     inkscape:zoom="0.76698609"
+     inkscape:cx="399.66491"
+     inkscape:cy="744.78588"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1550"
-     inkscape:window-height="1052"
-     inkscape:window-x="199"
-     inkscape:window-y="10"
+     inkscape:window-width="1271"
+     inkscape:window-height="923"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -1371,7 +1371,9 @@
     </g>
     <g
        id="g5146"
-       transform="matrix(1.3853647,0,0,1.3853647,-281.50976,-202.38495)">
+       transform="matrix(1.3853647,0,0,1.3853647,-281.50976,-202.38495)"
+       inkscape:export-xdpi="89.875954"
+       inkscape:export-ydpi="89.875954">
       <g
          id="g5108"
          transform="translate(14.882649,-23.637146)">

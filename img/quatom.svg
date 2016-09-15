@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="25.293032mm"
-   height="24.869827mm"
-   viewBox="0 0 89.620978 88.121435"
+   width="26mm"
+   height="26mm"
+   viewBox="0 0 92.125984 92.125984"
    id="svg4698"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="quatom.svg">
+   sodipodi:docname="quatom.svg"
+   inkscape:export-filename="/Users/dgopstein/nyu/confusion/AtomsofConfusion.github.io/favicon.png"
+   inkscape:export-xdpi="62.523075"
+   inkscape:export-ydpi="62.523075">
   <defs
      id="defs4700" />
   <sodipodi:namedview
@@ -37,8 +40,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="1140"
      inkscape:window-height="909"
-     inkscape:window-x="724"
-     inkscape:window-y="211"
+     inkscape:window-x="601"
+     inkscape:window-y="138"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4703">
@@ -56,10 +59,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-314.61044,-876.84014)">
+     transform="translate(-314.61044,-872.83559)">
     <g
        id="g5146"
-       transform="matrix(1.3853647,0,0,1.3853647,-248.10819,438.81928)"
+       transform="matrix(1.3853647,0,0,1.3853647,-246.85568,436.81701)"
        inkscape:export-xdpi="89.875954"
        inkscape:export-ydpi="89.875954">
       <g
