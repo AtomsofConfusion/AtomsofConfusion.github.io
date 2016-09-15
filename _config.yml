@@ -2,11 +2,13 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://atomsofconfusion.com" # the base hostname & protocol for your site
 
+favicon: favicon.ico
+
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: Atoms of Confusion
-  avatar: molecule.png
+  avatar: quatom.svg
   gravatar: # Email MD5 hash
   description: "Understanding source code misunderstanding" # used by search engines
 
