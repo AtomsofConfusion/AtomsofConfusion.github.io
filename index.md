@@ -13,9 +13,12 @@ layout: default
    <div class="excerpt">
    <p>Atoms of Confusion is a project to discover the fundamental causes of human error in programming.</p>
 
-   <p> Our investigation starts from the ground up, at the smallest pieces of code that cause confusion in programmers. We call these pieces of code <i>atoms of confusion</i> and we document their properties here. </p>
+   <p> Our investigation starts from the ground up, at the smallest pieces of code that cause confusion in programmers. We call these pieces of code <i>atoms of confusion</i> and we document their properties here.
+For more information on our underlying motivation, please read our <a href="/overview/">overview</a>.
+</p>
 
-   <p>We are driven by the following principles: </p>
+   <p>
+We are driven by the following principles: </p>
 
    <ul>
    <li>We group our hypotheses into a cohesive explanatory <a href="/theory/">theory</a>.</li>
@@ -23,6 +26,13 @@ layout: default
    <li>We strive to help the community by openly sharing all of our <a href="/data/">data</a>.</li>
    <li>We communicate our work through peer reviewed <a href="/publications/">publications</a>.</li>
    </ul>
+
+  <br />
+  <br />
+  <h4>Acknowledgements</h4>
+  This material is based upon work supported by the National Science Foundation under Grant No. 1444827. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. 
+
+
   </div>
   </div>
   </div>
