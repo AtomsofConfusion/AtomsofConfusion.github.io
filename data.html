@@ -3,7 +3,10 @@ layout: page
 title: Data
 ---
 
-Through our <a href="experiments">experiments</a> we investigated existance and impact of <a href="theory">atoms of confusion</a>. Through reverse engineering winners of the <a href="http://ioccc.org">International Obfuscated C Code Contest</a>, we generated a partial list of 19 potential atoms. In the atom existence experiment we tested how well subjects could hand trace those atoms compared to functionally equivalent pieces of code with the obfuscations removed.
+Through our <a href="experiments">experiments</a> we investigated existance and impact of <a href="theory">atoms of confusion</a>.
+Through reverse engineering winners of the <a href="http://ioccc.org">International Obfuscated C Code Contest</a>, we generated a partial list of 19 potential atoms.
+In the atom existence experiment we tested how well subjects could hand trace those atoms compared to functionally equivalent pieces of code with the obfuscations removed.
+Of the 19 proposed atoms, 15 were statistically confirmed to be signficantly confusing to our subjects.
 
 <style>
 td.last {
@@ -14,32 +17,84 @@ td.last {
 tr.rejected col.atom {
   text-decoration: line-through;
 }
+
+code {
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+#atom-table {
+    border: none;
+    font-size: 16px;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+#atom-table th {
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 15px;
+}
+
+#atom-table td {
+    border: none;
+    border-top: 1px solid #ddd;
+    padding: 10px 15px;
+}
+
+#atom-table .centered {
+    text-align: center;
+}
+
+#atom-table tr:hover td {
+    color: #339;
+    background: #eff2ff;
+}
+
 </style>
-<table border=1>
+<table id="atom-table" border=1>
     <colgroup>
-       <col id='atom' span="1" style="width: 40%;">
+       <col id='atom' span="1" style="width: 35%;">
+       <col id='example' span="1" style="width: 30%;">
        <col id='effect' span="1" style="width: 20%;">
-       <col id='rate' span="1" style="width: 20%;">
-       <col id='p-value' span="1" style="width: 20%;">
+       <col id='p-value' span="1" style="width: 15%;">
     </colgroup>
-<tr> <th> Atom </th> <th> Effect Size </th> <th> Rate Change </th> <th> p-value </th>  </tr>
-  <tr class="accepted" > <td> Change of Literal Encoding </td> <td> 0.63 </td> <td align="right"> 0.60 </td> <td> <b>2.93e-14</b> </td> </tr>
-  <tr class="accepted" > <td> Preprocessor in Expression </td> <td> 0.54 </td> <td align="right"> 0.47 </td> <td> <b>8.53e-11</b> </td> </tr>
-  <tr class="accepted" > <td> Macro Operator Precedence </td> <td> 0.53 </td> <td align="right"> 0.36 </td> <td> <b>1.77e-07</b> </td> </tr>
-  <tr class="accepted" > <td> Side-Effecting Expression </td> <td> 0.52 </td> <td align="right"> 0.42 </td> <td> <b>3.78e-10</b> </td> </tr>
-  <tr class="accepted" > <td> Logic as Control Flow </td> <td> 0.48 </td> <td align="right"> 0.41 </td> <td> <b>5.62e-09</b> </td> </tr>
-  <tr class="accepted" > <td> Post-Increment/Decrement </td> <td> 0.45 </td> <td align="right"> 0.34 </td> <td> <b>6.98e-08</b> </td> </tr>
-  <tr class="accepted" > <td> Type Conversion </td> <td> 0.42 </td> <td align="right"> 0.29 </td> <td> <b>5.17e-07</b> </td> </tr>
-  <tr class="accepted" > <td> Reversed Subscripts </td> <td> 0.40 </td> <td align="right"> 0.23 </td> <td> <b>1.52e-06</b> </td> </tr>
-  <tr class="accepted" > <td> Conditional Operator </td> <td> 0.36 </td> <td align="right"> 0.23 </td> <td> <b>1.74e-05</b> </td> </tr>
-  <tr class="accepted" > <td> Infix Operator Precedence </td> <td> 0.33 </td> <td align="right"> 0.14 </td> <td> <b>5.90e-05</b> </td> </tr>
-  <tr class="accepted" > <td> Comma Operator </td> <td> 0.30 </td> <td align="right"> 0.23 </td> <td> <b>2.46e-04</b> </td> </tr>
-  <tr class="accepted" > <td> Pre-Increment/Decrement </td> <td> 0.28 </td> <td align="right"> 0.16 </td> <td> <b>6.89e-04</b> </td> </tr>
-  <tr class="accepted" > <td> Implicit Predicate </td> <td> 0.24 </td> <td align="right"> 0.10 </td> <td> <b>4.27e-03</b> </td> </tr>
-  <tr class="accepted" > <td> Repurposed Variables </td> <td> 0.22 </td> <td align="right"> 0.12 </td> <td> <b>6.66e-03</b> </td> </tr>
-  <tr class="accepted" > <td> Omitted Curly Braces </td> <td> 0.22 </td> <td align="right"> 0.14 </td> <td> <b>8.64e-03</b> </td> </tr>
-  <tr class="rejected" > <td> Dead, Unreachable, Repeated </td> <td> 0.16 </td> <td align="right"> 0.03 </td> <td> 0.059 </td> </tr>
-  <tr class="rejected" > <td> Arithmetic as Logic </td> <td> 0.10 </td> <td align="right"> 0.03 </td> <td> 0.248 </td> </tr>
-  <tr class="rejected" > <td> Pointer Arithmetic </td> <td> 0.03 </td> <td align="right"> 0.01 </td> <td> 0.752 </td> </tr>
-  <tr class="rejected" > <td> Constant Variables </td> <td> 0.00 </td> <td align="right"> 0.00 </td> <td> 1.000 </td> </tr>
+<tr> <th> Atom </th> <th> Example </th> <th> Effect Size </th> <th> p-value </th>  </tr>
+  <tr class="accepted" > <td> Change of Literal Encoding </td>  <td><code>208 & 13 </code></td>  <td align="right"> 0.60 </td> <td> 2.93e-14 </td> </tr>
+  <tr class="accepted" > <td> Preprocessor in Expression </td>  <td><code>int V1 = 1
+#define M1 1
++1;</code></td>  <td align="right"> 0.47 </td> <td> 8.53e-11 </td> </tr>
+  <tr class="accepted" > <td> Macro Operator Precedence </td>  <td><code>#define M1 64-1
+2*M1 </code></td>  <td align="right"> 0.36 </td> <td> 1.77e-07 <b>*</b> </td> </tr>
+  <tr class="accepted" > <td> Side-Effecting Expression </td>  <td><code>V1 = V2 = 3; </code></td>  <td align="right"> 0.42 </td> <td> 3.78e-10 </td> </tr>
+  <tr class="accepted" > <td> Logic as Control Flow </td>  <td><code>V1 && F2(); </code></td>  <td align="right"> 0.41 </td> <td> 5.62e-09 </td> </tr>
+  <tr class="accepted" > <td> Post-Increment/Decrement </td>  <td><code>V1 = V2++; </code></td>  <td align="right"> 0.34 </td> <td> 6.98e-08 </td> </tr>
+  <tr class="accepted" > <td> Type Conversion </td>  <td><code>(double)(3/2) </code></td>  <td align="right"> 0.29 </td> <td> 5.17e-07 </td> </tr>
+  <tr class="accepted" > <td> Reversed Subscripts </td>  <td><code>[1]"abc" </code></td>  <td align="right"> 0.23 </td> <td> 1.52e-06 </td> </tr>
+  <tr class="accepted" > <td> Conditional Operator </td>  <td><code>V2 = (V1==3)?2:V2 </code></td>  <td align="right"> 0.23 </td> <td> 1.74e-05 <b>*</b> </td> </tr>
+  <tr class="accepted" > <td> Infix Operator Precedence </td>  <td><code>0 && 1 || 2 </code></td>  <td align="right"> 0.14 </td> <td> 5.90e-05 </td> </tr>
+  <tr class="accepted" > <td> Comma Operator </td>  <td><code>V3 = (V1+=1, V1) </code></td>  <td align="right"> 0.23 </td> <td> 2.46e-04 </td> </tr>
+  <tr class="accepted" > <td> Pre-Increment/Decrement </td>  <td><code>V1 = ++V2; </code></td>  <td align="right"> 0.16 </td> <td> 6.89e-04 </td> </tr>
+  <tr class="accepted" > <td> Implicit Predicate </td>  <td><code>if (4 % 2) </code></td>  <td align="right"> 0.10 </td> <td> 4.27e-03 </td> </tr>
+  <tr class="accepted" > <td> Repurposed Variables </td>  <td><code>argc = 7; </code></td>  <td align="right"> 0.12 </td> <td> 6.66e-03 </td> </tr>
+  <tr class="accepted" > <td> Omitted Curly Braces </td>  <td><code>if (V) F(); G(); </code></td>  <td align="right"> 0.14 </td> <td> 8.64e-03 </td> </tr>
+
+    
+  <tr><th colspan=4 class="centered" style="border-top: 1px solid #ddd;"> Unaccepted Atom Candidatess </th></tr>
+
+  <tr class="rejected" > <td> Dead, Unreachable, Repeated </td>  <td><code>V1 = 1;
+V1 = 2; </code></td>  <td align="right"> 0.03 </td> <td> 0.059 </td> </tr>
+  <tr class="rejected" > <td> Arithmetic as Logic </td>  <td><code>(V1-3) * (V2-4) </code></td>  <td align="right"> 0.03 </td> <td> 0.248 </td> </tr>
+  <tr class="rejected" > <td> Pointer Arithmetic </td>  <td><code>"abcdef"+3 </code></td>  <td align="right"> 0.01 </td> <td> 0.752 </td> </tr>
+  <tr class="rejected" style="border-bottom: 1px solid #ddd;"> <td> Constant Variables </td>  <td><code>int V1 = 5;
+printf("%d", V1); </code></td>  <td align="right"> 0.00 </td> <td> 1.000 </td> </tr>
    </table>
+<div width=40% style="text-align: center"> * See errata for details </div>
+
