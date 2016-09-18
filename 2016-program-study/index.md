@@ -45,4 +45,4 @@ to verify that <i>multiple atoms of confusion cause more errors than other
 code in hand-evaluated outputs</i>.
 </p>
 
-For the details of our methods and results, please consult our [replication packet](instructions)
+For the details of our methods please consult our [replication packet](instructions)
