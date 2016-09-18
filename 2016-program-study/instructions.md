@@ -3,7 +3,7 @@ layout: page
 title: Impact Experiment Methods
 ---
 
-<h3>Pre-study</h3>
+### Pre-study
 Before doing the experiment, all subjects needed to sign a 
 [consent form](consent.pdf). This form explains the purpose
 of this experiment, and informs the subject that the participation is
@@ -11,15 +11,15 @@ voluntary.
 
 ---
 
-<h3>Core materials</h3>
+### Core materials
 
-<h4>Instructions</h4>
+#### Instructions
 
 We designed instructions for [in-person](in-person)
 study, and [remote](remote) study, as some of our
 subjects were remote. 
 
-<h4>Questions and sample answers</h4>
+#### Questions and sample answers
 
 In total, we designed four programs, each with its confusing (with 
 atoms) and non-confusing version (with atoms removed). The full list
@@ -41,7 +41,7 @@ soon.
 
 ---
 
-<h3>Post-study</h3>
+### Post-study
 
 Subjects completed a [demographic survey](survey.pdf)
 after finishing all the questions. 
