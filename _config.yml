@@ -10,7 +10,7 @@ navpages: [Overview, Theory, Experiments, Data, Publications]
 theme_settings:
   # Meta
   title: Atoms of Confusion
-  avatar: quatom.svg
+  avatar: quatom2.svg
   gravatar: # Email MD5 hash
   description: "Understanding source code misunderstanding" # used by search engines
 
