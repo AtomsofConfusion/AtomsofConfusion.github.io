@@ -19,6 +19,9 @@ All tests were administered via the web browser and [instructions](instruction-p
 
 Participants were asked to report the standard output of 84 tiny (3-22 line) programs chosen in pairs randomly from 126 total [questions](questions.csv).
 
+Full data set (normalized and transcribed) will be available 
+soon.
+
 ---
 
 ### Post-study
