@@ -49,3 +49,7 @@ after finishing all the questions.
 ---
 
 ### Analysis
+
+Transcribed results were graded, aggregated, and formatted with programs described in this [README](https://github.com/dgopstein/atoms-of-confusion/tree/master/program_study).
+
+Data was analyzed using R code located [here](https://github.com/dgopstein/atoms-of-confusion/blob/master/program_study/grader/results.R).

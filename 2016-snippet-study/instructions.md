@@ -29,3 +29,5 @@ after finishing all the questions.
 ---
 
 ### Analysis
+
+Data was analyzed using R code located [here](https://github.com/dgopstein/atoms-of-confusion/blob/master/snippet_study/results.R).
