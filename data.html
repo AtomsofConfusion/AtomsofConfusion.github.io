@@ -98,3 +98,384 @@ printf("%d", V1); </code></td>  <td align="right"> 0.00 </td> <td> 1.000 </td> <
    </table>
 <div width=40% style="text-align: center"> * See errata for details </div>
 
+<br/><br/><hr/><br/>
+
+<style>
+
+div.atom_title {
+  font-size: 16pt;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+div.atom_description {
+  margin-top: 2em;
+}
+
+div.atom_description:after {
+  content: "";
+  display: block;
+  height: 1.5px;
+  width: 50%;
+  background: #CCC;
+  margin-top: 1em;
+}
+
+span.example {
+  font-size: 16pt;
+  display: block;
+}
+
+span.example_type {
+  float: left;
+  width: 7em;
+}
+
+span.example_code {
+   display: pre;
+   unicode-bidi: embed;
+   font-family: monospace;
+   white-space: pre;
+}
+</style>
+
+<div id='atom_descriptions'>
+
+<h3> Atom descriptions </h3>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Infix Operator Precedence</div>
+
+<p>There are 32 binary operators (operators which accept one operand
+before and one operand after) in C. Each of these operators falls into
+one of 15 precedence classes and has either right-to-left or left-to-right
+associativity. Needless to say, the average programmer knows only a
+functional subset of the information needed to correctly parse complicated
+expressions of binary operations. </p>
+
+<p>Our preferred method for removing precedence confusion is with
+parenthesis. Other removal transformations are possible, such as
+introducing intermediate identifiers. These other strategies can have
+larger impacts on the structure of the code and so were avoided when
+possible.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> 0 && 1 || 2</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> (0 && 1) || 2</span></span>
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Implicit Predicate</div>
+
+<p>In C there is no syntactic difference between an numerical values
+and predicates. Instead, the semantics change based on context. In the
+rvalue of a char assignment, i.e., char c = expr the expression
+(assuming it itself makes no variable assignments or updates) can
+result in up to 256 different states of the of the program. By contrast,
+the same expression in the context of a predicate, i.e., if (expr)
+can only result in a maximum of two different program states. Often in
+the context of a condition, the reader can become confused as to effect
+of a certain predicate value. We clarified these by explicitly adding
+logical operators to the predicates.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> if (4 % 2)</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> if (4 % 2 != 0) </span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Post-increment/decrement</div>
+
+<p>The post-increment (and decrement) operator increases the value of
+its operand variable by 1, while returning the original value of the
+variable. Confusion here arises because the value of the expression is
+different from the resultant value of the variable.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> V1 = V2++; </span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> V1 = V2; V2 += 1; </span></span>
+
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Pre-increment/decrement</div>
+
+<p>Similar to post-increment and post-decrement, the pre-increment
+and pre-decrement operators change a variables value by one. In
+contrast to the other operators, pre-increment and pre-decrement
+first update the variable then return the new value, instead of the old.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> V1 = ++V; </span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> V2 += 1; V1 = V2; </span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Constant Variables</div>
+
+<p>Constant variables are a layer of abstraction that, in the
+context of a complex system, let us focus on the concept a value
+represents rather than the value itself. When simply trying to
+determine the output of a piece of code, having a layer of indirection
+that hides the value of your data can cause difficulty.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> V1 = V2; </span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> V1 = 5; </span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Macro</div>
+
+<p>Macros can be used to add many features to C, including guaranteed
+inlining, duck-typing, and adding metadata like line number and file
+name to program output. Unfortunately, macro references are impossible
+to distinguish from other identifiers and can often act in ways that
+variables and functions can not.  This can cause readers to be misled.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'>
+
+  #define M1 64 - 1
+  2 * M1
+
+</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> 2 * 64 - 1 </span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Pointer Arithmetic</div>
+
+<p>Pointers admit several operations like integer addition/subtraction,
+but, in many cases, these operations are interpreted by the reader to
+update the target data instead of the pointer data.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> "abcdef"+3</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> "abcdef"[3]</span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Conditional Operator</div>
+
+<p>The conditional operator is the only ternary operator in C, and functions
+similarly to an if/else block. However, the conditional operator is an
+expression for which the value is that of the executed branch.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> V2 = V1 == 3 ? 2 : 1;</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'>
+
+  if (V1 == 3) {
+     V2 = 2;
+  } else {
+     V2 = 1;
+  }
+
+</span></span>
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Arithmetic as Logic</div>
+
+<p>Arithmetic operators are capable of mimicking any predicate formulated
+with logical operators. Arithmetic, however, implies a non-Boolean range,
+which may be confusing to a reader.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> (V1 - 3) * (V2 - 4)</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> V1 != 3 && V2 != 4</span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Comma Operator</div>
+
+<p>The comma operator is used to sequence an otherwise ambiguous series
+of computations. Whether due to its eccentricity, or its odd precedence,
+the comma operator is commonly misinterpreted.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> V3 = (V1++, V1);</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'>
+
+  V1++;
+  V3 = V1;
+
+</span></span>
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Preprocessor directive in expression</div>
+
+<p>Preprocessor directives must stand alone on their own line. After
+the preprocessor runs, however, that line is treated as whitespace. As
+a result, preprocessor directives may be present in the middle of an
+expression as long as they are on their own lines. Since the preprocessor
+directive and the source code are processed in different compiler phases,
+they are processed independently. Yet, to the casual reader, they appear
+to interact with each other.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'>
+
+  int V1 = 1
+  #define M1 1
+  +1;
+
+</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'>
+
+  #define M1 1
+  int V1 = 1 + 1;
+
+</span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Assignment used as value</div>
+
+<p>The assignment expression changes the underlying state of the machine
+when it executes. However, it also returns a value. Often when reading an
+assignment expression people will forget one of the two effects of the
+expression.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> V1 = V2 = 3;</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> V2 = 3; V1 = V2;</span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Logic as Control Flow</div>
+
+<p>Traditionally, the && and || operators are used for logical conjunction
+and disjunction, respectively, in predicates. Due to short-circuiting,
+they can also be used for conditional execution.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> V1 && F2();</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> if (V1) F2();</span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Repurposed Variables</div>
+
+<p>By convention, variables tend to have a single conceptual identify and
+represent one idea. When a variable is used in different roles across the
+lifetime of the program, its current purpose can be difficult to follow.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'>
+
+  int main(int argc, char **argv) {
+    argc = 7;
+    ...
+
+</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'>
+
+  int main(int argc, char **argv) {
+    int V1 = 7;
+    ...
+
+</span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Reversed subscript operands</div>
+
+<p>Arrays can be indexed using the subscript operator, but underneath ``E1[E2]
+is identical to (*((E1)+(E2)))''. Since addition is commutative, so too is the
+subscript operator.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> [1]"abc"; </span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> "abc"[1] </span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Change of Literal Encoding</div>
+
+<p>All numbers are stored in binary inside of a computer, but for human
+convenience we tend to represent numbers in decimal, and occasionally
+hexadecimal or octal for certain uses. Even though different representations
+can hold the same number, their accessibility to humans for different
+computations can be very different.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> 208 & 13</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> 0xD0 & 0x0D</span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Omitted Curly Braces</div>
+
+<p>C looping and selection exhibit dynamic behavior over a trailing
+statement. The trailing statement, optionally, can be enclosed in
+braces for clarity, or to extend the number of sub-statements modified
+by the loop or conditional. Confusion may arise when the braces are
+omitted for brevity.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> if (V1) F1(); F2();</span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> if (V1) { F1(); } F2(); </span></span>
+
+
+</div>
+
+
+<div class='atom_description'>
+<div class='atom_title'>Type Conversion</div>
+<p>The C compiler will implicitly convert types in various situations
+when there is a mismatch, but sometimes this conversion also results in
+an implicit change of outcome from what the author may have intended.</p>
+
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> 3/2; </span></span>
+
+<span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> trunc(3.0/2.0); </span></span>
+</div>
