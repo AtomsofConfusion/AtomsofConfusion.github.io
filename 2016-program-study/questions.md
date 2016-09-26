@@ -1,25 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="main.css" /> 
+---
+layout: page
+title: Questions
+---
 
-<title>Instructions for remote study</title>
+<style>
+  h3 {
+    font-size: 18pt;
+  }
 
-</head>
-<body>
+  h4 {
+    font-size: 14pt;
+  }
 
-<h2>Questions</h2>
+  code {
+    font-size: 12pt;
+  }
+</style>
 
-<p>The following is the full set of questions used in this user study.</p>
 
-<hr/>
-<h3>Question 1</h3>
+The following is the full set of questions used in the atom impact study.
+Raw source code is available
+[here](https://github.com/dgopstein/atoms-of-confusion/tree/master/program_study/).
 
-<h4>Confusing (program A, filename a.c):</h4>
+---
 
-<pre style='color:#000000;background:#ffffff;'>
-#include &lt;stdio.h>
+### Question 1
+
+#### Obfuscated (program A, filename a.c): ####
+
+```
+#include <stdio.h>
 void F1(int V1, char *V2, int V3) {
   printf("a: %d %s %d\n", V1, V2, V3);
   int V4 = V1 / V3 + V3;
@@ -33,13 +43,13 @@ int main() {
     ;
   printf("c\n");
 }
-</pre>
+```
 
 
-<h4>Non-confusing (program B, filename b.c):</h4>
+#### Transformed (program B, filename b.c):
 
-<pre style='color:#000000;background:#ffffff;'>
-#include &lt;stdio.h>
+```
+#include <stdio.h>
 
 void F1(int V1, char *V2, int V3) {
   printf("a: %d %s %d\n", V1, V2, V3);
@@ -57,16 +67,17 @@ int main() {
   }
   printf("c\n");
 }
-</pre>
+```
 
 
-<hr/>
-<h3>Question 2</h3>
+---
 
-<h4>Confusing (program C, filename c.c):</h4>
+### Question 2
 
-<pre style='color:#000000;background:#ffffff;'>
-#include &lt;stdio.h>
+#### Obfuscated (program C, filename c.c):
+
+```
+#include <stdio.h>
 
 void F1(int V1, int V2, int V3, int V4) {
   while ((V2 = ++V1) < 4)
@@ -80,13 +91,13 @@ int main() {
   F1(1, 0, 0, 0);
   printf("c\n");
 }
-</pre>
+```
 
 
-<h4>Non-confusing (program D, filename d.c):</h4>
+#### Transformed (program D, filename d.c):
 
-<pre style='color:#000000;background:#ffffff;'>
-#include &lt;stdio.h>
+```
+#include <stdio.h>
 
 void F1(int V1, int V2, int V3, int V4) {
   V1 = V1 + 1;
@@ -139,16 +150,17 @@ int main() {
   printf("e\n");
 }
 
-</pre>
+```
 
 
-<hr/>
-<h3>Question 3</h3>
+---
 
-<h4>Confusing (program E, filename e.c):</h4>
+### Question 3
 
-<pre style='color:#000000;background:#ffffff;'>
-#include &lt;stdio.h>
+#### Obfuscated (program E, filename e.c):
+
+```
+#include <stdio.h>
 
 double V4;
 int V5;
@@ -170,13 +182,13 @@ int main() {
   F1(-1, -2, 0);
   printf("d\n");
 }
-</pre>
+```
 
-<h4>Non-confusing (program F, filename f.c):</h4>
+#### Transformed (program F, filename f.c):
 
-<pre style='color:#000000;background:#ffffff;'>
-#include &lt;math.h>
-#include &lt;stdio.h>
+```
+#include <math.h>
+#include <stdio.h>
 double V4;
 
 int F1(int V1, int V2, int V3) {
@@ -209,15 +221,16 @@ int main() {
   F1(-1, -2, 0);
   printf("d\n");
 }
-</pre>
+```
 
-<hr/>
-<h3>Question 4</h3>
+---
 
-<h4>Confusing (program G, filename g.c):</h4>
+### Question 4
 
-<pre style='color:#000000;background:#ffffff;'>
-#include &lt;stdio.h>
+#### Obfuscated (program G, filename g.c):
+
+```
+#include <stdio.h>
 
 int F1(int V1, int V2) {
   int V3, V4;
@@ -239,12 +252,12 @@ int main() {
   F1(1, 0);
   printf("d\n");
 }
-</pre>
+```
 
-<h4>Non-confusing (program H, filename h.c):</h4>
+#### Transformed (program H, filename h.c):
 
-<pre style='color:#000000;background:#ffffff;'>
-#include &lt;stdio.h>
+```
+include <stdio.h>
 
 int F1(int V1, int V2) {
   int V3, V4;
@@ -328,7 +341,4 @@ int main() {
   F1(1, 0);
   printf("d\n");
 }
-</pre>
-
-</body>
-</html>
+```
