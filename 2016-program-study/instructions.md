@@ -48,8 +48,21 @@ after finishing all the questions.
 
 ---
 
-### Analysis
+#### Data scrubbing
+
+All user responses were hand-written and had to be manually transcribed. The format of the subject responses occassionally varied and necessitated a data normalization pass. Two researchers went over every response and corrected typos and small errors where possible and coded common patterns. Both researchers compared their suggested changes with each other, and only changes agreed upon by both scrubbers were implemented. These are the types of changes that were made:
+
+* If the subject added superfluous commas, quotes, control characters, etc we removed them.
+* If the subject wrote a parenthetical comment we removed the comment.
+* If the subject left out a value, or wrote "value in memory", "random address", etc we replaced it with `?`.
+* If the subject wrote "error"/"segfault"/"infinite loop" we replaced it with `X`.
+* If the subject wrote "I gave up" we replaced it with `!`.
+
+
+#### Grading
 
 Transcribed results were graded, aggregated, and formatted with programs described in this [README](https://github.com/dgopstein/atoms-of-confusion/tree/master/program_study).
+
+#### Statistical analysis
 
 Data was analyzed using R code located [here](https://github.com/dgopstein/atoms-of-confusion/blob/master/program_study/grader/results.R).
