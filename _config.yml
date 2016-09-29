@@ -4,7 +4,7 @@ url: "http://atomsofconfusion.com" # the base hostname & protocol for your site
 
 favicon: favicon.ico
 
-navpages: [Overview, Theory, Experiments, Data, Publications]
+navpages: [Overview, Theory, Experiments, Data, Publications, About]
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
