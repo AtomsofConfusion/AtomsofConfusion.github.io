@@ -36,8 +36,9 @@ results, normalized and transcribed the results. Here is a
 consent. The answer includes both the hand written and the transcribed 
 versions.
 
-Full data set (normalized and transcribed) will be available 
-soon.
+We transcibed each result, available [here](results_raw.csv).
+Note: a fully coded and normalized version is available below.
+
 
 ---
 
@@ -48,7 +49,7 @@ after finishing all the questions.
 
 ---
 
-#### Data scrubbing
+#### Data normalization
 
 All user responses were hand-written and had to be manually transcribed. The format of the subject responses occassionally varied and necessitated a data normalization pass. Two researchers went over every response and corrected typos and small errors where possible and coded common patterns. Both researchers compared their suggested changes with each other, and only changes agreed upon by both scrubbers were implemented. These are the types of changes that were made:
 
@@ -58,6 +59,8 @@ All user responses were hand-written and had to be manually transcribed. The for
 * If the subject wrote "error"/"segfault"/"infinite loop" we replaced it with `X`.
 * If the subject wrote "I gave up" we replaced it with `!`.
 
+The normalized data set is available [here](results_normalized.csv).
+Note: a raw, uncoded/unnormalized version is available above.
 
 #### Grading
 
