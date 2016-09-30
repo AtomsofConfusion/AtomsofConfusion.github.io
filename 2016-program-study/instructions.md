@@ -3,6 +3,38 @@ layout: page
 title: Impact Experiment Methods
 ---
 
+<style>
+  table.toc {
+    table-layout: auto;
+    width: 50%;
+  }
+
+  div.toc {
+    /*display: inline-block;*/
+    white-space: nowrap;
+    border: 2px solid #999;
+    padding: 15px 20px 0px 20px;
+    margin: 15px 0px 20px 40px;
+    float: right;
+  }
+</style>
+
+<div class="toc">
+  <h4 style="margin: 0px 0px 15px 0px; text-align: center;">Materials</h4>
+  <ul>
+    <li><a href="consent.pdf">Consent Form</a></li>
+    <li><a href="in-person">In-person Instructions</a></li>
+    <li><a href="remote">Remote Instructions</a></li>
+    <li><a href="questions">Questions</a></li>
+    <li><a href="survey.pdf">Demographic Survey</a></li>
+    <li><a href="sample">Sample Response</a></li>
+    <li><a href="https://github.com/dgopstein/atoms-of-confusion/tree/master/program_study">Grading Instrument</a></li>
+    <li><a href="https://github.com/dgopstein/atoms-of-confusion/blob/master/program_study/grader/results.R">Analysis Script</a></li>
+    <li><a href="results_raw.csv">Raw Results</a></li>
+    <li><a href="results_normalized.csv">Normalized Results</a></li>
+  </ul>
+</div>
+
 ### Pre-study
 Before doing the experiment, all subjects needed to sign a 
 [consent form](consent.pdf). This form explains the purpose
