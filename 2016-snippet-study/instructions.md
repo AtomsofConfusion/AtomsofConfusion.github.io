@@ -17,8 +17,8 @@ Participants were asked to report the standard output of 84 tiny (3-22 line) pro
 
 #### Answers
 
-Full data set (normalized and transcribed) will be available 
-soon.
+We transcibed each result, available [here](results_raw.csv).
+Note: a fully coded and normalized version is available below.
 
 #### Post-study
 
@@ -27,9 +27,9 @@ after finishing all the questions.
 
 ---
 
-#### Data scrubbing
+#### Data normalization
 
-Data was entered into a web input field, but not validated at all in the instrument. To ensure proper grading of response we conducted a data normalization pass to clean all user responses. A team of two researchers read every answer and made small fixes to typos and unrelated mistakes. Both researchers compared their suggested changes with each other, and only changes agreed upon by both scrubbers were implemented. These are the types of changes that were made:
+Data was entered into a web input field, but not validated at all in the instrument. To ensure proper grading of response we conducted a data normalization pass to clean all user responses. A team of two researchers read every answer and made small fixes to typos and unrelated mistakes. Both researchers compared their suggested changes with each other, and only changes agreed upon by both coders were implemented. These are the types of changes that were made:
 
 * Superfluous whitespace: extra spaces, literal `\n`
 * Extra characters: `3 5+`, `3, 5` instead of `3 5`
@@ -37,6 +37,8 @@ Data was entered into a web input field, but not validated at all in the instrum
 * Encoded messages: `2butnestedternariesarepainincarnate`
 * Wrong type: `1.0` instead of `1`
 
+The normalized data set is available [here](results_normalized.csv).
+Note: a raw, uncoded/unnormalized version is available above.
 
 #### Statistical Analysis
 

@@ -51,7 +51,7 @@ after finishing all the questions.
 
 #### Data normalization
 
-All user responses were hand-written and had to be manually transcribed. The format of the subject responses occassionally varied and necessitated a data normalization pass. Two researchers went over every response and corrected typos and small errors where possible and coded common patterns. Both researchers compared their suggested changes with each other, and only changes agreed upon by both scrubbers were implemented. These are the types of changes that were made:
+All user responses were hand-written and had to be manually transcribed. The format of the subject responses occassionally varied and necessitated a data normalization pass. Two researchers went over every response and corrected typos and small errors where possible and coded common patterns. Both researchers compared their suggested changes with each other, and only changes agreed upon by both coders were implemented. These are the types of changes that were made:
 
 * If the subject added superfluous commas, quotes, control characters, etc we removed them.
 * If the subject wrote a parenthetical comment we removed the comment.
