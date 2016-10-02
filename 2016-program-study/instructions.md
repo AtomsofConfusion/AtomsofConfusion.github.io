@@ -3,22 +3,6 @@ layout: page
 title: Impact Experiment Methods
 ---
 
-<style>
-  table.toc {
-    table-layout: auto;
-    width: 50%;
-  }
-
-  div.toc {
-    /*display: inline-block;*/
-    white-space: nowrap;
-    border: 2px solid #999;
-    padding: 15px 20px 0px 20px;
-    margin: 15px 0px 20px 40px;
-    float: right;
-  }
-</style>
-
 <div class="toc">
   <h4 style="margin: 0px 0px 15px 0px; text-align: center;">Materials</h4>
   <ul>
