@@ -3,6 +3,19 @@ layout: page
 title: Existence Experiment Methods
 ---
 
+<div class="toc">
+  <h4 style="margin: 0px 0px 15px 0px; text-align: center;">Materials</h4>
+  <ul>
+    <li><a href="consent.pdf">Consent Form</a></li>
+    <li><a href="instruction-pages">Instructions</a></li>
+    <li><a href="questions.csv">Questions</a></li>
+    <li><a href="survey.pdf">Demographic Survey</a></li>
+    <li><a href="results_raw.csv">Raw Results</a></li>
+    <li><a href="results_normalized.csv">Normalized Results</a></li>
+    <li><a href="https://github.com/dgopstein/atoms-of-confusion/blob/master/snippet_study/results.R">Analysis Script</a></li>
+  </ul>
+</div>
+
 #### Pre-study
 
 Before doing the experiment, all subjects needed to sign a [consent form](consent.pdf). This form explains the purpose of this experiment, and informs the subject that the participation is voluntary.
