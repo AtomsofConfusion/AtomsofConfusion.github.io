@@ -88,4 +88,4 @@ Data was analyzed using R code located [here](https://github.com/dgopstein/atoms
 
 #### Errata
 
-Any known issues with the study discovered after the administration and collection of data are described in detail [here](errata.md)
+Any known issues with the study discovered after the administration and collection of data are described in detail [here](errata)
