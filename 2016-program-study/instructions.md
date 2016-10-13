@@ -85,3 +85,7 @@ Transcribed results were graded, aggregated, and formatted with programs describ
 #### Statistical analysis
 
 Data was analyzed using R code located [here](https://github.com/dgopstein/atoms-of-confusion/blob/master/program_study/grader/results.R).
+
+#### Errata
+
+Any known issues with the study discovered after the administration and collection of data are described in detail [here](errata.md)
