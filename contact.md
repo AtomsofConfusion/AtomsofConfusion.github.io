@@ -25,4 +25,4 @@ Justin Cappos (<a href="https://github.com/JustinCappos" class="user-mention">@J
 #### Contact
 
 If you would like to know more about our project, please contact us at:
-atomsofconfusion at googlegroups.
+atomsofconfusion at googlegroups
