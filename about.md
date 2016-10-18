@@ -17,4 +17,4 @@ We are a team of researchers at several universities working to uncover the fund
 
 ### Contact
 
-We can be reached at atomsofconfusion@googlegroups.com
+We can be reached at atomsofconfusion at googlegroups dot com
