@@ -5,7 +5,7 @@ title: About
 
 ### People
 
-We are a team of researchers at several universities working to uncover the funamental secrets of confusing code. We are:
+We are a team of researchers at several universities working to uncover the fundamental secrets of confusing code. We are:
 
  * Prof. Justin Cappos, NYU
  * Prof. Martin K.-C. Yeh, Penn State
@@ -17,5 +17,4 @@ We are a team of researchers at several universities working to uncover the funa
 
 ### Contact
 
-We can be reached at atomsofconfusion at googlegroups
-
+We can be reached at atomsofconfusion at googlegroups dot com
