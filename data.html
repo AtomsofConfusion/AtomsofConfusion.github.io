@@ -73,7 +73,7 @@ code {
 +1;</code></td>  <td align="right"> 0.47 </td> <td> 8.53e-11 </td> </tr>
   <tr class="accepted" > <td> <a href='#macro-precedence'> Macro Operator Precedence  </a></td>  <td><code>#define M1 64-1
 2*M1 </code></td>  <td align="right"> 0.36 </td> <td> 1.77e-07 <b>*</b> </td> </tr>
-  <tr class="accepted" > <td> <a href='#side-effect'> Side-Effecting Expression  </a></td>  <td><code>V1 = V2 = 3; </code></td>  <td align="right"> 0.42 </td> <td> 3.78e-10 </td> </tr>
+  <tr class="accepted" > <td> <a href='#assignment-value'> Assignment as Value  </a></td>  <td><code>V1 = V2 = 3; </code></td>  <td align="right"> 0.42 </td> <td> 3.78e-10 </td> </tr>
   <tr class="accepted" > <td> <a href='#logic-control'> Logic as Control Flow  </a></td>  <td><code>V1 && F2(); </code></td>  <td align="right"> 0.41 </td> <td> 5.62e-09 </td> </tr>
   <tr class="accepted" > <td> <a href='#post-increment'> Post-Increment/Decrement  </a></td>  <td><code>V1 = V2++; </code></td>  <td align="right"> 0.34 </td> <td> 6.98e-08 </td> </tr>
   <tr class="accepted" > <td> <a href='#type-conversion'> Type Conversion  </a></td>  <td><code>(double)(3/2) </code></td>  <td align="right"> 0.29 </td> <td> 5.17e-07 </td> </tr>
@@ -204,8 +204,8 @@ variables and functions can not.  This can cause readers to be misled.</p>
 
 
 <div class='atom_description'>
-<a name='side-effect'></a>
-<div class='atom_title'>Side-Effecting Expression</div>
+<a name='assignment-value'></a>
+<div class='atom_title'>Assignment as Value</div>
 <p>The assignment expression changes the underlying state of the machine
 when it executes. However, it also returns a value. Often when reading an
 assignment expression people will forget one of the two effects of the
