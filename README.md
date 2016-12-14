@@ -1,1 +1,1 @@
-# AtomsofConfusion.github.io
+# atomsofconfusion.com
