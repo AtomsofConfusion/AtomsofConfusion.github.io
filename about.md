@@ -10,9 +10,12 @@ We are a team of researchers at several universities working to uncover the fund
  * Prof. Justin Cappos, NYU
  * Prof. Martin K.-C. Yeh, Penn State
  * Prof. Yanyan Zhuang, University of Colorado
+ * Prof. Sam Weber, NYU
+ * Prof. Phyllis Frankl, NYU
  * Lois DeLong, NYU
  * Dan Gopstein, NYU
  * Apple Yu Yan, Penn State
+ * Maytha Alshammari, University of Colorado
  * Jake Iannacone
 
 ### Contact
