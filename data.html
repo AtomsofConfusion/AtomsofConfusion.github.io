@@ -77,7 +77,7 @@ code {
 2*M1 </code></td>  <td align="right"> 0.36 </td> <td> 1.77e-07 <b>*</b> </td> </tr>
   <tr class="accepted" > <td> <a href='#post-increment'> Post-Increment/Decrement  </a></td>  <td><code>V1 = V2++; </code></td>  <td align="right"> 0.34 </td> <td> 6.98e-08 </td> </tr>
   <tr class="accepted" > <td> <a href='#type-conversion'> Type Conversion  </a></td>  <td><code>(double)(3/2) </code></td>  <td align="right"> 0.29 </td> <td> 5.17e-07 </td> </tr>
-  <tr class="accepted" > <td> <a href='#reversed-subscript'> Reversed Subscripts  </a></td>  <td><code>[1]"abc" </code></td>  <td align="right"> 0.23 </td> <td> 1.52e-06 </td> </tr>
+  <tr class="accepted" > <td> <a href='#reversed-subscript'> Reversed Subscripts  </a></td>  <td><code>1["abc"] </code></td>  <td align="right"> 0.23 </td> <td> 1.52e-06 </td> </tr>
   <tr class="accepted" > <td> <a href='#conditional-operator'> Conditional Operator  </a></td>  <td><code>V2 = (V1==3)?2:V2 </code></td>  <td align="right"> 0.23 </td> <td> 1.74e-05 <b>*</b> </td> </tr>
   <tr class="accepted" > <td> <a href='#comma-operator'> Comma Operator  </a></td>  <td><code>V3 = (V1+=1, V1) </code></td>  <td align="right"> 0.23 </td> <td> 2.46e-04 </td> </tr>
   <tr class="accepted" > <td> <a href='#pre-increment'> Pre-Increment/Decrement  </a></td>  <td><code>V1 = ++V2; </code></td>  <td align="right"> 0.16 </td> <td> 6.89e-04 </td> </tr>
@@ -259,7 +259,7 @@ an implicit change of outcome from what the author may have intended.</p>
 <p>Arrays can be indexed using the subscript operator, but underneath ``E1[E2]
 is identical to (*((E1)+(E2)))''. Since addition is commutative, so too is the
 subscript operator.</p>
-<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> [1]"abc"; </span></span>
+<span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> 1["abc"]; </span></span>
 <span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> "abc"[1] </span></span>
 </div>
 
