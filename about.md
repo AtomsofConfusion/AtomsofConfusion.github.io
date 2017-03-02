@@ -17,6 +17,7 @@ We are a team of researchers at several universities working to uncover the fund
  * Apple Yu Yan, Penn State
  * Maytha Alshammari, University of Colorado
  * Jake Iannacone
+ * Hongwei (Henry) Zhou
 
 ### Contact
 

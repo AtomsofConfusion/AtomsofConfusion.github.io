@@ -6,7 +6,7 @@ title: Publications
 The following is a list of publications coming from this project:
 <br /><br />
 
-**"Understanding Misunderstandings in Source Code"** [pdf](paper.pdf)<br />
+**"Understanding Misunderstandings in Source Code"** [pdf](understanding_misunderstand_2017-02-27.pdf)<br />
 D. Gopstein, J. Iannacone, Y. Yan, L. DeLong, Y. Zhuang, M. Yeh, J. Cappos<br />
 *To be submitted*
 
