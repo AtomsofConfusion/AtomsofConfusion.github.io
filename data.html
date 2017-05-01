@@ -66,7 +66,7 @@ code {
        <col id='effect' span="1" style="width: 17%;">
        <col id='p-value' span="1" style="width: 18%;">
     </colgroup>
-<tr> <th> Atom </th> <th> Example </th> <th> Effect Size </th> <th> p-value </th>  </tr>
+<tr> <th> Atom </div> </div> </th> <th> Example </div> </th> <th> Effect Size </div> </th> <th> p-value </div> </th>  </tr>
   <tr class="accepted" > <td> <a href='#literal-encoding'> Change of Literal Encoding </a></td>  <td><code>208 & 13 </code></td>  <td align="right"> 0.60 </td> <td> 2.93e-14 </td> </tr>
   <tr class="accepted" > <td> <a href='#preprocessor-statement> Preprocessor in Statement </a></td>  <td><code>int V1 = 1
 #define M1 1
@@ -87,7 +87,7 @@ code {
   <tr class="accepted" > <td> <a href='#implicit-predicate'> Implicit Predicate  </a></td>  <td><code>if (4 % 2) </code></td>  <td align="right"> 0.10 </td> <td> 4.27e-03 </td> </tr>
 
 
-  <tr><th colspan=4 class="centered" style="border-top: 1px solid #ddd;"> Unaccepted Atom Candidates </th></tr>
+  <tr><th colspan=4 class="centered" style="border-top: 1px solid #ddd;"> Unaccepted Atom Candidates </div> </div> </th></tr>
 
   <tr class="rejected" > <td> <a href='#dead-unreachable'> Dead, Unreachable, Repeated  </a></td>  <td><code>V1 = 1;
 V1 = 2; </code></td>  <td align="right"> 0.03 </td> <td> 0.059 </td> </tr>
@@ -97,6 +97,78 @@ V1 = 2; </code></td>  <td align="right"> 0.03 </td> <td> 0.059 </td> </tr>
 printf("%d", V1); </code></td>  <td align="right"> 0.00 </td> <td> 1.000 </td> </tr>
    </table>
 <div width=40% style="text-align: center"> * See <a href='2016-snippet-study/errata'>errata</a> for details </div>
+
+<br/><br/><hr/><br/>
+
+<style>
+  #atom-contingencies {
+    width: 38rem;
+    border: none;
+  }
+
+  #atom-contingencies th {
+    border: none;
+    padding-top: 10rem;
+    text-align: center;
+  }
+
+  th.rotated {
+    //height: 10rem;
+    white-space: nowrap;
+  }
+
+  th.rotated > div {
+    //transform:   translate(38px, 55px) rotate(-45deg);
+    transform:   rotate(-90deg);
+  }
+
+  th.rotated > div > span {
+    //border-bottom: 1px solid #ccc;
+    //padding: 5px 10px;
+  }
+</style>
+
+<a name='contingency-tables'></a>
+<h2> Contingency Tables </h2>
+
+<p>
+  In our <a href="/2016-snippet-study/">Existence experiment</a> we analyzed our
+  results by comparing pairs of obfuscated and transformed code. For each pair
+  we categorized whether subjects got both snippets correct, only one, or
+  neither. From these counts we could apply a clustering-adjusted variation of
+  McNemar's test (supplied by <a href="https://cran.r-project.org/package=clust.bin.pair">clust.bin.pair</a>).
+  Below are these data.
+  </p>
+
+<!-- print(xtable(atom.contingencies[,-1]), include.rownames=FALSE, sanitize.text.function=identity, type="html") -->
+<!-- html table generated in R 3.3.1 by xtable 1.8-2 package -->
+<!-- Mon May  1 15:57:33 2017 -->
+<table border=1 id='atom-contingencies'>
+  <tr> <th style="width: 50%"> <div><span> Atom </span></div> </span></div> </th> <th class="rotated"> <div><span> Both Correct </span></div> </th> <th class="rotated"> <div><span> Obfuscated Correct </span></div> </th> <th class="rotated"> <div><span> Transformed Correct </span></div> </th> <th class="rotated"> <div><span> Neither Correct </span></div> </th>  </tr>
+<tr> <td> Change of Literal Encoding </td> <td align="right">  35 </td> <td align="right">   2 </td> <td align="right">  89 </td> <td align="right">  20 </td> </tr>
+<tr> <td> Preprocessor in Statement </td> <td align="right">  39 </td> <td align="right">   5 </td> <td align="right">  73 </td> <td align="right">  28 </td> </tr>
+<tr> <td> Macro Operator Precedence </td> <td align="right">  53 </td> <td align="right">   2 </td> <td align="right">  37 </td> <td align="right">   5 </td> </tr>
+<tr> <td> Assignment as Value </td> <td align="right">  59 </td> <td align="right">   6 </td> <td align="right">  68 </td> <td align="right">  13 </td> </tr>
+<tr> <td> Logic as Control Flow </td> <td align="right">  32 </td> <td align="right">  12 </td> <td align="right">  72 </td> <td align="right">  30 </td> </tr>
+<tr> <td> Post-Increment/Decrement </td> <td align="right">  75 </td> <td align="right">   4 </td> <td align="right">  54 </td> <td align="right">  13 </td> </tr>
+<tr> <td> Type Conversion </td> <td align="right">  75 </td> <td align="right">  10 </td> <td align="right">  52 </td> <td align="right">   9 </td> </tr>
+<tr> <td> Reversed Subscripts </td> <td align="right">  70 </td> <td align="right">   6 </td> <td align="right">  40 </td> <td align="right">  30 </td> </tr>
+<tr> <td> Conditional Operator </td> <td align="right"> 109 </td> <td align="right">   1 </td> <td align="right">  34 </td> <td align="right">   1 </td> </tr>
+<tr> <td> Infix Operator Precedence </td> <td align="right"> 105 </td> <td align="right">   4 </td> <td align="right">  25 </td> <td align="right">  11 </td> </tr>
+<tr> <td> Comma Operator </td> <td align="right">  53 </td> <td align="right">  17 </td> <td align="right">  50 </td> <td align="right">  26 </td> </tr>
+<tr> <td> Pre-Increment/Decrement </td> <td align="right">  82 </td> <td align="right">  11 </td> <td align="right">  35 </td> <td align="right">  18 </td> </tr>
+<tr> <td> Implicit Predicate </td> <td align="right"> 108 </td> <td align="right">   6 </td> <td align="right">  20 </td> <td align="right">  12 </td> </tr>
+<tr> <td> Repurposed Variables </td> <td align="right">  54 </td> <td align="right">  15 </td> <td align="right">  33 </td> <td align="right">  44 </td> </tr>
+<tr> <td> Omitted Curly Braces </td> <td align="right">  77 </td> <td align="right">  13 </td> <td align="right">  33 </td> <td align="right">  23 </td> </tr>
+<tr> <td> Dead, Unreachable, Repeated </td> <td align="right"> 138 </td> <td align="right">   1 </td> <td align="right">   6 </td> <td align="right">   1 </td> </tr>
+<tr> <td> Arithmetic as Logic </td> <td align="right"> 133 </td> <td align="right">   4 </td> <td align="right">   8 </td> <td align="right">   1 </td> </tr>
+<tr> <td> Pointer Arithmetic </td> <td align="right">  67 </td> <td align="right">  21 </td> <td align="right">  23 </td> <td align="right">  35 </td> </tr>
+<tr> <td> Constant Variables </td> <td align="right"> 142 </td> <td align="right">   2 </td> <td align="right">   2 </td> <td align="right">   0 </td> </tr>
+</table>
+
+
+
+
 
 <br/><br/><hr/><br/>
 
