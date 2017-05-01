@@ -7,7 +7,7 @@ title: About
 
 We are a team of researchers at several universities working to uncover the fundamental secrets of confusing code. We are:
 
- * Prof. Justin Cappos, NYU
+ * Prof. [Justin Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos), NYU
  * Prof. Martin K.-C. Yeh, Penn State
  * Prof. Yanyan Zhuang, University of Colorado
  * Prof. Sam Weber, NYU
