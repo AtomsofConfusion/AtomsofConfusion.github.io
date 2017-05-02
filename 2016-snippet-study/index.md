@@ -11,7 +11,7 @@ tags: snippet
   <ul>
     <li><a href="consent.pdf">Consent Form</a></li>
     <li><a href="instruction-pages">Instructions</a></li>
-    <li><a href="questions.csv">Questions</a></li>
+    <li><a href="questions">Questions</a></li>
     <li><a href="survey.pdf">Demographic Survey</a></li>
     <li><a href="results_raw.csv">Raw Results</a></li>
     <li><a href="results_normalized.csv">Normalized Results</a></li>
@@ -40,7 +40,7 @@ All tests were administered via the web browser and [instructions](instruction-p
 
 #### Questions
 
-Participants were asked to report the standard output of 84 tiny (3-22 line) programs chosen in pairs randomly from 126 total [questions](questions.csv).
+Participants were asked to report the standard output of 84 tiny (3-22 line) programs chosen in pairs randomly from 126 total [questions](questions).
 
 #### Answers
 

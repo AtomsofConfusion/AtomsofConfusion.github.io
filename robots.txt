@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /2016-snippet-study/questions.csv
+Disallow: /2016-snippet-study/questions.html
 Disallow: /2016-program-study/questions.html

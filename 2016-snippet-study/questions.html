@@ -6,9 +6,13 @@ permalink: /2016-snippet-study/questions
 tags: snippet
 ---
 
+Participants were asked to report the standard output of 84 tiny (3-22 line) programs chosen in pairs randomly from 126 total. There is also a <a href="questions.csv">CSV</a> version of this list.
+
+<br /><br />
+
 <style>
-  pre {
-    font-size: 1rem;
+  table {
+    font-size: .9rem;
   }
 </style>
 
@@ -17,8 +21,8 @@ tags: snippet
   {% for question in site.data.snippet_questions_wide %}
   <tr>
     <td class="details">
+      <h4> {{ question.AtomName }} </h4>
       <ul>
-        <li> Atom: {{ question.AtomName }} </li>
         <li> Obfuscated ID: {{ question.ID }} </li>
         <li> Transformed ID: {{ question.Pair }} </li>
         <li> Obfuscated Answer: {{ question.Answer_c }} </li>
