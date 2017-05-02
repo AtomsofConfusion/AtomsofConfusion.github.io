@@ -18,7 +18,7 @@ fundamental secrets of confusing code. We are:
  * [Devon Powell](https://ssl.engineering.nyu.edu/people#devon_powell), NYU
  * Apple Yu Yan, Penn State
  * [Jake Iannacone](https://ssl.engineering.nyu.edu/people#jake_iannacone)
- * Hongwei (Henry) Zhou
+ * Hongwei (Henry) Zhou, NYU
 
 ### Contact
 
