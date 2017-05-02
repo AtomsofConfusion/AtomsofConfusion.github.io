@@ -501,7 +501,7 @@ void main(){
 
    printf(""%d %d\n"", V1, V2);
 }","8 8"
-"67",67,68,"Preprocessor in Expression","Confusing","void main() {
+"67",67,68,"Preprocessor in Statement","Confusing","void main() {
    char *V1 = ""abcdef""
    #define M1
    ""abcdef"";
@@ -510,7 +510,7 @@ void main(){
 }
 
 ","abcdefabcdef"
-"68",68,67,"Preprocessor in Expression","Non-confusing","void main() {
+"68",68,67,"Preprocessor in Statement","Non-confusing","void main() {
    char *V1 = ""abcdef""
    ""abcdef"";
 
@@ -518,7 +518,7 @@ void main(){
 
    printf(""%s\n"", V1);
 }","abcdefabcdef"
-"69",69,70,"Preprocessor in Expression","Confusing","void main() {
+"69",69,70,"Preprocessor in Statement","Confusing","void main() {
    int V1;
    V1 = 4;
 
@@ -530,7 +530,7 @@ void main(){
 
    printf(""%d %d\n"", V1, V2);
 }","4 5"
-"70",70,69,"Preprocessor in Expression","Non-confusing","void main() {
+"70",70,69,"Preprocessor in Statement","Non-confusing","void main() {
    #define M1 1
    #define M2 2
 
@@ -541,7 +541,7 @@ void main(){
 
    printf(""%d %d\n"", V1, V2);
 }","4 5"
-"71",71,72,"Preprocessor in Expression","Confusing","void main() {
+"71",71,72,"Preprocessor in Statement","Confusing","void main() {
    int V1 = 1, V2 = 2;
 
    if (V1 < V2) {
@@ -554,7 +554,7 @@ void main(){
 
    printf(""%d %d\n"", M1, M2);
 }","2 1"
-"72",72,71,"Preprocessor in Expression","Non-confusing","void main() {
+"72",72,71,"Preprocessor in Statement","Non-confusing","void main() {
    int V1 = 1, V2 = 2;
    #define M1 2
    #define M2 1

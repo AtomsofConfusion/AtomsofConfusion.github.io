@@ -1,0 +1,37 @@
+---
+layout: page
+title: Existence Experiment
+link: Existence
+permalink: /2016-snippet-study/questions
+tags: snippet
+---
+
+<style>
+  pre {
+    font-size: 1rem;
+  }
+</style>
+
+<table>
+  <tr><th width="30%">Details</th><th>Obfuscated</th><th>Transformed</th>
+  {% for question in site.data.snippet_questions_wide %}
+  <tr>
+    <td class="details">
+      <ul>
+        <li> Atom: {{ question.AtomName }} </li>
+        <li> Obfuscated ID: {{ question.ID }} </li>
+        <li> Transformed ID: {{ question.Pair }} </li>
+        <li> Obfuscated Answer: {{ question.Answer_c }} </li>
+        <li> Transformed Answer: {{ question.Answer_nc }} </li>
+      </ul>
+    </td>
+    <td class="confusing">
+      <pre>{{question.Code_c}}</pre>
+    </td>
+    <td class="non-confusing">
+      <pre>{{question.Code_nc}}</pre>
+    </td>
+  </tr>
+{% endfor %}
+
+</table>
