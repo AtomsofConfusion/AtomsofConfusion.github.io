@@ -13,6 +13,11 @@ Participants were asked to report the standard output of 84 tiny (3-22 line) pro
   table {
     font-size: .9rem;
   }
+  .details {
+    padding-left: 2rem;
+    padding-top: 0;
+    padding-bottom: auto;
+  }
 </style>
 
 <table>
@@ -20,12 +25,18 @@ Participants were asked to report the standard output of 84 tiny (3-22 line) pro
   {% for question in site.data.snippet_questions_wide %}
   <tr>
     <td class="details">
+      <a name="q{{question.ID}}"></a>
+      <a name="q{{question.Pair}}"></a>
       <h4> {{ question.AtomName }} </h4>
       <ul>
         <li> Obfuscated ID: {{ question.ID }} </li>
         <li> Transformed ID: {{ question.Pair }} </li>
         <li> Obfuscated Answer: {{ question.Answer_c }} </li>
         <li> Transformed Answer: {{ question.Answer_nc }} </li>
+        {{ question.Errata }}
+        {% if question.Errata != "" %}
+          <li> <a href="/2016-snippet-study/errata#{{ question.Errata }}">Errata</a> </li>
+        {% endif %}
       </ul>
     </td>
     <td class="confusing">

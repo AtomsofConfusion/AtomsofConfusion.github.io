@@ -1,4 +1,4 @@
-"","Pair","ID","Code_c","Answer_c","Type_c","Code_nc","Answer_nc","Type_nc","AtomName"
+"","Pair","ID","Code_c","Answer_c","Type_c","Code_nc","Answer_nc","Type_nc","AtomName","Errata"
 "1",2,1,"void main(){
    int V1 = 10, V2 = 3;
    if (! (V1 % V2)){
@@ -17,7 +17,7 @@
    else{
       printf(""%s\n"", ""false"");
    }
-}","false","Non-confusing","Implicit Predicate"
+}","false","Non-confusing","Implicit Predicate",""
 "2",4,3,"void main() { 
    int V1 = 7; 
    if (V1 = 8) 
@@ -31,7 +31,7 @@
       printf(""true"");
    else
       printf(""false"");
-}","true","Non-confusing","Implicit Predicate"
+}","true","Non-confusing","Implicit Predicate",""
 "3",6,5,"void main() {
    if (""V1"")
       printf(""true"");
@@ -42,7 +42,7 @@
       printf(""true\n"");
    else
       printf(""false\n"");
-}","true","Non-confusing","Implicit Predicate"
+}","true","Non-confusing","Implicit Predicate",""
 "4",8,7,"void main() { 
    int V1;
    V1 = 2 - 4 / 2;
@@ -51,7 +51,7 @@
    int V1;
    V1 = 3 + (9 / 3);
    printf(""%d\n"", V1);
-}","6","Non-confusing","Infix Operator Precedence"
+}","6","Non-confusing","Infix Operator Precedence",""
 "5",10,9,"void main() {
    if (! 0 && 2) {
       printf(""true"");
@@ -64,7 +64,7 @@
    } else {
       printf(""false"");
    }
-}","true","Non-confusing","Infix Operator Precedence"
+}","true","Non-confusing","Infix Operator Precedence",""
 "6",12,11,"void main() {
    if (0 && 1 || 2) {
       printf(""true"");
@@ -77,7 +77,7 @@
    } else {
       printf(""false"");
    }
-}","true","Non-confusing","Infix Operator Precedence"
+}","true","Non-confusing","Infix Operator Precedence",""
 "7",14,13,"void main() { 
    int V1 = 2;
    int V2 = 3 + V1++;
@@ -87,7 +87,7 @@
    V2 = V1 + 3;
    V1++;
    printf(""%d %d\n"", V1, V2);
-}","3 5","Non-confusing","Post-Increment/Decrement"
+}","3 5","Non-confusing","Post-Increment/Decrement",""
 "8",16,15,"void main() { 
    int V1 = 0;
    if (V1++ == 0) {
@@ -107,7 +107,7 @@
    }
    V1++;
    printf(""%d"", V1);
-}","true 1","Non-confusing","Post-Increment/Decrement"
+}","true 1","Non-confusing","Post-Increment/Decrement",""
 "9",18,17,"void main() { 
    int V1 = 2;
    if (V1-- == 1) {
@@ -127,7 +127,7 @@
    }
    V1--;
    printf(""%d"", V1);
-}","false 1","Non-confusing","Post-Increment/Decrement"
+}","false 1","Non-confusing","Post-Increment/Decrement",""
 "10",20,19,"void main() { 
    int V1 = 2;
    int V2 = ++V1 - 2;
@@ -137,7 +137,7 @@
    ++V1;
    V2 = 5 - V1;
    printf(""%d %d\n"", V1, V2);
-}","6 -1","Non-confusing","Pre-Increment/Decrement"
+}","6 -1","Non-confusing","Pre-Increment/Decrement",""
 "11",22,21,"void main() { 
    int V1 = 2;
    if (--V1 == 1) {
@@ -157,7 +157,7 @@
       printf(""false "");
    }
    printf(""%d"", V1);
-}","true 1","Non-confusing","Pre-Increment/Decrement"
+}","true 1","Non-confusing","Pre-Increment/Decrement",""
 "12",24,23,"void main() { 
    int V1 = 2;
    int V2 = --V1 + 3;
@@ -167,7 +167,7 @@
    V2 = 9 - V1;
    --V1;
    printf(""%d %d\n"", V1, V2);
-}","5 3","Non-confusing","Pre-Increment/Decrement"
+}","5 3","Non-confusing","Pre-Increment/Decrement",""
 "13",26,25,"void main() {
    int V1 = 3;
    int V2 = V1 + 2;
@@ -175,7 +175,7 @@
 }","5","Confusing","void main() {
    int V1 =  2 + 3;
    printf(""%d\n"", V1);
-}","5","Non-confusing","Constant Variables"
+}","5","Non-confusing","Constant Variables",""
 "14",28,27,"void main() {
    int V1 = 2;
    int V2 = 2 * V1;
@@ -183,14 +183,67 @@
 }","4","Confusing","void main() {
    int V1 = 3 * 2;
    printf(""%d\n"", V1);
-}","6","Non-confusing","Constant Variables"
+}","6","Non-confusing","Constant Variables",""
 "15",30,29,"void main() {
    int V1 = 2;
    printf(""%f\n"", 2.5 * V1);
 }","5","Confusing","void main() {
    printf(""%f\n"", 2 * 4.5);
-}","9","Non-confusing","Constant Variables"
-"16",38,37,"#define M1 64 - 1
+}","9","Non-confusing","Constant Variables",""
+"16",32,31,"void main() {
+   int V1 = 2;
+   int V2 = 0;
+   int V3 = 3;
+
+   if (V1)
+      if (V2)
+         V3 = V3 + 2;
+   else
+      V3 = V3 + 4;
+
+   printf(""%d\n"", V3);
+}","7","Confusing","void main() {
+   int V1 = 2;
+   int V2 = 0;
+   int V3 = 5;
+
+   if (V1)
+      if (V2)
+         V3 = V3 + 2;
+      else
+         V3 = V3 + 4;
+
+   printf(""%d\n"", V3);
+}","9","Non-confusing","Indentation no Braces","indentation"
+"17",34,33,"void main() {
+   int V1 = 5, V2 = 5;
+   while (V2 > 0)
+      V2--;
+      V1++;
+   printf(""%d\n"",V1);
+}
+
+","6","Confusing","void main() {
+   int V1 = 5, V2 = 5;
+   while (V2 > 0)
+      V2--;
+   V1++;
+   printf(""%d\n"",V1);
+}","6","Non-confusing","Indentation no Braces","indentation"
+"18",36,35,"void main() {
+   int V1 = 1, V2 = 2;
+   if (V1 > V2)
+   V2 = 1;
+   V1 = 2;
+   printf(""%d %d\n"",V1, V2);
+}","2 2","Confusing","void main() {
+   int V1 = 5, V2 = 2;
+   if (V1 < V2)
+      V1 = 2;
+   V2 = 5;
+   printf(""%d %d\n"",V1, V2);
+}","5 5","Non-confusing","Indentation no Braces","indentation"
+"19",38,37,"#define M1 64 - 1
 
 void main(){
    int V1;
@@ -200,8 +253,8 @@ void main(){
    int V1;
    V1 = 128 - 1 * 2;
    printf(""%d\n"", V1);
-}","126","Non-confusing","Macro Operator Precedence"
-"17",40,39,"#define M1(V1, V2) V1 * V2
+}","126","Non-confusing","Macro Operator Precedence","big_literal"
+"20",40,39,"#define M1(V1, V2) V1 * V2
 
 void main(){
    int V3 = M1(1 + 2, 3 + 4);
@@ -211,8 +264,8 @@ void main(){
 ","11","Confusing","void main(){
    int V1 = 2 + 1 * 4 + 3;
    printf(""%d\n"", V1);
-}","9","Non-confusing","Macro Operator Precedence"
-"18",42,41,"#define M1(V1, V2) (V1) * (V2)
+}","9","Non-confusing","Macro Operator Precedence","macro_name"
+"21",42,41,"#define M1(V1, V2) (V1) * (V2)
 
 void main(){
    int V3 = M1(1 + 2, 3 + 4);
@@ -222,15 +275,15 @@ void main(){
 ","21","Confusing","void main(){
    int V1 = (2 + 1) * (3 + 4);
    printf(""%d\n"", V1);
-}","21","Non-confusing","Macro Operator Precedence"
-"19",44,43,"void main() {
+}","21","Non-confusing","Macro Operator Precedence",""
+"22",44,43,"void main() {
    char *V1 = ""abcdef"" + 3;
    printf(""%s\n"", V1);
 }","def","Confusing","void main() {
    char *V1 = &(""abcdef""[2]);
    printf(""%s\n"", V1);
-}","cdef","Non-confusing","Pointer Arithmetic"
-"20",46,45,"void main() {
+}","cdef","Non-confusing","Pointer Arithmetic",""
+"23",46,45,"void main() {
    int V1[] = {4, 2, 7, 5};
    int *V2 = V1 + 1;
    printf(""%d\n"", *V2);
@@ -238,8 +291,8 @@ void main(){
    int V1[] = {3, 1, 4, 6};
    int *V2 = &V1[1];
    printf(""%d\n"", *V2);
-}","1","Non-confusing","Pointer Arithmetic"
-"21",48,47,"void main() {
+}","1","Non-confusing","Pointer Arithmetic",""
+"24",48,47,"void main() {
    int V1[] = {4, 7, 2, 3};
    int *V2 = V1 + 1;
    V2 = V2 + 2;
@@ -249,8 +302,8 @@ void main(){
    int *V2 = &V1[1];
    V2 = &V2[2];
    printf(""%d\n"", *V2);
-}","4","Non-confusing","Pointer Arithmetic"
-"22",50,49,"void main() {
+}","4","Non-confusing","Pointer Arithmetic",""
+"25",50,49,"void main() {
    int V1 = 4;
 
    int V2 = V1 == 3 ? 2 : 1;
@@ -268,8 +321,8 @@ void main(){
    }
 
    printf(""%d\n"", V3);
-}","1","Non-confusing","Conditional Operator"
-"23",52,51,"void main() {
+}","1","Non-confusing","Conditional Operator",""
+"26",52,51,"void main() {
    int V1 = 2;
    int V2 = 3;
    int V3 = 1;
@@ -298,8 +351,8 @@ void main(){
    }
 
    printf(""%d\n"", V4);
-}","2","Non-confusing","Conditional Operator"
-"24",54,53,"void main() {
+}","2","Non-confusing","Conditional Operator","nested"
+"27",54,53,"void main() {
    int V1 = 2;
    int V2 = 3;
    int V3 = 1;
@@ -321,8 +374,8 @@ void main(){
    }
 
    printf(""%d\n"", V4);
-}","1","Non-confusing","Conditional Operator"
-"25",56,55,"void main() {
+}","1","Non-confusing","Conditional Operator",""
+"28",56,55,"void main() {
    int V1 = 8;
 
    if ((V1 - 3) * (7 - V1) <= 0) {
@@ -338,8 +391,8 @@ void main(){
    } else {
       printf(""false\n"");
    }
-}","true","Non-confusing","Arithmetic as Logic"
-"26",58,57,"void main() {
+}","true","Non-confusing","Arithmetic as Logic",""
+"29",58,57,"void main() {
    int V1 = 2;
 
    if ((V1 - 2) * (6 - V1) > 0) {
@@ -355,8 +408,8 @@ void main(){
    } else {
       printf(""false\n"");
    }
-}","false","Non-confusing","Arithmetic as Logic"
-"27",60,59,"void main() {
+}","false","Non-confusing","Arithmetic as Logic",""
+"30",60,59,"void main() {
    int V1 = 5;
 
    if (V1 + 5 != 0) {
@@ -372,8 +425,8 @@ void main(){
    } else {
       printf(""false\n"");
    }
-}","true","Non-confusing","Arithmetic as Logic"
-"28",62,61,"void main() {
+}","true","Non-confusing","Arithmetic as Logic",""
+"31",62,61,"void main() {
    int V1, V2;
 
    V1 = (V2 = 1, 2);
@@ -386,8 +439,8 @@ void main(){
    V2 = 1;
 
    printf(""%d %d\n"", V1, V2);
-}","2 1","Non-confusing","Comma Operator"
-"29",64,63,"void main() {
+}","2 1","Non-confusing","Comma Operator",""
+"32",64,63,"void main() {
    int V1 = 3;
    int V2 = (V1 *= 2, V1 += 1);
 
@@ -400,8 +453,8 @@ void main(){
    int V2 = (V1 += 1);
 
    printf(""%d %d\n"", V1, V2);
-}","7 7","Non-confusing","Comma Operator"
-"30",66,65,"void main() {
+}","7 7","Non-confusing","Comma Operator",""
+"33",66,65,"void main() {
    int V1 = 3;
    int V2 = (V1 += 1, V1 *= 2);
 
@@ -416,8 +469,8 @@ void main(){
    int V2 = (V1 *= 2);
 
    printf(""%d %d\n"", V1, V2);
-}","8 8","Non-confusing","Comma Operator"
-"31",68,67,"void main() {
+}","8 8","Non-confusing","Comma Operator",""
+"34",68,67,"void main() {
    char *V1 = ""abcdef""
    #define M1
    ""abcdef"";
@@ -432,8 +485,8 @@ void main(){
    #define M1
 
    printf(""%s\n"", V1);
-}","abcdefabcdef","Non-confusing","Preprocessor in Statement"
-"32",70,69,"void main() {
+}","abcdefabcdef","Non-confusing","Preprocessor in Statement",""
+"35",70,69,"void main() {
    int V1;
    V1 = 4;
 
@@ -454,8 +507,8 @@ void main(){
    int V2 = 1 + V1;
 
    printf(""%d %d\n"", V1, V2);
-}","4 5","Non-confusing","Preprocessor in Statement"
-"33",72,71,"void main() {
+}","4 5","Non-confusing","Preprocessor in Statement",""
+"36",72,71,"void main() {
    int V1 = 1, V2 = 2;
 
    if (V1 < V2) {
@@ -473,8 +526,8 @@ void main(){
    #define M2 1
 
    printf(""%d %d\n"", M1, M2);
-}","2 1","Non-confusing","Preprocessor in Statement"
-"34",74,73,"void main() {
+}","2 1","Non-confusing","Preprocessor in Statement",""
+"37",74,73,"void main() {
    int V1 = 2;
 
    if (V1 = 1) {
@@ -490,8 +543,8 @@ void main(){
    } else {
       printf(""false\n"");
    }
-}","true","Non-confusing","Assignment as Value"
-"35",76,75,"void main() {
+}","true","Non-confusing","Assignment as Value",""
+"38",76,75,"void main() {
    int V1 = 0;
 
    if (V1 = 0) {
@@ -509,8 +562,8 @@ void main(){
    } else {
       printf(""false\n"");
    }
-}","false","Non-confusing","Assignment as Value"
-"36",78,77,"void main() {
+}","false","Non-confusing","Assignment as Value",""
+"39",78,77,"void main() {
    int V1 = 0;
    int V2 = 9;
 
@@ -532,8 +585,8 @@ void main(){
    }
 
    printf(""%d %d\n"", V1, V2);
-}","4 7","Non-confusing","Assignment as Value"
-"37",80,79,"void main() {
+}","4 7","Non-confusing","Assignment as Value",""
+"40",80,79,"void main() {
    int V1 = 1;
    int V2 = 5;
 
@@ -556,8 +609,8 @@ void main(){
    }
 
    printf(""%d %d\n"", V1, V2);
-}","6 8","Non-confusing","Logic as Control Flow"
-"38",82,81,"void main() {
+}","6 8","Non-confusing","Logic as Control Flow",""
+"41",82,81,"void main() {
    int V1 = 1;
    int V2 = 5;
 
@@ -575,8 +628,8 @@ void main(){
    }
 
    printf(""%d %d\n"", V1, V2);
-}","2 7","Non-confusing","Logic as Control Flow"
-"39",84,83,"void main() {
+}","2 7","Non-confusing","Logic as Control Flow",""
+"42",84,83,"void main() {
    int V1 = 3;
    int V2 = 5;
    int V3 = 0;
@@ -599,8 +652,8 @@ void main(){
    }
 
    printf(""%d %d %d\n"", V1, V2, V3);
-}","11 11 10","Non-confusing","Logic as Control Flow"
-"40",86,85,"void main() {
+}","11 11 10","Non-confusing","Logic as Control Flow",""
+"43",86,85,"void main() {
    int V1[5];
    V1[4] = 3;
 
@@ -620,8 +673,8 @@ void main(){
    }
 
    printf(""%d %d\n"", V1[1], V2);
-}","4 0","Non-confusing","Repurposed Variables"
-"41",88,87,"void main() {
+}","4 0","Non-confusing","Repurposed Variables",""
+"44",88,87,"void main() {
    int V3 = 0;
 
    for (int V1 = 0; V1 < 2; V1++) {
@@ -642,8 +695,8 @@ void main(){
    }
 
    printf(""%d\n"", V3);
-}","1","Non-confusing","Repurposed Variables"
-"42",90,89,"void main() {
+}","1","Non-confusing","Repurposed Variables",""
+"45",90,89,"void main() {
    int V1;
    for (int V2 = 0; V2 < 2; V2++) {
       V1 = (V2 < 1);
@@ -665,8 +718,8 @@ void main(){
       }
    }
    printf(""%d\n"", V1);
-}","4","Non-confusing","Repurposed Variables"
-"43",92,91,"void main() {
+}","4","Non-confusing","Repurposed Variables",""
+"46",92,91,"void main() {
    char V1 = 2[""qwert""];
 
    printf(""%c\n"", V1);
@@ -674,8 +727,8 @@ void main(){
    char V1 = ""zxcvb""[4];
 
    printf(""%c\n"", V1);
-}","b","Non-confusing","Reversed Subscripts"
-"44",94,93,"void main() {
+}","b","Non-confusing","Reversed Subscripts",""
+"47",94,93,"void main() {
    char V1 = 3;
    char V2 = V1[""zxcvb""];
 
@@ -685,8 +738,8 @@ void main(){
    char V2 = ""asdfg""[V1];
 
    printf(""%c\n"", V2);
-}","d","Non-confusing","Reversed Subscripts"
-"45",96,95,"void main() {
+}","d","Non-confusing","Reversed Subscripts",""
+"48",96,95,"void main() {
    char V1 = 4;
    char* V2 = ""qazwsx"";
    char V3 = V1[V2];
@@ -698,8 +751,8 @@ void main(){
    char V3 = V2[V1];
 
    printf(""%c\n"", V3);
-}","e","Non-confusing","Reversed Subscripts"
-"46",98,97,"void main() {
+}","e","Non-confusing","Reversed Subscripts",""
+"49",98,97,"void main() {
    int V1 = 1;
 
    V1 = 3;
@@ -712,8 +765,8 @@ void main(){
   V1 = 2;
 
   printf(""%d\n"", V1);
-}","2","Non-confusing","Dead, Unreachable, Repeated"
-"47",100,99,"void main() {
+}","2","Non-confusing","Dead, Unreachable, Repeated",""
+"50",100,99,"void main() {
    int V1 = 1;
 
    if (0) {
@@ -725,8 +778,8 @@ void main(){
    int V1 = 1;
 
    printf(""%d\n"", V1);
-}","1","Non-confusing","Dead, Unreachable, Repeated"
-"48",102,101,"void main() {
+}","1","Non-confusing","Dead, Unreachable, Repeated",""
+"51",102,101,"void main() {
    int V1 = 0;
 
    V1 = V1;
@@ -736,16 +789,16 @@ void main(){
    int V1 = 0;
 
    printf(""%d\n"", V1);
-}","0","Non-confusing","Dead, Unreachable, Repeated"
-"49",104,103,"void main() {
+}","0","Non-confusing","Dead, Unreachable, Repeated",""
+"52",104,103,"void main() {
    char V1 = 104;
    printf(""%c\n"", V1);
 }","h","Confusing","void main() {
    char V1 = 'g';
 
    printf(""%c\n"", V1);
-}","g","Non-confusing","Change of Literal Encoding"
-"50",106,105,"void main() {
+}","g","Non-confusing","Change of Literal Encoding",""
+"53",106,105,"void main() {
    int V1 = 013;
 
    printf(""%d\n"", V1);
@@ -753,8 +806,8 @@ void main(){
    char V1 = 23;
  
    printf(""%d\n"", V1);
-}","23","Non-confusing","Change of Literal Encoding"
-"51",108,107,"void main() {
+}","23","Non-confusing","Change of Literal Encoding",""
+"54",108,107,"void main() {
    int V1 = 208 & 13;
 
    printf(""%d\n"", V1);
@@ -762,8 +815,8 @@ void main(){
    char V1 = 0xD0 & 0x0D;
 
    printf(""%d\n"", V1);
-}","0","Non-confusing","Change of Literal Encoding"
-"52",110,109,"void main() {
+}","0","Non-confusing","Change of Literal Encoding","big_literal"
+"55",110,109,"void main() {
    int V1 = 2;
 
    if (0) V1++; V1++;
@@ -775,8 +828,8 @@ void main(){
    if (0) { V1++; } V1++;
 
    printf(""%d\n"", V1);
-}","3","Non-confusing","Omitted Curly Braces"
-"53",112,111,"void main() {
+}","3","Non-confusing","Omitted Curly Braces",""
+"56",112,111,"void main() {
    int V1 = 4;
 
    int V2 = 0;
@@ -790,8 +843,8 @@ void main(){
    while (V2 < 3) { V2++; } V1++;
  
    printf(""%d %d\n"", V1, V2);
-}","8 3","Non-confusing","Omitted Curly Braces"
-"54",114,113,"void main() {
+}","8 3","Non-confusing","Omitted Curly Braces",""
+"57",114,113,"void main() {
    int V1 = 3;
 
    for (int V2 = 0; V2 < 3; V2++) V1++; V1++;
@@ -803,8 +856,8 @@ void main(){
    for (int V2 = 0; V2 < 3; V2++) { V1++; } V1++;
 
    printf(""%d\n"", V1);
-}","8","Non-confusing","Omitted Curly Braces"
-"55",116,115,"void main() {
+}","8","Non-confusing","Omitted Curly Braces",""
+"58",116,115,"void main() {
    float V1 = 1.99;
 
    int V2 = V1;
@@ -817,8 +870,8 @@ void main() {
    int V2 = trunc(V1);
 
    printf(""%d\n"", V2);
-}","2","Non-confusing","Type Conversion"
-"56",118,117,"void main() {
+}","2","Non-confusing","Type Conversion",""
+"59",118,117,"void main() {
    int V1 = -1;
 
    unsigned int V2 = V1;
@@ -850,8 +903,8 @@ void main() {
    }  
 
    printf(""%d\n"", V3);
-}","4","Non-confusing","Type Conversion"
-"57",120,119,"void main() {
+}","4","Non-confusing","Type Conversion",""
+"60",120,119,"void main() {
    int V1 = 261;
 
    char V2 = V1;
@@ -863,4 +916,71 @@ void main() {
    char V2 = V1 % 256;
 
    printf(""%d\n"", V2);
-}","32","Non-confusing","Type Conversion"
+}","32","Non-confusing","Type Conversion","big_literal"
+"61",122,121,"void main() {
+   int V1 = 0;
+   int V2 = 2;
+
+   if (V1) {}
+      V2 = 4;
+
+   printf(""%d\n"", V2);
+}","4","Confusing","void main() {
+   int V1 = 0;
+   int V2 = 2;
+
+   if (V1) {}
+   V2 = 4;
+
+   printf(""%d\n"", V2);
+}","4","Non-confusing","Indentation with Braces","indentation"
+"62",124,123,"void main() {
+   int V1 = 0;
+   int V2 = 1;
+
+   if (V1) {
+      V2 = 2;
+   }
+      V2 = V2 * 3;
+
+   printf(""%d\n"", V2);
+}","3","Confusing","void main() {
+   int V1 = 0;
+   int V2 = 5;
+
+   if (V1) {
+      V2 = 2;
+   }
+   V2 = V2 * 2;
+
+   printf(""%d\n"", V2);
+}","10","Non-confusing","Indentation with Braces","indentation"
+"63",126,125,"void main() {
+   int V1 = 2;
+   int V2 = 0;
+   int V3 = 3;
+
+   if (V1) {
+      if (V2) {
+         V3 = V3 +2;
+   } else {
+      V3 = V3 + 4;
+   }
+   }
+
+   printf(""%d\n"", V3);
+}","7","Confusing","void main() {
+  int V1 = 2;
+  int V2 = 0;
+  int V3 = 5;
+
+  if (V1) {
+     if (V2) {
+        V3 = V3 + 2;
+     } else {
+        V3 = V3 + 4;
+     }
+  }
+
+  printf(""%d\n"", V3);
+}","9","Non-confusing","Indentation with Braces","indentation"
