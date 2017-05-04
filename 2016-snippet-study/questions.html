@@ -33,7 +33,7 @@ Participants were asked to report the standard output of 84 tiny (3-22 line) pro
         <li> Transformed ID: {{ question.Pair }} </li>
         <li> Obfuscated Answer: {{ question.Answer_c }} </li>
         <li> Transformed Answer: {{ question.Answer_nc }} </li>
-        {{ question.Errata }}
+
         {% if question.Errata != "" %}
           <li> <a href="/2016-snippet-study/errata#{{ question.Errata }}">Errata</a> </li>
         {% endif %}

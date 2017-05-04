@@ -74,11 +74,11 @@ code {
   <tr class="accepted" > <td> <a href='#assignment-value'> Assignment as Value </a></td>  <td><code>V1 = V2 = 3; </code></td>  <td align="right"> 0.42 </td> <td> 3.78e-10 </td> </tr>
   <tr class="accepted" > <td> <a href='#logic-control'> Logic as Control Flow  </a></td>  <td><code>V1 && F2(); </code></td>  <td align="right"> 0.41 </td> <td> 5.62e-09 </td> </tr>
     <tr class="accepted" > <td> <a href='#macro-precedence'> Macro Operator Precedence  </a></td>  <td><code>#define M1 64-1
-2*M1 </code></td>  <td align="right"> 0.36 </td> <td> 1.77e-07 <b>*</b> </td> </tr>
+2*M1 </code></td>  <td align="right"> 0.36 </td> <td> 1.77e-07 <b><a href="2016-snippet-study/errata#macro_name">*</a></b> </td> </tr>
   <tr class="accepted" > <td> <a href='#post-increment'> Post-Increment/Decrement  </a></td>  <td><code>V1 = V2++; </code></td>  <td align="right"> 0.34 </td> <td> 6.98e-08 </td> </tr>
   <tr class="accepted" > <td> <a href='#type-conversion'> Type Conversion  </a></td>  <td><code>(double)(3/2) </code></td>  <td align="right"> 0.29 </td> <td> 5.17e-07 </td> </tr>
   <tr class="accepted" > <td> <a href='#reversed-subscript'> Reversed Subscripts  </a></td>  <td><code>1["abc"] </code></td>  <td align="right"> 0.23 </td> <td> 1.52e-06 </td> </tr>
-  <tr class="accepted" > <td> <a href='#conditional-operator'> Conditional Operator  </a></td>  <td><code>V2 = (V1==3)?2:V2 </code></td>  <td align="right"> 0.23 </td> <td> 1.74e-05 <b>*</b> </td> </tr>
+  <tr class="accepted" > <td> <a href='#conditional-operator'> Conditional Operator  </a></td>  <td><code>V2 = (V1==3)?2:V2 </code></td>  <td align="right"> 0.23 </td> <td> 1.74e-05 <b><a href="2016-snippet-study/errata#nested">*</a></b> </td> </tr>
   <tr class="accepted" > <td> <a href='#comma-operator'> Comma Operator  </a></td>  <td><code>V3 = (V1+=1, V1) </code></td>  <td align="right"> 0.23 </td> <td> 2.46e-04 </td> </tr>
   <tr class="accepted" > <td> <a href='#pre-increment'> Pre-Increment/Decrement  </a></td>  <td><code>V1 = ++V2; </code></td>  <td align="right"> 0.16 </td> <td> 6.89e-04 </td> </tr>
   <tr class="accepted" > <td> <a href='#infix-precedence'> Infix Operator Precedence  </a></td>  <td><code>0 && 1 || 2 </code></td>  <td align="right"> 0.14 </td> <td> 5.90e-05 </td> </tr>
@@ -92,7 +92,7 @@ code {
   <tr class="rejected" > <td> <a href='#dead-unreachable'> Dead, Unreachable, Repeated  </a></td>  <td><code>V1 = 1;
 V1 = 2; </code></td>  <td align="right"> 0.03 </td> <td> 0.059 </td> </tr>
   <tr class="rejected" > <td> <a href='#arithmetic-logic'> Arithmetic as Logic  </a></td>  <td><code>(V1-3) * (V2-4) </code></td>  <td align="right"> 0.03 </td> <td> 0.248 </td> </tr>
-  <tr class="rejected" > <td> <a href='#pointer-arithmetic'> Pointer Arithmetic  </a></td>  <td><code>"abcdef"+3 </code></td>  <td align="right"> 0.01 </td> <td> 0.752 </td> </tr>
+  <tr class="rejected" > <td> <a href='#pointer-arithmetic'> Pointer Arithmetic  </a></td>  <td><code>"abcdef"+3 </code></td>  <td align="right"> 0.01 </td> <td> 0.752 <b><a href="2016-snippet-study/errata#pointer_arithmetic">*</a></b> </td> </tr>
   <tr class="rejected" style="border-bottom: 1px solid #ddd;" > <td> <a href='#constant-variables'> Constant Variables  </a></td>  <td><code>int V1 = 5;
 printf("%d", V1); </code></td>  <td align="right"> 0.00 </td> <td> 1.000 </td> </tr>
    </table>

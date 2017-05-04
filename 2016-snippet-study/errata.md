@@ -8,6 +8,17 @@ These are known issues identified in our study after the fact. We report them fo
 <a name="macro_name"></a>
 * The source code of [Question 39](questions#q39) (Macro Operator Precedence, Obfuscated) had an unintentional semantic error that made the code unable to be compiled. In our instructions we listed that all code would compile without error. As a result we chose to discard all responses from this question from our data. This choice was made before any analysis of our results had begun.
 
+<a name="pointer_arithmetic"></a>
+* We were not able to confirm Pointer Arithmetic as an atom. This does not mean
+pointer arithmetic is not confusing, on the contrary it was one of the more
+confusing atom types we tested. The Pointer Arithmetic transformed questions
+[44, 46, and 48](questions#q44), however, together had the highest error rates
+relative to their obfuscated questions. This indicates that there was likely a
+secondary source of confusion in these questions beyond the atom itself. It is
+for this reason that the Pointer Arithmetic questions failed to reach the
+necessary statistical significance to be considered an atom at this phase.
+
+
 <a name="nested"></a>
 * All code snippets included in this study were designed to be minimal, so as not to add external sources of confusion into our results. [Questions 51/52](questions#q51) (Conditional Operator) contained two, nested, instances of the conditional operator instead of just 1. The results of this question were left in the dataset during analysis, however if we were to re-design this experiment, the question would be simplified to only have one occurence of the atom. While this design flaw may have artificially inflated the effect size we report, we do not believe that removing the redundancy would cause the *Conditional Operator* atom not to reject the null hypothesis.
 
