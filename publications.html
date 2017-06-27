@@ -1,0 +1,55 @@
+---
+layout: page
+title: Publications
+---
+
+
+The following is a list of publications coming from this project:
+<br /><br />
+
+<div class=paper>
+  <div class="publication">
+  <b>"Understanding Misunderstandings in Source Code"</b> <a href="understanding_misunderstand_2017-02-27.pdf">pdf</a><br />
+  D. Gopstein, J. Iannacone, Y. Yan, L. DeLong, Y. Zhuang, M. Yeh, J. Cappos<br />
+  <i>Accepted to ESEC/FSE'17</i></br>
+  </div>
+  <a class="cite">cite</a>
+  <div class="citation" style="display: none;">
+    <div class="acm">
+    Dan Gopstein, Jake Iannacone, Yu Yan, Lois Anne Delong, Yanyan Zhuang, Martin K.-C. Yeh, and Justin Cappos. 2017. Understanding Misunderstandings in Source Code. In <i>Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering.</i> ACM.
+    Accepted at ESEC/FSE'17
+    </div>
+    <div class="bibtex">
+      <pre>
+@inproceedings{gopstein2017understanding,
+  title={Understanding Misunderstandings in Source Code},
+  author={Gopstein, Dan and Iannacone, Jake and Yan, Yu and
+          Delong, Lois Anne and Zhuang, Yanyan and
+          Yeh, Martin K.-C. and Cappos, Justin},
+  booktitle={Proceedings of the 2017 11th Joint Meeting on
+             Foundations of Software Engineering},
+  year={2017},
+  organization={ACM}
+} 
+      </pre>
+    </div>
+  </div>
+</div>
+
+<blockquote>Humans often mistake the meaning of source code, and so misjudge a program’s true behavior. To better understand code patterns that confuse programmers, we extracted a preliminary set from winners of the International Obfuscated C Code Contest (IOCCC). We show experimentally (using 73 participants) that most of these code patterns lead to a significantly increased rate of misunderstanding versus equivalent code without the pattern. We go on to empirically demonstrate (using 43 participants) that removing the design patterns that were validated as confusing from IOCCC winners has a significant effect on the level of comprehension. These studies provide not only a rigorous foundation to support software engineering best practices, but also resulted in several new findings. This study shows that extremely small patterns of code can have a very large impact on code comprehension. Surprisingly, the level of confusion an individual programmer has when reading these design patterns varies widely in ways that do not correlate with the programmer’s experience or education. We also found evidence that popular style guidelines are inclusive of some confusing patterns, while prohibiting others that do not have a statistically significant effect on confusion.</blockquote>
+
+
+<script>
+var buttons = document.getElementsByClassName('cite');
+for(var i = 0; i < buttons.length; i++) {
+  var button = buttons[i]
+  button.onclick = function() {
+    var div = button.parentElement.getElementsByClassName('citation')[0];
+    if (div.style.display !== 'none') {
+      div.style.display = 'none';
+    } else {
+      div.style.display = 'block';
+    }
+  }
+}
+</script>
