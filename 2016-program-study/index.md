@@ -7,7 +7,7 @@ tags: program
 ---
 
 <div class="toc">
-  <h4 style="margin: 0px 0px 15px 0px; text-align: center;">Materials</h4>
+  <h4 class="toc-title">Materials</h4>
   <ul>
     <li><a href="consent.pdf">Consent Form</a></li>
     <li><a href="in-person">In-person Instructions</a></li>
