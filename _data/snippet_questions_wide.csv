@@ -282,7 +282,7 @@ void main(){
 }","def","Confusing","void main() {
    char *V1 = &(""abcdef""[2]);
    printf(""%s\n"", V1);
-}","cdef","Non-confusing","Pointer Arithmetic",""
+}","cdef","Non-confusing","Pointer Arithmetic","pointer_arithmetic"
 "23",46,45,"void main() {
    int V1[] = {4, 2, 7, 5};
    int *V2 = V1 + 1;
@@ -291,7 +291,7 @@ void main(){
    int V1[] = {3, 1, 4, 6};
    int *V2 = &V1[1];
    printf(""%d\n"", *V2);
-}","1","Non-confusing","Pointer Arithmetic",""
+}","1","Non-confusing","Pointer Arithmetic","pointer_arithmetic"
 "24",48,47,"void main() {
    int V1[] = {4, 7, 2, 3};
    int *V2 = V1 + 1;
@@ -302,7 +302,7 @@ void main(){
    int *V2 = &V1[1];
    V2 = &V2[2];
    printf(""%d\n"", *V2);
-}","4","Non-confusing","Pointer Arithmetic",""
+}","4","Non-confusing","Pointer Arithmetic","pointer_arithmetic"
 "25",50,49,"void main() {
    int V1 = 4;
 
