@@ -570,7 +570,15 @@ void main(){
       printf(""false\n"");
    }
 }","true"
-"74",74,73,"Side-Effecting Expression","Non-confusing","","true"
+"74",74,73,"Side-Effecting Expression","Non-confusing","void main() {
+   int V1 = 7;
+   V1 = 1;
+   if (1) {
+      printf(""true\n"");
+   } else {
+      printf(""false\n"");
+   }
+}","true"
 "75",75,76,"Side-Effecting Expression","Confusing","void main() {
    int V1 = 0;
 
