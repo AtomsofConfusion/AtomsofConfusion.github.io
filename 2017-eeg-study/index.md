@@ -8,7 +8,7 @@ tags: eeg
 <div class="toc">
   <h4 class="toc-title">Materials</h4>
   <ul>
-    <li><a href="">No materials just yet</a></li>
+    <li><a href="papers/program-comprehension-eeg-2017.pdf">Paper</a></li>
   </ul>
 </div>
 
