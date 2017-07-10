@@ -8,6 +8,9 @@ These are known issues identified in our study after the fact. We report them fo
 <a name="macro_name"></a>
 * The source code of [Question 39](questions#q39) (Macro Operator Precedence, Obfuscated) had an unintentional semantic error that made the code unable to be compiled. In our instructions we listed that all code would compile without error. As a result we chose to discard all responses from this question from our data. This choice was made before any analysis of our results had begun.
 
+<a name="macro_parens"></a>
+* The Macro Operator Precedence is designed to test the difference between how functions and how function-like macros evaluate arguments. Accidentally [Question 41](questions#q41) parenthesized the arguments to `M1` nullifying the confusion.
+
 <a name="pointer_arithmetic"></a>
 * We were not able to confirm Pointer Arithmetic as an atom. This does not mean
 pointer arithmetic is not confusing, on the contrary it was one of the more
