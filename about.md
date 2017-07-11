@@ -23,3 +23,5 @@ fundamental secrets of confusing code. We are:
 ### Contact
 
 We can be reached at atomsofconfusion at googlegroups dot com
+
+This project is managed by members of the <a href="https://ssl.engineering.nyu.edu">Secure Systems Lab</a> at NYU.

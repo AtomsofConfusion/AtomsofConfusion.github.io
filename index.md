@@ -27,7 +27,9 @@ We are driven by the following principles: </p>
    <li>We communicate our work through peer reviewed <a href="/publications">publications</a>.</li>
    </ul>
 
+
   <br />
+  This project is managed by members of the <a href="https://ssl.engineering.nyu.edu">Secure Systems Lab</a> at NYU.
   <br />
   <h4>Acknowledgements</h4>
   This material is based upon work supported by the National Science Foundation under Grant No. 1444827. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. 
