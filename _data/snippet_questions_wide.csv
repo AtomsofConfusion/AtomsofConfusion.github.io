@@ -526,7 +526,7 @@ void main(){
    #define M2 1
 
    printf(""%d %d\n"", M1, M2);
-}","2 1","Non-confusing","Preprocessor in Statement",""
+}","2 1","Non-confusing","Preprocessor in Statement","preprocessor_simplification"
 "37",74,73,"void main() {
    int V1 = 2;
 
