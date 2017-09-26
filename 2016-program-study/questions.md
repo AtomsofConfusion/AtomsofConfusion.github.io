@@ -257,7 +257,7 @@ int main() {
 #### Transformed (program H, filename h.c):
 
 ```
-include <stdio.h>
+#include <stdio.h>
 
 int F1(int V1, int V2) {
   int V3, V4;
