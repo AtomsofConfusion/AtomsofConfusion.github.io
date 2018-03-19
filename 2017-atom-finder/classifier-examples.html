@@ -1,0 +1,49 @@
+---
+layout: page
+title: Classifier Validation
+permalink: /2017-atom-finder/validation
+tags: atom-finder
+---
+
+To validate our classifiers, we randomly selected up to 40 examples of code that
+our system classified as atoms. These are the examples we selected. While we
+only hand-validated the first 20 of each group, we provide the full list here.
+
+<br /><br />
+
+<style>
+  table {
+    font-size: .9rem;
+    //table-layout: auto;
+    //width: 100%;
+  }
+  .col-id {width: 4em;}
+  .col-context {width: 15em;}
+  .details {
+    padding-left: 2rem;
+    padding-top: 0;
+    padding-bottom: auto;
+  }
+</style>
+{% assign atom_examples = site.data.classifier_examples | group_by: 'atom' %}
+{% for atom_type in atom_examples %}
+<a name="{{atom_type.name | downcase | replace: ' ', '-'}}"><h3>{{atom_type.name}}</h3></a>
+<table>
+  <tr><th class="col-id">ID</th><th class='col-context'>Context</th><th class='col-code'>Code Snippet</th>
+    <b></b>
+  {% for question in {{atom_type.items}} %}
+  <tr>
+    <td>
+      <pre>{{question.id}}</pre>
+    </td>
+    <td>
+      <a href="{{question.url}}">{{question.file_line}}</a>
+    </td>
+    <td>
+      <pre>{{question.code}}</pre>
+    </td>
+  </tr>
+{% endfor %}
+
+</table>
+{% endfor %}

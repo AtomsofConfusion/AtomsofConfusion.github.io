@@ -37,7 +37,8 @@ What happens in the mind of a programmer when they read confusing code? Using co
 [Explore the EEG experiment](2017-eeg-study/)
 
 #### [Atoms in the Wild: OSS](2017-atom-finder)
-<div class='project-status'>In progress</div>
+<div class='project-status'>Completed - discussed in <a href="{{site.paper_url.atom_finder}}">this paper</a></div>
+
 
 Outside of the lab, how prevalent are atoms of confusion? We mine several popular open source C projects for known atoms, and look for correlations with other relevant phenomena.  
 [Explore atoms in the wild](2017-atom-finder)

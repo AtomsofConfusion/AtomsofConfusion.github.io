@@ -5,6 +5,10 @@ div.toc {
   padding: 15px 20px 0px 40px;
   margin: 15px 0px 20px 30px;
   float: right;
+
+  ol, ul {
+    list-style-position: outside;
+  }
 }
 
 .toc-title {

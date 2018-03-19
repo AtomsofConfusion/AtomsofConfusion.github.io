@@ -54,3 +54,6 @@ sass:
   sass_dir: _sass
   style: :compressed
 gems: [jekyll-paginate]
+
+paper_url:
+  atom_finder: "papers/atom-finder_2018-03-18_public-draft.pdf"
