@@ -154,3 +154,39 @@ rguenth|rguenth@138bc75d-0d04-0410-961f-82ee72b054a4|gcc/testsuite/ChangeLog|1|3
 paolo|paolo@138bc75d-0d04-0410-961f-82ee72b054a4|gcc/testsuite/ChangeLog|1|3|3|39a925e789721936cf9ed74153a2b375ee504ec9|0|0|||||||||||||||
 vries|vries@138bc75d-0d04-0410-961f-82ee72b054a4|gcc/testsuite/ChangeLog|0|3|3|1ddd2233adfc059bfb2982a0a5f5dadeb723ec46|0|0|||||||||||||||
 vries|vries@138bc75d-0d04-0410-961f-82ee72b054a4|gcc/testsuite/gcc.dg/tree-ssa/loop-1.c|0|1|1|1ddd2233adfc059bfb2982a0a5f5dadeb723ec46|0|0|||||||||||||||
+
+<br />
+
+#### Examples
+
+Along the way in our work we found several interesting examples of atoms in our
+corpus. While they're described in detail in
+our [paper]({{site.paper_url.atom_finder}}), we provide references to the
+original source here.
+
+* **New Bugs in Linux - Macro Operator Precedence.**
+  * [linux commit 7aa92c4](https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8)
+  * Several implementations of the absolute value macro incorrectly
+    parenthesized their arguments. Our team patched those files to use a
+    correctly-implemented version of ABS.
+
+* **Old Bugs in FreeBSD - Operator Precedence, Conditional Operator, Omitted
+Curly Braces, Implicit Predicate**
+  * [freebsd commit 74e4174](https://github.com/freebsd/freebsd/commit/74e4174d3be30f6aef34a71d839211408de05768)
+  * After accidentally committing an incorrect expression with bad operator
+    precedence the author goes back and replaces a confusing conditional
+    operator with an if-statement without curly braces.
+
+* **Correct Code at the Expense of Readability - Parameterizing #im- ports with temporary #defines.**
+  * [gecko/harfbuzz file hb-shape-plan.cc](https://github.com/mozilla/gecko-dev/blob/dd47bee6468de7e1221b4d006342ad6b9813d0e5/gfx/harfbuzz/src/hb-shape-plan.cc#L68)
+  and
+  [gecko/harfbuzz file hb-shaper-list.hh](https://github.com/mozilla/gecko-dev/blob/dd47bee6468de7e1221b4d006342ad6b9813d0e5/gfx/harfbuzz/src/hb-shaper-list.hh#L46)
+  * The [X-Macro](http://www.drdobbs.com/the-new-c-x-macros/184401387) pattern
+    in C/C++ has some pretty cool technical properties, but it's pretty
+    confusing to read. We were initially stumped when we first stumbled across
+    it in [HarfBuzz](https://en.wikipedia.org/wiki/HarfBuzz), embedded in Gecko.
+
+* **Showing Of with Atoms - Reversed Subscript.**
+  * [freebsd/ftp file security.c](https://github.com/freebsd/freebsd/blob/c2b6ea8fa56ce6aba773d820fbf64a4d3efac9f5/crypto/heimdal/appl/ftp/ftp/security.c#L667)
+  * A string literal is used to index into an integer to select a character
+    which represents a data channel protection level.
