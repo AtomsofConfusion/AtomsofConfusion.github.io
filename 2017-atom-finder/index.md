@@ -8,8 +8,9 @@ tags: atom-finder
 <div class="toc">
   <h4 class="toc-title">Materials</h4>
   <ul>
-    <li><a href="https://github.com/dgopstein/atom-finder">Codebase</a></li>
     <li><a href="{{site.paper_url.atom_finder}}">Paper</a></li>
+    <li><a href="https://github.com/dgopstein/atom-finder">Codebase</a></li>
+    <li><a href="https://github.com/dgopstein/atom-finder/tree/master/src/atom_finder/classifier"> Classifiers</a></li>
     <li><a href="/2017-atom-finder/validation">Validation Examples</a></li>
     <li><a href="https://github.com/dgopstein/atom-finder/tree/master/src/analysis/data">Mined Data</a></li>
   </ul>
@@ -129,8 +130,8 @@ Some data, on the other hand, is better suited for programmatic consumption. For
 example,
 [atoms-in-bugs_gcc_2018-01-11_added.csv.bz2](https://github.com/dgopstein/atom-finder/blob/master/src/analysis/data/atoms-in-bugs_gcc_2018-01-11_added.csv.bz2),
 describes the number of atoms added in each file committed to GCC across its
-entire history. It spans almost 800k and 10mb after bz2 compression. These
-are the first few lines
+entire history. It spans almost 800k lines and 10mb after bz2 compression. These
+are the first few lines:
 
 <style>
 .tab-atoms-in-bugs {
