@@ -56,4 +56,4 @@ sass:
 gems: [jekyll-paginate]
 
 paper_url:
-  atom_finder: "papers/atom-finder_2018-03-18_public-draft.pdf"
+  atom_finder: "papers/atom-finder-msr-2018.pdf"
