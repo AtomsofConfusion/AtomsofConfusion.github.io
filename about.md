@@ -11,7 +11,6 @@ fundamental secrets of confusing code. We are:
  * Prof. [Justin Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos), NYU
  * Prof. [Martin K.-C. Yeh](http://martinyeh.com/), Penn State, Brandywine
  * Prof. [Yanyan Zhuang](http://www.cs.uccs.edu/~yzhuang/), University of Colorado, Colorado Springs
- * Prof. [Sam Weber](https://ssl.engineering.nyu.edu/people#sam_weber), NYU
  * Prof. [Phyllis Frankl](http://engineering.nyu.edu/people/phyllis-frankl), NYU
  * [Lois DeLong](https://ssl.engineering.nyu.edu/people#lois_delong), NYU
  * [Dan Gopstein](https://ssl.engineering.nyu.edu/people#dan_gopstein), NYU
