@@ -806,7 +806,7 @@ void main(){
    char V1 = 23;
  
    printf(""%d\n"", V1);
-}","23","Non-confusing","Change of Literal Encoding",""
+}","23","Non-confusing","Change of Literal Encoding","type_consistency"
 "54",108,107,"void main() {
    int V1 = 208 & 13;
 

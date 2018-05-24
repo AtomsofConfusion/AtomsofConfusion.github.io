@@ -25,8 +25,16 @@ necessary statistical significance to be considered an atom at this phase.
 * All code snippets included in this study were designed to be minimal, so as not to add external sources of confusion into our results. [Questions 51/52](questions#q51) (Conditional Operator) contained two, nested, instances of the conditional operator instead of just 1. The results of this question were left in the dataset during analysis, however if we were to re-design this experiment, the question would be simplified to only have one occurence of the atom. While this design flaw may have artificially inflated the effect size we report, we do not believe that removing the redundancy would cause the *Conditional Operator* atom not to reject the null hypothesis.
 
 <a name="preprocessor_simplification"></a>
-* The atom removal transformation applied to question [Question 71](questions#71) (Preprocessor in Statement) removed more than just the atom in question, it also removed the redundant #define's which could also have contributed to the measured confusion.
+* The atom removal transformation applied to question [Question 71](questions#q71) (Preprocessor in Statement) removed more than just the atom in question, it also removed the redundant #define's which could also have contributed to the measured confusion.
 
+<a name="type_consistency"></a>
+* Part of creating "minimal" atom removal transformations is making sure that
+  question pairs are identical except for the transformation being studied. In
+  some cases we accidentally left other differences between the obfuscated and
+  transformed questions in [Questions 105/106 and 107/108](questions#q105)
+  (Change of Literal Encoding) the static types of the variables being printed
+  differ between the obfuscated and transformed examples, despite being outside
+  the scope of the atom.
 
 <a name="indentation"></a>
 * To remove the bias introduced by code formatting, we chose not to study the effect of whitespace in this study. That decision was made before running the atom existence study, however we chose to include 2 question sets with whitespace related questions just in case. We have not yet analyzed these results or used them for anything, though we have released the data so that other researchers may analyze them. The IDs associated with these questions are [31-36](questions#q31) and [121-126](questions#q121).
