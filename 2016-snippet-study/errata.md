@@ -5,6 +5,14 @@ title: Existence Study Errata
 
 These are known issues identified in our study after the fact. We report them for full transparency, so that our results may be interpreted more accurately and replication may be performed more easily.
 
+<a name="implicit_predicate_assignment"></a>
+* Non-minimality: All code snippets included in this study were designed to be
+minimal, so as not to add external sources of confusion into our results.
+Accidentally, [Question 3/4](questions#q3) included an example of a different
+atom of confusion (Assignment as Value). In this way, the results reflect likely
+reflect increased confusion rates on both Obfuscated and Transformed snippets
+in that pair.
+
 <a name="indentation"></a>
 * To remove the bias introduced by code formatting, we chose not to study the effect of whitespace in this study. That decision was made before running the atom existence study, however we chose to include 2 question sets with whitespace related questions just in case. We have not yet analyzed these results or used them for anything, though we have released the data so that other researchers may analyze them. The IDs associated with these questions are [31-36](questions#q31) and [121-126](questions#q121).
 
@@ -25,7 +33,7 @@ for this reason that the Pointer Arithmetic questions failed to reach the
 necessary statistical significance to be considered an atom at this phase.
 
 <a name="nested"></a>
-* Non-minimality: All code snippets included in this study were designed to be minimal, so as not to add external sources of confusion into our results. [Questions 51/52](questions#q51) (Conditional Operator) contained two, nested, instances of the conditional operator instead of just 1. The results of this question were left in the dataset during analysis, however if we were to re-design this experiment, the question would be simplified to only have one occurence of the atom. While this design flaw may have artificially inflated the effect size we report, we do not believe that removing the redundancy would cause the *Conditional Operator* atom not to reject the null hypothesis.
+* [Questions 51/52](questions#q51) (Conditional Operator) contained two, nested, instances of the conditional operator instead of just 1. The results of this question were left in the dataset during analysis, however if we were to re-design this experiment, the question would be simplified to only have one occurence of the atom. While this design flaw may have artificially inflated the effect size we report, we do not believe that removing the redundancy would cause the *Conditional Operator* atom not to reject the null hypothesis.
 
 <a name="preprocessor_simplification"></a>
 * Non-equivalence: Part of creating atom removal transformations is making sure

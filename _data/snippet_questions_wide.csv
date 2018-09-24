@@ -31,7 +31,7 @@
       printf(""true"");
    else
       printf(""false"");
-}","true","Non-confusing","Implicit Predicate",""
+}","true","Non-confusing","Implicit Predicate","implicit_predicate_assignment"
 "3",6,5,"void main() {
    if (""V1"")
       printf(""true"");
