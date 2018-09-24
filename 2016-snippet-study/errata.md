@@ -47,6 +47,14 @@ necessary statistical significance to be considered an atom at this phase.
   obfuscated and transformed examples, despite being outside the scope of the
   atom.
 
+<a name="8_bit_byte"></a>
+* Architecture-specific: We specifically excluded code that relied on
+  architecture-specific definitions. However, our
+  snippet [Question 119](questions#q119) (Type Conversion) relies on the often
+  assumed, but not guaranteed, factor that a byte has 8-bits. While chars are
+  mandated to be the same size as bytes, the size of bytes are not fixed across
+  architectures.
+
 <a name="big_literal"></a>
 * We intended to keep integer literals small, to minimize the difficulty of arithmetic computation. The following questions had larger than desirable constants:
 

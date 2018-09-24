@@ -628,7 +628,7 @@ void main(){
    }
 
    printf(""%d %d\n"", V1, V2);
-}","2 7","Non-confusing","Logic as Control Flow",""
+}","2 7","Non-confusing","Logic as Control Flow","logic_precedence"
 "42",84,83,"void main() {
    int V1 = 3;
    int V2 = 5;
@@ -652,7 +652,7 @@ void main(){
    }
 
    printf(""%d %d %d\n"", V1, V2, V3);
-}","11 11 10","Non-confusing","Logic as Control Flow",""
+}","11 11 10","Non-confusing","Logic as Control Flow","logic_precedence"
 "43",86,85,"void main() {
    int V1[5];
    V1[4] = 3;
@@ -916,7 +916,7 @@ void main() {
    char V2 = V1 % 256;
 
    printf(""%d\n"", V2);
-}","32","Non-confusing","Type Conversion","big_literal"
+}","32","Non-confusing","Type Conversion","8_bit_byte"
 "61",122,121,"void main() {
    int V1 = 0;
    int V2 = 2;
