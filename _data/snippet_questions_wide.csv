@@ -391,7 +391,7 @@ void main(){
    } else {
       printf(""false\n"");
    }
-}","true","Non-confusing","Arithmetic as Logic",""
+}","true","Non-confusing","Arithmetic as Logic","arithmetic_parens"
 "29",58,57,"void main() {
    int V1 = 2;
 

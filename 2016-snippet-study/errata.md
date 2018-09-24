@@ -35,6 +35,12 @@ necessary statistical significance to be considered an atom at this phase.
 <a name="nested"></a>
 * [Questions 51/52](questions#q51) (Conditional Operator) contained two, nested, instances of the conditional operator instead of just 1. The results of this question were left in the dataset during analysis, however if we were to re-design this experiment, the question would be simplified to only have one occurence of the atom. While this design flaw may have artificially inflated the effect size we report, we do not believe that removing the redundancy would cause the *Conditional Operator* atom not to reject the null hypothesis.
 
+<a name="arithmetic_parens"></a>
+* Non-minimality: The obfuscated snippets in [Questions 55-58](questions#q55)
+  (Arithmetic as Logic) each had their predicates parenthesized for unambiguous
+  precedence of infix operators. The transformed questions omitted these
+  parentheses which may have introduced inappropriate confusion.
+
 <a name="preprocessor_simplification"></a>
 * Non-equivalence: Part of creating atom removal transformations is making sure
   that question pairs are identical except for the transformation being
