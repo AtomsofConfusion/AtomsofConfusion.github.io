@@ -53,6 +53,10 @@ Note: a fully coded and normalized version is available below.
 Subjects completed a [demographic survey](survey.pdf)
 after finishing all the questions. 
 
+We have chosen not to release the data gathered this survey due to concerns
+about subject anonymity.
+
+
 ---
 
 #### Data normalization
