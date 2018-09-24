@@ -54,7 +54,8 @@ Subjects completed a [demographic survey](survey.pdf)
 after finishing all the questions. 
 
 We have chosen not to release the data gathered this survey due to concerns
-about subject anonymity.
+about subject anonymity. If you would like to receive sanitized subsets of the
+data please contact us to discuss if this would be possible.
 
 
 ---
