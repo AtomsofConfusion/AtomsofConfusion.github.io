@@ -408,7 +408,7 @@ void main(){
    } else {
       printf(""false\n"");
    }
-}","false","Non-confusing","Arithmetic as Logic",""
+}","false","Non-confusing","Arithmetic as Logic","arithmetic_parens"
 "30",60,59,"void main() {
    int V1 = 5;
 
