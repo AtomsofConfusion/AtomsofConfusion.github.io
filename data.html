@@ -414,15 +414,14 @@ first update the variable then return the new value, instead of the old.</p>
 
 <div class='atom_description'>
 <a name='implicit-predicate'></a>
-<div class='atom_title'>Implicit Predicate</div>
-and predicates. Instead, the semantics change based on context. In the
-rvalue of a char assignment, i.e., char c = expr the expression
-(assuming it itself makes no variable assignments or updates) can
-result in up to 256 different states of the of the program. By contrast,
-the same expression in the context of a predicate, i.e., if (expr)
-can only result in a maximum of two different program states. Often in
-the context of a condition, the reader can become confused as to effect
-of a certain predicate value. We clarified these by explicitly adding
+<div class='atom_title'>Implicit Predicate</div> The semantics of an expression
+change based on the context in which its consumed. In the rvalue of a char
+assignment, i.e., char c = expr the expression (assuming it itself makes no
+variable assignments or updates) can result in up to 256 different states of the
+of the program. By contrast, the same expression in the context of a predicate,
+i.e., if (expr) can only result in a maximum of two different program
+states. Often in the context of a condition, the reader can become confused as
+to effect of a certain predicate value. We clarified these by explicitly adding
 logical operators to the predicates.</p>
 <span class='example'><span class='example_type'>Confusing:</span><span class='example_code'> if (4 % 2)</span></span>
 <span class='example'><span class='example_type'>Non-confusing:</span><span class='example_code'> if (4 % 2 != 0) </span></span>
