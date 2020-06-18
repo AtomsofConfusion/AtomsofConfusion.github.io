@@ -1,0 +1,322 @@
+Interviewer:        00:00          I just turned on the audio recording and if you could just say whether or not you're okay being recorded.
+
+Subject:            00:05          Yes. Okay.
+
+Interviewer:        00:06          Okay, cool. Um, so then what I'll do is I'll give you a sample snippet like you just saw and if the first thing you could do is just write down the time, which is great and if you could just state your thoughts aloud as you go.
+
+Subject:            00:30          So I need to speak off.
+
+Interviewer:        00:31          Yeah. Just your thoughts as you read the code.
+
+Subject:            00:39          [Snippet 1] Okay. 10 mod 3 the result is 1. So this if statement is always be true. So we V1 equals 4, so it was a printout the result is 4.
+
+Interviewer:        00:51          Okay, great. And so if you could write that in this area over here
+
+Subject:            00:55          is the answer.
+
+Interviewer:        00:57          Yeah, just write the answer over there.
+
+Subject:            00:58          Yeah.
+
+Interviewer:        00:58          And then um, we can write the time that you finished.
+
+Subject:            01:01          Okay.
+
+Interviewer:        01:04          And then how confident are you that your answer is correct? Great. And could you tell me why you had this level of confidence? Why?
+
+Subject:            01:14          Because these XXX? That this if statement to always be true. So we definitely 4. There's no reason that V1 should-can be changed. So the results is 4.
+
+Interviewer:        01:27          Okay, excellent. Thank you. Okay. So we'll just do this seven more times.
+
+Subject:            01:32          Yeah. Okay
+
+Interviewer:        01:35          [Snippet 19] Cool, so if you could write down the time
+
+Subject:            01:37          I know the routine.
+
+Subject:            01:42          So we V1 equals to 2. And here plus plus V1, So V1 is three. And 3 minus 2 is 1. So, so right now V2 equals 1 and it's. Oh.
+
+Subject:            02:07          I think plus plus V1 is equivalent with V1 equals V1 plus 1 so we might say. So the answer is 1.
+
+Interviewer:        02:30          Okay. So why, why did you say 4 out of 6.
+
+Subject:            02:33          Because I forgot like the exact mechanism of how this plus plus works. I'm think that it translated into some formula, like this one, but I'm not sure.
+
+Interviewer:        02:45          I see. Okay. Um, okay. So that's where the ambiguity is.
+
+Subject:            02:49          Yeah
+
+Interviewer:        02:50          Okay, great. Thank you.
+
+Interviewer:        02:58          So after we've gone through all of these, we can go back and we can talk about all these programs.
+
+Subject:            03:09          [Snippet 61] So we initial V1, V2. Ok, oops, So if the initial but not assign initial variable, but not assign value in this case V2 should have a default value. I cannot recall the exact XXX, but it's definitely not one. So this thing [V2 = 1, misinterpreted as equality] is false and the, if it is false, so it's zero here. Oh, that is kind of a trick. Okay. I will say, I don't know, maybe V1 0, but V2 is minus 1. [Quiet laughter]
+
+Interviewer:        04:23          Sure. Yeah. Um, so, uh, you stopped and you thought a little bit what, what were you thinking? How did you come to this conclusion about what these uh, results were.
+
+Subject:            04:34          yeah. So this thing is like the here, we only initialize the V2 but we don't assign a value. So I think that in C++ or C, there is a mechanism that initial value has a default value. but I cannot recall the exact value here. So I stuck here for a moment.
+
+Interviewer:        04:58          Okay. Um, did you decide... Working forwards, did you pick a value?
+
+Subject:            05:05          Yeah, I, from my experiences, I either minus one or to the smallest number from the system. Sure, sure. So that she wasn't.
+
+Interviewer:        05:15          Okay. Cool. And so then what did you do going forward?
+
+Subject:            05:19          So if it is minus 1, so this expression is false and in C the false represents 0.
+
+Interviewer:        05:26          Yeah. Okay. Okay, great.
+
+Interviewer:        05:30          Um, okay. And so the unsure.
+
+Subject:            05:36          Yeah, I'm definitely unsure about this one I think.
+
+Interviewer:        05:38          And is that because of the default value?
+
+Subject:            05:41          Yes, the default value.
+
+Interviewer:        05:42          Okay, great. Thank you.
+
+Interviewer:        05:49          Okay. And the time 4:36.
+
+Subject:            05:57          [Snippet 99] Okay. So that one's easy so this one 0 so we don't need to consider about that one. So the result, is 1. Yeah.
+
+Interviewer:        06:14          Okay. And can you explain why six? Your confidence?
+
+Subject:            06:17          Ah yes, because we've got the initial value here first. And this statement will not be considered, because they are always be false. So XXXX.
+
+Interviewer:        06:31          Okay, great. Thank you. And the time.
+
+Interviewer:        07:06          [Snippet 14] Okay, great. Um, and can you explain why you were six confident?
+
+Subject:            07:10          Okay. So the first line, straightforward enough. And so this is like a self-increasement expression, so definitely this will plus 1.
+
+Interviewer:        07:22          Okay, great. Thank you.
+
+Interviewer:        07:43          [Snippet 100] Okay. And why, why are you that confident?
+
+Subject:            07:47          Really? So there is only one like real expression here that we assigned V1 value for one, so we print it out. So it's one.
+
+Interviewer:        07:58          Yeah. Alright, thank you. Okay, two more.
+
+Subject:            08:03          Okay.
+
+Interviewer:        08:27          [Snippet 105] Okay. So why that confidence?
+
+Subject:            08:28          Uh, because uh, I forget like in C. How do we decide base like base of 2 or base of 10 or based of 8. Yeah, so it because, this one seems like a base of 8 creation, like some kind of base of 8 or base of 16 things, but it's hard to tell.
+
+Interviewer:        08:53          [Snippet 79] Yeah. Yeah. Okay, cool. Thank you. Okay. And this last one,
+
+Subject:            08:59          This is the last one?
+
+Interviewer:        09:00          Yeah. And then we'll go back and talk about them.
+
+Subject:            09:08          Hmm.
+
+Interviewer:        09:49          Okay, great. And why that confidence on?
+
+Subject:            09:51          So I'm worried about one thing that this kind of plus plus variable things versus the variable plus plus just their differences and like think of why is the self-increasement first and do the expressions and another end XXX that we picked was evaluated expression first and do the self-increasement
+
+Interviewer:        10:17          Right, so it's the difference between plus plus x plus. Yeah, I see. Okay, great. Thank you. Okay. So that was all the question are all the technical questions, so if we could just have you fill out a survey about yourself. And then we can come back and talk about the code.
+
+Interviewer:        10:20         Okay. So that was all the question are all the technical questions, so if we could just have you fill out a survey about yourself. And then we can come back and talk about the code.
+
+Interviewer:        15:04          Okay, cool. Thank you. Um, now if I can switch pens with you. Just so you can feel free to write on these things. And you can tell which was first or second. Okay. Um, so I just want to go through each of these.
+
+Interviewer:        15:18          [Snippet 1] And the first thing I want to ask is do you have any questions
+
+Subject:            15:23          About this code?
+
+Interviewer:        15:24          Yeah. About, about this code. About your answer.
+
+Subject:            15:27          Uh, no?
+
+Interviewer:        15:27          Okay. Do I have any questions? Um, so you identified that 10 mod 3 equals 1. That's true. So V1. Yeah, I don't have any questions about this. Pretty straightforward. You got this one right. Okay.
+
+Interviewer:        15:45          [Snippet1 19] Do you have any questions about this one?
+
+Subject:            15:49          Oh yeah. It's basically about this, what is exactly the order that this equation works
+
+Interviewer:        15:58          Actually, um, so, which, which part is ambiguous?
+
+Subject:            16:04          Like this part I know that the operators has some kind of rank when you doing the calculations, but I cannot recall them correctly.
+
+Interviewer:        16:17          I see. So, um, the operators there, there are three operators here. There's the equal sign, the plus plus, and a minus. Which one did, how did you assume that they worked? And we can talk about it from there.
+
+Subject:            16:33          From my experience and I think this one worked first. Okay, then we do the minus and we assigned the value.
+
+Interviewer:        16:41          Okay. Right. So it was um, the increment and then the subtraction and then the assignments. Um, so that's actually completely correct. That's the order in which it works. Um, and uh, the answer you got is totally right. So, um, is, is there more ambiguity beyond that in.
+
+Subject:            17:03          No.
+
+Interviewer:        17:05          Okay. Um, yeah, so you got this one completely right.
+
+Interviewer:        17:14          [Snippet 61] So this one you put a little bit lower of a confidence. So do you have questions about, um, about this one?
+
+Subject:            17:21          I'm uh just. Really not sure how the V1, the value of V1, can you just explain this statement
+
+Interviewer:        17:30          sure. Okay. So, um, yeah, you mentioned, um, this gets default value and you're not sure what it gets
+
+Interviewer:        17:42          more. I think more significant than that. Um, this, this little expression in here, V2 = V1 [sic, should have been (V2 = 1)]. I think..
+
+Subject:            17:54          Oh!
+
+Interviewer:        17:58          Yeah, I think
+
+Subject:            17:59          Oh I just. Okay. I saw this equal mark, but as assign mark.
+
+Interviewer:        18:05          Exactly.
+
+Interviewer:        18:06          Okay. Yeah, yeah, yeah. So, um, if you were going to go do this again a second time, um knowing that, what would change.
+
+Subject:            18:17          Okay. So would be maybe straightforward? I think so, V2 is 1 definitely and V1 is. So we have parenthesis here. Oh, okay.
+
+Interviewer:        18:37          So what do you, what are you thinking?
+
+Subject:            18:46          This parenthesis messed me up.
+
+Interviewer:        18:49          Do you have thoughts about what's going on or.
+
+Subject:            19:00          I don't know. So from my intuition. I think this is a like expression, so it should have a value. Yeah, and this operation, just like return like nothing. So only the remaining value is 2. So if I would guess I would guess V1 is 2.
+
+Interviewer:        19:22          I see. Okay. Right. Oh V1 is the one on the left. That makes sense. Okay.
+
+Interviewer:        19:38          Okay. So I think the first interesting thing, um, this isn't super relevant to the answer, but V2 equals 1. It actually does have a value in some languages it doesn't. But in C, um, oh yeah, the value is actually the thing of the assignment. So the value would be one that turns out not to be relevant to the question. And you're actually right that um, V1 does get the value of the second thing. So you're actually right, V1 does get 2 and V2 does get 1. Um, so once you realize that this thing is assignment and not equality, you actually got it completely right. But I, to me the, um, the interesting thing here is that the comma operator, um, it's not super common and C most of the time you see commas, it's like in function calls, you know, like these commas here.
+
+Interviewer:        20:32          But if it's not in a function call with that comma is, it's actually sort of like the semi colon where it allows you to have an expression or a statement and then another one following it. It's like you can order things. Oh, but the difference is the thing that makes the comma special is that, um, the value of that expression. So the value of the whole thing in parentheses, there is always the value of the last thing. So you could have expression, expression, expression with commas in between them. And the value of the whole thing is that the value of the expression.
+
+Subject:            21:03          So this is so tricky.
+
+Interviewer:        21:05          It is. But you, you got it, right. I'm V1 equals the last thing which is 2, which is what you said after you realized that this wasn't
+
+Subject:            21:15          really tricky.
+
+Interviewer:        21:16          Yeah. This one, this one's weird. You don't see code like this a lot.
+
+Subject:            21:20          It's a typical Magic C code style that.
+
+Interviewer:        21:26          Yeah. Typical magic C, I agree. Um, okay. So do you have any other questions about this?
+
+Interviewer:        21:33          Okay. It's a, yeah.
+
+Interviewer:        21:35          [Snippet 99] Okay, cool. We can go to the next one. Okay. Okay. Um, do you have questions about this piece of code?
+
+Subject:            21:48          No, it's straightforward.
+
+Interviewer:        21:50          Yeah. I think you explained it pretty well. All right. Yeah. I don't have questions about this one either.
+
+Interviewer:        22:01          [Snippet 14] Okay. Um, do you have questions about this one?
+
+Subject:            22:11          I think no.
+
+Interviewer:        22:12          Okay. Um, you'd mentioned maybe a little bit of ambiguity around this plus plus. Can you restate that? Like what, what was, what was the ambiguity?
+
+Subject:            22:33          For V1 I think right now it's clear to me.
+
+Interviewer:        22:40          Well, I think at the time, um, you were expressing the difference between a plus plus equals and equals plus plus [sic]. So now it's clear to you. So, uh, what, what in your head is the difference between plus plus equals and equals, plus, plus
+
+Interviewer:        24:08          [Snippet 100] Um, yeah, you put down a confidence of six on this one. Um, do you have any questions about how this works?
+
+Subject:            24:14          No [Laughter]
+
+Interviewer:        24:14          Yeah, this one, this one's pretty straightforward.
+
+Interviewer:        24:17          [Snippet 105] Okay. Um, next one you put slightly lower confidence. Five out of six. Um, so do you have any questions about this one?
+
+Subject:            24:28          Yeah, like I just kind of confused like why there can save, can have different base of numbers and for int object I think its for string object, we have like different number base, but
+
+Interviewer:        24:45          for string objects
+
+Subject:            24:46          Yes, but for int, I know python has something like it, but in C, I'm not sure.
+
+Interviewer:        24:54          In what?
+
+Subject:            24:56          Python
+
+Interviewer:        24:57          Oh, python does have the different bases?
+
+Subject:            25:00          Yes.
+
+Interviewer:        25:00          Oh, okay. I'm not as familiar with Python, before we talk about this though, um, you mentioned string basses, but I don't think I'm familiar with those. Can you?
+
+Subject:            25:14          Oh, it's not string based its like this. If we represent a number using string so we can transfer it from one base to another like 10 base 2 to base.
+
+Interviewer:        25:26          Okay. Um, can you draw me a little example of what you mean? I'm not a but I like I don't, I don't want to put pressure on you.
+
+Subject:            25:36          So it's hard to just write a C code from scratch.
+
+Interviewer:        25:43          Well if you don't want to write it, that's fine. I just, I'm not familiar with this thing is all. So then
+
+Subject:            25:50          XXX expression, so I mean it's like if we have strings that has 8. You can transfer it into a, like a binary expression. That is 111
+
+Interviewer:        26:02          Oh, I see the, the binary value. Okay. Um, okay. Yeah, that makes sense to me. Um, and so why, why did this make you think of that?
+
+Subject:            26:20          Because like in Python if you want, if I want to represent an int value is let's say 16 base, which I just get x and 0x and the value. So the compiler, will think that this value will be a 16 based similarly if we add a B in front of the survivor the the int value compiler will think it has a binary value. So right in front of there is a 0 so...
+
+Interviewer:        26:51          Oh I see. Okay. So the 0 makes you think of that. Do you know if in Python the 0 in front, does mean anything?
+
+Subject:            26:59          It means nothing.
+
+Interviewer:        27:00          Okay. Um, well, it, it turns out that your intuition was right because in C the leading 0 does mean base 8. Just like you, just like you mentioned, you said that while you were answering the question, um,
+
+Subject:            27:15          because I was seen some kind of patterns in some code snippets, but I'm not sure.
+
+Interviewer:        27:21          Yeah, no your intuition was absolutely right. Um, I, I'd be curious to see in python as well. I don't, I don't know offhand, but I should double check it might be the same thing. Um, but, so, uh, knowing that this is in base eight, do you know what the answer would be then?
+
+Subject:            27:40          Okay, so it's a base 8. And I think per this means that the output for the be a digit, so it's 1 plus 8. It's 9
+
+Interviewer:        27:57          1 plus 8 why 1 plus 8?
+
+Subject:            27:59          Ah, so it's a transfer from like 8 based to 10 based. I hope I'm doing it right. So. Okay, so 1 3. Oh, it's not 1, it's 3 plus 1 plus 8,
+
+Interviewer:        28:16          Why 3 plus 8?
+
+Subject:            28:18          because it's 3 times 8 to the power of 0 plus 1 times 8, to the power of 1
+
+Interviewer:        28:29          3 because the last digit and 1 because the first digit. Okay. Um, and so, you know.
+
+Subject:            28:36          It's 11
+
+Interviewer:        28:36          Okay. Um, so the output would be
+
+Subject:            28:40          11
+
+Interviewer:        28:40          Okay, cool. Yeah. Um, this, the second one is exactly how it works. So yeah, that, that's, that's what the output of this one should have been 11 for exactly the reasons that you explained. Um, do you have any other questions about this one?
+
+Subject:            28:55          No.
+
+Interviewer:        28:58          [Snippet 79] Cool. And then I think this is the last one. Um, and again, the confidence was five out of six. So do you have any questions about this piece of code?
+
+Subject:            29:10          So, right now I'm definitely clear about the whole code because I'm only confused about what is first, so right now I think I'm clear.
+
+Interviewer:        29:19          So the reason it was five, not six was because of this [points to if-statement condition].
+
+Interviewer:        29:23          Yes.
+
+Interviewer:        29:23          Which part was
+
+Subject             29:25          There's so many self-increasement here and I'm not sure because in previous code that I'm always kind of like confused about them because I haven't touched C for a long time.
+
+Interviewer:        29:41          Okay. Um, so it was, it was about the plus pluses. Yeah. Yeah. Okay, cool. Um, so after we've talked about how the plus pluses work, um, can you walk me through how this, how
+
+Subject:            29:56          statement? Yeah. So first V1 is 1 and 3 V2 is 3 and both of them the self-increasement will make them 2 and 4. So in the parenthesis is 2 or 4. It's definitely true. So it go further. So V1 equals V1 times 2 times 2 is 2 times 2 is 4. Similar is V2. So it's 12, so we got the answer.
+
+Interviewer:        30:33          Okay, cool. That makes a lot of sense. You had said in here that both sides of this [if condition] equal true, right? Yep. Um, and since this is an or statement, um, do you know, um, you know about short circuiting at all?
+
+Subject:            30:56          Oh yeah, I know.
+
+Interviewer:        31:00          Um, so in your own words,
+
+Interviewer:        31:03          What is this?
+
+Subject               31:10           If there is like two, kind of like logic, operate, operator, this is or and this is or. Uh, so if we are doing, [aside] just give me a minute to tell the difference and it's a long time. Okay. So if, if we are using this one to evaluate an expression, if A is true, then we don't need to calculate B. Yeah. But for this one we need to calculate both A and B.
+
+Interviewer:        31:47          Okay. Sure. So in this case, um, does that have any effect? [Pointing to ++V2]
+
+Subject:            31:55          [Laughter] Yeah, I see that. So V1 is 2 and a. So since V1 is true we don't need to evaluate the, the half part of them, so the V1 is 4, but V2 the default value is 3. So it's 3 times 3 is 9.
+
+Interviewer:        32:18          Yeah, exactly. Um, so I think that's sort of an extra subtlety about the pre-increment is that it does happen first, but it doesn't happen before the entire expression [pointing to entire predicate in if-condition]. Sure. It only happens before this tiny little expression [pointing to ++V2] and if that one never happens. Neither does the increment. Um, so you're totally right. It, uh, it shouldn't be a 9 here instead of the 12. Okay. But otherwise, um, it's right. So do any more questions about this
+
+Subject:            32:51          is cool. It's cool.
+
+Interviewer:        32:53          Okay. Um, so that, that was all the questions I had for you. Um, I can actually go ahead and turn off the thing now.
+

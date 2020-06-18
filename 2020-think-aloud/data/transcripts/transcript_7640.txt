@@ -1,0 +1,330 @@
+Interviewer:        00:00          And would you mind saying whether or not you're okay with the audio recording?
+
+Subject:            00:02          I am okay with the audio recording.
+
+Interviewer:        00:04          All right, thank you. Okay, cool. So, um, I'll give you the first code snippet and, um, the first thing I'll ask you to do on all of these, it's just right down the start time.
+
+Subject:            00:14          Sure.
+
+Interviewer:        00:14          It's right there. [inaudible]. And then if you could just speak aloud any thoughts you have while you're evaluating the code?
+
+Subject:            00:22          Sure.
+
+Subject:            00:24          Uh, okay.
+
+Subject:            00:28          [Snippet 19] Uh, main is void. That's a little bit strange to me, but I think that's allowed anyway. Uh, int V1 is two, V2 is preincrementing V1 minus two. Um, and then I print both of them. Okay. So can I write on this
+
+Interviewer:        00:50          Yeah, right anywhere.
+
+Subject:            00:51          Um, so right here, uh, V1 has been incremented, so V1 should be three.
+
+Subject:            01:02          Um, but it's also true, I mean after that's evaluated, so three minus two is one, so v two should be one. So I believe it's going to print uh, this is where I
+
+Interviewer:        01:15          Uh, yeah, the output can go right there.
+
+Subject:            01:16          Um, so three one, and should I denote some how that there's a new line that like
+
+Interviewer:        01:25          It's up to you. It's not really relevant.
+
+Subject:            01:28          Okay. Uh...
+
+Interviewer:        01:28          Okay. And then if you can write the time right now, it's 10:35 and then also your confidence about your answer.
+
+Subject:            01:41          Uh, I feel like I'm never positive when doing anything in C or c plus plus, but I'm about as close as can be.
+
+Interviewer:        01:50          Sure. Do you work with C or C plus plus?
+
+Subject:            01:52          Yeah, yeah, yeah, this is my primary. Yup.
+
+Interviewer:        01:54          Oh, okay. I don't know if that's a good thing or a bad thing.
+
+Subject:            01:57          I, yeah. Um, oh, that, that I'm not ever 100% sure.
+
+Interviewer:        02:03          Yeah. It could go either way.
+
+Subject:            02:04          Yeah. Uh, I think I've been bitten enough times like, you know, random things you, you look at like, ah, but, um,
+
+Interviewer:        02:11          For sure. Um, but okay, so, so one question that I'll ask you after you answer each of these questions is, um, why did you select that confidence level? Why did you choose six out of six?
+
+Subject:            02:22          Uh, So I also do like readability reviews here. So I, I sort of, have been trained in some sense to look for particular things, um, that, that are like wrong or whatever. And, uh, I, I didn't have any of those red flags go off. Um, I, I don't know. I, I don't totally know exactly what you're aiming to do here. Uh, so I don't know how tricky you're intending to be, but, um, I didn't see anything that was like, like super tricky. I felt like, you know, the, the trick here where it's like the increment or something. So, uh, yeah, I felt like I caught everything in some sense. Um,
+
+Interviewer:        03:05          Sure, well can you say a little bit more about the trick here?
+
+Subject:            03:08          Yeah, I mean like, uh, things that I expect to be like, difficult to, to reason about, right? Um, so, uh, or maybe like the right way to phrase it is things that like small syntactic changes would actually cause, like large behavioral changes. Sure. Um, and so, so one here would be like, is this a pre or post increment? Um, and yeah, that, uh, I don't know. There, there doesn't seem to be, uh, too much here other than that. So, um,
+
+Interviewer:        03:43          Is that one in particular, the difference between pre and post increments, something that you've seen in the past?
+
+Subject:            03:48          Uh, it doesn't, so, yeah. Yes. Uh, not like at work per se, like, but, um,
+
+Subject:            03:59          I've,
+
+Subject:            04:00          yeah, I mean that's something that I think, uh, you see us like ha ha, gotcha. You know, um, but people tend to avoid it at work because specifically because it is a, like one of those [inaudible]
+
+Interviewer:        04:11          Oh, I see, but then when you say people avoid it, is that like a style guide type avoidance or sort of like an implicit?
+
+Subject:            04:21          Um, you know, I haven't seen it explicitly in our style guide, but, uh, certainly if I saw like if I saw this, uh, or, or even the post-increment, either one, um, in code I would say like, actually can you move that off to its own line? So then it's like, I know that that's changing first or, or after, like whichever one you actually want. Right. Um, so I don't know if thats like explicitly a style guide thing, but, uh, I would certainly like request it in a review and I think people would, um, like would do that. Yeah
+
+Interviewer:        04:55          Sure. Cool. All right. That was excellent. Thank you.
+
+Subject:            04:58          Great.
+
+Interviewer:        04:58          Alright, the time, 10:38.
+
+Subject:            05:09          [Snippet 105] Okay. Uh, void main, int V is zero, one, three prints. Uh, okay. Uh, so the zero here means that this is actually an octal number, right, so this is really like eight plus three, so 11. Uh, so I believe this is going to print just 11. Um, yeah, I'll call that done. And I'm also pretty positive about that. 10.
+
+Interviewer:        05:50          Okay. So can you explain why you're six confident about this one?
+
+Subject:            05:55          Uh, there's very little code here. Um, so I think the only thing that, uh, I don't know how to say it other than like the, yeah, the only thing that's here is, uh, like there's a number and I'm printing it and like, do I know what that number means? And um, you know, I happen to know that that number starting with zero are octal and not uh decimal.
+
+Interviewer:        06:28          Okay. That's great. Thank you.
+
+Subject:            06:44          [Snippet 91] Okay. Uh, V1 is a character and I'm initializing it with, uh, the obnoxiously weird backwards like two bracket,
+
+Speaker 2:          06:55          my uh, char ['care'] star and then I'm printing uh that character.
+
+Subject:            07:05          Okay. So this is equivalent to the like more standard right like qwert of 2, just a weird way of writing it. And then, so I'm looking for the zer... The second character, but zero index so that should be, zero, one, two, should be the E. Uh,
+
+Subject:            07:28          I think that'll just print E, um, I am actually quite terrible with like the print f specifiers, but I'm pretty sure that that's not intended to be a trick, that there's just a, um, c is actually like a character instead of, I don't know what else it would be. Um,
+
+Subject:            07:54          yeah, I'm going to call it done. Uh, I feel like I should be less sure of these things. Um,
+
+Subject:            08:11          I guess like, the other thing is like, I don't know how I would like,
+
+Subject:            08:15          like does 6 mean I would stake my life on it. Right? [laughter] Like, like how sure do I have to be, to have a six.
+
+Interviewer:        08:20          Ah, I see. Um
+
+Subject:            08:22          I don't know if you can answer that, but
+
+Interviewer:        08:24          I mean it's up to you. Yeah. That's um, but you know, the term positive, like if you were to use that in a conversation, I think that's a guide. Like, Oh, I'm positive about this. I don't think anybody would pull out a gun and shoot you.
+
+Subject:            08:40          Yeah, yeah, yeah. Um, cause I like I, yeah, I would never stake my life on any of these things [laughter], but I am, I am pretty positive, so
+
+Interviewer:        08:47          Yeah. Okay. So why, why are you six positive about this?
+
+Subject:            08:53          Uh, I think, um, maybe I was not the right subject for this thing. So like, this is, uh, another one of these like, gotcha patterns, uh, that, um, and in particular I've, uh, I've seen before, right. So I know that this is a, like a weird, backwards way of doing these things.
+
+Subject:            09:18          So again, I, I feel like for all of these, the answer is like, I'm, I'm pretty confident I've like found all the tricks. Right. Uh, yeah.
+
+Interviewer:        09:28          Well, can I also ask you, you said you've seen this before.
+
+Subject:            09:31          Yeah
+
+Interviewer:        09:31          Do you remember what context that was in?
+
+Subject:            09:34          In a, like, here's a list of like weird, esoteric things you can do in c plus plus. Um, certainly not like that would never pass code review, right, [laughter] but, uh, yeah, in like in the context of, um, like did you know that you can do this sort of thing too?
+
+Interviewer:        09:50          Gotcha. Um, that you were just looking at it for fun or whatever?
+
+Subject:            09:53          Yeah.
+
+Interviewer:        09:53          Yeah. All right, cool. Thank you.
+
+Interviewer:        10:02          Time is 10:43.
+
+Subject:            10:08          [Snippet 13] V1 is 2, uh, V2 is three plus V1 incremented and I'm printing them. Okay. Um,
+
+Subject:            10:27          Great, so, uh, at the end here. Alright, so this is going to evaluate to 2, um, but down here, V1 is going to be three, uh cause that's what the post increment does. Which means that this whole thing is five. So that's five for V2, V1 is three, so it's three and five.
+
+Subject:            10:52          Uh,
+
+Subject:            10:59          still feeling pretty confident [chuckles].
+
+Interviewer:        11:00          Okay. So, um, why, why are you six confident about this one?
+
+Subject:             11:05         Uh, so this is, I mean, it's the same thing as the first sample almost. Um, and yeah, I mean the only difference is that like there's this like it's post-increment instead of pre, right, but I uh, yeah, I guess I don't have a different answer from the why I was confident about the first one. Um
+
+Interviewer:        11:32          Sure. Okay, great. Thank you.
+
+Interviewer:        11:48          10:45.
+
+Subject:            11:59          [Snippet 55] Okay. Uh. V1 is Zero, V2 is eight, so conditional stuff and then, okay, so just going to print two or four. Uh, and now we just have to work through the math. Um, okay. So V2 is eight. This is going to be five times, uh, minus one, minus one is less than or equal to zero. That's true. So it should be four, uh,
+
+Subject:            12:44          I'm gonna go with four and
+
+Subject:            12:54          just cause I can like totally fuck up the math.
+
+Interviewer:        12:57          Okay. Um, so I guess you kind of explained it there, but why confidence 5?
+
+Subject:            13:01          Uh, just cause, I mean I, I'm pretty sure I got the math right, but like, uh,,
+
+Subject:            13:09          those things can, I don't know. I make mistakes on that a lot.
+
+Interviewer:        13:12          Sure. But, but that was where the
+
+Subject:            13:13          Yeah, yeah, I'm not worried like the rest of the logic felt, uh, like yes, I understand that this is going to print one of these two things and um, yeah.
+
+Interviewer:        13:22          Okay, cool. Thank you. 10:47
+
+Subject:            13:35          [Snippet 56] Uh, V1 is Zero, V2 is six. If one of those two things is true. Okay, cool. Uh, V2 is six, uh, which is greater than or equal to one. In fact, both of those conditions are true. So, two
+
+Subject:            14:06          Um,
+
+Interviewer:        14:13          Okay, great. And so why are you six confident about this?
+
+Subject:            14:14          Uh, so it's very similar to the last one when we did, but uh, there's less math I just have to like is this and I'm just just doing the comparisons. Um, and it's, yeah, it's much easier to to double check that those are correct.
+
+Interviewer:        14:30          Okay. Awesome. Thank you. Ok, so two more. Times 10:48.
+
+Subject:            14:45          [Snippet 50] Okay. Uh, V1 is Zero V2 is 4, V3 has been not initialized, but in either branch we are going to initialize it so you don't have to worry about that. Um, V1. So if V1 is 2, then I'm going to set it to three, but it's definitely not. So, uh, wondering why V2 is even here, but, okay. Uh, so V1 is not 2, so I go to the else branch, so V3 is five and then I'm printing V3 so that's going to be five.
+
+Interviewer:        15:31          Okay. And so why are you six confident about this one?
+
+Subject:            15:34          Uh, similar to the last one, um, the, the logic is even a little bit simpler. Uh, right. The conditional branches is pretty simple. Um, and looking at the strange thing here I think is that like V3 is uninitialized to start, but I like I happen to know the rules for what happens in these cases. And um, yeah, I think for most of these it's like, oh, like I, I think I know what's like intended here as like the trick, even I don't know if you're like, intending to be tricky, but, um, yeah. So,
+
+Interviewer:        16:10          Okay, great, thanks.
+
+New Speaker:        16:19          Time is 10:50.
+
+Subject:            16:23          [Snippet 71] Uh, okay. V1 is 1 and V2 is 2, um,
+
+Subject:            16:38          if V1, okay.
+
+Subject:            16:39          I... I'm not sure this would compile. Um,
+
+Subject:            17:03          Okay. So you want my thought process? So my thought, my thought process is, uh, the, right like the preprocessor kicks in first, so I don't actually care about any of the, like, you know, V1 or any of that. I just care about the defines, uh, and right here we have like, uh, a redefinition of both M1 and M2 to be different things. Um, and I'm not positive. I, I think that's not well defined. Um, and I think that should be a compiler error, but it could also be like overwrite to use the like the latter one. I don't even know if like compiler errors, is a possible option here. Uh, but in terms of like what I'm allowed to write down, uh, but if I, I think, I think I would go with like compiler error, or like this is not a well defined program. Uh, and if I had to pick something, otherwise I would, I don't know. Um, yeah, I think, I think this is just not a well-defined program. Uh, uh,
+
+Subject:            18:51          I don't know, maybe three or four.
+
+Interviewer:        18:55          Okay, great. Um, and yeah, you did a really good job vocalizing what you were thinking. So this is probably redundant, but why four confidence?
+
+Subject:            19:06          Uh, yeah, so the, um, so I certainly am like much less confident about what happens in the preprocessor then the rest of the language. Uh, and, uh,
+
+Subject:            19:24          I'm, I'm thinking like, I know you can like redefine macros, but I'm not sure exactly what the rules are for when you're allowed to in like what gets replaced if you do or like, um, so without having like, you know, very strong understanding of what happens there, it's hard to give any sort of real like,
+
+Interviewer:        19:40          Sure. Okay. So, um, if hypothetically this were to compile though, what do you think is the most likely thing that would happen?
+
+Subject:            19:50          So I think there are, like, I think either it's going to be one space, two or two space one. Um, and I think that either are reasonable in the sense that like, I think a reasonable behavior is you take the first definition you see and you ignore all future definitions. Um, I think another one is, uh, you overwrite whatever definitions you've seen. Right. And those would give opposite.
+
+Interviewer:        20:20          I see. So,
+
+Subject:            20:20          Uh, yeah, I, um, I had no idea. Okay. Uh, maybe, yeah, I guess my, my confidence in it not compiling is relatively high, but if you're, if you tell me like this compiles, what does it do? I'm like totally unsure.
+
+Interviewer:        20:41          Okay, cool.
+
+Subject:            20:42          Um, I don't know if you want me to mark that somehow on here, but,
+
+Interviewer:        20:45          Uh, I mean that's why we have the audio. No, but that's great. Okay, cool. Yeah, thanks. And so I'll have you write down some stuff about your experience and then if we could just go back and sort of talk about
+
+Subject:            20:57          Love to
+
+Interviewer:        20:57          Any questions or whatever. Um, so feel free to skip anything you want. Be as vague as you want about any of the answers. And approximations are fine for anything that will be difficult to know for real.
+
+Subject:            23:03          So when you say like, uh, the largest like c plus plus program, uh, what, what does that, I mean I work at [company] so that's a very big code base. But like that doesn't, I assume that doesn't count as like one thing, but I'm not sure how, uh,
+
+Interviewer:        23:24          Yeah, that's a great question. Um, much like the confidence level things, I think it has to be your own interpretation.
+
+Subject:            23:33          Yeah, yeah, yeah, ok. um
+
+Interviewer:        23:36          But I'm sorry.
+
+Subject:            23:39          Yeah, no, Uh, no, just trying to give you like good data here. Um
+
+Interviewer:        23:47          For sure, yeah. Yeah, I think that's, we try to normalize by using a bunch of different questions.
+
+Subject:            23:55          Yeah, yeah, yeah. Um, okay. Well I'll.
+
+Interviewer:        25:35          Oh God. Uh, has it been that long ago?
+
+Subject:            27:02          Um, yeah, I think that's it.
+
+Interviewer:        27:08          Ok, great. Thank you. Alright. So I will put this here in case you get the urge to write again, write in red. Um, and so we'll just flip through all the previous questions and see if you have any questions or if I have any questions about what you said.
+
+Interviewer:        27:26          [Snippet 19] Um, this first one, do you have any questions?
+
+Subject:            27:31          I don't think so.
+
+Interviewer:        27:32          Yeah, me neither.
+
+Interviewer:        27:35          [Snippet 105] Do you have any questions about this one?
+
+Subject:            27:36          Nope.
+
+Interviewer:        27:36          Yeah, I, a lot of times participants don't vocalize as well as you did. So I have things to ask, but I think for a lot of these, um, you sort of said everything
+
+Interviewer:        27:47          [Snippet 91] Any questions about this one?
+
+Subject:            27:49          Nope
+
+Interviewer:        27:50          [Snippet 13] Okay. Questions about this one.
+
+Subject:            27:53          Nope.
+
+Subject:            27:53          [Snippet 55] Uh, nope. I think I'm good.
+
+Interviewer:        28:03          Yeah, I'm good. With all of these as well.
+
+Subject:            28:07          Cool.
+
+Subject:            28:10          [Snippet 56] Yeah, I'm happy. Okay.
+
+Subject:            28:15          [Snippet 50] Uh, yeah, I think I'm good. Yep. Okay.
+
+Interviewer:        28:18         [Snippet 71] And then this one?
+
+Subject:            28:21          Yeah. I want to know what the answer is.
+
+Interviewer:        28:22          Okay, great. Um, so I can't give you the answer immediately. Um, but I guess the only thing I want to do is tell you that it does compile.
+
+Subject:            28:33          Okay.
+
+Interviewer:        28:33          And it does have well-defined... well-defined behavior.
+
+Subject:            28:37          Okay.
+
+Interviewer:        28:37          Um, so now I do want to force you to sort of.
+
+Subject:            28:41          Okay. Now I have to answer it.
+
+Subject:            28:42          Oh man. Um,
+
+Interviewer:        28:57          So what's the thought process?
+
+Subject:            28:59          Yeah, so now, um,
+
+Subject:            29:12          uh, now the question is, like
+
+Subject:            29:24          Um, so all of the like v one, v two and the if statement like that's all irrelevant. Uh, right. Because that like after the pre-processor runs that is just an empty if statement with an empty, like empty, true and false branch. Um, so that all disappears. Uh, and the only thing that's relevant is, M1 one is defined to be one, then M2 is defined to be two, then they're both defined to be the opposite. And then we do the print. Um,
+
+Subject:            29:58          and the question is like, can I overwrite those, uh, macro definitions? Um, yeah. I mean, I, I think I said this earlier, but like the real question is like, do they, uh, overwrite or do you just take the first one?
+
+Subject:            30:25          Um, given that I'm like, I'm forced to choose here,
+
+Subject:            30:34          I feel like overwriting them is the less insane option.
+
+Subject:            30:41          Uh, but, I don't know. It's C. So maybe the more insane option is the right choice. Uh,
+
+Subject:            30:50          Yeah, I'm going to, I'm like, I'm definitely very unsure about this, but, um, I would venture to guess that like overwriting the definitions is, uh, what should happen. Um, which means that the printf would see uh, M1 as 2 cause that comes later and M2 as one. Um, so this would be, can I, I can write on this line?
+
+Interviewer:        31:22          Yeah, in red you can write whatever you want.
+
+Subject:            31:24          Okay. So yeah, sorry. M1 would be two and one cause like those are over written. Uh, so this should be two, one.
+
+Interviewer:        31:37          Um, and so what would be your confidence? Oh yeah, like unsure.
+
+Interviewer:        31:40          Okay. Cool. Um, so I guess one other question I have is, um, it sounded like you do see, um, uh, defines in code.
+
+Subject:            31:53          Yeah.
+
+Interviewer:        31:53          Um, have you ever seen anything akin to this?
+
+Subject:            31:58          I, uh, both internally and externally. I've never seen a define that overwrites a previously defined macro without first undefining it.
+
+Interviewer:        32:10          Ah, I see.
+
+Subject:            32:11          Um, so like this is a relatively common, not so much at [company] but like you see this in some open source stuff, uh, like X-Macros is a relatively common pattern where you like define the macro, you include your thing that uses the macro bunch and then you undefine it and you repeatedly undefined it. Um, and I was under the impression that the reason you have to undefine it just so that the next time you define it's safe to do, maybe that's only for like function macros. Uh, but, uh, yeah, that's like, like redefinitions of macros, that's the only like context where I feel like I've seen it.
+
+Interviewer:        32:51          Sure. Yeah. Okay, great. Yeah, I don't think I have any other questions. Um, it turns out that, uh, it does, uh, just overwrite.
+
+Subject:            33:03          Okay. Is that, uh, C, or also in c plus plus or?
+
+Interviewer:        33:10          So I limited this to C, but I feel like features like that C plus plus tries to keep them backwards compatible. We can Google and find out,
+
+Subject:            33:15          I believe you for sure.
+
+Interviewer:        33:18          Well in C, but I don't know about c plus plus, so we could go find out about that. Um, but, okay. So, um, we can sort of have a meta-discussion about this whole thing, but do you have any more on the record questions about this piece of code or about
+
+Subject:            33:27          I don't think so.
+
+Interviewer         33:30          Okay. Cool. So I'll go ahead and stop the recording.
+

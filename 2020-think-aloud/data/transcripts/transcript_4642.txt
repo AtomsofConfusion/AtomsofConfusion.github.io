@@ -1,0 +1,268 @@
+Interviewer:        00:01          I just started the audio recording. Would you mind saying again whether or not you're okay?
+
+Subject:            00:03          I'm okay with this audio recording.
+
+Interviewer:        00:06          Great. Thank you very much. Okay, so I'll give you the first program sample. Um, and the first thing I'll ask you to do for all of these is just write down the time. So if you could write 1:06, um, and then as you read the code, just say allowed any thoughts that you have.
+
+Subject:            00:25          [Snippet 79] All right. Uh, these are pretty straight forward. Um, I think my first thing in the if is that the order evaluation here, um, we know it's short circuited. So in the If we know that V1 is incremented plus plus V2 never executed, which can be deliberate or not. So if I would read this code like in code review, I would directly questioned the author, like it's this intentional or not because that is just a little subtlety, right? So we can say V1 at that point, it's now incremented to 2 to V-n equals V1 equals V1 times 2 so it becomes 4 and then V2 is three times to trees and nine so the output would be treat. Come on nine and end time is 1:07 right?
+
+Interviewer:        01:19          Yeah. And if I could have you write the output just on those lines.
+
+Subject:            01:22          Oh yeah, yeah, yeah.
+
+Interviewer:        01:24          Just anywhere.
+
+Subject:            01:24          Yeah. Yeah. Yeah. So that's uh, 4 comma 9.
+
+Interviewer:        01:28          Great. Okay. The last thing for all of your...
+
+Subject:            01:33          Oh, the code correctly, I would say a six, right? I'm always overconfident.
+
+Interviewer:        01:37          That's fine, but I will ask you, why did you choose that level of confidence? Why did you choose six out of,
+
+Subject:            01:44          because this code is fairly like you can still track it in your human mind so to speak. So tracking like the V1, V2. It's like very unlikely that I made a mistake here. And even that I would say even like if I'm normally make like little trivial mistakes, there following code. I say like, Oh, any mistake there would just be, because I'm being sloppy, but still as a human to feel very confident, like I can 100% track what this code does, it's not a complicat... Complex algorithm.
+
+Interviewer:        02:13          Sure. So, um, you might've gotten a little bit to it in the end, but you said this is something that you can track with the human mind.
+
+Subject:            02:19          Yes.
+
+Interviewer:        02:21          So what was the alternative to that?
+
+Subject:            02:23          The alternative to that would be so, so the moment it gets too complicated, let's say you have recursion and stuff like that. So then you only way to really track it is that you exhaust the [inaudible] right after each step by step. If it's finite and off, you'd get mentally just run the code, but then you need like secondary assistance. Like either you write it down in a document or you handwrite it down. But like if you have two variables and it's such a simple scope. Yeah, you can basically just track that by have, you know, but, and keep track of two variables, that's easy.
+
+Interviewer:        03:02          Okay. Awesome. Thank you. So I'll give you a second one, and the time is 1:09.
+
+Subject:            03:11          Yup.
+
+Subject:            03:17          [Snippet 115] Alrighty. Let me check this out. Float V1 is one point nine nine. Int V2 is V1. There's an implicit implicit conversion. And, um, well I don't feel super confident about that, but I think all implicit conversions are rounding conversions, so it's not the truncation. Um, so that will make V2 the value of 2, so let me go there. 1:10 and how confident, I am kind of like a five here. But you know what this is like language lawyerism like, is an integer always rounded with an implicit conversion [sucks teeth].
+
+Interviewer:        04:02          Okay. So...
+
+Subject:            04:03          This is one of the things like as an afterthought that if I would read this in a code review, I would look, I would almost go like, I know the language specifies x, Y or Z, right? Either it's like a ceil or floor or it's a rounded. I would almost ask the programmer, can you just use like either a round or a floor or a ceil function to explicitly state your intent?
+
+Interviewer:        04:27          Sure, exactly.
+
+Subject:            04:28          Because now it's a constant that I can officially see the moment it's an input or an output, it becomes kind of like fuzzy what you're actual intent is because I lose the, I, I lose the truncation of float floating point value to integer value. Yeah. So yeah, again, this is more like a readability kind of thing then, because now it's clear what your intention is versus, oh we accidentally got rounded up and you intended to do this.
+
+Interviewer:        04:56          Yeah. Okay. That makes plenty of sense. Is there anything else you'd like to say about why you chose the level five confidence?
+
+Subject:            05:02          Oh, because it is one of those things that I'm really bad at, these things that I never use in practice. So if you would say like, are you willing to bet $100,000 on the fact that implicit conversions from floating point to integer are always rounded? I would say like, I really think so. But it's something that without reading the language rules, just to be certain, like the previous sample, I can say, oh, if I bet $100,000 on it, I'd go like I can do that right now. And here it's like I would need to go into the language lawyer stuff for that.
+
+Subject:            05:38          Gotcha. Okay. Great...
+
+Interviewer:        05:39          So that's where I leave a little bit of, it might be imprecise, don't take my word for it, but read the language rules.
+
+Interviewer:        05:47          Sure, all right. Okay. So the time is one 12.
+
+Subject:            05:58          [Snippet 109] Void main, int V1 is 2. If zero, V1 plus plus. All righty, so somebody uses a constant expression and a V1 plus plus. So yeah, the first thing would be is that if I would be reviewing this code, I would say don't be silly. Why are you being silly? But that's just the readability kind of thing. So the other thing is, is that um, this is guaranteed to not have any side effects. So, um, anything inside an if the Then clause or whatever you call it, uh yeah, that first V1 plus plus, is totally dead code and more, obviously the compiler will totally eliminate that entirely from the whole program. So the only thing that happens is V1 equals 2, V1 plus plus so V1 is now 2, and that's about it. 13 and that's an easy 6.
+
+Interviewer:        06:58          So why confidence 6?
+
+Subject:            06:59          Because this is, this is almost self evident. There's, there's like, I mean it's very, I'm 100% confident that yes, this if null, will never have any side effects. Compilers will just elide it, and that's it. And then V1 is 2, plus plus, output. Oh, three, sloppy. Again. I said, yeah, that's it.
+
+Interviewer:        07:30          Okay. And so one last thing you said, if somebody wrote this, you'd say don't be silly. So which part is the silly part?
+
+Subject:            07:36          So the silly part is that if false condition, right? So you have a constant false condition. Um, if you read that directly in code, there must be some ulterior motive to do that because the, there's valid reasons where you might sometimes want to do this. Instead if you have like special macro evaluation now you want to have like conditional, i don't know, asserts or stuff like that. So if you go through pre-processor, then eventually the whole pre-processed code might have this. Otherwise, then this is like, if null, it might be really weird way maybe to get like unused variable suppression, which you could do maybe with just like parenthesis for like, you know, you would never use the variable, but you'd want to keep it in the code for reasons. There's a couple of weird maybe reasons why you would ever do that, but very rarely. So if you do that then, um, yeah, you're going to confuse anybody who reads the code. So, that's, that's my first question if I have a review like this and I would go, I say like, why the hell are you doing that [yelling, laughing]? So at minimum there should be a comment if there's any ulterior motive for it. And otherwise I say like, I don't know why you do this, you're weird.
+
+Interviewer:        08:59          Okay. That's perfect. Thank you.
+
+Interviewer:        09:09          Great time. Is 1:15,
+
+Subject:            09:14          1:15 .
+
+Subject:            09:20          [Snippet 100] Oh, well, well, well, well this is a very simple right not. I'll just put it down, It's 1:15 and I feel very comfortable about that. And uh, yeah, this is almost like textbook example of the simplest hello world application. So, yeah. Not much to add.
+
+Interviewer:        09:42          Yeah. Okay, great. Thank you.
+
+Interviewer:        09:53          [Snippet 73] Time is one 16.
+
+Subject:            09:53          Yup.
+
+Subject:            09:59          Uh duh duh, int V1 is 0, int V2 is 2. If V2 equals one is not an equal, so this is an assignment, most compilers nowadays will start warning for that. So, uh, yeah, again, in review. My first question would be, is this intentional? Because if it's intentional, you want to double brace it to do so. I uh, there's like a lot of potential bike shedding here if you were in a review. Um, so anyway this, uh, this, if will actually assign the value 1 to V2 and also conclude that it's true because it's not null, so yeah, the output will be V1 equals 3 and thats all the output there is, so that's it. So yeah, 1:17. So yeah, there is a whole lot of bike shedding potentially here about it. So that's more like what kind of coding style do you prefer? So the first bike shedding where a lot of people that will always disagree, is like should you do like, do the expression that does this, you know, the expression that does the assignment and evaluations separately or not. So we just simply say V2 equals 1 and now you say if V2 is equal to 1, which also means now you see this silliness kind of in it. But it might make sense if this is a function, right? V2 equals F. And so that's the first thing is that do you want to combine both the assignments and the evaluation of the resulting expression in one if statement? Might sometimes be more reasonable. Right. Um, so that, that's a bike shedding topic. A lot of people disagree on that. But the second thing is that if you do it like this, like most compilers will now, totally punish you. If you tried to do it, you would normally do both double, you know, parenthesis. Which gives you readability signal like, Oh, I'm explicitly having the inner expression, some assignment and then evaluate the result of that. So that's what normal compilers allow you to do. They will balk at you if you do this, but in double parentheses. Again in this case it becomes silly because it did. The whole thing can be elided, which the compiler will probably do to this.
+
+Interviewer:        12:22          Yeah. Okay. Well, so can I also, ask you what um, confidence you have about your answer?
+
+Subject:            12:26          Oh yeah, that's six.
+
+Interviewer:        12:29          And why a six?
+
+Subject:            12:31          Because it's also like very easy to explain what happens here. It's easy to reason about and explain, so yeah.
+
+Interviewer:        12:45          And the time is 1:19
+
+Subject:            12:54          [Snippet 99] Another if null, if null V1 is 3. Well, it's also simple da dun [like a an award noise] and uh, yeah. Not much to add here. Again, like in the previous example, the compiler will totally either ignore or elide, whatever happens here. And um just print out int V1 is one and print out one.
+
+Interviewer:        13:20          Yeah, great, thank you. Two more.
+
+Subject:            13:29          [Snippet 62] Time is 1:20. Alright int V1 comma V2, V1 is 2, V2 is 1. Wow. Yeah. You always think like there should be something suspicious going on here, right? Because like this seems also too simple cause you output this a two one, yeah no sneaky reversal of arguments anywhere. Yeah. Yeah. I think that's uh, that's a scored at 1:20.
+
+Interviewer:        14:04          And why are you confident about this?
+
+Subject:        14:09          Because again, this is very straight forward, right? It assigns one value to V1, it assigns a value to V2, they get simply passed into the printf. Again, this is a very simple level of of of logic. It almost makes you suspicious, like there's something subtle, right? You're trying to trick me. But yeah, and this is, uh like simple-y and hello world kind of a example.
+
+Interviewer:        14:37          Sure. Thank you, ok and then the last one.
+
+Subject:          14:45          [Snippet 37] Yup, 1:21
+
+Subject:            14:49          Int V1 is, oh yeah, that is a tricky, right? This is why macros are bad because this macro expands directly in place, which means there's no parentheses whatsoever. So that expands out to simply [inaudible] 3 minus 1 times 2, which becomes three minus one times two [saying 1*2 quickly], which is two, which is one. So, the output of this one is one. And um, this is a good example of why macros are very, very evil.
+
+Interviewer:        15:26          Sure. And why are you six confident about this one?
+
+Subject:            15:28          Uh, again, because like the only tricky part is that naive reader might substitute, this as like 2, but it's again a very simple textbook example of do inline expansion of the macro and then just it reads very simple, straight forward to 3 minus 1 times 2 is 1. So again, this is like, except for the subtlety of the macro and why macros are usually bad. This is very straight forward.
+
+Interviewer:        15:59          So when you say textbook, do you mean literally you've seen this example...
+
+Subject:            16:04          I've seen this example. It's almost like, it's almost, it's weird but there are again examples of where this may be desirable but like a good compiler, should almost like balk at this. Like, listen, this is going to have side effects because this, um, it's one of those things where yeah, you want to have either a parenthesis in there or otherwise. So, um, if I would be reading this code, then I would tell somebody like, yeah, I tried to not use macros maybe the other ones is that, make sure that you isolate them in such a way that they are not surprising in their effects.
+
+Interviewer:        16:48          All right.
+
+Subject:            16:49          So that's a couple of things like, you know, the minus plus operator and the multiplication order of evaluation to c plus plus. So there's a lot of things that I don't even think about it, but there are a lot of automatically like, yeah, that's going to work out bad.
+
+Interviewer:        17:02          Yeah. Okay, great. Um, so now if I can ask you to, write some stuff down about your experience and then if we can go back and talk about any questions.
+
+Subject:            17:09          All right.
+
+Subject:            17:12          [sensitive]
+
+Subject:            18:17          How many courses to take and which you had the program, can't recall. Too long ago..
+
+Subject:            18:23          Sure. Can you ballpark it just, just estimate. It doesn't need to be
+
+Subject:            18:29          Like you really had to physically had to do hands-on programming work.
+
+Interviewer:        18:33          Yeah, just type code
+
+Subject:            18:34          Type code and stuff like that.
+
+Interviewer:        18:36          Yeah.
+
+Subject:            18:36          Okay. So I had like, oh, we had the practical thing with the machine and engineering its like. So each year at least a couple of courses. I don't know.
+
+Interviewer:        18:46          I mean ballpark
+
+Subject:            18:48          10, 10 to 20 maybe.
+
+Interviewer:        18:51          Yeah, so that's great.
+
+Subject:            18:51          How did you learn to program? Ooh, I think my first thing is like as a kid I got a TRS 80 I got, that was awesome. So that was a basic and there was like radio computer stuff, radio computer club. There's not going to fit here and you can not going to be able to read that. But you still have the audio for that.
+
+Interviewer:        19:22          Sure.
+
+Subject:            19:22          Radio, Computer Club exercises. That was so much fun. That's what we're, Huh? What's your preferred? Oh, that's an easy one. C plus plus if your currently programming on a daily basis, which... C plus plus. The largest C/C plus plus program, did you have either written or contributed to? Um, how many likes it code? Is in [project] millions?
+
+Subject:            19:54          I Dunno, I'm just going to say millions. Millions. I don't know how many. Wow. Must've been. I know it's somewhere. I mean I can look this up. How many lines of code? But um, I would say just by heart. I would say 100,000. How would you estimate your programming proficiency? Please uh, I'm going to be overconfident here. Expert, expert relativity. Oh God. Six is professional programmers. I think I'm just going to be like top five something like, uh, if you ever been here. Yes. Yes. If so for how long? Oh, that's a long time old fella. Who was my first one? What's the first year I actually made money doing it. As a student. I would say '91, so that makes it, uh, 28 years. Wow. Um, yes. So for how long? I think my c plus plus proficiency started, well let's say 20 years
+
+Subject:            21:35          primarily continued on next page you've used along with the year, which you learned it, the number of years you spent actively working with the language and then, uh Huh. Alright. So the language, C, Gosh, that would be my first c program was Borland and I did that when I worked for [company]. That must've been like 90, 91 that was probably the one of the first, you know what, I'm just going to give that 90 so that makes that 20, uh, 59 number of lines. Wow. I mean overall the years, I'm just going to say anything to two to 300 k no notes.
+
+Subject:            22:40          Well of course I have to say I read the key, the K&R, give you some notes just for kicks. Uh, okay. And are and my first, okay.
+
+Subject:            22:54          First C compiler I ever, worked with that I can recall is Borland's, c/c plus plus. I think that was the c plus plus already. And I think it was 1.3. So I would actually call it C/C plus plus. Um, oh, I should also injects so now I'm going to mess up the order. Pascal! [Loudly]
+
+Subject:            23:25          So yeah, Pascal learned in year, I would say 86, number of active years. I don't call that active, but let's say. Four years, number of lines of code. Maybe one K at [university], used pascal as uh, it's one of their languages. Uh, Java, when it did I learn Java? That's probably somewhere in the 2000 somewhere. Did they reactively used it a little bit. Let me put 19 in front of that. I have this goal that 2000 X X ish. Active years, I've used this at [company] as well. So I would say total.
+
+Subject:            24:28          Uh, I say 10 years. Number of lines of code probably adds up, not too much. 20 k uh, mostly intermittent. Okay. C sharp. Let me try it to be accurate here. I've used C sharp before that already I say 2004 I don't use that active anymore. But I would call that 8 years. I'd say code should be pretty impressive there on 100 k. Um, yeah, that's actually all languages that I can think off the things like Javascript, bah. Ah, yeah, bash not a language. I'm not going to list Go or other stuff. I don't do really much too much in there. I think this is good enough.
+
+Interviewer:        25:42          Ok, yeah, that's great. Thank. And now if we can just go through, um, and I'm just going to flip through the quest... Through the snippets and if you have any questions, let me know.
+
+Interviewer:        25:55          [Snippet 79] So, did you have any questions with that?
+
+Subject:            25:57          Nope.
+
+Interviewer:        25:58          [Snippet 115] Okay. Do you have any questions with that program?
+
+Subject:            26:02          Nope.
+
+Interviewer:        26:02          Okay. So I was interested because I think this is the only one
+
+Subject:            26:07          Where it wasn't a six.
+
+Interviewer:        26:10          Yeah, I think it's literally the only one where you weren't full confidence but you were still five. But um, so what was the reason again?
+
+Subject:            26:19          So because, like there's an implicit conversion, right? So in the moment you say V2 equals V1 there's an implicit conversion from a float value to V2. And of course it can either, you know for sure it's going to be either one or two. And I'm fairly certain that all the implicit conversions between floating point to integral values are always rounded. But not 100%.
+
+Interviewer:        26:50          So like the closest nearest integer.
+
+Subject:            26:52          Yes
+
+Interviewer:        26:52          The nearest
+
+Subject:            26:53          The nearest integer value, right.
+
+Interviewer:        26:55          Yeah, ok, and the alternatives would be
+
+Subject:            26:58          That it would need to be a ceil. So it would actually truncate the value. So 1.99 would become one.
+
+Interviewer:        27:05          Oh a ceil?
+
+Subject:            27:05          So it's either a floor, it's a ceil or it's a round.
+
+Interviewer:        27:09          Okay. Yeah.
+
+Subject:            27:10          And I'm fairly sure implicit conversions are always a round. That means anything 1.5 or higher becomes two and 1.49999999999 or lower becomes one.
+
+Interviewer:        27:23          Sure. Well, what if I told you that the actual behavior was none of those things that you
+
+Subject:            27:31          That would be surprising.
+
+Interviewer:        27:31          Yeah, um, it's close. Um, it turns out that um, the implicit conversion is truncation.
+
+Subject:            27:39          See?
+
+Interviewer:        27:39          Well, but that's neither rounding, ceil, or floor because for negative numbers, um, truncation, is a ceil. But for positive numbers it's a floor. So it's like some weird combination of all those things. Um, but still it sounds like that was well within your, sort of, what you expected.
+
+Subject:            28:05          Yes. So I expected at least that. So that is one of those things that. Oh my God. Oh my God. Oh my God. It's something weird but it's probably like, and this is kind of one of the things that always want the people to be explicit.
+
+Interviewer:        28:17          Well exactly.
+
+Subject:            28:18          Because it can be surprising and subtle and like, oh my God, I have to read the C rules again for this [inaudible], and then I'm like. So yeah
+
+Interviewer:        28:26          And I think to your point, when it's, when it's written there as a literal, it's very different than when there's a just a variable there too. Or like a parameter.
+
+Subject:            28:35          Right? So that's the thing that you say like, ah, this is one of those rules that you're probably going to get it wrong. So yeah, it would have been fair if I would've been fair if I would've done a three or a four, but yeah that's typically one of those very subtle things that you know you're going to get it wrong at some point.
+
+Interviewer:        28:50          Yeah. And if you have the opportunity to look up the docs or whatever, then okay, but so any other questions about this one?
+
+Subject:            28:59          No, no questions.
+
+Interviewer:        29:00          [Snippet 109] Okay, great. Any questions about that one?
+
+Subject:            29:05          No, except I of course was sloppy here. It's one of the funny things as an engineer which is also why you have to reviews. Is that even if you think like that you're obvious, theres still kind of. So you have like logic errors if your program is fundamentally wrong and you fundamentally read it wrong or something like that. Like that wrongness. And you have things like sloppiness
+
+Interviewer:        29:31          Like when you initially wrote two?
+
+Subject:            29:33          But I initially wrote two, so you feel very confident in your understanding of how it works and how it's supposed to work and then you just make a sloppy two out of it.
+
+Interviewer:        29:42          Yeah, almost because it's so simple.
+
+Subject:            29:43          Yes. But both are very, and this is one of the things that you also like in computer science you always get hammered in, it's like both are equally very present, clear and present dangers in engineering.
+
+Subject:            29:55          Because I guess the impact of either type of mistake. Yes. So sloppy's like so, and this is the funny thing, like in review is that if you review code, people often focus on the subtle hard to understand parts and trying to really understand them all. But if somebody writes a constant equals 2, nobody gives a second thought. Like is your constant really reasonable value. Like somebody puts in K gravity equals eight dot nine ba da da da da, and nobody thinks a second time. Like, my God, you meant 9.8. So that's like, people are sloppy, trivial things. Every [inaudible] engineering too.
+
+Interviewer:        30:36          Totally. Alright, thank you.
+
+Interviewer:        30:39          [100] What about this one?
+
+Subject:            30:41          Oh yeah. This one was like, um, you must be tricking me because this is too simple for words. Like how can you get this wrong? Right.
+
+Interviewer:        30:51          Sure, well, we can, we can talk more about this after we finish up going through all of these, but no questions about this one?
+
+Subject:            30:58          No, no, no question.
+
+Interviewer:        30:59          [Snippet 73] Okay. Question about this one?
+
+Subject:            30:59          Um, nope. I think that's not confused me in any way.
+
+Interviewer:        31:13          [Snippet 99] Questions on this one?
+
+Subject:            31:14          Nope.
+
+Interviewer:        31:14          [Snippet 62] Questions on this one?
+
+Subject:            31:23          Nope, also Pretty straight forward.
+
+Interviewer:        31:26          [Snippet 37] Ok, and the last one
+
+Subject:            31:27          Uh, yeah, also pretty straight forward. No questions.
+
+Interviewer:        31:31          Okay, great. Um, so at this point I can turn off the mic and we can sorta just talk about these things.
+

@@ -1,0 +1,218 @@
+atom,type,qid,source
+implicit_predicate,C,1,"void main() {
+  int V1 = 0;
+
+  if (10 % 3) {
+    V1 = 4;
+  } else {
+    V1 = 8;
+  }
+
+  printf(""%d\n"", V1);
+}"
+operator_precedence,C,11,"void main() {
+  int V1 = 0;
+
+  if (0 && 1 || 2) {
+    V1 = 6;
+  } else {
+    V1 = 3;
+  }
+
+  printf(""%d\n"", V1);
+}"
+post_inc_dec,C,13,"void main() {
+  int V1 = 2;
+  int V2 = 3 + V1++;
+
+  printf(""%d %d\n"", V1, V2);
+}"
+post_inc_dec,NC,14,"void main() { 
+   int V1 = 3;
+   int V2 = V1 + 4;
+
+   V1++;
+
+   printf(""%d %d\n"", V1, V2);
+}"
+pre_inc_dec,C,19,"void main() { 
+   int V1 = 2;
+   int V2 = ++V1 - 2;
+
+   printf(""%d %d\n"", V1, V2);
+}"
+constant_variables,HC,25,"void main() {
+  int V1 = 3;
+  int V2 = V1 + 2;
+
+  printf(""%d\n"", V2);
+}"
+constant_variables,HNC,26,"void main() {
+  int V1 = 2 + 3;
+
+  printf(""%d\n"", V1);
+}"
+macro_operator_precedence,C,37,"#define M1 3 - 1
+void main() {
+  int V1;
+
+  V1 = M1 * 2;
+
+  printf(""%d\n"", V1);
+}"
+pointer_arithmetic,HC,45,"void main() {
+  int V1[] = {4, 2, 7, 5};
+  int *V2 = V1 + 1;
+
+  printf(""%d\n"", *V2);
+}"
+pointer_arithmetic,HNC,46,"void main() {
+  int V1[] = {3, 1, 4, 6};
+  int *V2 = &V1[1];
+
+  printf(""%d\n"", *V2);
+}"
+conditional_operator,C,49,"void main() {
+  int V1 = 0;
+  int V2 = V1 == 3 ? 2 : 4;
+
+  printf(""%d\n"", V2);
+}"
+conditional_operator,NC,50,"void main() {
+  int V1 = 0;
+  int V2 = 4;
+  int V3;
+
+  if (V1 == 2) {
+    V3 = 3;
+  } else {
+    V3 = 5;
+  }
+
+  printf(""%d\n"", V3);
+}"
+arithmetic_as_logic,HC,55,"void main() {
+  int V1 = 0;
+  int V2 = 8;
+
+  if ((V2 - 3) * (7 - V2) <= 0) {
+    V1 = 4;
+  } else {
+    V1 = 2;
+  }
+
+  printf(""%d\n"", V1);
+}"
+arithmetic_as_logic,HNC,56,"void main() {
+  int V1 = 0;
+  int V2 = 6;
+
+  if (1 <= V2 || V2 >= 5) {
+    V1 = 2;
+  } else {
+    V1 = 7;
+  }
+
+  printf(""%d\n"", V1);
+}"
+comma_operator,C,61,"void main() {
+   int V1, V2;
+
+   V1 = (V2 = 1, 2);
+
+   printf(""%d %d\n"", V1, V2);
+}"
+comma_operator,NC,62,"void main() {
+   int V1, V2;
+
+   V1 = 2;
+   V2 = 1;
+
+   printf(""%d %d\n"", V1, V2);
+}"
+preprocessor_in_statement,C,71,"void main() {
+  int V1 = 1, V2 = 2;
+
+  if (V1 < V2) {
+#define M1 1
+#define M2 2
+  } else {
+#define M1 2
+#define M2 1
+  }
+
+  printf(""%d %d\n"", M1, M2);
+}"
+assignment_as_value,C,73,"void main() {
+  int V1 = 0;
+  int V2 = 2;
+
+  if (V2 = 1) {
+    V1 = 3;
+  } else {
+    V1 = 6;
+  }
+
+  printf(""%d\n"", V1);
+}"
+logic_as_control_flow,C,79,"void main() {
+  int V1 = 1;
+  int V2 = 3;
+
+  if (++V1 || ++V2) {
+    V1 = V1 * 2;
+    V2 = V2 * 3;
+  }
+
+  printf(""%d %d\n"", V1, V2);
+}"
+repurposed_variable,C,85,"void main() {
+  int V1[5];
+  V1[4] = 3;
+
+  while (V1[4]) {
+    V1[3 - V1[4]] = V1[4];
+    V1[4] = V1[4] - 1;
+  }
+
+  printf(""%d %d\n"", V1[1], V1[4]);
+}"
+reversed_subscripts,C,91,"void main() {
+  char V1 = 2[""qwert""];
+
+  printf(""%c\n"", V1);
+}"
+unreachable,HC,99,"void main() {
+  int V1 = 1;
+
+  if (0) {
+    V1 = 3;
+  }
+
+  printf(""%d\n"", V1);
+}"
+unreachable,HNC,100,"void main() {
+  int V1 = 1;
+
+  printf(""%d\n"", V1);
+}"
+change_of_literal_encoding,C,105,"void main() {
+  int V1 = 013;
+
+  printf(""%d\n"", V1);
+}"
+omitted_curly_braces,C,109,"void main() {
+  int V1 = 2;
+
+  if (0) V1++;
+  V1++;
+
+  printf(""%d\n"", V1);
+}"
+type_conversion,C,115,"void main() {
+  float V1 = 1.99;
+
+  int V2 = V1;
+
+  printf(""%d\n"", V2);
+}"

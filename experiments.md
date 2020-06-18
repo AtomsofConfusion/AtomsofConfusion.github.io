@@ -39,6 +39,14 @@ What happens in the mind of a programmer when they read confusing code? Using co
 #### [Atoms in the Wild: OSS](2017-atom-finder)
 <div class='project-status'>Completed - discussed in <a href="{{site.paper_url.atom_finder}}">this paper</a></div>
 
-
-Outside of the lab, how prevalent are atoms of confusion? We mine several popular open source C projects for known atoms, and look for correlations with other relevant phenomena.  
+Outside of the lab, how prevalent are atoms of confusion? We mine several
+popular open source C projects for known atoms, and look for correlations with
+other relevant phenomena.  
 [Explore atoms in the wild](2017-atom-finder)
+
+#### [Atoms Out Loud: Qualitative Analysis](2020-think-aloud)
+<div class='project-status'>Completed - discussed in <a href="{{site.paper_url.think_aloud}}">this paper</a></div>
+
+What do developers think when they read atoms of confusion? We also analyze
+common pitfalls in correctness-based program comprehension experiments.  
+[Explore the Think-aloud Study](2020-think-aloud)

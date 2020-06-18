@@ -1,0 +1,560 @@
+Interviewer:        00:01          Okay. So the audio recording is on. And so could you just say for the recording whether or not you're okay?
+
+Subject:            00:05          Yes, I'm fine with being recorded.
+
+Interviewer:        00:07          Cool. Thank you. Alright, so, um, so for this first one I will ask you to first put down the time.
+
+Subject:            00:14          [Snippet 100] Okay. 3:06 pm.
+
+Interviewer:        00:16          Yeah. And if you could just think aloud, your thoughts or speak aloud your thoughts as you go through.
+
+Subject:            00:21          Okay. This is pretty straight forward. There is just a variable that's being initialized and then print it out. It doesn't look like there's anything unexpected here. Uh, so I'm going to say that the output should just be one.
+
+Subject:            00:36          Is that alright?
+
+Interviewer:        00:37          Yeah, that's fine. Okay, perfect. And then the time again
+
+Subject:            00:41          Still three Oh six. [laughter]. So it's a little difficult to get precision there.
+
+Interviewer:        00:46          Uh, it's fine.
+
+Subject:            00:47          I'm going to say that I'm positive about this.
+
+Interviewer:        00:49          Yeah, totally. Okay. And so one thing I'm going to ask you after we go through each one of these is, um, why did you choose that level of confidence? Why did you say six?
+
+Subject:            00:58          Okay, Uh, because this is, uh, this is, um, this would have been true back in the earliest days of C. It's, uh, um, this kind of, this, there's no behaviors here that would be unexpected. I mean, there could be conditions where they wouldn't be, they wouldn't do this, you know, printf is a standard library function, but I think within the constraints that you've set forward, it's like unlikely printf will behave unexpectedly. So, yeah.
+
+Interviewer:        01:29          Okay, great. Thank you.
+
+Interviewer:        01:34          [Snippet 109] Okay, cool. The time is 3:07.
+
+Subject:            01:49          Okay. So, uh, we have a variable being initialized. We have an if zero that nothing that follows after that will be evaluated. Um, we're then doing V1 plus plus which increments, and so the output will be just the number three. And here I think I'm just going to just dial back my confidence. I'm a little bit, but otherwise, I think this is pretty straight forward.
+
+Interviewer:        02:14          Okay. So why five out of six? Confidence.
+
+Subject:            02:17          Uh, so, um, just because there's a conditional, I might, I might, although this one seems pretty clear that it's not going to be evaluated, I guess that if that was an [letter] Oh, uh, well that was a global variable, but like, if this is the entire scope of the code, there's nothing else before, after, it's hard to say that there's anything that I can't think of any situation where it wouldn't be come out with three.
+
+Interviewer:        02:41          Sure. Well, so they're, they're not a lot of things that I can clarify, but I can definitely clarify that. Um, with the exception of, you know, including uh standard IO, um, there, there's no other code and this is a zero and not an Oh.
+
+Subject:            02:56          Okay, okay. Ah, but in general, like, you know when give advice to people, um, I tell them to avoid branches if like you know. If you can write codes, that's like, uh, like, because you end up having to test those branches and, uh, this would be, this is code that's a little harder to test. I don't know if you could test it even because you can't inject anything. So there's no way to, there's no way for this code to ever evaluate this. Maybe the compiler would even get rid of it.
+
+Interviewer:        03:20          Yeah.
+
+Subject:            03:21          Okay. So, yeah. Okay
+
+Interviewer:        03:24          Cool. Thank you. Okay.
+
+Subject:            03:35          [Snippet 61] Okay. We have
+
+Interviewer:        03:36          Can you write down the time.
+
+Subject:            03:37          Yes, okay. Uh, three, uh, 3:09.
+
+Interviewer:        03:39          Thank you.
+
+Subject:            03:39          Uh, we have two variables that are not initialized. We have, uh, this expression here, uh, V2 is V2 is being assigned 1 comma, um, uh, then returns that value and then it returns that, um, each of the values or the last value that evaluates to. So V1 is going, so V2 is going to equal 1 and V1 is going to equal 2 after that expression. And so it's going to print out one, two, uh, say 3:10. And I'm going to also give this a five. Um,
+
+Interviewer:        04:17          and yeah, so if you could tell me why confidence level five.
+
+Subject:            04:20          Ah, so just because the comma operator is not used very often, and I, I'm pretty sure I have it right, but it's in parentheses. Uh, I sup[...pose], Maybe I could make a mistake here. I don't think I did. Um, uh, yeah, I'm still pretty comfortable. Who knows. I could be making a mistake, but,
+
+Interviewer:        04:38          sure. Do you, do you have any sense for if you weren't making a mistake what that would be?
+
+Subject:            04:44          MMM,
+
+Subject:            04:50          yeah, I think she, I don't think, I can't think of a time when I've ever used the comma operator. You can, you don't, you basically it's, you know, it's, it's kind of syntactic sugar I guess. Maybe like in some functional program you might want to use it or, um, but um, like in this context here is this is, this is like deliberately obfuscated in some sentence cause there's like a, I think, um, maybe people would not know that that assignment returns the value that the assignment operator returns to value that it's assigned. Um, yeah,
+
+Interviewer:        05:24          Sure. Um, so I guess one last question is, um, you said you don't know that you've ever used it, um, but you're certainly familiar with what the operator is.
+
+Subject:            05:35          Yes.
+
+Interviewer:        05:35          Um, so have, have you seen it other places or how are you familiar with it?
+
+Subject:            05:41          MMM.
+
+Subject:            05:43          I just, I think that like back when I first started learning, C, I remember like the, um, I always came up in like the precedence, like the list of operators and I think it was, to me it was salient because it seems so un-, not useful. Um, I'm sure that actually probably I like, I just can't think of it. I'm sure there are cases where the operator comma is really important. It does seem, it feels more like the kind of thing you'd see in lisp or something or you can just, you want to basically chain a whole bunch of, uh, um, evaluations into the same statement.
+
+Interviewer:        06:22          Yeah. Um, cool. Yeah
+
+Subject:            06:25          Am I wrong? Just outta. Okay. You probably can't tell me
+
+Interviewer:        06:28          Um, not at this point, but, um, once we're done going through them all, we can actually go back and talk about them all so we can sort of have a whole discussion about the comma operator and all that. Um, but yeah, that was great. A great description so, thank you. Um, okay, one more. Um, times 3:12.
+
+Subject:            06:55          [Snippet 99] Okay. This, this is virtually identical to the second sample. Um, there's an assignment, there's an if statement that doesn't, that doesn't execute. So it's just going to print out one.
+
+Subject:            07:05          Uh, so I'm going to call it 13 PM and um, uh, I'm only slightly less confident than six because uh, I feel like there's a progression and this seems to be a step backwards, so, [laughter]
+
+Interviewer:        07:20          Okay. Fair enough. All right, thank you.
+
+Subject:            07:33          [Snippet 79] Okay. Three 13
+
+Subject:            07:37          I think I should spend more than a minute so I can get some [inaudible]. Okay. So, uh, um, two assignments then, uh, we have a two plus plus operators, um, and both of them are going to evaluate to true. Uh, so I mean plus plus V1 is going to be two uh, choose, evaluates to true. So we will do the plus plus V2, which will be four. So I'm going to say, uh, after this, uh, V1 equals 2 after and uh, V2 equals four, then we're going to, since, since both of those are non zero, that's going to be true. So we will execute what's in here. And V2 will go to four and V two will go to 12. So I'm going to print out four and 12.
+
+Subject:            08:26          Okay. Three 14, still pretty confident. So I'm going to give it a five.
+
+Interviewer:        08:32          Great. Okay. Um, and yeah, can you tell me why again, five conference for this one?
+
+Subject:            08:37          Uh, just because of the, yeah, the complexity is growing here. I'm uh, um, and I, I um, I guess maybe I'm a little, a little less sure than five. Maybe I should have said four, but I don't, I don't feel like I'm moving that far, uh, down the axis yet. Um, I'm basically just about as confident about this one as I was about the other ones.
+
+Interviewer:        08:59          Okay. Sure. But is there anything in particular that's inspiring the
+
+Subject:            09:04          Hesitation?
+
+Interviewer:        09:05          Exactly.
+
+Subject:            09:05          Just because like I'm doing more math steps and it's very easy to make a mistake. Uh, even, even if I have like the, um, just like a computer, I could have like the operator, right. But like get the wrong value in a place. So.
+
+Interviewer:        09:19          Okay, great. Thank you.
+
+Subject:            09:23          I guess computers don't make those mistakes, but,
+
+Interviewer:        09:25          Well, sometimes you have hardware failure and they do make those mistakes. It's just very rare. We have hardware errors much more often.
+
+Subject:            09:33          Yes.
+
+Subject:            09:36          [Snippet 13] Okay. 3:15.
+
+Subject:            09:42          Okay. This one's a little bit more tricky because, uh, we have v one is equal to two, V2 is equal to three plus V1 plus plus. V1 plus plus returns the original value. So v two is going to go to five and then V1 increments afterwards. So v one is going to be three and so we're going to print out, um, three and five, uh, double check to make sure that makes sense to me. Uh, yes. Okay. So 3:16 and I'm also very confident about that.
+
+Interviewer:        10:14          Okay. Um, same question as before, why five, or is there anything about it that you're unsure about?
+
+Subject             10:16            Uh, I guess one of the thing I noticed here is that like the um, the uh, um, the order, I have to get the order right here and like the, um, I could have confused which one, like whether the five or three comes first because, uh, but I think, you know, you're looking at it again, I think got everything right. Um, and yeah, I know, I guess it's hard to get me to, to choose the highest value for the conference.
+
+Interviewer:        10:48          It seems sort of final sort of committing.
+
+Interviewer:        10:56          How are we doing here? Okay. I think we have two more left cool. Okay. 3:17.
+
+Subject:            11:10          [Snippet 50] Okay. Uh, V one V is it goes to zero V2 equals four v three is left on initialized. If v one equals is equal to two, it is not, so we will not take that branch. Um, and then so we'll make V3 equal to five. We're just going to print out five. Um double checking to see that it makes sense because uh, this is double equals sorts and equality tests. Uh, and I'm printing V3. V3 Yeah. Okay. I'm calling it 3:17. That was quick and I'm going to go back to 6, I feel I was pretty positive about that.
+
+Interviewer:        11:50          Okay. So why, why confidence six on this one?
+
+Subject:            11:52          Uh just seems very straight forward. These, uh, these tests are all very, there's only, there's only two possible paths through here and, uh, it's either three or five. And I see no, don't, I don't see any way for it to be come up to come out three.
+
+Interviewer:        12:04          Sure. Okay, great. Thank you. And then the last one before we go back and we sort of talk about everything. Um,
+
+Subject:            12:14          Okay.
+
+Subject:            12:17          [Snippet 49] Uh, okay. This one they is, oh, sorry. 3:18.
+
+Interviewer:        12:20          Oh, yeah. Thank you.
+
+Subject:            12:24          Okay. The ternary operator, it's a "Question colon's confusing, use them a lot". I'll tell you what that means later. Um, uh, let's see. Uh, v one equals equals. So this is, this test is going to be false and so we're going to evaluate to 4, uh, so I'm going to print out 4, um, I think that's fine. So 3:19 PM. And I'm pretty positive about that one too, so we're good.
+
+Interviewer:        12:56          Ok, great. And so why are you six positive about this?
+
+Subject:            13:00          Because it's essentially the same. It's, it's, there's only one path. There's only two choices here. It's either going to be two or four and in order for it to be two, this would have to evaluate to true. And we just set it equal to zero. So it seems, it seems very isomorphic to the previous one. I guess the, the question mark operator. Yeah. Um, uh, syntactically it's equivalent to an if statement... Just a little bit. A little more confusing.
+
+Interviewer:        13:27          Yeah. Okay, great. Thank you very much. Um, so if next I can just get you to fill out a little survey about your experience, um, and then we can go back and sort of talk about all those snippets of code. Okay.
+
+Subject:            13:52          I see.
+
+Interviewer:        13:54          Um, you know, feel free to skip anything or be as vague as you like for any of those questions.
+
+Subject:            14:45          I got all of my degrees at the same country, company, same college, so that's clear here.
+
+Interviewer:        14:50          Okay, that's fine.
+
+Subject:            15:03          It's been a long time and I don't know the total, um, I'm going to say about 10 courses,
+
+Interviewer:        15:12          Yeah, uh, that kind of guess is perfectly fine.
+
+Subject:            15:37          Oh my God. Okay. Specifically C plus plus program. Okay. I'm, I'm just, this is a pretty big guess here.
+
+Subject:            15:57          Oh, ever contributed to what good Lord. Oh, that's really hard to guess. Um, that's probably more like 100,000
+
+Subject:            16:51          What does professional programmer mean does it include swee?
+
+Interviewer:        16:52          swee?
+
+Subject:            16:54          Software engineer?
+
+Interviewer:        16:55          Yeah.
+
+Subject:            16:56          Okay. That's not a title that's used anymore these days. There's a time when like programmer was like, uh, its own job title before software engineering, which I say it like,
+
+Interviewer:        17:11          I think the intent is anybody who writes code. So all people who are paid to write code
+
+Subject:            17:22          Actually almost all my career has been write, writing in c plus plus.
+
+Subject:            17:28          Okay. Uh, um
+
+Subject:            17:45          Oh god [quietly] this is ridiculous, okay.
+
+Interviewer:        18:14          Guesses are fine.
+
+Subject:            18:14          Lines of assembly that's going to be like,
+
+Interviewer:        20:00          Oh boy,
+
+Subject:            20:07          I didn't learn C++ and Java until. When did Java come out. 2000 maybe?
+
+Interviewer:        20:17          Good question 1995 apparently.
+
+Subject:            20:17          Okay.
+
+Subject:            20:48          Some of these are really guessing.
+
+Interviewer:        20:50          That's totally fine.
+
+Subject:            20:56          Yeah. Okay.
+
+Interviewer:        20:59          Great. All right, thank you very much. And um, so we can start going through the snippets from before and sort of talk more openly about them. [Switches pen from black to red] In case you want to write in red. Um, ok so, basically for each one I'll just sort of ask you if you had any questions about them.
+
+Interviewer:        21:24          [Snippet 100] Um, so for this first question
+
+Subject:            21:26          No, I didn't. It seemed perfectly straight forward.
+
+Interviewer:        21:28          Yeah. And I don't really have any questions for you either. So we'll just skip past that one.
+
+Interviewer:        21:34          [Snippet 109] Um, how about, this one?
+
+Subject:            21:37          I guess, uh, maybe if people aren't familiar with the way that, while actually here, it doesn't really matter whether you take the, you don't take the result of the increments. So you just need to know that it does increment.
+
+Interviewer:        21:49          Um, but that's the thing that jumps out to you that might be confusing whether or not, or how, how the plus plus works.
+
+Subject:            21:57          Yeah, like, like, at [company], we often like they used to be a preference for plus plus, pre-increment over post-increment. And actually that, that's like a, I mean, I mean from my assembly language years I know that like there was like those, uh, this is actually kind of an odd thing to worry about at a language level and it comes from the hardware, like the, there in, uh, many processors, there was a read on increment and it also is an atomic operation, so this was like, like c plus plus has this weird. I still has like a very strong history of, it's like association with the, with the um, like low level program. It's meant for implementing operating systems. Yeah, for sure. And so a lot of the code has like, you know, the operators are all like things that are one-to-one with what's in the ALU and this whole pre-increment post-increment, which is like, uh many languages copied it. But it really comes from the hardware would do this. And other than that, the only other thing was like the possibility of having the if execute, but yeah.
+
+Interviewer:        22:59          Cool. Um, yeah. I don't think I have any questions about that. Um, this one was the first one where we started sort of having a discussion.
+
+Subject:            23:12          [Snippet 61] Right, so the comma operator and like, yeah.
+
+Interviewer:        23:15          Um, yeah. So do you have any questions before we dig in?
+
+Subject:            23:19          But I would never have doubted it. But now that we're coming back to it, I mean like, uh, this is correct. Right. Or you can't say, or you're trying to get my opinion.
+
+Interviewer:        23:28          Yeah. I'll tell you in five minutes whether or not it's correct, but yeah, so
+
+Subject:            23:31          Then I'll wait [laughter]. No.
+
+Interviewer:        23:34          Um, but other than that about how it works or anything like that, do you have any questions?
+
+Subject:             23:37          I guess the first thing I like, you know, I was like, oh, these are not initialized. And it's, is it possible you would get to the point here where like that you are asking to print out a value that isn't initialized and whether or not an uninitialized value is defined is depends on them. Like a, it depends on the C, the, uh, the flavor of C that you're actually working in. Um, actually I don't know for even today, I'm not sure if like the default, initiali... I think that since um in c plus plus 11, they, uh, made sure that like, um, these are default initialized, so they'd be zero. But that's not guaranteed in the early, like early versions of C this is a frequent cause of errors is like people didn't initialize their variables, so they get, or they might either be assigned something by, it's implemation, implementation defined. And so you could have like, um, random values. Um, but here it seems like every code path does do an assignment to both of the variables. And so these are all kind of all kind of the same flavor at this point. Where you like and here, um, the assignment of this, it can only be either this value of that value. So I guess, yeah, now that, uh, umm, yeah. Well the comma operator's almost, it's definitely going to return the last value. It wouldn't make sense to return something earlier. I think that like is perhaps to related to like the association with lisp where you had like you can chain together a whole bunch of evaluations. And then return the last one, same thing. Um, before the, um, uh, uh, it used to be that C functions would return the last evaluated expression. And maybe you could do something in one line or something.
+
+Interviewer:        25:20          Yeah. Um, cool. Um, I, to to my way of thinking about it though, I actually have sort of a different, um, way of conceptualizing the comma operator. So everything you said is true, but, um, the way that you associated with functional code, for me personally, it's a personal thing. I associate it with imperative code. Um, cause you were talking about like I don't know if there's any reason to use it and I've sort of thought a lot about this and I think the only reasons that I can come up with why anybody would ever want to use the camera operator are sort of an imperative contexts. So one time that I've seen comma operator used a lot is if, let's say you're using like a while-loop or a for-loop and you sorta want to jam multiple things, um,
+
+Subject:            26:09          Oh that's true. I mean the for. Yeah. Like for like you can do like that that's actually a, it is using the comma operator, but you don't often use the result of the, right. You're just kind of taking advantage of that. You can pack multiple assignments together, uh, into a chain like that.
+
+Interviewer:        26:25          Right. Exactly. Yeah. So
+
+Subject:            26:28          A equals B comma C equals D comma D equals E.
+
+Interviewer:        26:31          Yeah, sorta tonight. Yeah. So it, it, it's almost sort of like the, the semi colon except it's in a single expression instead of in a statement. Um,
+
+Subject:            26:38          And then so there was the fact that it returns, the last expression is kind of just like the consequences that it has to something
+
+Interviewer:        26:45          Something. Yeah. Right. Um, so, so it's sort of a choice. Um, it could be either of them, it could even return zero or an arbitrary value and it wouldn't really matter because all, all it's doing is sort of executing multiple things, which is something that you really only need to do in nonfunctional programs, um, when, when you're executing for side effects.
+
+Subject:            27:03          Yes
+
+Interviewer:        27:03          So, that's one context. And then I think the other context in which I've seen it, um, is it also sort of has like another side effect, which is that, um, it serves as like a sequence point. So they're like,
+
+Subject:            27:16          It's like the lowest precedence operator, or one of the lowest. And that seems like it was like, well, everything else was higher. I thought, maybe not.
+
+Interviewer:        27:24          Well, so it's funny you say that because even in this context, even even between these, um, parentheses, well I guess no. Yeah, you're right. It is, it is lower than equal. So yeah, I guess it is pretty low. It's not lower than semi-colon
+
+Subject:            27:39          Although it's interesting. If you, the case here where if they took the parentheses off and you said V1 equals V2 equals one, comma two.
+
+Interviewer:        27:45          Yeah.
+
+Subject:            27:45          Uh, yeah. Okay. That would probably make me take pause for a second and say what?
+
+Interviewer:        27:51          Yeah, yeah. Um, well I think that actually changes the
+
+Subject:            27:54          It does change the semantics and like, so it would be like V, both V1 and V2 equal one, right. And comma 2 just means, oh, by the way,
+
+Interviewer:        28:00          there's also a two.
+
+Subject:            28:01          Yeah. Right.
+
+Interviewer:        28:03          Um, yeah, that would be weird. Um, but, but the other thing that the comma does is, um, for example, the, uh, the post increment operators, um,
+
+Subject:            28:14          Plus plus A plus comma plus plus B like, they chain them together, like if you're doing, if you're doing like you're doing parallel, a very common, I think they're very common. It was like doing, uh, um, a buffer copy where you have two pointers. And by the way, you didn't have anything. I was expecting lots of pointers.
+
+Interviewer:        28:32          Yeah. I can talk more about that later.
+
+Subject:            28:34          Okay. But if you're doing, if you're doing two pointers and you were having them both run in parallel, it'd be very typical to use to comma operator to join the increments.
+
+Interviewer:        28:41          Yeah. Um, but so one, one, one feature of the comma operator, especially in those contexts is that, um, you know, so, so the post increment returns, it's value and then increments later, um, and normally that increments later happens, um, at the end of the line, like after the semi colon, it's when the statement finishes, that's when it's incremented.
+
+Subject:            29:04          Okay. \I would, yeah. If you told me like if you did plus plus I comma and then something involving I, I would not know the answer to that.\
+
+Interviewer:        29:12          Exactly. Um, and because it's actually undefined within, within what's called a sequence point. It's undefined.
+
+Subject:            29:19          UB?
+
+Interviewer:        29:20          Yeah. Um, but a comma is a place where that gets resolved. So when you come to a comma, the incrementation actually happens. And then afterwards, if you reference the variable, if you read the value afterwards, it has already resolved, it has already incremented, so then it's suddenly defined behavior again.
+
+Subject:            29:45          Okay. I wouldn't have known that. If you had an example that had that interaction between um, increment and comma, especially post increment, I would not have gotten that or at least you would've gotten a nice like one or two from me.
+
+Interviewer:        30:04          Um, I can talk more about that later too. Okay, cool. Um, so any more questions about this one before we go on?
+
+Subject:            30:12          Nope.
+
+Interviewer:        30:12          [Snippet 99] All right, cool. Um, okay. Uh, so do you have any questions about this one?
+
+Subject:            30:20          No. This one is almost exactly the same thing other than using the curly. It's, it's the same as the, one of the only ones without, and it was no increments. This one's pretty simple.
+
+Interviewer:        30:33          Um, yeah.
+
+Subject:            30:33          Curly braces are the only thing that's added.
+
+Interviewer:        30:36          Yeah, I think so. Um, cool. I don't really have any questions about it either.
+
+Interviewer:        30:46          [Snippet 79] Um, okay. How about this one?
+
+Subject:            30:48          Uh, I guess that they uh, the tricks here or like knowing that like, um, the semantics of the Or operator and a logical Or operator, uh, and the fact that, how, like what, what, what constitutes true and false in these contexts. Um, other than that it's pretty straight forward I guess the, um
+
+Subject:            31:12          I guess if, if, if one of these values were like potentially be zero or either both cases here. I mean, are we always talking about like, like, um, I remember very early on in my career someone was saying like, uh, um, that C plus plus seems very logical to them and be like, what's an example of something that's not logical? And they said incrementing booleans. Cause you know, like here basically your incrementing booleans
+
+Interviewer:        31:46          It's true.
+
+Subject:            31:47          Like in, in most strongly typed languages. Yeah. You can't, you can't, you can assign them true or false. There's no such thing as plus plus booleans
+
+Interviewer:        31:54          and they're not like ordered or they're not ordinal values. You know,
+
+Subject:            31:58          Actually, I don't know if you like in like logically if you do, if you have a variable, a boolean x and you plus plus x and you do so until it overflows. Uh, is that, is that even defined behavior. I think that like, I don't know what the boolean and the storage of a boolean is typically either a, uh, int or a byte its, you know, think it's implementation defined. But if you keep incrementing is it actually store the value of that when you increment it. And
+
+Interviewer:        32:25          that's a great question.
+
+Subject:            32:26          So it's possible that plus, plus boolean could return false.
+
+Interviewer:        32:33          Uh, yeah, I guess technically that's true. But
+
+Interviewer:        32:38          Yeah, it, it is technically true. It might, but I don't know if that actually happens in practice.
+
+Subject:            32:44          Yeah, I don't know if this is like requiring somebody who like, yeah, it's like what's one of those things where you just like, don't do that. And actually one thing I in a lot of ways, like, I did a lot of programming in Java and in fact, um, like, uh, when I was at [Former Company] working on translation software, we ported a very large library from C plus plus to Java. And, um, like you know Java was, was like, it was much slower and required us to think about everything much more carefully. And we ended up developing much better algorithms in Java, but then we'd back port them all to c plus plus and then we ended up with like, we could never, like we the Java would win for a short time and then people would be like, oh, that's a clever idea.
+
+Subject:            33:23          That's put that in C and like the thing about Java, I was like, it was fast if you never did a new
+
+Interviewer:        33:29          Oh right, yeah, it's the allocations.
+
+Subject:            33:31          Uh, and it's very hard in, well basically you have to, you can use primitives, you can like there are ways in Java to like, you kind of do all your news up front and we would like develop object pools so that we would like reuse the things we, objects we've created, but then the problem is there's only, you're only allowed to have 2 billion objects in Java in the, in the JVM it's this hard coded number. And it's like, oh, that's a prob, like, I don't know why we had like, we actually did stuff that required more than 2 billion objects. Um, and so, but like in, uh, they fixed a lot of the language problems. Uh, it's a much cleaner, like the, you know, there's no point, there's a lot of things, but also that's a little bit more strongly typed.
+
+Subject:            34:14          Uh, and uh, I felt like from a, you know somebody who like sees like, you know, like kind of like many programmers have this experience where you see like people who uh, like how much rope you give someone to hang themselves kind of problems. And like I felt like Java like was a much better place for somebody who's developing skills. It's safer, you can't do the same kinds of mistakes. And that's true. I mean like the, um, I still, I strongly, strongly more strongly typed languages. I think result in like, especially for people that are like developing the skills, like the, you know, working out what, we do a lot of python here. Um, and we know from our own, like this is kind of famous studies internally that like python has a much higher cost of support for like a large, we've studied like, you don't really know, like they, they never able to get to the bottom of why like a very large project in python has like is so much more difficult to, to maintain and, and uh, but they think it's something they have.
+
+Subject:            35:14          Like there's a, there's apparently a large amount of documentation internally where they studied extensively some of the projects that were developed in python with a large team. And um, I think that like the, the um, yeah, the lack of, you don't, you don't have any static analysis you don't have, like, there's a lot of things that like you don't get when you have a, and it's true, like, you know, it kind of lowers the bar for people who are just starting out. You don't have to worry about and all of these things. But then, yeah, that price comes back.
+
+Interviewer:        35:44          Do you know if they analyze for like experience of developer? Like it, was it just flooded with more junior developers, or?
+
+Subject:            35:51          I think they actually, like there's been internal, I don't work on this. I know there's like the, um, there's, there's teams who have like really dig, dug in on this and there's been entire code bases that were ported from python to other languages.
+
+Subject:            36:05          And we still have, I mean, you know, it's interesting cause I, you know, um, we still have a substantial install base set Java, of Java and we have, um, like I talked to like I think I know more languages and typ, I think maybe we'll just work on my language. I'm like kind of crossing back and forth. And I'm also like doing a lot of like the bridging between like a cliff to call. Like I end up calling c libraries from a python and we, uh, with SWIG for like, and I've been involved in some of that like, uh, in various projects. Sure. Um, and so yeah, I know the internals and I kind of like see like what, um, um, the different, the different kinds of probably I like the structure of language only takes you so far and like kind of tells you a little bit about what the problems are going to have.
+
+Subject:            36:54          Um, and actually it's one of the things about c plus, but you'll hear people like say, Oh, I'm going to introduce another abstraction and to create a wrapper. And like that seems like it'd be the first thing that everybody wants to do for anything is to like introduce a new abstraction. And that's Kinda like a c plus plus chimerical nature is like you. Like it seems like that's it. It's odd that that seems like the thing to do. Uh, like in the or languages that are more formalized, you know, like, like in, in Java, uh, I think like I look at like cryptography or something like that. Like these, well it's very much depends on the developer teams too, but the, but um, Java has this whole like service provi, like you have like the very clean abstractions for what interfaces and the idea is that like, oh, this component will be provided.
+
+Subject:            37:38          But that kind of leads all of these things kind of coalesced together because like the entire, you know, Java's class loader is very rich and the idea that like somebody is going to provide you a library, it's going to do the job that works. You know, at most projects at [company] are these fat binaries that we compile like, you know, millions of lines of code. Like every, like even like a simple, if you write the simple c plus plus program at [company], it's still almost a gigabyte because it's like we have
+
+Interviewer:        38:03          because it's statically loads everything in
+
+Subject:            38:05          Right, we build everything statically because uh, um, we don't have like C++ doesn't have, it doesn't even have language support for, um, the class loader, like verif like verifying your like using a particular object. I guess you're, if, if, uh, your advisor works on this, like there's a huge effort here to like have like verifiable builds, that's a fascinating area and like I think that
+
+Interviewer:        38:29          that's actually might be exactly what he's doing.
+
+Subject:            38:31          Okay. So, um, because they're, you know, Java has kind of built that into the language, but it also came with the whole philosophy, and, uh, so and, uh, when does, it makes me really like python where people just create a virtual environment and then packages, they just downloaded it over the internet. I like, oh my God, wait, what are you doing? But uh, yeah, so different types of problems. I hope that people aren't doing that for security packages.
+
+Interviewer:        38:57          Well, so, okay, I'll write this down so we can talk about this later because this is actually exactly what he's looking at.
+
+Subject:            39:06          Well cus you talk about like, can you trust like, like as a, I have some work in cryptography and like, do you like, like doing things like interacting with even simple like in c plus plus almost everything can be over written in the standard library. Yeah. If you can inject your own standard library,
+
+Interviewer:        39:22          Actually yeah, let's, let's earmark this and come back to it later. Um, because I actually have a lot of things to say on that, but let's just get through this and then we can just sort of chat about whatever.
+
+Subject:            39:31          Okay.
+
+Interviewer:        39:31          Um, but, okay, so, so, so coming back to this, um, this snippet here, um, well yeah. So did, did you have any other questions?
+
+Subject:            39:40          No, I don't think I, I don't think I had any questions about it. I guess that's like, yeah. So, yeah, pretty straight forward.
+
+Interviewer:        39:45          You said that, um, the potential, um, tricks in there are like, what are the values of maybe true or false or like what the semantics of, or are
+
+Subject:            39:55          I could have screwed up. The two, two times two is four and a plus plus three was I think, I still think I'm right, but yeah, I could have made a mistake.
+
+Interviewer:        40:04          Um, well, what did you mean when you were talking about the semantics of Or?
+
+Subject:            40:07          Uh, um, that, because, uh, um, if this fell, if this expression, this is the same thing in Lisp right, that if this value is false, this won't be executed. You need to know like what, what's going to be executed? And so, uh, it's really, I mean this is like an if statement and have that, but you know this, but this is nest, this is a nested condition here because it's only if this is true, does this even get evaluated? Okay. And so whether or not 2 is incremented depends crucially on what the value of V1 was.
+
+Interviewer:        40:37          Sure. Um, so why is that? Why, why is it, um, only if this is true that the second one gets executed
+
+Subject:            40:48          This is the, well it was the, uh, umm,
+
+Subject:            40:52          Oh, is that not true? Let me think, umm
+
+Subject:            40:58          I, I, I think that's right because I, well is that a compiler optimization or is that a defined property of the Or operator? Because actually an operator or, oh, in c plus plus, uh maybe I'm wrong.
+
+Interviewer:        41:09          I was just sort of asking the question, not sort of implying anything.
+
+Subject:            41:19          And then you have like the, I'm suddenly like not, I'm not totally confident because um, in, in C++ typically the, the arguments are evaluated and then pushed onto the stack to call the operator and, but yeah, if you like it okay. In, in, uh
+
+Interviewer:        41:37          Yeah, feel free to write wherever
+
+Subject:            41:38          Okay, in in Lisp you would have like, you know, Or x, y, z. You could do like a arbitrary number and it will just, it'll keep evaluating until it comes to a false and all the ones after that won't be evaluated. And, um, there's no reason to evaluate this expression if this expression is, is false. So I, yeah, I guess it's, it's, it's unusual I guess. Like if there's place for ambiguity, why would you use like a, uh, um, plus plus? I actually have no idea now, I'm totally I'm mystified
+
+Interviewer:        42:13          Um, so, what, what
+
+Subject:            42:14          I don't know whether or not V2 will be incremented in this. Uh, if, uh, here, here it's not a question cause it's like the, the, there's no case where, um. This, this is true, this is going to happen. But if this was false, would this be incremented or not? And that, I don't know.
+
+Interviewer:        42:32          So it's the ambiguity in that case. If, if, if this were false, what's the ambiguity for you?
+
+Subject:            42:38          Okay, so in one case, I'm thinking that this could have this, this would be looked like this. If we can pull the, the um, plus plus V1 out here and then say if V1, then we say, uh, um, and then this one here is, uh, the question is, is it, um, if plus plus V2, uh, and then like, like the question is like, if, if this is false, would we ever reach this code versus a plus plus V1? Uh, uh, well I guess we could do the alternative would be plus plus V2 if V1, and then if V2 right. These are different because this one's going to unconditionally evaluate both of his expressions. And I,
+
+Interviewer:        43:26          I see. So the ambiguity is in which order? Uh, does both instrumentations happen. And then the if is evaluated
+
+Subject:            43:36          Or I should say the operator Or I mean like in knowing how C plus plus like I'm now like a little confused because, uh, normally like is it, is this operator Or plus plus V1, comma plus plus V2. And if that's the case, these are both evaluated before you call this operator. Uh, and if that's not true, then I guess I'm a little vague on, uh, um, the definition of operator. Like, like, uh, yeah.
+
+Interviewer:        44:10          Yeah. Okay. So, um, yeah. Uh, ah
+
+Interviewer:        44:17          As far as I know, um, all the arguments of this syntax of the Or operator, um, are
+
+Subject:            44:26          Evaluated?
+
+Interviewer:        44:27          They're evaluated as they go and it can short circuit.
+
+Subject:            44:32          Okay. Um, it seems like hard to implement it in the original, like in the early days of c plus plus before they introduced operator overloading, it seems like that seems like it could make, it would make perfect sense, but with operator overloading, like what if like, uh, I could change like what if I overrode operator or to return true irrespective of the inputs.
+
+Interviewer:        44:56          Right, exactly, yeah.
+
+Subject:            44:57          That seems like now the compiler needs to know that. Uh, and it can't, this is something that you don't know until run time.
+
+Interviewer:        45:04          Yeah, so that, and one thing you mentioned was, um, can it be done by the compiler and as you just mentioned, it can't, um, cause you don't know the values. Um, but certainly in, in C and almost certainly in C plus plus because it has to be backwards, for this kind of code it is backwards compatible. Um, yeah, first it, evaluates the first operand and then decides whether or not to
+
+Subject:            45:28          operate, to evaluate the second operand.
+
+Interviewer:        45:31          Yeah. Um, but the interesting thing is, um, I don't think this is actually, so even even in this one, um, I don't think this is actually a faithful representation of the logic of this operand [sic] because you were suggesting that, um, if the first operand is true, uh, or sorry, if the first operand is false, um, that you don't evaluate the second operand.
+
+Subject:            45:58          Yes,
+
+Interviewer:        45:59          Correct? Um, but actually, uh, for an Or statement, um, if the first opera it is true, there's no need to evaluate the second operand, but if the first opera and is false,
+
+Subject:            46:12          Yes...
+
+Interviewer:        46:13          Then you do
+
+Subject:            46:14          Right, you have to. Then you have to cause
+
+Interviewer:        46:15          Right.
+
+Subject:            46:17          Yes. Okay. Yeah. I'm not thinking too carefully about the, the specifics. I'm sort of thinking about the, and cause it would be similar with an And you have the same question or whether it, when it's true do you evaluate next? Like, Oh God, I'm, I'm glad that I don't implement compilers.
+
+Interviewer:        46:30          Yeah. Um, but so, so why, why was your gut feeling that uh, false is the value?
+
+Subject:            46:39          Well, I, there was no, this wasn't in contention for him because they were both true. Right. So, oh, but then that's what issue. Right. So why did I evaluate the second one?
+
+Interviewer:        46:49          Right.
+
+Subject:            46:49          Oh, am I wrong here? I could be wrong because the first one's true. There's no reason to evaluate the second one. Oh. So I was, um, yeah, yeah.
+
+Interviewer:        46:58          This one was a little off, but, so why, why was that your instinct that if it's true, you should evaluate the second one, but if it's false, you shouldn't,
+
+Subject:            47:05          Uh, that's kind of the mistake that humans make.
+
+Interviewer:        47:07          Yeah. For sure.
+
+Subject:            47:11          Yeah, yes, yeah. Uh, um, yeah. Okay. This one, this one? Yeah. You got me on this one. Uh,
+
+Subject:            47:23          Yeah. I just, yeah, I flipped the behavior, I think that the, uh, mmm.
+
+Subject:            47:32          Yeah. I don't have a good, good reason why I think that normally like in, in this kind of like, it's unusual to use, uh, like mutation with an Or. More typical would be to do a chain of Ands, and like, and so, uh, and I think this particular construct, um, because ya, so wait yeah. If you, if this, uh,
+
+Subject:            47:57          Yeah this, this seems like it's, it's almost deliberately trying to fool with you because I the the ummm.
+
+Subject:            48:06          Cause you're going to keep evaluating until you get to a true expression basically.
+
+Interviewer:        48:10          Yeah.
+
+Subject:            48:11          That's the, uh, the idea.
+
+Interviewer:        48:13          Um, so do you think, do you think your intuition is, because you see it more often with Ands?
+
+Subject:            48:19          Yes. It had been like, uh, almost, uh, well actually have De Morgan's law [chuckles]. Um, we could, like, if I saw somebody doing like a whole bunch of Ors, I, I'd be like, oh, think about doing this with Ands instead, because that's, that's easier to understand.
+
+Interviewer:        48:33          Yeah. Um, although it's not clear to me that you can apply De Morgan's law if there are side effects.
+
+Subject:            48:41          No, I don't think you can either. Uh, but yeah, but like, um, uh, doing conditionals with side effects is kind of like, I wrinkle my nose at that to begin with anyway. Um, yeah.
+
+Interviewer:        48:57          Yeah. Uh, I, that makes sense to me. Yeah. I don't know if I would like, if even if, so, um, I think there are, I have seen cases where people do a whole chain of Ors. Um, but yeah, like, um, maybe to return though, usually you want it like you're barely if, if, if anything is wrong, uh, like, you know, if I'm expecting that, like I'm just, I'm basically satisfying the assertions for like some code that's going to do something. If it doesn't have a parameter or this is missing or this or it's greater than the number. Don't do anything. Right. And so, yeah. Uh, yeah.
+
+Subject:            49:39          So, yeah, I think I too, like in that situation that you would never want it typically are like trying to establish like the state before you enter an area that's like critical if that'd be all those things be satisfied. And so the idea that they would have side effects, is like kind of anathema to that. Um, but then the other, I mean the, the And'ing is much more typical I think for like, it's not that much different I guess. But the, I usually the control flow, if I see a whole bunch of Ors I expect to be the control flow to be like return or to don't do anything more. And I usually prefer like having like the declaring all the things you expect and then opening and the braces. Sometimes people, I mean like doing code reviews, people like I often will say like, oh, I prefer to seeing nesting for the, for the code and somebody will say, oh, uh, instead, just return or like escape the code. And keep everything from being indented too much. Because there's only 80 columns or whatever.
+
+Interviewer:        50:31          Yeah. Cool. All right. So any other questions about this or
+
+Subject:            50:36          Should I give them the correct answer is like a two, three, nine, four, nine, is that right?
+
+Interviewer:        50:43          Uh yeah? I think that is, yeah, that's it. Um, yeah. Cool. Um, all right, so let's move on to the next one.
+
+Interviewer:        50:58          [Snippet 13] Okay. Um, so with that one, any, any questions about that one?
+
+Subject:            51:04          No, that one seem straight forward.
+
+Interviewer:        51:05          Yeah. Uh,
+
+Subject:            51:09          Yeah, I think this was like the post-increment like, uh, very often confuses people who are new to C plus plus and the fact that it returns the wrong value, right? Like there was a, um, I did when I joined [company] they had that, like I said, don't prefer plus plus to
+
+Interviewer:        51:25          well you said something in particular. Oh No, we're not there yet. Nevermind.
+
+Subject:            51:30          We actually said they now say there's no reason to prefer one over the other. Like if it's clear from the context with your intent is, especially because actually the in for loops for example, people very often want to do I plus plus because that was in K&R original, I don't know why like post-increment. Um, it used to be also more expensive. Um, although that's no longer true or very unlikely to be true
+
+Interviewer:        51:56          Because it's speculative?
+
+Subject:            51:58          Right, right.
+
+Subject:            51:59          Um, no. So that's
+
+Interviewer:        52:03          Cool. Yeah. Um, yeah, I didn't have anything to talk about either.
+
+Interviewer:        52:08          [Snippet 50] Ok, how about this one? Um, any questions about that one,
+
+Subject:            52:12          That one seems super straight forward.
+
+Interviewer:        52:15          Um, oh, mmm. Oh, nevermind. Yeah. Okay.
+
+Interviewer:        52:24          [Snippet 49] How about that one?
+
+Subject:            52:33          That also seems straight forward.
+
+Interviewer:        52:36          Um, okay, so that one, um, you mentioned something that you said you would explain later. You said "Question Colon's confusing, and use them a lot". So I want to hear what that's about.
+
+Subject:            52:47          Oh, that's a, there's a if you, I don't know how you search for it on the Internet. But there's, uh, uh, uh, d 2 c there was a poem that was ode to C. And there's a stanza in the poem that said the poem is very, it's very funny. It says like, Oh,
+
+Subject:            53:04          um, uh, um, that's oh, if I remember. Some other parts of it. Uh, um, "plus plus adds one and null is for none". And like, I kind of like it's rhyming stanzas and it, um, uh, like towards the end it has a line that says "Question Colon is confusing, use them a lot". And then the last thing, which is kind of the joke is like that, um, it has this expression that's like void paren star. Like at the same is a, a pointer to an array of functions returning. It's like this for does it breaks the meter and it's just terrible. Like think about how you can like create, like you can kind of create, um, um, pointers to functions that have arbitrarily complex like nested structures. So it like a choice.
+
+Interviewer:        53:51          Oh, it's a meta ref, it's a meta joke
+
+Subject:            53:53          Right, they said the it, it's like the phone works so well except for the last line is this terrible. And it's kind of like making fun of the intrinsic complexity that's possible in C
+
+Interviewer:        54:02          Yeah, that's pretty funny
+
+Subject:            54:03          And so I always remember like that kind of like whatever like, ah, I have the urge to put a question mark operator in and I think that, yeah, they're confusing so use them a lot. Especially the nested ones, like where you have question mark question. And people do like mean you can do it like the whole, yeah, yeah, yeah. That's amazingly common. Yeah.
+
+Interviewer:        54:21          The nested ones are amazingly common?
+
+Subject:            54:25          I mean like I review stuff on my like, Eh, well as a reviewer, like I kind of, especially when we have something called readability at [company] we like are criteria, you might've heard about this
+
+Interviewer:        54:36          The badges.
+
+Subject:            54:36          Yes. So, um, uh, but I oftentimes like feel like, uh, my role is to like tell them to add more of something or if they have too much or tell them to take some away. Just to say something, you know, you can't like, you know, just like not say anything. So like you say, "Oh, you can put a question mark operator here." and "Oh, you used the question mark operator, why don't you not use that?" [Laughter]
+
+Interviewer:        54:58          Yeah, yeah, yeah. So either way. Um, okay, cool. Um, yeah. Well, so one comment, I mean, you got this one, right, and I think you explained how it works just fine.
+
+Subject:            55:14          I guess the order of precedence, it could be like, that's another thing that like, uh, the, uh, very often people get burned because of the like, uh, they would often say, do this. Sure. To make sure that you like, that's the if expression. Uh, and it's easy to get, like I think the question mark operators not that high. There are some operators that are like, um, that um, kinda associate higher as you get, you can get unexpected behavior if you, if it's the wrong, it's evaluating the wrong expression.
+
+Interviewer:        55:49          Yeah, I think one interesting thing about the Ternary Operator, THE Ternary operator, um, is that unlike most operators, it has multiple precedences because there are multiple places to put expressions. So, you know, there's the precedence of the outside thing, the precedence of the inside thing, you know, just kind of weird.
+
+Subject:            56:13          And actually, so this one here, like I don't think, I think that if I remember the rule, the only one of these two expressions is going to be evaluated.
+
+Interviewer:        56:20          Yeah.
+
+Subject:            56:21          Okay.
+
+Interviewer:        56:22          Um, yeah. You know, your answer was correct.
+
+Subject:            56:24          No, but if these had side effects, if you had like function one and function two.
+
+Interviewer:        56:29          Oh yes, that's true
+
+Subject:            56:29          And that's right, if you actually, for all these things, like if you had, like if you put it in function calls with print statements like I, that would be a much stronger challenge because you, you, you'd be basically saying, do you know what's going to be evaluated? Uh, and, and here with like this, like constants like who cares.
+
+Interviewer:        56:48          Yeah. Well that's true. Um, okay, cool. Um, any more questions about this one?
+
+Subject:            56:57          No.
+
+Interviewer:        56:57          Okay, cool. So at this point we're kind of done so I can turn off the thing, but they were kind of a couple of things. Just sorta, we're talking about, let me turn this guy off.
+

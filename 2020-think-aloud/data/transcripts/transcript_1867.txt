@@ -1,0 +1,338 @@
+Interviewer:        00:00          Just turned on the audio recording. Can you say one more time, whether or not you're okay with...
+
+Subject:            00:03          Yeah, I'm okay with being recorded.
+
+Interviewer:        00:05          Awesome. Thank you.
+
+Interviewer:        00:08          Um, okay. So I'll give you the first, um, sort of question and if I could have you just say out loud everything you're thinking as you do it.
+
+Subject:            00:18          [Snippet 109] Cool. Alright. Sample one oh nine. All right. So we've got this int we set to two and this like empty if statement that doesn't do anything and then we increment the thing once. So the output should be three.
+
+Subject:            00:36          Uh, do I have to put the start times or do you fill those in?
+
+Interviewer:        00:38          Oh yeah, we should probably do that.
+
+Subject:            00:40          That was 2:20?
+
+Interviewer:        00:40          Yeah, 2:20
+
+Subject:            00:44          And also ended at..
+
+Interviewer:        00:47          Yeah, 2:20
+
+Interviewer:        00:47          Um, and then yeah, if you can write your confidence afterwards and...
+
+Subject:            00:50          Yeah the confidence is very high.
+
+Interviewer:        00:52          Okay, great. Um, so after each of these, uh, samples, I'll ask you why you chose that confidence level. So for this one, why did you choose six?
+
+Subject:            01:01          Um, I mean it's, it's pretty straight forward program. Um, there's like, the only thing that's weird is like this if without braces. So like it doesn't guard that one, but it's nothing I haven't seen before. I would probably ask someone to like write it differently if they were going to write that, but you know.
+
+Interviewer:        01:20          Okay. So, well, I guess why would you do that? Why would you ask them to?
+
+Subject:            01:24          I mean, just, I always like having braces around the If because you never know if like you're going to want to do something later and start something later. Like it, you have to think about it a little bit. Also, you have this like if zero which you know, and why would you ever have that in, you know, real code, but um [laughs], that, yeah, I would, I always prefer to have braces even on one line Ifs just that you can keep them on the same line if you want to save the space, you know? But at least, you know, like, all right and you don't run into that bug.
+
+Interviewer:        01:51          Gotcha. Um, what bug is that?
+
+Subject:            01:55          The bug of like, oh, I wrote, you know, an If without the braces and then something else that was supposed to be guarded by the If afterwards, but it's not because I didn't put the braces in.
+
+Interviewer:        02:05          Gotcha. Okay. Awesome. Um, yeah, thank you.
+
+Interviewer:        02:18          [Snippet 50] Okay, so the time is 2:21
+
+Subject:            02:19          2:21. All right. All right. A couple ints. We've got this nice [chuckles] undeclared mis-declared int, um, eh if V1 equals two, which it doesn't. So we set V3 equal to five. Um, and I'm very positive about this.
+
+Interviewer:        02:40          Okay. So why, why, well hold on, so let's put the time, 2:22.
+
+Subject:            02:44          2:21, 2:22, okay, great.
+
+Interviewer:        02:46          But why are you very confident about this one?
+
+Subject:            02:49          Um, it's also, you know, pretty straightforward, just like reading a, an if statement and then an else statement, um, the, the un, the int declared like without anything is weird, just like, because C is weird with that and I can never remember the rules of like what exactly that does with the int and then I'd always have to look it up. And you know, um, I, if I was writing this, I would probably use like a ternary operator. If I was writing something like this and actual code. But you know, taste. [Laughs]
+
+Interviewer:        03:22          Sure.
+
+Interviewer:        03:24          Um, so I have a couple of questions. First of all, um, you'd probably look up what happens with the int V3, the, uh...
+
+Subject:            03:33          Yeah, I mean in this case like where we were setting it, so it's pretty clear, but I always like have to double check, like, "Oh, what happens?" Because when you declare an int but you don't define it.
+
+Interviewer:        03:42          So like what are, what are the options? Like what are the things that you're worried might happen?
+
+Subject:            03:46          Well, so it's, it's, it's, I'm pretty sure it's not zeroed, but, and, and it's left at just like, like is it undefined behavior to access it or is it just set to whatever it happens to be set to? Um, like I'm pretty sure it's not, it's not zero. Um, when you declare it like this as opposed to like default. And then there's all like the different constructors and stuff, but that's c plus plus, and this is c code.
+
+Interviewer:        04:13          Um, cool. Awesome. Um, and then the other thing I wanted to ask about is, um, you mentioned you'd probably use a ternary operator here in practice. Um, why?
+
+Subject:            04:26          Um, honestly to avoid having a separate declarations and definitions. I would just, you know, int V3 equals, you know, is V1 2? 3, otherwise 5, and then have it all in one the statement
+
+Interviewer:        04:37          Okay
+
+Subject:            04:37          Or otherwise. I would just do the declaration that definition inside here if I couldn't do that for whatever, like inside the If or the Else so you don't have this hanging declaration without anything.
+
+Interviewer:        04:50          I see. Yeah. You put the int V3 inside the
+
+Subject:            04:53          Yeah, inside the If and inside the Else.
+
+Interviewer:        04:56          Okay. Yeah. Um, awesome.
+
+Subject:            05:00          Well, I'm not reading a lot of notes and like, if that's cool.
+
+Interviewer:        05:02          No, they're there if you want to. Um, if there's anything I'm curious about I'll ask you.
+
+Subject:            05:07          Cool.
+
+Interviewer:        05:07          And you've been doing a great job explaining, so.
+
+Subject:            05:09          Awesome.
+
+Interviewer:        05:09          All right, thank you.
+
+Interviewer:        05:18          Okay, so the time is 2:24
+
+Subject:            05:19          [Snippet 115] Okay, 2:24. All right. Oh, we've got a float and we're printf'ing it with a percent d I never know about printf syntax, I never use it [nervous laughter]. Um, oh we're setting int to V2 to V1. Umm.
+
+Subject:            05:42          Yeah, I mean in a, in a, if this was a code review I'd tell someone why are you doing that in the first place? But um, I'm pretty sure that the behavior here is that the output is one, but I'm like, I'm like a five, maybe a four actually. I'm gonna put four. I'm like 50 50 on it, yeah.
+
+Subject:            06:04          In the end time, 2:25.
+
+Interviewer:        06:09          Okay. Um, so can I ask you why four out of six?
+
+Subject:            06:13          Um, just cause I, I, I'm like fairly sure I remember that when you do this, it rounds down, but like I'm not, I'm not sure what the exact like that it does that it will truncate off the, the fractional part, but I haven't done something like that in a while. And I'd probably like write a little test program to double check it. And in general I would ask the person why they have to assign an into a float. And if they want to round, they should like explicitly round, like use a, a floor function or something.
+
+Interviewer:        06:39          Gotcha. Um, okay, great. Yeah. Um, what was uh.
+
+Interviewer:        06:46          Okay, cool. Um,
+
+Interviewer:        06:50          Yeah, thank you.
+
+Subject:            06:50          Cool.
+
+Interviewer:        06:56          [Snippet 13] Yup, the time is 2:26.
+
+Subject:            07:01          Cool. Oh, we've got this whole, yeah, at 2:26
+
+Subject:            07:08          and we're, and we're printing it twice. Okay. With uh, with the space and a new line and stuff and this plus V-eye plus plus, so or V1 plus plus and that post increments. So you have like three and then it'll be three plus two and then increment it afterwards. So then afterwards V1 will be three and V2 will be five cause you added it to the old one. So now I'm like, yeah, V1 equals three V2 equals five. And so then the output is a V... Is three space five. Um, and then I'm like a five on that one I'm pretty confident
+
+Interviewer:        07:47          Ok cool. Um, so can you explain why five out of six?
+
+Subject:            07:52          Um, I, I'm pretty confident of it but a little bit down because it's like, you know, a slightly like convoluted you know statement with the post increment but also adding to it and it's like a bunch of stuff happening all in one statement. And um, yeah.
+
+Interviewer:        08:06          So can you think of, um, if it were wrong, sort of in what way would it be wrong?
+
+Subject:            08:12          Um, if it was wrong, it would be in like what the value of of V two is, is like, I'm pretty sure that it's five. Um, but that's, I'm like, I'm like 99% certain of this. I've, you know, like, but I'm not like 100%. Yeah.
+
+Interviewer:        08:27          Okay. Sounds good. Thank you. Time is 2:28.
+
+Subject:            08:40          [Snippet 73] I'm always surprised that programs ever work at all [laughter]. Like this, how many things had to go right for this to work? Um, all right. So we have these two ints and we do the v two equals, but with only one equal sign in it. So it's not actually checking that there's a equals equals and it, I believe that gets if one, because that's the value that we set V2 so it will go into the first block and set v one equals three and like that equal sign. So then v one is going to be three and that's what we're printing out. Yeah. Um, and I'm pretty confident about that one too. I'd also put that one as like a five. With my only like unsure of is like, I'm pretty sure that this this expression, the V2 equals one will like have a value of one within the if statement. Um, but yeah, like another one of those things that is just like avoid doing because you have to think about it and there's easier ways that are less, less like you know, if you can do it in a way that is like, doesn't make you have to ask questions and does the same thing, then like, yeah.
+
+Interviewer:        09:49          Okay. yeah. Makes Sense. All right. Uh, thank you.
+
+Interviewer:        10:01          [Snippet 19] Time is 2:29
+
+Subject:            10:08          Alright, [inaudible] an int and another one where we pre increment V1. So now V1 one is three and then subtract two. So v two is one and v one is three, so it should be three and one. That's our outputs. That's um, yeah. And, end time is 2:30.
+
+Subject:            10:39          Um, and I'm, also like, you know, I don't think I'm going to have a six for any of this cause it's C [laughter], but um, yeah, pretty sure about that one.
+
+Interviewer:        10:49          Uh, so why, why five out of six?
+
+Subject:            10:53          Uh, it's this the same like it's a, you know, it's, it's a complex statement and like, you know, I'm pretty sure I understand it, but you know, there's a chance it might be, you know, like just putting together the pieces wrong today or something, you know, like, and it's like slightly convoluted.
+
+Interviewer:        11:10          Yeah. That's fair. Um, and can I ask you what you meant when you said you wouldn't put six out of six? Because it's C?
+
+Subject:            11:19          Uh, just that there's so many ways, like weird corner cases in c and c plus plus. And I think I've just, I've run into enough of them over the last few years that I just don't trust any. Like if I see that, I'm always have to, like I have my guard up when I'm reading like C and c plus plus code because there's so many and like no one has it all memorized. No one knows everything that can bite you. Yeah. Like even for a simple code like this? Yeah.
+
+Interviewer:        11:43          Yeah. Cool. Thank you.
+
+Interviewer:        11:52          [Snippet 45] Time is 2:31
+
+Subject:            11:57          2:31. all right, we've got an array. Um, okay. So we've got an array of ints and then v one plus one is going to be a pointer that points at the second element in v one because arrays are pointers. And so then if we dereference that we should get 2, and then I'll, I'll give, I'll give a six on that. I'm pretty sure about that one.
+
+Speaker 3:          12:26          Um, I'll put a five on it, actually, I'm not sure about any these. I'm like 90% sure about all of these. But yeah. Um, this is, you know, like a weird, like cus pointers in arrays are kind of the same basically, in C, so that's how that works.
+
+Interviewer:        12:42          Um, so you were sort of between a five and a six there. Um, do you want to say anything about maybe what made you degrade, your vote?
+
+Subject:            12:52          I, I really, I think I'm probably never going to put a six on any of these. I just, I don't know why. Maybe it's just my own psychology about myself or my reading code, but like, um, yeah, it's just, it's the thing. I think all of these have the similar thing, which is they're all, it's all code, which is correct and I can see why it's doing what it's doing, but maybe there would be a better way to express it that I would be more, more likely to see and that I'm more used to seeing, whereas these are written in a style that I'm not used to seeing so much. So like, and like leaving a little wiggle room for that.
+
+Interviewer:        13:26          I see. Um, so, uh, in this particular case, um. Yeah. Is there another style that you're more used to seeing or like,
+
+Subject:            13:36          I mean, if I, instead of saying v one plus one, I probably would have done something like, you know, um, if I wanted to have this point to I, you know, like, int you know, star v two and I'd probably just straight up put like address of v one or I'd probably do like specifically I want the address of the second thing in V1. Yeah. As opposed to like doing it with pointer arithmetic on array, which is like now you have the array to pointer to k and remembering that the arrays are just syntactic sugar in C. blah blah blah. I think I meant to draw an ampersand and I accidentally drew a treble clef [laughter].
+
+Interviewer:        14:16          Well, code is always better when it's musical.
+
+Subject:            14:19          Yeah. Very much so [chuckles].
+
+Interviewer:        14:20          Awesome. Um, okay, cool. Um, anything else to say about this?
+
+Subject:            14:24          Yeah, that's it.
+
+Interviewer:        14:25          [Snippet 46] Cool. Thank you. And this is the last one. Um, so the time is 2:34
+
+Subject:            14:38          2:34. All right. We've got another array and so it's the thing that I just said [laughs].
+
+Interviewer:        14:41          Yeah, I noticed.
+
+Subject:            14:42          Sure, yeah, no. So then it's the and we're going to get one, unless I'm like, I should probably read it carefully just in case, but yeah, the address of the second thing, which is right there. And then we dereference it. So it's one and, nice I have to put my money where my mouth is and give it a six.
+
+Interviewer:        14:59          Um, anything else you want to say about six out of six on this one?
+
+Subject:            15:03          Not really, except, yeah, like this is, you know, it seems a little more direct than, that's how I would put it, yeah.
+
+Interviewer:        15:10          Sure. Okay, cool. Um, so I'll want, so first I want to give you a, um, a sheet to talk about your, um, your experience. Um, just write down your experience. Um, you can feel free to be vague or skip any question that you don't want to answer. Um, and then afterwards if we could go through and sort of talk about the questions.
+
+Subject:            15:30          Sure.
+
+Interviewer:        15:30          Thank you.
+
+Subject:            15:33          Cool.
+
+Subject:            16:23          I Dunno.
+
+Interviewer:        17:41          Which one is that?
+
+Subject:            17:42          How many, the largest c plus or c plus plus program written or contributed to? It's like, well, I've contributed to like almost everywhere in the [company] codebase, somewhere in like 500 million lines of code. I'm like, a lot hopefully. How many lines code I've contributed at [company], a lot. Uh, yeah, I dunno. If I had to guess, I would, I would say approximately 10,000, probably more. I have no idea. These are estimates.
+
+Interviewer:        18:09          Yeah, that's totally fine.
+
+Subject:            18:11          How would you estimate my programming proficiency? I would say that I'm like a five and I would say like, I dunno also a five in c plus plus. There's a lot of people who know a lot more than me. Relative to second year programming students. I would say to professional programmers. Uh, now you are measuring my hubris [laughter]. Um, I dunno, I guess I'm probably better than most professional programmers if I had to get, have you ever been a programmer professional? Yes. I haven't been a professional programmer for four years. Okay. Yes. 3.5 years.
+
+Subject:            19:00          Each programming language you use along with the year in which you learned it, the number of years you spent actively working with the language. Umm. And estimate the total number of lines of code you've written for each. Oh God. Okay, cool. Um, I learned Java first, that was in probably 2010 for like three years. I don't know, maybe a thousand for class projects. That 10,000 number I think is very low [nervous laughter] that I did on the last one. At least 25,000 and 30 million. Let's see what I did. Let's see. Python, which is probably the same year did ever since this, who knows, probably similar, um, c plus plus that way around like 2013 or 2014 and I use it for a year then of work, et cetera. When [inaudible] c plus plus,
+
+Subject:            21:08          Yes. Research.
+
+Subject:            21:33          That's pretty good. Oh, I've a lot of Javascript too,
+
+Subject:            21:38          I believe 2013 and then I used it for like three years. I don't know. Probably about 2000. Hm.
+
+Subject:            22:03          Cool. All right.
+
+Interviewer:        22:06          Uh, awesome. Thanks. Um, so if it's cool with you. We can just flip through the questions and see if either one of us has questions.
+
+Subject:            22:14          Cool.
+
+Interviewer:        22:14          Okay. Um, so looking at the first one
+
+Subject:            22:20          This is where you tell me all my answers are wrong, right? [Nervous laughter]
+
+Interviewer:        22:21          Um, in in theory, that is what we would do. Yes. [Subject laughs] Um, so do you have any questions about this one?
+
+Subject:            22:31          No.
+
+Interviewer:        22:31          [Snippet 109] Okay. Do I have any questions about this one? Umm. I mostly, yeah. Mostly understood everything you were saying. You, um, kept using the word guard.
+
+Subject:            22:41          Oh yeah. Like, cause the, uh, the ifs, like, you know, it guards I at my, that might only be my own personal vocabulary of like, If and then what's ever in the brackets is like guarded by the if statement because the, if let's, it's like a guard. Let's say let's some, sometimes it lets you in, sometimes it doesn't.
+
+Interviewer:        22:58          Gotcha. Um, it, have you heard anybody else use that terminology?
+
+Subject:            23:04          I might. I probably picked it up from somewhere. It's not something that I consciously do.
+
+Interviewer:        23:08          Okay. Um, one like there's only like one other place that I've sort of heard that terminology. Well, I guess a couple of places, but in both like Haskell and in Python, um, when they do like for comprehensions or something, you can have like a guard. Um, I think that's the only other context in programming we have that. And I think it's even like a little related cause you can have like an if guard like in python when you have the for comprehension. Um, but that's, that's not what you were getting at.
+
+Subject:            23:41          I mean, yeah, I mean it's whatever's inside the if statement is what I meant by guard.
+
+Interviewer:        23:44          Sure. Okay, cool. Um, and then otherwise, yeah, I don't think I have any other questions about that one. Um, cool. Thank. Thank you.
+
+Interviewer:        23:57          [Snippet 50] Do you have questions about that one?
+
+Subject:            23:59          No, not so much. Yeah.
+
+Interviewer:        24:02          Okay. Um, I guess I only have one minor question. You talked about sort of dragging the um declaration of the int V3 in there. Um, but I don't think it would compile.
+
+Subject:            24:21          It might, it might not. I could be wrong, but I'm pretty sure it would. I it might depend on the, the version of C also. I know like old versions of C are weird, but like, I'm pretty sure if this is c plus plus, it would compile. I could be wrong. Um, you know, I could go check it on, [compiler] right now.
+
+Interviewer:        24:36          Yeah. I'm not sure if the scope would be local to the if statement or...
+
+Subject:            24:40          Hmm, yeah, it probably would be local to the if statement now that I think about it. And so there you go [nervous laughter].
+
+Interviewer:        24:48          Yeah.
+
+Subject:            24:48          And that's why I would use the ternary.
+
+Interviewer:        24:50          Sure. Okay. But so the intention w w what was
+
+Subject:            24:54          The intention is to, to not have the, the like declared, declaration of an int that's not defined because it's just a, uh, it's a vector for bugs.
+
+Interviewer:        25:05          Oh, okay.
+
+Subject:            25:06          Yeah. Um, and you know, if you're like accidentally using an undefined or just like you have to kind of go back and forth. So like normally I would say like if I was reviewing someone else's code, I would say put it in a ternary or like if it's more complicated than that and maybe you want to think about having a little function that does the initialization of it for you.
+
+Interviewer:        25:25          Gotcha. Okay. So, right. So the intention is just so you don't have an undefined variable.
+
+Subject:            25:29          Yeah
+
+Interviewer:        25:29          Okay, cool. Um, there's also something else I've sort of seen people do where they just try to keep the scope of variables as small as possible.
+
+Subject:            25:36          Yeah.
+
+Interviewer:        25:36          But that was sort of less than motivation then the other one, right?
+
+Subject:            25:41          Yeah. I mean, yeah. Also you absolutely, like you didn't want to have a variable around longer than you need. So I think they're similar. Related and [inaudible] in that respect.
+
+Interviewer:        25:49          Yeah, totally. Okay. Awesome. Thank you.
+
+Interviewer:        25:57          [Snippet 115] Uh, do you have any questions on this one?
+
+Subject:            25:58          Uh, no, not really. Oh, why'd you use float instead of double?
+
+Interviewer:        26:04          Um, that's a great question. Um, and we can talk about that next. Once we're sort of done going through this. Um, okay. So I, I have one sort of minor question for you. Um, one thing you mentioned about this one was, um, not being as familiar with, um,
+
+Subject:            26:23          Using printf?
+
+Interviewer:        26:24          Yeah. Did you have any concerns about that at all going through?
+
+Subject:            26:31          Uh, no. I mean these were pretty self explanatory cause it was all just like printing an int, you know, maybe there a space in it. So it's not like it was, you know pretty easy to reason how... It's not like I've never used printf before. It's just, I never, I don't have the, I couldn't write out like a format string without looking it up.
+
+Interviewer:        26:46          Got it
+
+Subject:            26:46          I know I'll use like, you know IO streams or something if I want a quick, quick print. Yeah. Cause I normally will write C plus plus and not C.
+
+Interviewer:        26:58          Yeah. Gotcha. Okay. Awesome. Um, and yeah, we can talk more about that later. Um.
+
+Interviewer:        27:10          [Snippet 13] Okay. Any questions on that one?
+
+Subject:            27:11          Um, no, not, not really.
+
+Interviewer:        27:15          Okay. Me neither.
+
+Interviewer:        27:23          [Snippet 73] Questions on that one?
+
+Subject:            27:25          Um, no. Uh, that, that, that evil single equals sign trick [nervous laughter] .
+
+Interviewer:        27:35          Um, yeah, I guess. Um, well I mean why, why, why, why trick?
+
+Subject:            27:39          Well, I mean it's, I guess that's my, I'm putting, putting that onto you guys as seeing as like my guess is to see, like part of this is to see if somebody notices that, like, I guess my own guess as to why it's there. Because it's like people call that out as an example of like gotchas in C and c plus plus.
+
+Interviewer:        27:57          Sure. Yeah. Um,
+
+Interviewer:        28:01          Would you say you've like read things about gotchas, in in C before?
+
+Subject:            28:08          Yeah. Not, not necessarily I've sought out, but it just, it like, you know, it, it shows up. Like people talk about it all the time cause it's hard to talk about writing C without talking about all the ways that you can make mistakes.
+
+Interviewer:        28:18          Oh, interesting. Um, would you say that that comes up while you're learning it or just sort of in the...
+
+Subject:            28:24          Well yeah, while I'm learning it while I'm just absorbing it and while I'm debugging like, you know, and of course, like sometimes people will post articles about this, this thing, you know, I was like, okay, I'll check that out. So it's a little bit of everything, you know, just organically over time.
+
+Interviewer:        28:37          Sure. Okay. That makes sense. All right, cool. Um, I don't think I have any other questions about that one. Um,
+
+Interviewer:        28:43          [Snippet 19] How about this one? Any questions?
+
+Subject:            28:47          Uh, no.
+
+Interviewer:        28:49          Uh, do I? Yeah, I don't think so.
+
+Interviewer:        29:00          [Snippet 45] Questions about that one.
+
+Subject:            29:00          Yeah, how do I draw ampersands [laughs] not treble clefs.
+
+Interviewer:        29:06          Yeah, this is actually not the first time that's come up in one of these. Um, but we can compare it with this one. I like to start at the top and then go down.
+
+Subject:            29:14          Oh, you go "wapoosh, wapoosh"
+
+Interviewer:        29:16          Yeah, exactly. Yeah. But it like, you have to practice it a little bit, you know?
+
+Subject:            29:22          Yeah. This is like such a, it's such a tiny little thing to, to like, "I can't draw an ampersand!"
+
+Interviewer:        29:28          [Snippet 46] Treble clef's are sweet, so. Um, all right. So any questions on the last one?
+
+Subject:            29:33          No.
+
+Interviewer:        29:34          All right, cool. Um, in that case, I'm going to turn off the recording.
+

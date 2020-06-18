@@ -1,0 +1,422 @@
+Interviewer:        00:00          Okay, cool. Um, also I just started the audio recording,
+
+Subject:            00:04          Sure, no problem
+
+Interviewer:        00:04          So if you consent to audio recording, can you just say that
+
+Subject:            00:08          I consent to audio recording?
+
+Interviewer:        00:10          Okay, great. Thank you. Alright, cool. So, um, read through the instructions.
+
+Subject:            00:15          Yeah.
+
+Interviewer:        00:16          Cool. So are you ready to begin?
+
+Subject:            00:17          Yeah
+
+Interviewer:        00:18          [Snippet 45] Great, thank you. Okay. So if you could please write the time as 11:01
+
+Subject:            00:38          All right. Um, it's like a it's a int array containing four, two, seven, five. Um looks like we're taking a or declaring another pointer to that array and adding one, that's interesting. Um, I think that should be, I guess that's the address over the array as. I don't think you can add one to an array like that as there's just nothing. There can be a length or an element, but I don't think that's how that works. So I guess I will, and that, and then this pointer to an int should be, if I were to guess that it's correct, is the size of the array. So right now the array was instantiated at four and then the size should be uh five. So if you were to print the dereferenced V2, then be five. So program output is five? Here? Is that where I wrote the program?
+
+Interviewer:        02:26          I was thinking there if you just circle that. Okay. Yeah, that's fine.
+
+Subject:            02:29          I'll just cross it out and then I think that's it?
+
+Interviewer:        02:34          Okay, great. Um, and if you could write the time 11:03, um, and then down here, um your confidence about your answer.
+
+Subject:            02:46          I'm going to go with four [laugh].
+
+Interviewer:        02:49          Cool. Okay. And could you explain why that confidence level?
+
+Subject:            02:55          Um, I wasn't sure that you could add to an array directly like that.
+
+Subject:            03:00          Um, so assuming that the code was relatively simple, I just assumed that you could index something in the array and it was either going to add an element or increase the length of the array. So I went with length.
+
+Interviewer:        03:17          Okay, cool.
+
+Subject:            03:20          Yes.
+
+Interviewer:        03:21          Okay. Awesome. Thank you. So we can move on to the next one.
+
+Subject:            03:24          Sure.
+
+Interviewer:        03:26          If you could write the time again, 11:04?
+
+Subject:            03:30          Sure.
+
+Subject:            03:39          [Snippet 46] Another array. This time the pointer is an address of an element. The second element in the array or I guess the first if. So the array contains three, one, four, and six. Then we're passing a reference to the element one in that array. So V2 will contain a reference to that element and then when you try and print out the dereferenced V2 it'll print out 1. And then 11:05. I think I'm positive about that one.
+
+Interviewer:        04:28          Great. Um, can you explain why uh, you're positive about this one?
+
+Subject:            04:34          Uh, this is a more familiar, accessing of an array that I'm used to in C I think just by element as opposed to the incrementation, I guess.
+
+Interviewer:        04:47          So you'd say it's because you've seen this kind of thing?
+
+Subject:            04:49          Yeah.
+
+Interviewer:        04:49          Awesome. Thank you. 11:05
+
+Subject:            05:04          [Snippet 19] Alright. V1 is 2. And then V2 is equal to the incrementation of V1, so three minus two, so one. So V2 is currently one. And then if we were to print out V1 and V2, we print out two and one. In spaces like that, there we go. 11:06.
+
+Interviewer:        05:45          Okay, great. And so, um, you wrote down a confidence of six, so can you explain why that confidence?
+
+Subject:            05:49          Uh, uh, again, I think I've seen some more stuff like this before. Uh, the, I'm familiar with incrementation and evaluating simple, simple arithmetic on the side of assigning to ints at least.
+
+Interviewer:        06:04          Okay, cool. Thank you. It's 11:06 now.
+
+Subject:            06:20          [Snippet 115] It's a float V1 is one point nine nine. And we assign it to an integer so it gets rounded off. So V2 is going to be one and then we're going to print out V2 and we'll print out 1. And then 11:07 and six.
+
+Interviewer:        06:43          Okay. And could you explain that one too?
+
+Subject:            06:45          Yeah. Um, so this is uh, I think it's called slicing or uh, that's what I would call it, at least where you assign a float value to an integer and then the remainder is dropped off essentially when it, when it's gets assigned.
+
+Interviewer:        07:05          Um cool and great. Thank you. Alright, 11:07
+
+Subject:            07:18          [Snippet 50] Alright, I'll assign three variables, zero, four and nothing. And if first variable is equal to two, which it's not, we'll set, we'll set V3 equal to five. So V3 will be five as V1's not equal to two then print out five, 11:08, six.
+
+Interviewer:        07:54          Okay. And can you explain why the six there?
+
+Subject:            07:59          Um, we just have to check one variable and it's not true. So we just assign a value to an integer and it's pretty easy to tell what that integer is because it doesn't get manipulated.
+
+Interviewer:        08:13          Yeah. Cool. Thank you. 11:09.
+
+Subject:            08:25          [Snippet 11] Alright, we'll declare one variable, zero, V1 zero and then zero and one. Okay, so that's not true. And then, or two, which that's interesting. I'm not sure if two evaluate because in a lot of the languages I work with can't use, you can't use two, to evaluate like that. So I'm going to go with, I'm gonna go with false on this one that you cannot evaluate two to true, but you usually can evaluate zero and one in these kinds of languages to other boolean types which the zero and one is false. So that being said, V1 is three and we print three.
+
+Subject:            09:28          I'm going to go with a four on that one because I'm not sure how this language evaluates two as a boolean value.
+
+Interviewer:        09:37          Sure. You also mentioned, um, and a lot of languages I work with. Um, what were you thinking of specifically?
+
+Subject:            09:45          Uh, I work in go so go doesn't do integer, um conditionals. They have predefined boolean types and they don't like to mix them.
+
+Interviewer:        09:57          Gotcha. Okay, cool. Thank you.
+
+Subject:            10:13          [Snippet 105] Alright. Int equals zero one three. Um there's a leading zero there. So I assume the int is going to be 13, um, because it doesn't have to represent that zero in memory. Um, otherwise there would be an error, I assume. So it'll print out 13, 11:11. Um, confidence five, let's say. It seems like the best. What I would assume is the behavior is that it would, it would slice up that zero when you try to assign it and then the five is because it could be just that they they wouldn't let you compile that zero.
+
+Interviewer:        11:05          Sure. Okay.
+
+Subject:            11:06          Trailing zero like that. That makes sense.
+
+Interviewer:        11:10          Cool.
+
+Subject:            11:23          [Snippet 85] Alright, we have an array of some sort. V1 is an array and then what is uh, it's an array of length of five. So then we set the last element to three and then while that element... is there, I assume? So we can evaluate that to true. Um V1 three minus the element at V four three. So V zero. So the first element in the array is equal to three. Okay. And then V 4 equals, V 4 minus one. So we decrement the last element. So we'll do that couple times until the last element is equal to zero, then that's interesting. Then we'll try to print out the second element in the array. No I've made a mistake hold on, the it's actually indexing them. Um, so it'll, it'll set the values of the array, uh, the second element of the array in the second loop, the third element in the array, and the third loop. So this should be, that means the second value is two, and the third element is one. So we're trying to print out the second value in the last value, so it should be two and then zero. The time stops. So 11:14. And let me go with six i guess.
+
+Subject:            13:34          Um, it's, it, you know, it tries to trick you with the, using the last element as the, the conditional that controls the while loop. But, uh, I think it just, it proceeds through an array from the left side, storing the, the index variable its using for the while loop and then it breaks off and then you can print it out this specific element.
+
+Interviewer:        14:02          Cool. Thank you. Um, so I'll have you write down some information just about your experience, um, and then we can go back through and sort of talk about all these questions.
+
+Subject:            14:16          Okay.
+
+Subject:            15:19          How should I, should I try and think of an exact number for question five here? How many courses did I take in which I had to program or should I?
+
+Interviewer:        15:27          Yeah, just do your best.
+
+Subject:            15:29          Okay.
+
+Interviewer:        15:30          It doesn't, it doesn't have to be perfect.
+
+Interviewer:        21:18          Cool. Great. Thank you. So now I kind of just like to go back through all the same questions. Now that you're sort of done working through them, we sort of talk about them.
+
+Subject:            21:34          Yeah, I'd like to know the answers.
+
+Interviewer:        21:35          Cool. Um, can we trade pens though?
+
+Subject:            21:38          Yeah
+
+Interviewer:        21:38          Okay. So now you can write whatever you want and we'll keep them separate. You know what I mean?
+
+Interviewer:        21:48          [Snippet 45] So I guess the first thing I want to, um, ask before we go ahead and dive into them is do you have any questions about this particular question? The program 45?
+
+Subject:            22:00          Uh, I guess what happens when you evaluate, is this an array or a slice? Uh do? Does C have slices or does it only have arrays?
+
+Interviewer:        22:08          Uh, when you say slice, what do you mean?
+
+Subject:            22:10          I mean, um like a dynamically allocated a sort of array type construct that references an underlying array but is kind of, this is something in go that, uh,
+
+Interviewer:        22:22          Yeah I was going to ask
+
+Subject:            22:24          that they um, in go it points to a, uh, an underlying array that go controls and um, it, it keeps, it keeps the space dynamically allocated for you based on what you append to the slice.
+
+Interviewer:        22:40          Sure.
+
+Subject:            22:41          Um, so this is how you would do something like that in go and I know go's based a lot on C, so I was wondering if there's something like that, but I've never done C programming itself. I've done well. I did a little C programming in my operating systems class, but mostly done C plus plus programming. And I'm familiar with arrays in c plus plus, but not how they're, they are in c. So is this an array? And I'm assuming it's assuming that it's a size four array or size three, I guess is whatever. Um, and then what happens when you, when you add one to an array, does it append or does it in increment the size?
+
+Interviewer:        23:24          Well, so there are a bunch of things to talk about. So first of all, um the dynamically allocated array that you were talking about. Um, my first introduction to that sort of thing was like ArrayList in Java. That's what you're talking about that?
+
+Subject:            23:39          Yeah.
+
+Interviewer:        23:40          Yeah. Um, so that doesn't exist natively in C, although there are plenty libraries that add then after the fact, which is probably one of the things that Go fixed about C. Um, so this right here, the, um, uh, int V1 equals four, two, seven, five. That's just the initialization of an array.
+
+Subject:            24:04          Gotcha.
+
+Interviewer:        24:04          A length four array with those four elements. So, um, so you actually drew it out perfectly and it's an array with these elements. Um, and then so when we go to the next line, um, uh, so you were reading it out. So, um, what, you know, the type of V2, right?
+
+Subject:            24:29          Yeah
+
+Interviewer:        24:29          Um, which is?
+
+Subject:            24:30          It's a pointer to an int.
+
+Interviewer:        24:32          Right? Um, and do you know the type of V1
+
+Subject:            24:39          Uh, that's where, so that's where I was confused. I guess it's an int array that would be the type of it, what I would assume it is.
+
+Interviewer:        24:50          Right so
+
+Subject:            24:50          and then you try to add an int to that int array, which is I think what tripped me up.
+
+Interviewer:        24:57          Right? Yeah. Um, so you've mentioned a couple of different things that can happen. One is maybe would add an element to the array and the other thing is maybe add something to the length. I think there are programming languages in which both those things happen. The way it works in C is it turns out that um an array. Something of type array is actually equivalent to the pointer to the first element of the array.
+
+Subject:            25:26          Gotcha.
+
+Interviewer:        25:27          So an array is actually just the place in memory where all the elements are stored sequentially. So,
+
+Subject:            25:36          so then this would be, it would be a pointer to two then is what I'm assuming, or ah no, I guess, is it a pointer to four?
+
+Interviewer:        25:50          Uh, yeah. Why? Why two?
+
+Subject:            25:54          I guess. I thought it would. So it's a, it's a pointer to the first element of an array is what you said, and then when you increment it, I guess I was, I was thinking something along the lines of like incrementing, like a, like a stack I guess, and one being like a, like an increment of that stack is such that you could go to the next element in the array that way.
+
+Interviewer:        26:18          Yeah. So, um, I think maybe I misspoke, um just V1 points to the first element.
+
+Subject:            26:27          Gotcha.
+
+Interviewer:        26:27          So when you do add one, you're absolutely right. it would then point to two.
+
+Subject:            26:31          Gotcha.
+
+Interviewer:        26:33          Um, so that's actually what this does output
+
+Subject:            26:37          two?
+
+Interviewer:        26:37          Um, yeah, because it's the value, the star there, the value of the thing that this points to which is in the next one.
+
+Subject:            26:44          Okay. Um, that makes sense.
+
+Interviewer:        26:46          But you know, I'm pretty sure if you put this into javascript or something it would say exactly what you said.
+
+Subject:            26:54          Great.
+
+Interviewer:        26:54          So it's just dependent on. Okay, cool. Um, is there, do you have any other questions about this or.
+
+Subject:            27:00          No, I think that was my main, my main thing.
+
+Interviewer:        27:03          [Snippet 46] Okay, cool. So we can go onto the next one, number 46, which actually looks kind of similar. Um, do you have any questions about this? Do you feel like you understood what was going on there?
+
+Subject:            27:15          Uh, I think I understood it. I guess. Did I get it right?
+
+Interviewer:        27:20          Um, yeah.
+
+Subject:            27:24          Okay. Um, then then. No, I think that this is, this seems like a more. This is something I'm more familiar with where you access it by the element and then the pointers don't really trip me up because pointers are I've been working with them for awhile now.
+
+Interviewer:        27:40          Sure.
+
+Subject:            27:40          Um, that's it. Yeah.
+
+Interviewer:        27:42          [Snippet 19] Cool. I don't know why the paper is so sticky today. Um, okay. So the next one, number 19, do you have questions about this one?
+
+Subject:            27:57          Um, other than did I get it right? I don't think so. Um, I, I guess I'm interested in the operation order I evaluated it left to right. But I know, I guess that you can't, you can't do it any other way. So it would be, it would be what, I assume it's one at the end of the XXX evaluation.
+
+Interviewer:        28:20          But what do you mean by evaluation order?
+
+Subject:            28:23          Um, I guess I would be curious if it could do something like this [puts parentheses around (V1 - 2)]. Uh, um, but based on how it is written, I would, I would say that first the increment operator acts on V1 and then we subtract two. And that's how I would read it. And that's what I assume is the correct answer.
+
+Interviewer:        28:50          Sure. So, yeah, the alternative would be that first, it does the minus and then it does the plus plus.
+
+Subject:            28:56          Yeah.
+
+Interviewer:        28:57          Yeah, um, so that's a great thing to wonder. You did get the question right. So your, your instinct originally was correct. Um, but then additionally, um, this type of thing, have you seen, um, the other type of plus plus you can put the plus plus behind the variable instead of in front of it?
+
+Subject:            29:21          Yes, a pre incremented and post increment, right?
+
+Interviewer:        29:24          Exactly
+
+Subject:            29:24          Is what it's called? Um, so in that case, I guess it would evaluate V1, it would, V2 would evaluate to, um, let's see it's two, V2 would evaluate to zero and then V1 would be equal to three in that example? Is that how that would work? Or am I getting that wrong?
+
+Interviewer:        29:48          No. Yeah, you're exactly right.
+
+Subject:            29:50          Okay.
+
+Interviewer:        29:50          So it's not quite what you wrote there with the parentheses, but it's pretty close.
+
+Subject:            29:55          Okay.
+
+Interviewer:        29:57          So I think that's, that's a common sort of misconception that people have, but again, you got this one totally right. Um, but yeah, also in general, unary operators tend to operate before binary operators. Not always, but most of the time. So that's sort of a good bet anyway. Um, yeah. Any other questions about this one?
+
+Subject:            30:18          No
+
+Interviewer:        30:18          [Snippet 115] Cool. Okay. Number 115. Oh, right, yeah. I remember this one. Um, have any questions?
+
+Subject:            30:28          No, I don't think so. Uh, I did. The only behavior I'd be interested in is if for some reason C rounds when you, when you slice something, um, which I wouldn't expect to happen based on my experience with C plus plus. So that's, I, I just assumed that it's one that just slices off the the decimal.
+
+Interviewer:        30:53          Sure.
+
+Subject:            30:53          Part of it.
+
+Interviewer:        30:54          Um, so you said your, with your experience with uh C plus plus, um, when you learned what happens in this scenario, is that something that you sort of found out through trial and error or is that something you were taught in a class?
+
+Subject:            31:08          Uh, I was taught that in the class, I think first, um, it's the, I think my first experience with C plus plus was the data structures course [at university]. Um, and I think that was one of the things they drove home because that, that doesn't really happen in uh, I started programming my programming career in Matlab actually. Um, and they may or may not have mentioned that I actually, I haven't programmed in Matlab since then and I'm not sure if that language is statically typed or not, but I know in python you could do something like this and it would be, I think, fine because it's dynamically typed. But yeah, when, when I, when I learned it, a professor made sure to tell us that if you try and assign it a float to an an int, you're gonna drop the decimal part. Yeah, you're going to lose it.
+
+Interviewer:        32:08          Totally. Okay. So yeah. Um, again, you're totally right. Uh, that process is usually called truncation.
+
+Subject:            32:16          Truncation. Yeah. That's a good word
+
+Interviewer:        32:18          just to hold onto if you need to, but yeah, you just grabbed it absolutely correctly. Um, cool. Uh, any other questions about this moment?
+
+Subject:            32:25          No, that's it.
+
+Interviewer:        32:30          [Snippet 50] Number 50. Which one was this one? Yeah. Did you have any questions about how this one works?
+
+Subject:            32:36          I don't think so.
+
+Interviewer:        32:38          Okay. Yeah, it's pretty straightforward.
+
+Subject:            32:40          Yeah.
+
+Interviewer:        32:41          [Snippet 11] Alright, let's move ahead [laughter]. Um okay, Number 11.
+
+Subject:            32:47          Um, my question on this one, is it, can you evaluate an integer greater than zero as true I guess.
+
+Interviewer:        32:57          Okay. Um, is there something special about zero or?
+
+Subject:            33:02          Uh, well, zero would be false in my, in my assumption. And then one is true and then I will, I'm curious is if they treat numbers greater than one also as true because they're not zero
+
+Interviewer:        33:17          or one, which would be true.
+
+Subject:            33:18          Yeah.
+
+Interviewer:        33:18          Yeah, yeah, yeah. Um, out of curiosity, before we talk about it, um, have you ever thought about, uh, if, if that would be different from like negative numbers or anything like that?
+
+Subject:            33:30          I had while I was saying it, I was curious if, if, if negative numbers would be like a falsehood or a, again, it would be another behavior you'd have to account for. I, I, I, based on this example, I assume you can evaluate this, so I, I'm guessing two is I would guess two is false because it's not zero or one, it doesn't have an assigned value and that's how I think I would approach it as somebody designing a language where if I was going to reserve some numbers for conditionals, I wouldn't want to have a huge range of them because you could just arbitrarily assign them and I think that would be kind of a waste, I guess.
+
+Interviewer:        34:10          Sure. Yeah.
+
+Subject:            34:11          Um, but, uh, if, if, if two was, two was true and the rest of the natural numbers were true, then I would, I guess negative numbers, I will probably say they're false. Maybe that's a, maybe I'm labeling the negative numbers harshly there, but
+
+Interviewer:        34:34          Discriminating against them
+
+Subject:            34:35          but, uh, that, that would make sense if they, if we have a range of natural numbers that are positive and then we have a range of numbers that are negative and false.
+
+Interviewer:        34:47          Yeah. Okay, cool. Um, so it turns out in C and c plus plus, um, the way that a truthness and falsiness works for logical tests is it doesn't even so much look at the, um, the value of the number as like an integer. It looks at the bits that are in the, is it a bit wise comparison then? It's a bit wise comparison and all it looks for is, are there any ones at all?
+
+Subject:            35:22          Gotcha.
+
+Interviewer:        35:23          Um, so if, if the variable contains only zeros, it's false, yet any one's its true. So zero is always false and any other number is true
+
+Interviewer:        35:38          except for negative zero. No, including negative zero.
+
+Subject:            35:48          [Writes binary logic table] Will this evaluate to true then at the end? Uh, if it's, if we get to, if we get to this, which,
+
+Interviewer:        35:56          um, I'm not, I'm not sure what I think this is or and this is an and Oh, I see. Oh, I see. I, I'm sorry. Um, do these operations are not that wise. These are, these are logical operations, um, but the way that you evaluate the logical thing. So basically what I was just trying to say about the contents is um zero is false and any other number is true.
+
+Subject:            36:23          Gotcha.
+
+Interviewer:        36:24          Positive, negative, even negative zero.
+
+Subject:            36:27          Interesting.
+
+Interviewer:        36:27          Um, so you can think of, you can literally replace this with the key word false. And this one with the keyword true. And this one with the keyword. True. So knowing that, um, does that change how you evaluate this or is it still the same?
+
+Subject:            36:42          false and true and that's false? This is true. So I would, I would change my answer to six.
+
+Interviewer:        36:49          Okay.
+
+Subject:            36:51          Um, if I, if I could.
+
+Interviewer:        36:53          Okay. Um, so how, how would, um, how would you arrive at that answer?
+
+Subject:            37:00          Um, I would do, I would do this operation first where we're comparing a false and a true value. Um, so for that, for that comparison or for that, and to be true, they both have to be true. So then the result of that would be false. So now we're a doing a logical or between a false and a true value. So there just has to be one true value there. So that would return true. Therefore, this conditional would be true and that V1 would be equal to six because that's where the true part of that conditional is.
+
+Interviewer:        37:34          Cool. So one last question in this, in this logical test in here, zero and and one. Um, how do you know that the And operation happens before the Or operation?
+
+Subject:            37:48          Uh, I don't. I guess it's uh, it's something that I just assumed intuitively uh and maybe maybe I was wrong, but um, generally when I'm evaluating, uh, when I think about it, I start to get iffy I guess, um, but I, I guess I like to evaluate from the left to the right. Um, and that's, that's, I don't think I can explain why I do that and I may or may not have learned that at some point or learned it falsely or assumed it falsely. But, um, that's, that's how I would approach something like that. Um, yeah.
+
+Interviewer:        38:28          Okay. Well, it turns out that that is the right answer or your, your new one is the right answer. The six six and the rule about reading left to right. That is true when operators have the same precedence. So, um, for example, if you have multiple, uh, minus signs in a row, they all have the same precedence, so you read them left to right. It turns out that and and or don't have the same precedence level.
+
+Subject:            38:58          Interesting.
+
+Interviewer:        38:59          Um, but it's still.
+
+Subject:            39:02          it's okay.
+
+Interviewer:        39:02          Yeah. Because the And still operates first. Um, but you know, if it was in the opposite order, maybe not the case anyhoo. Any other questions about this one?
+
+Subject:            39:13          No. Thank you.
+
+Interviewer:        39:17          And is this the last one?
+
+Subject:            39:21          I think there's two more
+
+Interviewer:        39:21          [Snippet 105] Okay. So this 105. Do you have any questions about this one?
+
+Subject:            39:26          Uh, is it, is it a valid assigning zero. One, three there. Um, I, I, I assumed that it just, it chopped off the, the, the leading zero when it prints it out because it, if it's an integer then it doesn't need to really represent that leading zero when it stores it. So, um, the, the two options I'm thinking is either that it's an error, they wouldn't want you to do something like that for whatever reason. They don't want you to leave leading zeros in. But I could also see them, like if you're, if you're taking from a, like a larger thing and you want to make it equal to an integer, I don't know.
+
+Interviewer:        40:08          Um, what do you mean if you're taking from a larger thing?
+
+Subject:            40:11          Like if you were, if you programmatically like taking some texts maybe, and it's, and it's represented like they, they, they represented as like eight, eight numbers no matter what it is.
+
+Interviewer:        40:23          Oh, I see. Like a fixed width.
+
+Subject:            40:25          Yeah, fixed width. And if you're reading something like that and you wanted that to be an int and sure I would, I would expect them to allow you to do that. And I guess it's more I'm curious as to what it is.
+
+Interviewer:        40:39          Yeah, sure. Um, well yeah, it's good that you picked up on that that's a little weird. Um, it turns out in C, um, when you put a zero in front of an Integer, that means you're representing the number as an octal value.
+
+Subject:            40:57          Gotcha. Interesting.
+
+Interviewer:        40:58          So do you know like hexadecimal? You can put. Ox.
+
+Subject:            41:01          Yeah.
+
+Interviewer:        41:02          Yeah. So it's the same thing except um only up to eight instead of up to 16.
+
+Subject:            41:07          Okay. So it would still print 13 or zero? One three then would been zero one three or would it print the would, would it be the octal conversion? So would it be something like a three plus eight? Now 11. Would it print 11?
+
+Interviewer:        41:26          Yeah. Um that too is a great question. So this, um, this has been an octal representation of a number, which as you said, the decimal equivalent of that is 11. And then when you go down to this print statement,
+
+Subject:            41:40          It's a decimal
+
+Interviewer:        41:41          it, that %d is for decimal, so it takes that number represents a decimal. So it does the exact conversion you said.
+
+Subject:            41:48          So the output is 11
+
+Interviewer:        41:50          It is 11 for all the reasons you said.
+
+Subject:            41:52          Okay, interesting. Yep. Cool.
+
+Interviewer:        41:54          All right, so I think we talked about every line here.
+
+Subject:            41:57          Yeah
+
+Interviewer:        42:00          [Snippet 85] Alright. And then the next one, number 85. Yeah. So, uh, do you have questions about this one?
+
+Subject:            42:09          Um, no, I guess um. Did, I, did I get it right? And then from there I'll ask questions.
+
+Interviewer:        42:20          Um, I realized earlier that definitely getting you to ask questions before saying whether or not it's right is preferable. So. Okay. If you have any maybe questions we should go over those and then we can.
+
+Subject:            42:31          Okay. Sure. Um, let's see. Uh, I don't, I don't think I really noticed any maybes on this. I, I feel confident about this, this problem. Um, I think I almost got tripped up when I, when I forgot that it was, it was using the value of the last element as the index of the, the element that you're kind of assigning to a or a or a or I assumed it, it wasn't changing but it was. So.
+
+Interviewer:        43:09          Do you have a sense for why that was sort of confusing or surprising?
+
+Subject:            43:13          Um, I think I just kinda, I, while I evaluated it, I kind of just forgot about it. Um, I think I, I don't, I don't think I normally use, like, if I were, if I was to do something like that, I think I would, I would go V, uh, like, use an index variable itself. And then, um, if I wanted to, I would assign it to, to the last, use the last element here, and then the index, I would just decrement normally as opposed to using the last element of the array as an index. I think that's where the confusing part is for me or where the, where it tripped me up a little bit.
+
+Interviewer:        44:05          Okay. And then just one last year you were sort of proposing a different way that you might write the same thing. And can you say why you would use like a separate index variable?
+
+Subject:            44:15          I think it would be more readable. Um, and that that's mostly it. I think, uh, um, it's, it's easier to predict the, you don't have to think about whether, like three minus this last element that's also getting decremented. It's a lot to keep track of, um, that a computer doesn't really have a problem with. But if you're, if you're just looking at a couple of lines of code, my, my, um, intuition when I'm writing is that it should be at, you could understand it if it's not really complicated and you should be able to understand it, like at a glance, I'm at least given the general structure of it. So that's why I, I think I would use an index.
+
+Interviewer:        44:57          Okay, cool. Um, is there anything else you want to say or ask about this?
+
+Subject:            45:01          Uh, no, I don't think so.
+
+Interviewer:        45:02          Okay. Um, well yeah, it turns out you got it right.
+
+Subject:            45:04          Okay.
+
+Interviewer:        45:05          So unless that changes your wanting to ask a question.
+
+Subject:            45:09          No, no, I don't think so.
+
+Interviewer:        45:11          Okay, cool. Well that's pretty much it.
+
+Subject:            45:15          All right.
+
+Interviewer:        45:15          Um, so now, um, we can talk about sort of the whole thing, like why we're doing this study and whatnot. I'll also turn off the uh, the recorder unless you want to be recorded more.
+

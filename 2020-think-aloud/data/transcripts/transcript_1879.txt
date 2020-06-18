@@ -1,0 +1,346 @@
+Subject:            00:00          Except that the code is in the lefthand side so maybe I should use the righthand side.
+
+Interviewer:        00:03          Uh, yeah. Yeah. Um, also I turned on the audio recording.
+
+Subject:            00:10          That's cool.
+
+Interviewer:        00:10          Okay.
+
+Subject:            00:10          I'm chewing gum so maybe you can listen
+
+Interviewer:        00:15          Thank you.
+
+Subject:            00:26          And you'll take the time. So I don't have to take the time or do I need to take my own time?
+
+Interviewer:        00:29          Um, yeah, it's on the sheet. But if it that's a show stopper, it's not critical. Ah, okay. Are you good?
+
+Subject:            00:40          Yeah
+
+Interviewer:        00:40          Okay, cool. All right. So we can get now.
+
+Subject:            00:42          I already told you they wouldn't compile, or shouldn't compile
+
+Interviewer:        00:45          Ha, right.
+
+Subject:            00:45          [Snippet 85] Oh, so they are all void main. Oh, that's lovely. Okay. So I'm supposed to tell you what this thing does. This sounds terrible. Who did this? Okay. Oh, so start time. Um, okay, so, so this thing has an array that is not properly initialized and initializes one of the variables. And uh, what are you doing here? [Inaudible] the variable and the variable is the variable minus one and it prints these four [exasperated sigh] this is terrible.
+
+Subject:            01:33          Okay. So this I cannot do in my head, I'm going to just say first time it's three. So that expression is zero, so that is [inaudible] three and the next time it is. And then the next thing is, let me see 4 is equal to, well we're going to decrement it. So that's going to happen. So then the next time is V sub 4. Uh this is 3 [inauble] this is 1. whatever two, and then. You should have just put minus minus, what are you doing there? One and it still goes into the loop and three minus two equals to one and it probably doesn't matter, but at the end, so 4 is equal to zero. So V sub 1 is whatever. So these things should print and there is no trickery on this two and zero, let's call it whatever, 37. That's what, sure. I'm never positive because I uh, I'm supposed to tell you what the output is right
+
+Interviewer:        03:11          Yeah
+
+Subject:            03:11          Ah, the output is a two zero and a backslash N whatever that means.
+
+Interviewer:        03:18          Okay, great. Okay.
+
+Interviewer:        03:20          Um, cool. So after each one of these, I'll just ask you why you selected that confidence?
+
+Subject:            03:26          Sure. Um, because there's a lot of arithmetic that I may have gotten wrong, so, and that's what computers are for.
+
+Interviewer:        03:32          Yeah, of course. Um, but everything else, um,
+
+Subject:            03:34          Yeah, I had nothing here sounds terrible. It's a while loop. Expressed in a very strange way, but whatever.
+
+Interviewer:        03:43          Sure. Um, well do you want to expand on that? What you mean by expressed in a very strange way?
+
+Subject:            03:48          Well, you have a while loop with a const... They are using the same variable for the control uh variable, right? It's the V1 sub 4, so if you're using that variable all the time, why didn't you just say For you know, variable equals three comma variable, semi colon, variable, different zero comma, semicolon, variable minus, minus. That's what you're trying to do. So just say that.
+
+Interviewer:        04:13          Yeah.
+
+Subject:            04:13          Right. And then you are initializing the array hack again in a sort of bizarre way to the index and the value. But that seems like your inc..., like they control variable is being decremented. So you are initializing all the variables from three and. Ooo it is weird. Three.
+
+Subject:            04:39          Yeah. So your dec... Initializing the array from one to three with or from three to one with decrementing values. So you might as well say that, right? Instead of writing it in a complicated way.
+
+Interviewer:        04:55          Sure. Okay. Awesome. Um, and I also just wanted to follow up on one thing. You said, um, the array was not properly initialized. Um, what'd you mean by that?
+
+Subject:            05:04          Well, it's, it's an array and you didn't put a brace or anything in it. So the values on the inside that array are all uninitialized. That means that they could have random values, they could have zeros, they could have whatever the compiler and linker decided was a sufficiently inconvenient [chuckles] to set the values too. Right. Uh, at the end of the day because you're not doing anything stupid, like not like reading one of the values that was not initialized, but sure. Okay. Awesome. Thank you very much. No problem.
+
+Interviewer:        05:47          [Snippet 25] If you could write down 10:39
+
+Subject:            05:48          Sure. So initialize it to three, five, print. Okay. I guess this prints five and a new line. Um, and I'm pretty sure that is correct. I mean, unless you did something, no, there's nothing here, that. Uh, a V1 and V2, yeah, there is nothing here that is obviously wrong.
+
+Interviewer:        06:18          Okay. And so why did you pick six positives? I guess
+
+Subject:            06:22          Because it is relatively simple. Straight forward. There is no flow control, nothing that I, I mean, I could make a mistake. I don't know how to add, but pretty sure.
+
+Interviewer:        06:30          Okay, cool. Thank you.
+
+Interviewer:        06:34          [Snippet 71] The time is 10:40 still.
+
+Subject:            06:37          What are we doing here? Two variables V1 and V2. If they are a define else define, uh, okay, so this one is going to go on the first branch and no! [Excitedly] Okay, sure. Okay. So these ones, it doesn't matter what branch it goes to, it's going to print two and one and backslash N, and I'm pretty sure you can. Um, what is the time, 10 41? Uh, I think you can redefine macros all you want. So this is okay. Flow control of the compi... Of the c compiler and the preprocessor are not uh, interleaved
+
+Interviewer:        07:24          Yes.
+
+Subject:            07:25          Yeah. Well this is one of the Turing complete languages in c and c plus plus [laughter]. We can count them later. Um, so
+
+Interviewer:        07:34          Um, and do you want to explain why you were positive about this or
+
+Subject:            07:38          Yeah, it's pretty obvious, right? I mean the, the, the print expression that just depends on the values of the macros and the values of the macros do not depend on the flow control. And once you realize that, then the values are pretty obvious, but,
+
+Interviewer:        07:52          Okay, great. Thank you.
+
+Interviewer:        08:00          [Snippet 19] Ok, time is 10 42
+
+Subject              08:05           uh, uh, I hate you. Okay, so these is 10:42 so in this case, uh, V1 is initialized to two plus plus V1 is three minus two is one. So V1 is going to be two V two is going to be one and and and the time is 10 42 and I'm pretty sure about, oh sorry! Plus Plus V1. So that's three, ooo, a minus two one oh yeah, that's correct. Except that this one is incremented so it's okay.
+
+Interviewer:        08:40          Okay. So why are you positive now?
+
+Subject:            08:45          Uh, well these one they, they've, the arithmetic is a little bit more complicated but not terrible. The plus plus left side operator is the value after they increment. So that's the only trickery in this ones.
+
+Interviewer:        09:02          Okay. Um, and is that why you changed your answer?
+
+Subject:            09:06          No, it's because I forgot that I had incremented the variable. So in the print statement, right, they, I did the math in my head about how v two was initialized. There are two possible ways. If you said, if you had said V1 plus plus, right. That is a value before. So you have to be careful when you're using the output of plus plus V or plus plus or V plus plus. And then I forgot about the actually increment happening. So I side effects of plus plus.
+
+Interviewer:        09:37          Okay, cool.
+
+Subject:            09:39          But, this is why we check ourselves. Yeah.
+
+Interviewer:        09:43          Cool. Thank you.
+
+Subject:            09:44          No problem.
+
+Interviewer:        09:51          [Snippet 91] The time is 10:44.
+
+Subject:            09:51          Ah Yes. Lovely. Okay. So ah 10:42-4 ah, so this is one of those silly cases where, uh, the x, so I expression by definition is equal to I sub x, a thing that everybody should know. So that's zero thats uh, you want me to note it here Q is zero. W is one. E is two. So, uh, V1 is initialized to E. So I guess this should print I presume percent C. Yeah. Well. I believe you that that's, that's how it works. Um, E and backslash N, and 44 and I'm pretty positive about this one too.
+
+Interviewer:        10:46          Cool. Okay. So why, why are you positive about this one?
+
+Subject:            10:49          Uh, well because, uh, the fact that I, X sub I is equal to I sub X is one of my favorite, silly things to remember. Yeah. It is a stupid really, but I do enjoy remembering it.
+
+Interviewer:        11:01          Um, out of curiosity, uh, why is that your favorite where did it come from?
+
+Subject:            11:07          Oh, no, it is one of my favorites. It just can came up at some point and it's like, okay, sure, that's stupid, but okay, I'll take it.
+
+Interviewer:        11:13          Sure. Did that happen like in code you were working on, or you like read about it somewhere?
+
+Subject:            11:19          I think I read about it somewhere.
+
+Interviewer:        11:20          Okay. Um,
+
+Subject:            11:22          I would really avoid writing code like that, and if I read code, I would yell at somebody.
+
+Interviewer:        11:28          Right. Um, and then one extra question. Um, you said at some point I'll believe you, that's how this works.
+
+Subject:            11:36          Ah, so printf and the percent things I pretty sure I remember most of them and I'm pretty sure percent C prints the character, but I, I check the man page every time I have to use one those. Gotcha. Okay, cool. I mean is it percent lu or is it percent ul? I never remember. Uh, and I, I mean I sure I will look up the man page to remember. Gotcha. All right. Thank you.
+
+Interviewer:        12:07          No problem.
+
+Interviewer:        12:18          [Snippet 115] The time is 10:46
+
+Subject:            12:17          10:46 float, int. Ugh [in disgust], the conversion from float to int isn't well defined. Uh, I'm going to say that yes. And this is going to print one backslash N, it doesn't round it, if it's defined, it truncates it to some [inaudible]. But uh, a lot of compilers will give you at least a warning. And if you have, I mean I was just fixing warnings like this with MSVC. Um, so you would depends on your flags if you have W All dash W Error, these may not compile. Um, but otherwise got that sort of [inaudible]
+
+Interviewer:        13:00          Okay. Um, I think you answered the question I was going to ask. Um, but anyway, uh, do you want to describe why your five confident about this one?
+
+Subject:            13:14          Uh, because arithmetic conversions are always tricky and even though I, you know, I would be really surprised if the value's different. I'm always willing to be surprised with these things, I'm not, let me put this in perspective. I been coding in C and C plus plus for about 30 years. If you ask me how confident I feel about the language overall, I would say seven out of 10. Right. So that take that into that, that will make let you balance that answer. [Amused]
+
+Interviewer:        13:45          Oh, for sure. Um, but there, there were other ones where you said six, so you are willing to six.
+
+Subject:            13:49          Yeah, I'm willing to go to six, but this one, eh, I could go to six if you want me to, but
+
+Interviewer:        13:55          No, no, no, five is fine. It's,
+
+Subject:            13:59          I'm pretty sure that's going to be the output, but if somebody tells me, oh no, you know, there is these weird corner where something happens, I would go, oh, sure. Whatever.
+
+Interviewer:        14:09          Well, could I ask you hypothetically if something else were to happen? Like what, what is like a plausible alternative?
+
+Subject:            14:17          Two would be another alternative, but it would be very surprising too because I'm pretty sure the definition is truncate, it's not, it's not, um, to round up. That's why we have the round function and ceil function.
+
+Interviewer:        14:29          Yeah. Okay. Great.
+
+Subject:            14:31          Cool.
+
+Interviewer:        14:31          Thank you.
+
+Subject:            14:32          No problem.
+
+Interviewer:        14:36          We got two left
+
+Subject:            14:37          Really?
+
+Interviewer:        14:40          [Snippet 62] 10:48
+
+Subject:            14:40          Ah, okay.
+
+Subject:            14:45          Two variables, we, you initialize both of them and let's make sure that I put them in the right order. So two and one and the new line, um, I'm pretty sure and I'm fairly positive about that one.
+
+Interviewe         15:05          Okay. And why are you fairly positive? 
+
+Subject:            15:09          There is nothing complicated about this one. You have two variables that you should have initialized but you didn't or I'm saying "you", I know it's not you, but, sorry about that.
+
+Interviewer:        15:18          Oh no, that's fine. Um, okay. Cool. And then the last one is,
+
+Subject:            15:33          [Snippet 26] Last one, okay, so we have a viable, that is initialized to five, so, oh, sorry. 10 49.
+
+Subject:            15:40          These should be five and then a new line. Um, we didn't do something else.
+
+Interviewer:        15:51          And why are you confident about this one?
+
+Subject:            15:52          Again its the arithmetic is pretty obvious. The types are fine. There's nothing complicated about it. Oh, you know, you know what, maybe I'm so not confident about the floating point number. I just read, uh read is an exaggeration. Browsed, it's probably a 30 page paper about why A plus B divided by two is not the correct way to estimate the midpoint of an interval.
+
+Interviewer:        16:16          I think I have a theory. Why is it because of overflow?
+
+Subject:            16:20          Uh, well, yeah, but it, yes, but it, it also produces the results that you would not expect in many, many cases is not the best approximation to the midpoint in some cases. And in some weird corner cases, it gets you out. You get a result that is outside the interval, which is really bad. Um so floating
+
+Interviewer:        16:43          Even in cases where there isn't overflow?
+
+Subject:            16:45          Uh,
+
+Subject:            16:52          Yeah, I believe so. It's... Math, math with floating point is hard. Uh, so, so I'll send you the paper if you want
+
+Interviewer:        17:06          Yeah, I would that, that would be fantastic
+
+Subject:            17:06          It's 29 pages or something about how, how to properly do eight plus A plus B divided by two.
+
+Interviewer:        17:12          What was the upshot? Like? Is there an easy way to do it or just only a complicated way?
+
+Subject:            17:18          There was a, like you do A plus A minus B divided by two or something and that's reasonably good in most cases or something. Um, so
+
+Interviewer:        17:32          A minus B
+
+Subject:            17:32          Or a B minus A divided by two or something. Right. That's kind of
+
+Interviewer:        17:37          Plus A, it would just
+
+Subject:            17:38          Plus A, yeah, that's like the length of the interval divided by two or something and that gives you a better result than the other one. But I think the upshot is you want to function and the function to deal with all the corner cases with, you know, you have really small numbers adding to really large numbers.
+
+Interviewer:        17:59          Oh, right, yeah, that makes sense. So, that makes sense. I mean, that primed you for, some of the other results?
+
+Subject:            18:07          Anything with floating points, I am like, I have no idea how they work anymore.
+
+Interviewer:        18:10          Right. cool. So if I could ask you to just write down sorta a bunch of things about your experience.
+
+Subject:            18:16          Sure. And at least you have a,
+
+Subject:            18:19          so whoa, lovely. I'll be, uh, what is it? 48, uh,
+
+Interviewer:        18:25          And so, caveat, feel free to skip
+
+Subject:            18:26          Sure, whatever
+
+Interviewer:        18:26          or be as vague as you like,
+
+Subject:            18:29          Uh, university education. Oh,
+
+Subject:            18:33          mmm, me, yes. Math
+
+Subject:            18:49          number of years so far. Um, well, I mean, I graduated, so
+
+Subject:            19:38          That I can't have no idea. Uh, let's, let's make a guess.
+
+Interviewer:        19:41          That's a good estimatey one
+
+Subject:            19:41          Five years, maybe five years times two times two. That should be like 20. I Dunno. How did you learn program? By myself, at home, I was self taught is, I guess they, um, like c plus plus plus about 1 million
+
+Subject:            20:24          In the hundreds of thousands. I don't know. I have no idea. I mean, um, just put a five there. General program. Sure. i, I am hope. I hope I am better, eh more. Yes, for how long? How long have I been a professional programmer? Um, it's a difficult question to answer. Um, when did I started getting paid for [inaudible]... for coding?
+
+Interviewer:        21:19          I think that's the right way to interpret the question.
+
+Subject:            21:22          Yes. So let's say that in 1989 I started getting paid. I think that's about right. So, uh, that is 29 years.
+
+Interviewer:        21:34          It's 2019. So depending on when, oh yeah.
+
+Subject:            21:41          About there.
+
+Interviewer:        21:42          Yeah.
+
+Subject:            21:42          Uh, uh, Ooh. You need more [lines for programming languages]. Um, uh,
+
+Interviewer:        21:57          Trust me, that's more than enough
+
+Subject:            22:01          Assembly for all kinds of assemblies. Year learned. 1987, five, 95, i think 96 active i don't know 3 years, years, uh, uh, c, c plus plus fortran, uh, pick a programming language, um, perl, python, uh, R. See? You run out. That's it. Okay.
+
+Interviewer:        22:46          Those are your favorites. That's great.
+
+Subject:            22:48          Uh, I'm missing, I'm missing my favor. I'm going to have to make room for my favorite or my least favorite.
+
+Interviewer:        22:55          Is it the same language? Your favorite and your least favorite?
+
+Subject:            22:59          No. Well sometimes. Um, so Q, which is the programming language for KDB you should look it up. It is the worst programming language that I have ever coded in. It is awesome. Uh, when did I stop doing this? I think 2001 I took like [inaudible] one year. 1989 and active by like 30 years. I don't know, fortran, 1990 active by like a year of perl.
+
+Interviewer:        23:31          Oh it's based on K.
+
+Subject:            23:32          Yeah, it is something I have no idea. When I picked up perl, um, let's call it. Oh, I forgot to m4, m4 was cool. Um, I stopped programming in perl around 2010. So it's, call it 15 years. Python, R about about 2 thousand.... 10. I don't know. I don't really remember when I picked up Python? I think, uh, thousands, maybe millions. Um, uh, no idea.
+
+Subject:            24:47          Okay, sure. And I for... Left a few out. Oh, no, no. Let me tell you the thing about it. So they are basically, there are basically three error messages. Okay. Uh, uh, one is backtick NYI, not yet implemented. And I think it should be not implemented yet, but they, even their grammar is wrong. So then the other one is backtick NV, which is like not a variable or something. Um, and then the other one is backtick, which basically means you screwed up somewhere. And it's literally that because there is no, none of these error messages have a line number or a column where the error happened. All you get is the error message. Nothing else.
+
+Interviewer:        25:36          Is that because for some reason it's impossible or difficult to tell where it happened?
+
+Subject:            25:40          No, because they're too lazy.
+
+Interviewer:        25:41          Not yet implemented.
+
+Subject:            25:44          Yes. But the other one, the other thing that is awesome is there are seven functions that you call all the time. And this is an interpreter language. So looking at functions is really expensive or so they think at least. Um, so they put these functions in the same place in the symbol table every time. And you can call them by saying bang, exclamation mark minus one that calls the first one of those functions or bang minus three that calls the third one of those functions. I don't know what these functions do, but they must be really important.
+
+Interviewer:        26:17          But it's the same one every time.
+
+Subject:            26:18          Yes, yes, it's guaranteed that they would be in the third position in the symbol type.
+
+Interviewer:        26:23          Oh Geez.
+
+Subject:            26:24          Yeah, see? If you thought, if you thought C and C plus plus were bad, you have not had the privilege of programming in Q or k or whatever it is.
+
+Interviewer:        26:33          No, for sure. I haven't, yeah. Can I impose on you just to go through all these one more time and just see if there are any questions along the way?
+
+Subject:            26:42          Oh, sure. Okay.
+
+Interviewer:        26:43          So if we just go through them one by one. Um,
+
+Subject:            26:46          [Snippet 85] Okay. The control loop, I'm pretty sure I got it wrong, but it doesn't matter. Um, and so yeah, it was fine. It was okay. a weird control loop thing.
+
+Interviewer:        26:57          But no, no questions with that one?
+
+Subject:            26:58          No, this one is...
+
+Interviewer:        26:59          [Snippet 25] So 25
+
+Subject:            27:01          I'm plus, it's not a multiplication or something. Yeah, that's good.
+
+Interviewer:        27:07          [Snippet 71] Okay, 71
+
+Subject:            27:06          Defines that needed to happen. So I'm hopefully M1 is two and M2 is one and I got them right. Yeah, that's good. You didn't do anything tricky like putting, like you know, you can reverse the order of the arguments in a printf
+
+Interviewer:        27:25          What do you mean?
+
+Interviewer:        27:27          You can, you can say, I don't remember what the notation is like percent D bracket two or something and that grabs the second argument and puts it first.
+
+Subject:            27:39          That's useful when you want to print dates, you know how you... the Americans, we Americans [chuckles nervously], have the dates reversed. So you can, you can say printf with a, with a other order of the, the arguments passed the arguments in the same order every time. But the formatting thing changes the order.
+
+Interviewer:        27:57          Okay. So when, when we're done with this, I will address that, um,
+
+Subject:            28:00          Sure.
+
+Interviewer:        28:00          But it's sort of a meta-comment.
+
+Subject:            28:02          [Snippet 19] Uh Huh. Uh, percent D, so this one is the one that I almost screwed up the side effects. So after the increment, the value is three, so three minus two is one. So yeah.
+
+Interviewer:        28:14          Yeah. I guess what about that one? I mean, is there anything else you want to say about why that almost happened? I mean, you caught yourself, you got it. You clearly understand it, but
+
+Subject:            28:24          yeah. I was going through this thing and I just, you know, I, I was going, I didn't think about the side effects, but that's why you do it again in your head, so.
+
+Interviewer:        28:42          But there's this weird duality where in order to get the value of V2, you clearly knew that it happened. Yes. And
+
+Subject:            28:50          Well see that there's a different thing. Right? So the, the plus plus operator, uh, returns a value. It's an expression, right. And I was thinking about what is the value of that expression? And the value of that expression is the value after the increment. And, and I was thinking about that and I stopped thinking about, oh, but it's also an operation, it changes, it has side effects. So, so that's why I think I made that mistake for a few seconds or minutes or something. Um, but
+
+Interviewer:        29:26          that makes a lot of sense
+
+Subject:            29:27          Because I was thinking about it as an expression first and then I would, I, I stopped thinking about it. I say, well it's not a function in c plus in c, but it could be a function in c plus plus.
+
+Interviewer:        29:38          Yes.
+
+Subject:            29:39          So I was not thinking the side effects of it.
+
+Interviewer:        29:42          Okay. That's excellent. Okay. That's a great explanation.
+
+Subject:            29:46          [Snippet 91] Uh, yeah, this one was just fun and the, you know, I would check the man page even though I'm pretty sure I know what percent D does percent C, sorry. I would check the man page because I would check the man page.
+
+Interviewer:        29:57          Well, in this case, yes, it prints out the character just like you said, it would.
+
+Subject:            30:02          [Snippet 115] Cool. Uh, yeah, this one is the floating point and I'm paranoid about floating points after looking at that paper. So I know, I'm pretty sure that's what it does. Yeah. Um,
+
+Subject:            30:18          [Snippet 62] V one equals two. V Two, yeah. This is just two variables. That are not initialized first, but they are initialized later, so it doesn't strike me as particularly hard and
+
+Subject:            30:31          [Snippet 26] This one doesn't strike me as relatively hard either.
+
+Interviewer:        30:35          Okay, great. So I'll go ahead and turn off the recording.
+
+Subject:            30:39          Sure.
+

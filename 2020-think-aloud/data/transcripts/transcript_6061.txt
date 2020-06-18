@@ -1,0 +1,576 @@
+Subject:            00:23          And this example. So the instructions say that I will say, you know, what the output is and how confident am I in this example? It's just about the output, but nothing about confidence.
+
+Interviewer:        00:34          Uh, yes. Uh, when we do the real examples of the code will look like that, but then there will be a question about,
+
+Subject:            00:42          okay
+
+Interviewer:        00:43          about confidence? Yeah.
+
+Interviewer:        00:47          Okay. Um, so just let you know I'm, I started the audio recording. Would you mind saying whether or not you're comfortable with that
+
+Subject:            00:55          audio recording is cool by me.
+
+Interviewer:        00:56          All right. Thank you.
+
+Interviewer:        00:57          Um, okay. So do you, that was a great question about the confidence. Do you have any others
+
+Interviewer:        01:03          of that nature about what we'll do?
+
+Subject:            01:07          Um, does time matter in any way?
+
+Interviewer:        01:10          Uh, we record it, but it doesn't really impact anything.
+
+Subject:            01:15          Okay, cool. Let's do it.
+
+Interviewer:        01:18          Yeah, you shouldn't, you shouldn't hurry like, um, to complete it as quickly as possible. Anything.
+
+Subject:            01:23          Gotcha.
+
+Interviewer:        01:25          Okay, cool. All right. So show you the first example
+
+Subject:            01:34          Alright red and... [Pointing to the black and red pens I've provided]
+
+Interviewer:        01:35          So just black for now. Either yours or that one, we'll switch to red later.
+
+Subject:            01:41          Cool. Um, so start time, I guess 10 41.
+
+Interviewer:        01:47          Yeah. If you could write down at 10 41 and say your thoughts aloud as you worked through the code.
+
+Subject:            01:54          [Snippet 49] Okay. Well I would not have liked this code in a code review. Um, V one is initialized to zero. That's one is straight forward V two is trying to be clever and uh, uses a ternary operator to determine the value of V two based on value of V one. Um, my intuition, can I write into this
+
+Interviewer:        02:23          Yea, please write anywhere
+
+Subject:            02:24          My intuition is that parentheses go like this. And so V two will go will be a four because we know that we want to zero. And so, um, I didn't write any notes. Should I write the output here?
+
+Interviewer:        02:42          Uh, yeah, output goes over here and you don't, you shouldn't feel obligated to write notes, but you can if you want.
+
+Subject:            02:48          Cool. Ten forty-two.
+
+Interviewer:        02:52          Exactly.
+
+Subject:            02:55          And how do I interpret the confidence scale? One is unsure, six is positive. MMM. it's a solid five.
+
+Interviewer:        03:05          Okay. Great. Um, and can I just ask you why you chose five?
+
+Subject:            03:11          MMM,
+
+Subject:            03:13          because I do, I do not have hands on experience. With trying to do a construct, like the second line here. Okay. Um, because precisely because it is ambiguous, uh, to a casual read, uh, it's something I avoid and therefore, I don't have it in my instinctive response what it would be. Um, I go back to reasoning that it's a ternary operator treat it as such, but I could imagine different interpretations of what this would do. For example, like V two equals V one equals equals three that can be bought it because it would turn into a boolean and then turn into an integer.
+
+Interviewer:        03:56          I see.
+
+Subject:            03:59          So, um, I could imagine something fishy, however, uh, looking at what is looking at a structure of the expression, it seems like this is the only one that would actually compile. Uh, like if I tried to be explicit about parentheses in various other setups, I cannot think of a set up from the my head. That's would actually still compile. And so this interpretation is the one that is left for me. However, I am not super confident because I don't have hands on experience of doing exactly such a construct.
+
+Interviewer:        04:31          Gotcha. Um, and when you say hands on experience, um, are you talking primarily about um, writing code or reading code?
+
+Subject:            04:37          Both, in that this is a construct that I would never write and I would not accept in a code review. And so, um, like not even trying to interpret it, I would say this is confusing and please, please make it more explicit. So, so it is a construct I would actively avoid.
+
+Interviewer:        04:55          Gotcha. Okay, great. Um, that was an excellent explanation so we can move forward. Sure.
+
+Subject:            05:16          [Snippet 62] Alrighty.
+
+Interviewer:        05:16          Uh, time 10 44.
+
+Subject:            05:28          Hmm.
+
+Subject:            05:30          This seems suspicious. It's straight forward. Um,
+
+Subject:            05:40          yeah,
+
+Subject:            05:42          that an easy visual cues, which I guess I should repeat for the benefit of recording.
+
+Interviewer:        05:48          Um, well I asked to keep the paper, but yeah, if you, if you'd like to, you, you should be saying aloud everything you were thinking as you go. So,
+
+Subject:            05:54          okay. Um, were you and V two or the variables and they are assigned two and one respectively and then printed in order of V one, V two and because one and two are so many times here and there, they are confusing. I drew arrows from the value assignment to the printf. So I can plainly see that it will be two and then one.
+
+Subject:            06:23          MMM.
+
+Subject:            06:25          Pretty confident about this one.
+
+Interviewer:        06:28          Um, so can I ask you, explain that, that confidence level again for me?
+
+Subject:            06:33          MMM,
+
+Subject:            06:37          no, it seems like it seems so self evident, uh, that the only thing that is nibbling at my confidence is the metagame of uh, Oh gee, this is a research study. Um, am I being messed with.
+
+Interviewer:        06:52          Sure, sure, sure.
+
+Subject:            06:53          But beyond that metagame. Um, it seems all like extremely basic constructs and so I have no concrete reason to doubt it.
+
+Interviewer:        07:01          Sure. Can I also ask, um, you sorta justified, um, using the arrows because there's so many different numbers and you want to keep it straight. Um, that's not something that's physically possible when you're using the computer. Um, do you do similar things when doing code reviews or,
+
+Subject:            07:26          um, the variable name is not descriptive and now again, this is a snippet that is completely artificial. So what function would they describe? But in the real code, I would have probably preferred a more descriptive variable name so that it is something slightly better than V one and V two, you know, like numerator denominator, that kind of stuff. So that, uh, that there is some semantics attached to it. So I would for example know that uh, numerator, that is the first one, then denominator is the second one and so on. Where as here in an isolated example
+
+Subject:            08:04          Mmm, It is true that I cannot draw arrows in my code editor, but at the same time, in my actual code, I would not have had the variables like this, um, almost totally.
+
+Interviewer:        08:13          Okay. So, um, would you say that the need for, for arrows like this, it's just less in practice?
+
+Subject:            08:20          Um, yeah. And, and the other thing is in, in real code, uh, in like a real editor, I would be able to go to let's say variable V one here, getting assigned and just jump to the next place. But this, uh, this, uh, token is is in the code. So I would be able to jump between the value assignment and the printf, uh, like the printf argument back and forth. So it be like my little arrow
+
+Interviewer:        08:44          it's an interactive version of the arrow. Okay. That makes sense. A sense. All right, thank you.
+
+Interviewer:        08:57          Time is 10 48.
+
+Subject:            09:07          [Snippet 73] Okay. Uh, in this, uh, sample, I will assume that this is not an accident and you actually meant to assign, uh, in this line here.
+
+Interviewer:        09:20          Uh, I mean I can't speak to any of the code, but you should evaluate it,
+
+Subject:            09:25          so, so I will, I will assume that the code is written as intended and there was no like, typos or anything. Uh, so annoyingly there is an assignment instead of a comparison in the first branch of the if. Um, so that assignment will of course succeed and it will be a returning true because it's assigning to one. So V two is one and V one is three. And so the output is three and, end time is 10:49.
+
+Subject:            10:00          49. Uh, yeah.
+
+Interviewer:        10:06          And so what confidence do you have?
+
+Subject:            10:08          Oh, right. Yeah, I'm fairly positive.
+
+Interviewer:        10:10          Okay. Um, and can you explain why fairly confident, fairly positive.
+
+Subject:            10:17          So
+
+Subject:            10:20          again, it seems like a combination of basic constructs where while written in a confusing and misleading way uh they. The constructs themselves are simple and so just following very basic rules is, is enough to it to unload this. Okay. Again, not code I would be happy with in a code review, but it is definitely code that.
+
+Subject:            10:44          MMM.
+
+Subject:            10:45          Like, You, you're not dealing with things like uninitialized memory and, and, and I think that would be like difficult to determine or architecture dependent on anything that would be easy to throw me off.
+
+Interviewer:        10:56          Sure. Okay. Um, yeah. Okay. Um, maybe, maybe we can talk more about that later. Um, what you mean by a, or not what you mean by, but I guess in what context you would expect to see, say uninitialized memory, um, utilized intentionally, you know,
+
+Subject:            11:21          in, in a study that would try to determine how someone reads difficult code like code that might be written suboptimally by let's say a new new new c plus plus coder or something like that.
+
+Interviewer:        11:32          Yeah. Okay.
+
+Subject:            11:33          You would have code where you
+
+Subject:            11:34          you write like int I if, uh, I
+
+Subject:            11:41          something like this. Uh, where you can imagine the person would have been thinking that I would be initialized to zero and the person will be wrong. Uh, and so things like this, which I feel like
+
+Subject:            11:54          Are relatively common new person mistakes, which I could imagine a research study would look at.
+
+Interviewer:        12:01          Right. Okay. Um, but
+
+Interviewer:        12:06          so you weren't implying that things like that are commonly used?
+
+Subject:            12:10          No, no, no, no, no, no, no. Oh God, no
+
+Interviewer:        12:14          that's what I thought you were saying. So I just misunderstood.
+
+Subject:            12:16          Oh, no.
+
+Interviewer:        12:17          Okay, cool. Um, anything else to say about this one or should we move on?
+
+Subject:            12:21          Move on
+
+Interviewer:        12:21          Okay, great. Cool.
+
+Interviewer:        12:28          The time is 10 oh two 10 52.
+
+Subject:            12:36          [Snippet 91] Oh Goodie.
+
+Subject:            12:39          I've seen this construct before.
+
+Subject:            12:42          MMM.
+
+Subject:            12:44          And I believe it was in the IOCCC. Hmm.
+
+Subject:            12:56          Okay. Okay.
+
+Subject:            13:02          Can I assume it will compile?
+
+Interviewer:        13:05          Yes.
+
+Subject:            13:05          Okay. Yeah, so my thinking is,
+
+Subject:            13:09          um hmm.
+
+Interviewer:        13:18          What's going through your head?
+
+Subject:            13:19          So, so what's going through my head is that the, uh, quote unquote qwert is [inaudible] just a number. It is a pointer to a string somewhere in the data segment of the binary. And so, uh, I am thinking t2o the number two before the,
+
+Subject:            13:41          mmm.
+
+Subject:            13:42          Square brackets, uh, and uh, offsetting it by the value of that pointer. Um, now, I know also that it is of type char. So what I'm thinking of is that,
+
+Subject:            14:07          uh,
+
+Subject:            14:08          what I'm thinking of is pointed arithmetics that would have me think that it will be,
+
+Subject:            14:12          uh,
+
+Subject:            14:13          the er, The letter e because it is two characters offset from the beginning of the pointer. And uh, I believe the pointer arithmetics here are, uh, what's the word? Associative plus like something like plus which. It doesn't matter, matter of what the order of the operators operands are.
+
+Interviewer:        14:33          Yeah, I think that's associativity.
+
+Subject:            14:36          Okay.
+
+Interviewer:        14:37          Uh, or commutativity. I dunno.
+
+Subject:            14:43          Order Independent! [Laughter]
+
+Interviewer:        14:43          Yeah, order independent.
+
+Subject:            14:45          Um, and so it would make me think that this is actually equivalent to char lol is uh q w e r t square brackets two, which is substantially easier. Um, and so I believe those two are equivalent and with that in mind, I believe that this would be either e or it will seg fault. So, and it's a solid four.
+
+Interviewer:        15:24          Okay. Um, so first question, um,
+
+Interviewer:        15:28          You said "or it will seg fault". Can you just describe why it would seg fault in that case?
+
+Subject:            15:35          Um, yes. Uh, so you've previously said I can assume it will compile. Yes. I did not ask whether it will crash or not. Which I guess I should have asked
+
+Interviewer:        15:46          You could have. Yeah.
+
+Subject:            15:48          Um, will it crash?
+
+Interviewer:        15:51          Um, I believe, no.
+
+Subject:            15:55          Okay. Um, the reason why I was thinking it might is, um, uh, let me see.
+
+Subject:            16:09          So I wasn't sure if, um, the expression on the first line with turn out to be, um, plus or multiplier. Um, I'm fairly confident that it is. Plus, however, um, the other, the, the memory segment that we have, eh, that we know that we have, which is the qwert string is small. And so any other interpretation, than the one that I have offered will lead to seg fault.
+
+Interviewer:        16:42          I see.
+
+Subject:            16:42          Um, any other reasonable interpretation innovate. So, so that's why I see e as my default answer, like printing e as my default answer. However, if my interpretation was incorrect, the only other option that I see as possible, is seg quilt by, by reading uninitialized memory. Or like getting super lucky that you accidentally hit.
+
+Interviewer:        17:04          Sure. Yeah. Well we'll assume for this conversation that, you know, if you don't hit the string that it would seg fault, but um, so you had two possible interpretations of, of what the operation would be, either addition or multiplication. Yup. Um, can you explain why those two?
+
+Subject:            17:21          So addition, because it, it plays well with general, uh, arithmetics, uh pointer arithmetics I no that the type char, so I know it's one byte, so that's easy. Uh, the part where I was unsure is I feel like the, the offsetting of the two, has thrown me off. Um, I am, I did not have a confident analysis of that, like of the, the first option. If plus I could confidently reason about. The second option with, with multiplication, I could not confidently reason about, um, and um, again, it was me being protective and um, acknowledging that I don't have a clear explanation. Um, yeah, it, unlike the previous cases, this analysis was only partially like fact driven.
+
+Interviewer:        18:23          Totally. So I was just wondering why did that idea come into your head? Why, um, what made you think of multiplication? You know?
+
+Subject:            18:34          Um, so initially, so, so does the type size is, is obviously one bite. However, it was not clear to me whether, um, this construct wouldn't somehow get interpreted as something of size. Like if this, this doesn't actually, yeah. As I'm reading it's more, it's, it's bogus. I'm more confident about the e.
+
+Interviewer:        19:01          Okay. Yeah. Um, but um, it's because it looked like something that might have been size.
+
+Subject:            19:08          Yes.
+
+Interviewer:        19:09          Okay. Um,
+
+Subject:            19:11          or not that it was size directly, but it might have indirectly to implied size.
+
+Interviewer:        19:16          Interesting. Okay. I see. Okay, cool. Um, so I mean I also wanted to ask you why you picked that competence level. You definitely said some things, but if you have any other things you'd like to add about why confidence level four?
+
+Subject:            19:31          Uh, again, unfamiliar construct. Um, and yeah, knowing that it compiles and knowing that it doesn't seg fault definitely pushes my confidence level up. Uh, but uh, without any of those pieces of knowledge, or I guess without the knowledge that it wouldn't seg fault. Um, I could easily imagine this ending interpreted as a read from uninitialized memory. So it would, if I was reading this code and let's say I was not a c plus plus coder but I was, I dunno python coder or whatever and new to c plus plus, I would find it plausible that this would read to lead through uninitialized memory read. Even if, uh, I couldn't explain why.
+
+Interviewer:        20:18          I see. Okay, cool. Yeah. Thank you very much.
+
+Subject:            20:23          Did I write the end time there?
+
+Interviewer:        20:24          uh, yes.
+
+Subject:            20:25          Cool.
+
+Interviewer:        20:25          A while ago. And I think that's appropriate. The end time after you finish working through it. Not after our discussion cause our discussion can go arbitrarily long. Okay. So the time now is 11
+
+Subject:            20:45          [Snippet 115] Eleven. Aha! Floating points. Hmm.
+
+Subject:            20:53          I think the value will be one. I guess. Uh, let's see. I am faily positive about it.
+
+Interviewer:        21:09          Okay. So you didn't really say much as you read that, um, sort of just said the answer. So what, what was your thought process as you read through it?
+
+Subject:            21:19          MMM, so, so if you're taking a floating point number and we're assigning it to an integer, um, I am making an assumption that one point 99 will not get implicitly converted to two in floating point inaccuracies. I'd be shocked if it did. And so the next thing is that I am nearly certain that floating point numbers get a rounded down when assigned to integers.
+
+Interviewer:        21:51          Okay, great. Um, and then you put a confidence of five.
+
+Subject:            21:56          So saying I'm nearly certain.
+
+Interviewer:        21:57          Gotcha. Okay. Um, that's excellent. Um, anything else you want to say about that one?
+
+Subject:            22:03          Um, in real code I would probably ask for explicit floor or ceil or something like that. Okay,
+
+Interviewer:        22:10          cool. Okay. Um, the time is, 11:02
+
+Interviewer:        22:31          [Snippet 45] What are you thinking?
+
+Subject:            22:33          Hmm. So have I have an array and a pointer. Um, the array is of four, two, seven, five. It is on stack. I have a pointer which is using pointer arithmetics to get us to value two, and then I am printing this value.
+
+Interviewer:        22:57          Okay, great. And can you explain why you're six confident about this one?
+
+Subject:            23:01          Um, again, relatively straight forward constructs. Um, it is pointer arithmetics which is something that yeah, it's, it's rather frequently exercised. There's no syntax that would confuse things. Um, so I can be confident that V two, pointer V two is based on V one plus one offset, the offset is based on the size of the type which is not being obfuscated here in any way. So I'm no, I'm not like hitting half of an integer or something. I know I'm skipping by size of integer. Um, yeah, it just seems straightforward.
+
+Interviewer:        23:44          Okay, great. Excellent explanation.
+
+Interviewer:        23:46          Thank you. Yeah.
+
+Interviewer:        23:52          I believe we have two more left. So one more after this one.
+
+Subject:            23:55          Are we going too fast? [Laughter]
+
+Interviewer:        23:57          No, no it's fine. Cause I want to go back afterwards and sort of discuss all these.
+
+Subject:            24:01          Gotcha.
+
+Interviewer:        24:01          We'll be fine.
+
+Subject:            24:04          [Snippet 46] Um, 11:03. Hmm. Same deal. One and 11:03. uh, yeah, same deal. We are taking the offset of one element from the, from the array. Um, in theory it could be confusing that there's ampersand and, uh, square brackets, but, uh, I feel fairly confident that if I were to make it explicit, I would write the parentheses like this and so, um, yeah. Great. Um,
+
+Interviewer:        24:50          and I guess you've sort of talked about why you're confident then. Great.
+
+Subject:            24:53          Yeah. It's pretty much the same as the previous example.
+
+Interviewer:        25:13          Time is 11:04
+
+Subject:            25:13          11:04
+
+Subject:            25:23          [Snippet 13] Hmm hmm hmm [melodically], and the result is
+
+Subject:            25:25          three, five, 11:04. And I'll just double check. Yeah.
+
+Interviewer:        25:41          Yup. Okay. Um, can you just tell me what your thought process was when you went through it?
+
+Subject:            25:48          Um, post-increment of V one means that I will take the immediate value [inaudible]. So three plus two is five, um, after that V one is going from two to three, so I first print V one, which is now three, and then V two, which is five. Yes.
+
+Interviewer:        26:03          Okay, great. Um, and you're completely confident about that. Yup. Okay. Um, great. Thank you. Um, so at this point I'll just ask you first some Sorta, uh, information about your experience, just to gauge what your background is a little bit, and um, when you're done with that, we can go back and sort of discuss all these a little bit more openly.
+
+Subject:            26:25          We haven't broken out to red pen yet.
+
+Interviewer:        26:27          We will as soon as you're done with that. That's what the red pen is for. Once we start discussing.
+
+Subject:            26:34          What is my age?
+
+Interviewer:        26:39          Feel free to skip or be as vague about any of these answers as you'd like.
+
+Subject:            27:19          Hmm. For the fourth question is, are these the only three options or like
+
+Interviewer:        27:24          Oh no, those are just examples, so anything you feel that captures it.
+
+Subject:            27:39          Hmm. [Laughter]
+
+Interviewer:        27:42          What's funny?
+
+Subject:            27:43          Uh, trying to figure out how many courses did I take in which I had the program. I have no, that's been a while.
+
+Interviewer:        27:50          Yeah. It's much easier when you're talking to an Undergrad student, you know?
+
+Subject:            27:53          Yeah, yeah. MMM.
+
+Interviewer:        27:57          But like I said, you know, ballpark is fine.
+
+Subject:            28:00          Eenie Meenie Miney Mo.
+
+Interviewer:        28:02          Sure.
+
+Subject:            28:05          How did you learn to program? Hmm.
+
+Subject:            29:02          Relative to professional programmers. [Laughter] I don't know.
+
+Interviewer:        29:08          I'm asking you to judge yourself and all of your coworkers
+
+Subject:            29:12          And also all the people who work in all the other companies.
+
+Interviewer:        29:15          This is true. Yes.
+
+Subject:            29:17          I feel like relative to professional programmers. I'm a professional programmer.
+
+Interviewer:        29:21          This is true. But that, but that's still a valid question. Right.
+
+Subject:            29:25          I don't know. It's difficult for me to answer without feeling arrogant or self-deprecating this.
+
+Interviewer:        29:32          This will be anonymous. Um,
+
+Subject:            29:35          I will know in my soul
+
+Interviewer:        29:37          This is true. But those other coworkers who are either better or way worse than you will not know it.
+
+Subject:            29:45          It will be our secret. Yeah.
+
+Subject:            30:32          Okay. Okay.
+
+Subject:            33:21          I honestly have no idea about lines of code. Even the active years is kind of squinting.
+
+Interviewer:        33:27          That's fine.
+
+Subject:            33:43          Hmm. Should be about right.
+
+Interviewer:        33:45          That's good enough for me.
+
+Subject:            33:46          Cool.
+
+Interviewer:        33:46          Great. All right. Thank you. So I'd like to just run back through all the questions one more time and we can sort of talk a little bit more freely about them. Um
+
+Subject:            33:59          still recording.
+
+Interviewer:        34:00          Yeah. Still recording. Um, cause this, this is still part of the learning so we can use the red pen now.
+
+Interviewer:        34:08          [Snippet 49] Um, okay. So, um, I guess the first thing that I want to ask about sort of all of these is like, do you have any questions for me about this code? So for example, there was one, uh, piece of code where you asked me a question and I couldn't tell you the answer, but now I can. So do you have any questions about this piece of code?
+
+Subject:            34:35          Not particularly.
+
+Interviewer:        34:37          Okay. So I, I've forgotten why you chose not six for this confidence. What,
+
+Subject:            34:44          uh, the, uh, order of the operator preference [sic]. I made an assumption, uh, and in order to be confident I would prefer not to make an assumption.
+
+Interviewer:        34:55          Right? Sure, sure, sure. Um, but then, then later you, um, sorta mentioned to me that the other ways of parenthesizing that statement might not have been syntactically valid.
+
+Subject:            35:09          True. But only the other ways that I could think of. It is possible that there are ways I was unaware of, um, due like uh unfamiliarity. Uh, that would make this potentially a syntactically correct statement. I can't see them, but just because I can't see them doesn't mean that I'm, I am. Right.
+
+Interviewer:        35:30          Sure. Okay. So, so the way, um, you mentioned one way, which was to put the parenthesis before the v one and after three. Were there other ways of parenthesizing it that, um, that you saw or that was the only one? That's where it got you thinking?
+
+Subject:            35:45          Um, hmm. Allow me to loaded back of my head.
+
+Interviewer:        35:50          Yeah, sure.
+
+Subject:            35:52          MMM.
+
+Subject:            35:58          I mean, that one wouldn't have worked because then then, the declaration doesn't really work.
+
+Interviewer:        36:04          Right. Yeah.
+
+Subject:            36:12          not really. It'd be honest.
+
+Interviewer:        36:15          Okay. Um, I mean, yeah, the, it's totally valid to be concerned about things. You don't see it, but the one that always gets me, um, so first of all, let me just say that you did get this one right. Um, you parsed it correctly. But the one that always gets me, um, is what if the left parenthesis, he goes before the three,
+
+Subject:            36:32          right
+
+Interviewer:        36:35          Um, it doesn't, but that would parse and,
+
+Subject:            36:39          Yeah. Yeah. That's actually the one. Yeah.
+
+Interviewer:        36:43          Yeah. So anyway. Um, but you, you did get it correct. Um, and it's completely valid to have that concern about what, about things I didn't see. Um, okay. Is there anything else you want to talk about about this one?
+
+Subject:            36:56          Nope
+
+Interviewer:        36:56          Okay. Cool. Okay.
+
+Interviewer:        37:03          [Snippet 62] Okay. Um, next one. This was the one with the arrows. Um, did you have any questions for me on this one?
+
+Subject:            37:08          Nope.
+
+Interviewer:        37:10          Yeah, you pretty much explained that one pretty well. I didn't really have questions on that one.
+
+Interviewer:        37:16          [Snippet 73] Okay. Um, so the next one, program sample 73.
+
+Subject:            37:20          Oh yeah, I was asking you if this was a misprint or deliberate.
+
+Interviewer:        37:24          Ah, right. Um, well, okay, so I can tell you more about the intentions of this work later, but definitely, um, you did the right thing, which is to just read it as it is, like if it were a code review what you would have done, um, but as to the actual code itself. Um, do you have any questions about this one?
+
+Subject:            37:48          Um, no.
+
+Subject:            37:51          I mean it's hard to ask questions on obviously artificial code samples. So
+
+Interviewer:        37:56          Um, in some sense, yeah.
+
+Interviewer:        37:59          Um.
+
+Interviewer:        38:02          Yeah. I think there, there are things I want to talk about later actually. But in this one again, you did such a good job of explaining your thoughts that yeah. I don't think I have anything to ask about this one so we can. We can move on. Okay. Yeah.
+
+Interviewer:        38:16         [Snippet 91] So this one for example, was more interesting number 91 here.
+
+Subject:            38:21          Yup.
+
+Interviewer:        38:22          Um, and I think incidentally, this was also your lowest comfidence level.
+
+Subject:            38:28          Yes.
+
+Interviewer:        38:28          Four. Okay. So do you have questions on this one?
+
+Subject:            38:31          I mean, I'm fairly confident the answer is correct given the other constraints that it will compile and it will not seg fault.
+
+Interviewer:        38:37          Okay. Yeah. Um, so I guess I had one question, um, you talked about and you sort of realized afterwards that maybe it doesn't work that way, but the sizing of this, um,
+
+Interviewer:        38:52          When you're declaring like an array, for example, you have an identifier and then optionally a size of that array.
+
+Subject:            39:01          Right.
+
+Interviewer:        39:02          Um, is that what you were talking about? Um, when you were saying that this might be a size and it might be multiplication?
+
+Subject:            39:11          I think I was just waiting for the coffee too kick in. It's, I mean, the, the size of the element of the array is of course, coming from the type. So, um, what else could it be then just the pointer interpreted as a byte offset into memory.
+
+Interviewer:        39:29          I see. So you're talking about the size of the elements, not the size of an array?
+
+Subject:            39:34          Yeah.
+
+Interviewer:        39:34          Oh, okay. Um, yes. Then what else could it could come from? Um, okay. Yeah, I guess no other questions about that one either.
+
+Subject:            39:44          Was it e?
+
+Interviewer:        39:45          Oh yeah.
+
+Subject:            39:46          Cool. [Laughter]
+
+Interviewer:        39:46          You got it. And I think it's exactly how you described it as well. Um, it turns out that if you look at the spec for, um, how, uh, square brackets are defined, um, it's a literal translation between, um, between this syntax and left argument
+
+Subject:            40:06          plus
+
+Interviewer:        40:07          plus, right argument starred, uh dereferenced. Um, so yeah, you can replace the square brackets with a plus and then dereference. Um, so it is commutative. It's either that or
+
+Subject:            40:24          Order doesn't matter
+
+Interviewer:        40:25          Right yeah, it's, it's order independent, just like you were saying. So, um, yeah, the answer is e. Cool. Um, any other questions?
+
+Subject:            40:32          Nope.
+
+Interviewer:        40:33          [Snippet 115] Cool. Um, okay. Here's another one where you weren't totally sure.
+
+Subject:            40:40          Yup.
+
+Interviewer:        40:40          Um, so do you have any specific questions about that?
+
+Subject:            40:42          Is it one?
+
+Interviewer:        40:42          Yes. Um, I did think it was interesting though that you, um, mentioned that there were sort of two potential ways that this value could change. One is, um, the representative power of the float.
+
+Subject:            41:01          Yup.
+
+Subject:            41:02          And then the other one was what happens when you assign it to integer?
+
+Interviewer:        41:04          Yeah. Um, now I'm trying to think in my head if there is an architecture which maybe has a float small enough that it wouldn't be able to represent 1.99, um, which is not to my knowledge, would one byte be able to store 1.99?
+
+Subject:            41:26          Well, a friend of mine was working on an architecture where if you dereference null it will reboot because that's where it had hardware, register for reboot signal. So I'm sure there are architectures, but that's [inaudible] [laughter].
+
+Interviewer:        41:39          Out of curiosity, um, was that just a weird quirk of the system or was that intentional?
+
+Subject:            41:46          It was a weird quirk of the system and it was a super tiny embedded.
+
+Interviewer:        41:49          Okay, so he wasn't doing it just to teach you not to do a reference,
+
+Subject:            41:52          No, no, no, no, like it was a hardware system for some, uh, controller of like mechanical controller.
+
+Interviewer:        41:58          I see. That's pretty funny. Okay. Um, but anyway, no, I'm your interpretation of this one was entirely correct. Um, and yeah, I think your intuition about that was great.
+
+Interviewer:        42:21          [Snippet 45] Do you have any questions about this one? Number 45?
+
+Subject:            42:23          No. Seems straight forward
+
+Interviewer:        42:25          Yeah. Um, you hit all the things I would have wanted you to. Um, and then
+
+Interviewer:        42:36          [Snippet 46] questions about 46
+
+Subject:            42:37          Same deal?
+
+Interviewer:        42:38          Yeah. So you, you actually said that a couple of times when you were reading it, you said, actually, yeah. So you said that a couple times when you were reading through it. Um, same deal. So, so you sort of referenced this with the last one.
+
+Subject:            42:57          Yeah.
+
+Interviewer:        42:58          You bring that up. Um, what, what sort of made you,
+
+Subject:            43:01          uh, I'm taking ah pointer into an, so V one in both cases is an array of four elements. And V two is taking an element, like it's referencing that that array. And taking its first element. Well, first if I count by, offset by zero. So based - brrrrrr [exasperated about being tongue-tied] - starting from zero.
+
+Interviewer:        43:21          Right, right. So it's one element.
+
+Subject:            43:23          Yeah.
+
+Interviewer:        43:24          Um, yeah that, that to me totally makes sense. Um, one, one thing I did find interesting was when you read the first one, um, you said that this was like frequent or you said it was common, it was when you were justifying why you're confident about it.
+
+Subject:            43:38          Oh yeah. Like it, it seems like a basic, basic pointer arithmetics in both cases.
+
+Interviewer:        43:44          Yeah. So out of curiosity, you said this one was frequent and you said that these two are similar. Now looking at both of them, do you have an intuition about which is sort of more common?
+
+Subject:            43:58          No, because I feel like it would be contextual. Like I feel like it will depend on what context the programmer is when they're doing this, when they're writing this code. I also think that it will depend on whether the array is of byte size or not. Uh, in that if it is byte size, I would more frequently see the code sample 45. Um, where as if it is not byte size. I was more frequently see code sample 46, because it more clearly separates the concept of memory offset and array offsets which, if they are not, if the are not byte size then then the element offset is it is more meaningfully different.
+
+Interviewer:        44:41          Yeah, that's a, that's a great distinction. Okay. That's excellent. Thank you.
+
+Interviewer:        44:48          [Snippet 13] Um, and then I guess the last thing is, um,
+
+Subject:            44:54          yeah, post-increment, uh, bites people every time. Again, in code review I would complain.
+
+Interviewer:        45:01          Okay. I'm just curious when you say it bites people every time, have you run into situations where it has been a problem?
+
+Subject:            45:09          Um, it's especially tricky when you con consider things like in c plus plus like c plus plus proper. Uh, if you have, iterators and you're trying to erase elements, having things like order in which you increment and call the arrays operator on the container and so on, be, excuse me, be tricky because you might have, let's say a loop over over a container, you want to delete some of the elements of that container, and you have chosen not to use std::remove, uh, and friends, then you will have the iterator. Um, however, and then you have the erase, erase, uh, method of the, uh erase method of the container, but some containers, will, invalidate the iterator and so then you cannot proceed forward. And so having the right order of pre-increment post-increment or potentially making a copy of the iterator, uh, it's, it's, I think a frequent thing to get wrong the first or second time you're writing that code, you'll probably seg fault or, or fail a unit test but it is a more subtle variant of this.
+
+Interviewer:        46:12          I see. Okay,
+
+Interviewer:        46:15          cool. Great.
+
+Subject:            46:16          This is again, straightforward piece of code because it's so isolated but in context of a larger piece of code, less less obvious.
+
+Interviewer:        46:23          Yes. Okay. Awesome. Thank you very much. So at this point I can turn off the thing and we can sort of talk about this whole thing if you're interested.
+

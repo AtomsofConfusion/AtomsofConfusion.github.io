@@ -1,0 +1,576 @@
+Interviewer:        00:00          If you could just say whether or not you're being, you're okay with being audio recorded?
+
+Subject:            00:03          Yeah, I'm okay with you audio recording this conversation.
+
+Interviewer:        00:07          Great. Thank you. Then we can get started. So the first thing I'll ask you to do for each of these is just write down the time which should it be displayed right there.
+
+Subject:            00:20          1:59?
+
+Interviewer:        00:21          Exactly. Yeah.
+
+Subject:            00:23          Okay,
+
+Interviewer:        00:24          Cool.
+
+Interviewer:        00:31          So if you can just say how loud.
+
+Subject:            00:33          [Snippet 79] So now I'm looking at two variables V1 and V2 which are assigned the values one and three and within the if-statement I see that they're being incremented this pre-increment operator and that's an Or statement. And it shouldn't matter. So as far as I remember, pre-increment is before the statement is executed, the values will be incremented. So according to this V1 should become two and V2 should become three and then V1 become four and V2 become s a three. Three is nine I think. Yeah, and percentage d's will give out four and nine. So let me see. Let me check again. One increments. Three, oh, three increments to four. V1 multiplied by two is four and V2 multiple by 3 is 12, so yeah, the answer would be four and 12. And uh, do I need to write it down anyway?
+
+Interviewer:        01:36          Uh, the output?
+
+Subject:            01:37          Yes.
+
+Interviewer:        01:37          Um, you can just circle it or write it in here.
+
+Subject:            01:42          Okay. Four and 12 this is V1 and V2 I am like, yeah, I'm positive that this should be.
+
+Interviewer:        01:49          Okay. Great. And so after each question, I'll just ask you why, why positive? Can you explain why?
+
+Subject:            01:57          Yeah. So as far as I remembered, this is pre-increment and uh, what I remember from what I studied is that, you know, before the statement is executed, this will be incremented and then the, if condition is just an or value of both of these which are positive values. So it should go inside the loop and these arithmetic should kind of work and then according to that it should be this. But yeah, I think I should have given this a five because I am just a little bit shaky about this, but honestly I am quite confident but yeah, of course there is always a chance I might be wrong. So yeah, that's four and 12.
+
+Interviewer:        02:34          So what's the thing that you might be shaky about?
+
+Subject:            02:37          It is about the, you know? First thing being, if I'm right about, I know that these are pre-increment and I recall that, you know, before the statement is executed, they're incremented. So I just, I think I am like that, but that is, that is a scope that I might go wrong if at all, I like that might be the place.
+
+Interviewer:        02:56          So it's whether or not on the increment happens
+
+Subject:            02:59          before the execution or not.
+
+Interviewer:        03:00          Gotcha. Yeah. Okay, great. Yeah, that's, that's excellent. Thank you.
+
+Subject:            03:03          Okay. So you need?
+
+Interviewer:        03:05          [Snippet 109] So you can take this one. We can move on to the next. Oh we should have written the end time. But that's not important uh, for this one though, we should write what time it starts right there.
+
+Subject:            03:18          So that's 2:02?
+
+Interviewer:        03:20          Yeah.
+
+Subject:            03:21          And I see this program V1 is given two and there's an if statement which has the condition as zero that is false. And then it would go to V1 plus plus. So it will be three the output will be three. And I'm pretty positive about this. Like that is nothing to think about if, yeah, this condition fails and this one will be incremented
+
+Interviewer:        03:45          Okay. Um, so you sort of explained your confidence. Is there anything else you want to say about why six?
+
+Subject:            03:51          No, I, no no there is nothing else. I think this is pretty straightforward actually.
+
+Interviewer:        03:57          [Snippet 55] Okay, great. Thank you. Okay. So the current time, 2:03
+
+Subject:            04:05          Current time is 2:03 and I see that V1 is assigned to zero, V2 to eight and there is an if condition which will be evaluated. And V2 minus eight minus three, star seven minus eight. So yup, what I would expect of this is five minus one is less than. So this will go here V1 is assigned four and it will be, yup it'll be four, V1 will be four. And this also, I'm pretty sure about because you know, if it's looking for the uh, you know its looking for a condition where here it is true because this will evaluate to evaluate to a value which is less than zero and hence it will enter this. Uh, yeah, this code block and V1 will be assigned four and that is what will be displayed.
+
+Interviewer:        05:09          Okay. Yeah. That makes a lot of sense. All right, thanks. Oh, and the time
+
+Subject:            05:17          You need the end time also? I did write the start time.
+
+Interviewer:        05:20          Yeah you did. Um, it's best to write the end for you.
+
+Subject:            05:24          Alright. Sure I can do that for you.
+
+Interviewer:        05:24          It's fine.
+
+Subject:            05:31          [Snippet 71] I start this at 2:05 and V1 as assigned as one V2 as two. And this is an if, if V1 is less than V2. You want to define something? Alright. And in this case it will go there M1 to be okay M1 and M2 one or two. What I'm not sure about in this is I have typically always used, hash-defines before, you know, before the program starts. This something that I haven't done ever and but I read in the brochure that this compiles. So if it compiles I don't think there should be a problem and the assignment should be all right. Just in case I not too sure about this statement being inside the main. Not that it shouldn't matter but I haven't seen this before. So yeah this would be one and two. Sorry. Oh yeah. M1 is one and then yeah, this should be one and two M1 is one M2 is two. Okay, great. What, uh, the end time being? 2:06?
+
+Interviewer:        06:33          Yeah. Okay. Excellent. Okay.
+
+Subject:            06:43          [Snippet 62] 2:06. And I see V1, V2 not initialized initially and V1 assigned two. V2 assigned one and yeah, not a problem. V1 is two V2 is one and this is pretty sure that this should be the answer.
+
+Interviewer:        07:01          Okay, good. Is there anything else you want to clarify about your?
+
+Subject:            07:04          Uh, no. Typically I like to initialize if possible the variables but it's fine. I'm pretty sure they will not be any junk because we are assigning values right there.
+
+Subject:            07:14          Yeah, it's. Yeah, it's good. V1 and V2 is two and one. Yes.
+
+Interviewer:        07:20          [Snippet 49] Okay, great. Two more.
+
+Subject:            07:28          It's 2:06 and I didn't, I did put that.
+
+Interviewer:        07:32          Yeah.
+
+Subject:            07:32          So V1 is assigned to zero. V2 is. Okay. V2 equals V1 double equals.
+
+Subject:            07:43          So... These all compile, right? That's for sure.
+
+Interviewer:        07:48          Mhmm.
+
+Subject:            07:48          Okay. So I'd expect that this operator would have like you know it would have been better for me if there were parentheses around these for me to understand
+
+Subject:            08:01          and
+
+Subject:            08:09          Well, I can only make sense of this hold on, so three is true so I get two V1 double equals 2 but it does not. I am not really sure of how this will actually play out.
+
+Subject:            08:30          Oh, I see. I think I misinterpreted this. So V2 equals to whatever, if V1 equals to three. So V1 is not equal to three, false statement for V2 will be assigned four and yeah, that's it. So it's 2:08 and yeah parentheses would have been better and I am confident, like, pretty confident about this.
+
+Interviewer:        08:55          Okay. Can you explain why?
+
+Subject:            08:56          Why five? Yeah. I'm not too comfortable with the way it is, uh, it's not typical that we have conditions or you know, just like this. I like to see them, you know, I don't know if this. Of course you say that this compiled, but I wouldn't do it like this so I'm not too confident about it when it is written like this. I'd prefer if there were, it's just that I'm not too concerned about the output. I have no reservations as such. But yeah, I'm pretty sure that if this works it should be four. Okay,
+
+Interviewer:        09:27          [Snippet 91] I see. Okay, great. Thank you. Okay. I believe this is the last one and then we'll have you do sort of a survey and then after the survey we can come back and we can discuss all of these. The time is 2:09.
+
+Subject:            09:53          Okay. Char of V2. Oh, alright. Second index, zero, one, two. E, E would be what it is. Yep. The output would be E because we are looking at the second index: zero, one, two. Yeah. Very peculiar way of writing it but yeah, it would have been much better and easier for me to get if it was not written this way around. But yeah, this would be E.
+
+Interviewer:        10:30          Okay. And what's your confidence?
+
+Subject:            10:32          My confidence on this is since I have not used it specifically, but I know that we can do this sort of stuff like you know, you can reference this in this manner if ar, array was an array [referring to his handwritten note "2[arr] or arr[2]"], I can either do this or this and I'll end up at the same result. So on those basis I think it should be this and I'm like a four because I haven't done it like this.
+
+Interviewer:        10:56          So. So if you haven't done it, um, how were you aware of that?
+
+Subject:            11:01          I have seen it on some of the class material once where, you know, that was, you know, professor was just going through it and he said that this or that wouldn't matter. And I, I did try it with an int because I just wanted to check to be sure, it did work, but you know, I kind of initialized an array before and then I tried it like this with the index and the, you know, base pointer, but I haven't done that with strings. But assuming this compiles, this would be the logical way out of it given zero-based indexing. Uh, the second index will be zero one to E.
+
+Interviewer:        11:38          I see. And can I also ask what class that was in?
+
+Subject:            11:44          It was an operating systems class.
+
+Interviewer:        11:46          I see. Okay, cool. Um, thank you. Uh, so that, that's it for the sort of answering the questions.
+
+Subject:            11:52          Okay.
+
+Interviewer:        11:54          So I'll ask that. Oh No, I'm sorry.
+
+Subject:            11:57          Okay.
+
+Interviewer:        11:58          Ah, I lied to you, there's one more.
+
+Subject:            12:02          [Snippet 56] Ahh, it's okay. The time is? 2:11
+
+Interviewer:        12:02          2:11. Alright
+
+Subject:            12:05          So V1 is assigned zero and V2 is assigned six. If one is less-than equal to V2. One is less than equal to V2, one is less than equal to V2, this is true so it will execute no matter. So it enters V1 equals to two. So yeah, V1 is two and pretty confident about it.
+
+Interviewer:        12:27          And why that, why that confidence level?
+
+Subject:            12:30          Because if condition, if one of the conditions passes it will enter irrespective of the other one. And then this is the assignment,
+
+Interviewer:        12:39          Okay.
+
+Interviewer:        12:45          Okay, great. Um, thank you, and now we can actually move on to the survey. It's two pages, but go through an order.
+
+Subject:            12:55          Yeah, sure.
+
+Subject:            12:59          Do I have to say this out load?
+
+Interviewer:        13:00          No, no you can just answer
+
+Subject:            13:02          What does this mean? Yeah. So quite understand race.
+
+Interviewer:        13:45          It's whatever you want to put in there. There's no right or wrong answer if you want to skip it.
+
+Subject:            13:50          Yeah I would like to skip it.
+
+Interviewer:        13:50          Yeah, go for it.
+
+Subject:            13:53          And what is this, the number of years so far since I have completed education here?
+
+Interviewer:        13:59          Umm, course of study, number of years.
+
+Subject:            14:03          Or, the number of the study lasted.
+
+Interviewer:        14:05          Um, if you are finished with the degree it should be how many years it took
+
+Subject:            14:09          The duration? Yeah. Yeah. And now currently I am five months into the course, the CS course that I am enrolled in. Okay. So I write five months.
+
+Interviewer:        14:20          Yeah, sure.
+
+Subject:            14:23          Okay.
+
+Interviewer:        14:24          I, this whole everything here is your best.
+
+Subject:            14:28          Okay. My understanding
+
+Interviewer:        14:30          Yeah, yeah, and as with the other one, if there's anything you don't want to answer it, don't answer it.
+
+Subject:            14:34          Sure. And uh, just to be sure this one [question 5] is in all of my education or in any particular university?
+
+Interviewer:        14:45          Everything above high school.
+
+Subject:            14:49          Everything above high School. All right.
+
+Subject:            16:03          I have worked for a couple of years in between. So I have seen a pretty huge code base actually. So that, I dunno, I don't even know how long, how big that might have been. Any particular range that you're looking at? 10,000 lines?
+
+Interviewer:        16:19          Yeah. Just your best guests. If 10,000 lines is your best guess...
+
+Subject:            16:23          Yeah, I think it'd be any where around a lakh. And this is obviously a ballpark figure. I don't know because you know, it was a legacy product in c plus plus.
+
+Interviewer:        16:34          What does that say?
+
+Subject:            16:34          Roughly how many lines of code was the entire code base?
+
+Interviewer:        16:38          What does that say? [Question 9]
+
+Subject:            16:39          One Lakh lines of code
+
+Interviewer:        16:41          Lakh?
+
+Subject:            16:42          Yeah, a lakh... One thousand, ten thousand, fifty thousand, one Lakh.
+
+Interviewer:        16:48          Oh, 100,000 thousand.
+
+Subject:            16:53          Yes! Oh, sorry! That's a cultural difference.
+
+Interviewer:        16:53          Oh yes, I'm just going to write that, I've never heard lack before, but that's good. Good to know. Thank you.
+
+Subject:            16:57          No problem. So I would have written around at most a thousand lines. That's again a ballpark figure of course.
+
+Interviewer:        17:07          Yeah, that's totally fine.
+
+Subject:            17:07          You know, I think this is actually a lot. I think it would be somewhere around 500. That would be, because you know it was a XXX product and I was not developing it actively. I was doing code fixes and enhancements, but enhancements were obviously on the features. So it would not be more than 500. Yeah, that's okay. I would say I am. Okay. Second year programming students who are the second year program and students undergrads, second year programming students?
+
+Interviewer:        17:42          People who have, it's their second year of learning to program.
+
+Subject:            17:45          I wouldn't be too cocky about it, but professional programmers, yeah, maybe I can be better. This is about it?
+
+Subject:            17:55          Um, and then the last one, I'll take this one.
+
+Subject:            20:15          Yeah. I think this is pretty much. I think it has colored everything. That's great. Yep. Okay, excellent.
+
+Interviewer:        20:24          Um, so now if we can just go back through and talk about
+
+Subject:            20:27          Please
+
+Interviewer:        20:28          the questions. Um so we'll just start with the first one. And the first thing I always like to ask these questions is, um, is there any question that you have about the code or your answer or anything?
+
+Subject:            20:42          [Snippet 79] No, I'd like to know what is the right answer.
+
+Interviewer:        20:46          That is a good question. Okay. So, um, before we get into the right answer, you had pointed out in this one that you wrote, you wrote, you'd written entirely positive but you had also expressed a little bit of.
+
+Subject:            21:06          So I jumped to this pretty quickly, but then you know, in retrospect of thinking about it, I should not have given it a six. If I can change, I'd go back to a four
+
+Interviewer:        21:16          Oh actually, I want to give you a red pen instead of a black one so you can go ahead and write anything you want now.
+
+Subject:            21:25          So yeah, I would be more four because of course, like I told you, I was, you know, I had my doubts about the pre-increments that it would be before or after.
+
+Interviewer:        21:33          Hold on to that one.
+
+Subject:            21:35          You want me to, well,
+
+Interviewer:        21:38          I just don't want you to get the urge to write with the black one.
+
+Subject:            21:40          Oh yeah, sure. But no problem.
+
+Interviewer:        21:41          But sorry, continue.
+
+Subject:            21:42          Oh, that's about it. So I was thinking about it so, the pre-increment before the statement executes or after. So I know that it is, but I am just not sure I have not used this kind of thing. I usually am very confident about the things that I have coded at a point of time. That's something that I see and I always like to go back and actually see the compiled output to be very confident about it. Otherwise I don't commit to it.
+
+Interviewer:        22:07          Of Course. Um, okay. So if I told you that, um, that the plus plus before variable first incremented the variable and then reported the value then would you say that this is the right output? Does that change your output?
+
+Subject:            22:26          No, it doesn't. I would stick to the output, but yeah, obviously a validation would only be if you tell me what is the right answer.
+
+Interviewer:        22:32          Sure. Okay. Um, so
+
+Interviewer:        22:39          I guess I only have one more question which is, um, can you walk me through at the smallest step, what happens in the if statement knowing that, um, that you are correct that the increment happens first?
+
+Subject:            22:56          Okay. So as far as I remember, so if I will, you know, this executes and I will, this will be incremented, which either ways would have been positive because this is a positive value irrespective of the increment. So I don't mind this. So this walk through into the if statement will pass. That's what I mean to say. And then there is an or. Even though this is positive, it doesn't short circuit, you know it will have to evaluate both the conditions I believe so three will also go on to increment V2 will also increment because it has to be sure that it evaluates. Oh yeah, that's actually, I didn't pay attention to that. So that can be a short circuit in the sense. I don't know if C does that or not, so if there is even one condition that passes and if it is an or. I have a faint memory that you know, It doesn't have to check the other one. So if that is the case, I don't know if C does it, if that is the case, there is a possibility that V2 is not incremented and hence this would have not, you know, V2 would have been a different answer. So yeah, we can attribute that to actually that's something that I'm thinking about right now. I didn't give it a lot of thought before.
+
+Interviewer:        24:08          Sure. Um, do you know in what cases something short circuits and what cases something doesn't short circuit.
+
+Subject:            24:15          I remember that if at all the first is false, it definitely short circuits in the sense, you know, if it is, if any condition is here be it an and or an or. If the first one fails it definitely will short-circuit.
+
+Interviewer:        24:27          I see. Okay. Um, so, uh, right now is the first value true or false?
+
+Subject:            24:34          It's not, it's true, so it shouldn't short-circuit.
+
+Interviewer:        24:37          Okay. Shouldn't search your short circuit. Okay, cool. Um, so that's slightly inaccurate. The false true thing, um, with an and gate, if the first half is false, um, then you know, the whole and is false because false and false is false. False and true is false. So you don't need to bother with the second path. The same is not true with an or statement where, um, even if the first half is false,
+
+Subject:            25:08          There is a scope that the second one might be true and it might enter.
+
+Interviewer:        25:11          Exactly. So it can't, it can't short circuit, but if the first half is true, actually, even if you don't need to
+
+Subject:            25:18          It won't check the other part right?
+
+Interviewer:        25:20          you don't have to because with an Or if the first half is true, the whole thing,
+
+Subject:            25:23          True, true, yes I had my doubts about that one. Yeah. So in this case this one won't be executed.
+
+Interviewer:        25:29          That is correct.
+
+Subject:            25:30          Okay, yeah.
+
+Interviewer:        25:31          Um, so the only difference, um, between your answer and the correct answer is that um. V2 doesn't get incremented.
+
+Subject:            25:39          Yeah, yeah, yeah, that makes sense, yes.
+
+Interviewer:        25:42          Yeah. Um, but otherwise, uh, you had all of it correct? With the plus plus happening first.
+
+Subject:            25:48          Yeah. I didn't give it a lot of thought before. It only happened because you were insisting that I read about it, yeah, that's when it happened.
+
+Interviewer:        25:54          Right, sure. Okay. But do you have, do you have any other questions about this?
+
+Subject:            25:58          No, I'm, I'm okay with this.
+
+Interviewer:        26:01          [Snippet 109] Okay, cool. So we can look at the next one. Okay, so do you have any questions about this one?
+
+Subject:            26:10          No. Should be pretty straightforward. Should be three.
+
+Interviewer:        26:14          Okay. Um, yes it is three and I don't think I really have any questions to ask you about this one.
+
+Subject:            26:28          Mhmm
+
+Interviewer:        26:28          Did, did you have any concern about how the if-statement worked there?
+
+Subject:            26:35          Yeah, because I use this a lot so I did not have a problem but typically if I did not use it I would have thought about a second if this is a boolean value or not, does one or zero work or not, but yeah, I'm pretty sure that zero evaluates to false. So I did not have a problem with this one.
+
+Interviewer:        26:53          Okay, great.
+
+Interviewer:        26:54          Thank you. Actually let me write a couple things.
+
+Interviewer:        27:19          [Snippet 55] Okay, let's take a look at this one.
+
+Interviewer:        27:22          Um, so again, full confidence. Um, yeah, any.
+
+Subject:            27:27          No. This shouldn't this all I'm pretty sure about because it will be evaluated and there are parentheses so I don't have to worry about which will take precedence. This will be evaluated, this will be evaluated, they'll be multiplied and then. So as this is a multiplication operator this will occur first and then this will be compared.
+
+Interviewer:        27:47          I see. Yeah. Um, and
+
+Interviewer:        27:54          Okay. And so no questions about any of the things in here?
+
+Subject:            27:56          No.
+
+Interviewer:        27:58          Okay. Um, yeah, I don't really have any questions for you either. You answered it correctly and you worked out exactly correct.
+
+Interviewer:        28:09         [Snippet 71] Um, so this one's slightly lower confidence, five. Um, do, do you have any questions about this one?
+
+Subject:            28:16          I would just like to see the output. Of course, if you have done it before, I'd like to know if this works. If it compiles yes it definitely should. Oh yeah. Now that I think about it if I want to give it more thought as to why I'm not confident about it. So this kind of stuff happens when you know you're compiling and the compiler manually sees this M1 it'll try to put one two. So if at all there was a mention of M1 before this somewhere, this would have failed.
+
+Interviewer:        28:42          I see. Yeah.
+
+Subject:            28:43          So I'm pretty sure about that because you know, the compiler has not. So yeah, that is why we do the definitions before because you don't know where they might be used in the program and there is no restriction when it is an open code base, and you have multiple people, you know, getting at it and. Yeah. I'd like it to be at the top of the program so that it is not ambiguous, but otherwise, yeah, I just am not confident about it in this aspect as to if the compiler is still okay with actually starting to pass the code and then hits a define just not confident with that.
+
+Interviewer:        29:23          Um, so you mentioned that there's sort of different phases in which the compiler does different things, uh, do you know in which order? Um, the, the various things in this program happen.
+
+Subject:            29:38          Uh, I do slightly remember. So the first one is where it defines uh, it finds the literals and then it will make a mapping table. And uh, before that there is a processing step where it removes the comments. And uh, I think that is when it does this kind of stuff, it removes these defines and it actually puts their real values in there. And then it makes the mapping table. So that's what I remember.
+
+Interviewer:        30:03          Okay. So, um, after, after that happens, after these defines are removed, do you know what the state, what the program looks like at that point? This, this particular program
+
+Subject:            30:19          M1s and M2s will no longer be there and the real values will be sitting in it, that's all. That's all that will matter.
+
+Interviewer:        30:25          Um, so after the defines are removed, that's when you put a one instead of
+
+Subject:            30:31          M1 and two instead of M2. Yeah, but depending on this condition where here V1 is less than V2. M1 would be one and M2 would be two
+
+Interviewer:        30:40          Okay. Um, so which of these get selected is dependent on the if statement
+
+Subject:            30:47          Yeah, if V1 which is one and V2 is two and one is less than two, hence this will be selected.
+
+Interviewer:        30:53          Yeah.
+
+Subject:            30:55          Oh yeah, well, this is nice because you know, this will only be executed at runtime and this kind of decision cannot be made at that duration. So. Oh yeah. Didn't give it that much thought. Yeah. I don't know the should
+
+Subject:            31:11          this
+
+Subject:            31:13          either. I am wrong about when the defines are put in or this shouln't work.
+
+Interviewer:        31:17          Right. Um, well I can tell you right off the bat, you're not wrong about when the defines happen. You're right. Um, but also this program does give it, does something. Yeah. Um, so you're also right that there is sort of this conflict that uh, the, if statement happens at run time and the defines happen at compile time. Um, but it turns out that um, the defines, are evaluated in order at compile time. So M1 is set to one M2 is set to two, but then also these are read as well.
+
+Subject:            31:54          Oh, so M1 will actually be two and M1 will be one. And hence the output would be what I have
+
+Interviewer:        32:00          exactly
+
+Subject:            32:01          It's the opposite of what I've written
+
+Interviewer:        32:04          because they're overwritten.
+
+Subject:            32:05          Okay. And hence they, should not be written in between a program I believe because you know, I,
+
+Interviewer:        32:12          if you're going to try to write a clear, understandable program, you should not write a program like this
+
+Subject:            32:18          just definitely now I remember, yes.
+
+Interviewer:        32:20          But that is not the point of my study.
+
+Subject:            32:21          Of course. Yeah. But yeah, it makes sense. Yes. So yeah, I stick to what I know. That's why I keep them at the top.
+
+Interviewer:        32:27          Yeah. You're much less likely to make mistakes if you do that.
+
+Subject:            32:31          But yeah, I'm glad I did not know that if it encounters any more in the way it really just keep updating them.
+
+Interviewer:        32:38          Yeah, it just overwrites them. So, um, any more questions about this?
+
+Subject:            32:43          No I'm good at this.
+
+Interviewer:        32:43          [Snippet 62] Okay, great. And then move on the next one.
+
+Subject:            32:52          Okay. This one is also pretty forward, straight forward. Yeah, I stick to these answers.
+
+Interviewer:        32:58          Yeah. You gave full confidence. Um, and you seem to understand it. Um, you made one comment I think
+
+Subject:            33:07          Yeah, I would have like it if they were initialized upfront here because you know, in a bigger program that is, that you start using them and you forget to initialize them. So that might be a chance that you might end up with some junk values. But here we have so.
+
+Interviewer:        33:19          Okay. Yeah. So, um, you're saying that if they weren't initialized with your problem, but there's no problem in this particular,
+
+Subject:            33:27          Yes, there is no problem in this one.
+
+Interviewer:        33:30          Okay, I agree. There's no problem in this one. If your answer is great. Cool. Thanks.
+
+Interviewer:        33:37          [Snippet 49] Okay. So this one was a little bit more interesting. Um, and again, a five confidence.
+
+Subject:            33:43          Yeah.
+
+Interviewer:        33:43          So, um, do you have any questions about this one?
+
+Subject:            33:46          My question would be very simple, like I know a ternary operator needs a kind of a condition here which will then be evaluated and depending on the true or false will be doing the assignment. So in this context, when I see it, I know that, you know there's, and a double equal-to can only be there for the condition check. So I know that V1 is being compared to three, but I'd have been a lot more confident if there was parentheses, which is either separating all of this and, you know, a right side and left side so that it is very clear that V2 is going to be assigned to some value. It would have been much, you know it would have been very clear and very easy on my eyes. I can just parse through that and I get the answer. I'm pretty confident that this is the answer.
+
+Interviewer:        34:29          I see. So, um, well you sort of went back and forth the first time you answered it.
+
+Subject:            34:36          Yeah, because I did not see this. I didn't give it a lot of thought, so I put my parentheses here assuming that this is just the condition, but then I realized it's a double equal to and it cannot, it cannot be there for any other reason but for a condition, like I said, it would have been much simpler if I had seen the parentheses.
+
+Interviewer:        34:53          So, um, the way that you figured out that um, this is the correct way to parse it, that that's the right way to put the imaginary parentheses. You sort of did that by, um like logic or
+
+Subject:            35:08          by logic that this cannot. Yeah, this is not, you know, this cannot be evaluated in any other sense that a comparison. So I know that this left and right should be together and if they are together, that means they are a condition and that condition is what is going to decide the fate of which will be assigned to V2.
+
+Interviewer:        35:27          Okay, cool. Um, so if the way that you had written it originally was that the parentheses were around the three question mark two [3 ? 2 : 4], so if it had been written that way, if it had been written with the parentheses around, um,
+
+Subject:            35:44          it wouldn't have compiled
+
+Interviewer:        35:47          it wouldn't have compiled. Why? What, what is that error? What, what would've been the error that
+
+Subject:            35:50          if said something like, you know, this symbol here cannot, you ended up said something like a can't compare to, you know, here, nothing is okay.
+
+Subject:            36:02          Nothing comes out of this. I think you could have had the same ambiguity that I have as to, you know, I think that would be a problem in creating the parse tree and it would definitely hit this one first so it will throw an error saying it does not know what to compare to it or something of that sort. I'm not too sure about it but this would be encountered first and.
+
+Subject:            36:24          Yeah.
+
+Interviewer:        36:25          So what, what are the two things that can't be compared in that scenario?
+
+Subject:            36:33          Uh, okay. So if I though okay. V1 double equals three two 4. Okay. Actually, if this happens and I want to make it work, then I picked three is true and two is the answer, two is not. Yeah. Okay. So what happens then according to me, is if at all this was the parentheses, two would have been picked V1 double equals two. That is going to be checked. And it is not. And, it doesn't know what to assign to V2. I'm not too sure if zero will be assigned to it. Like I don't know what would be the return type of this condition of this.
+
+Interviewer:        37:14          I see, okay.
+
+Subject:            37:18          So hence it has to be the other way around.
+
+Interviewer:        37:20          I see. Okay. So it turns out that it would be zero in that case. If you have a statement, one equals equals two. It actually will provide a value of zero or one depending on whether or not it's true. That said, even though that's true. Um, you got the correct answer because, um, the, the imaginary parentheses you would write around this, the way that it parses actually is the way that you figured out eventually where um V1 equals equals three is the condition of the ternary operator. Um, so it could have worked the other way with the parentheses around the three question mark or whatever, but it doesn't because um the precedence of the equals equals binds tighter than the, than the ternary. All right. Um, so yeah, you got this one. Right.
+
+Subject:            38:17          Okay, great.
+
+Interviewer:        38:18          Do you have any other questions about this one?
+
+Subject:            38:20          Uh, no. Uh, I just say it's always, you know, this saves space, but you need, has to be used in such a way that, you know, it is not difficult for anybody who's reading the program for it should not be something that I have to sit down and figure because we are just saving some space and making it compact. We have to make it clear in the sense if I do it in a, uh, if I do it at my workplace, I not be happy if somebody leaves this to me.
+
+Interviewer:        38:45          Right. Yeah. That's certainly true. Okay, cool. Thank you. And I'm not going to make the same mistake last time. We have two more, not one more. Okay. Okay.
+
+Subject:            38:59          [Snippet 91] Well, yeah, this one, this, I'm not too confident because I have not ever worked. I have not used this ever, but as this compiles, like you say, this should be a yeah, this kind of notation I have seen before and I have checked on ints with a base pointer. So if my understanding is right, it should still return whatever it is at the second index, that is E.
+
+Interviewer:        39:23          Yeah. Um, so that, that description all makes sense to me. Um, you did put a confidence of four though. Um, so can you just explain, um, I think that's the lowest confidence you put in the whole.
+
+Subject:            39:39          Yeah. Because you know, uh, these, the string here and if I do this, I should be ending up with this according to my understanding, but this is not a base pointer, but I do understand it's a string and I'm really shaky when it comes to strings in C. I don't think about them too much because I think that data type is not actually meant for the language. So yeah, that's why I'm not confident about this.
+
+Interviewer:        40:09          Okay. So, um, it has nothing to do with, um, with the brackets or the, the two. It's just about the string.
+
+Subject:            40:18          Okay.
+
+Interviewer:        40:19          Um, that I was asking you.
+
+Subject:            40:20          Oh, for me?
+
+Interviewer:        40:21          Yeah, for you.
+
+Subject:            40:22          Well, yeah, the way it is written. See if it were just a simple assignment with the char star. I know you see regular defines, right, if I have seen something like this, where I have typically seen strings being assigned to char pointers that is okay with me. That is all I know about how I deal with strings in C.
+
+Interviewer:        40:40          Sure.
+
+Subject:            40:40          So when I see anything different I'm not too confident about it because I haven't done it before and I'm not comfortable with strings and see in any other fashion than what I have already seen.
+
+Interviewer:        40:51          I see. Okay. Um, but so then my question to you was giving that answer, I feel like you justified that, but um, but you're, you're not confused by the two and the brackets.
+
+Subject:            41:03          I am not because I have seen that kind of declaration before, but not with strings.
+
+Interviewer:        41:07          Gotcha. Perfect. Okay. Um, well in that case, uh, the way that you described it originally was perfect. So what I, what I can describe for you is what the deal is with the strings, just for your own sake.
+
+Subject:            41:23          Yes, yes, that'd be great.
+
+Interviewer:        41:26          Um, so the, the way that, um, strings work in C is yeah, they're represented as char stars, so they're a pointer to a character. Um, and if you're familiar with how arrays work, arrays are just sequential elements in memory which are pointed to just the first element. So an array is a pointer to the first element in continuous elements
+
+Subject:            41:50          Incremented by the size of the char pointer.
+
+Interviewer:        41:51          Right, exactly. And so strings are the same thing, strings are just a bunch of characters next to each other in memory. And um a char star, is just a pointer to the first element. So this string literal is just those characters next to each other in memory and a pointer to the first one. So you've got that pointer the first one, that's what's returned by the string literal, a pointer to the first element, which is equivalent to an array of characters. And so when you index into the second one, it just adds to the pointer and then it looks up. The value two elements, err three elements ahead.
+
+Subject:            42:27          Okay. Just one more thing about that is uh, I have a lot of, uh, you know, I don't, I'm not too comfortable about memory and C, so if I just drag something like this, if at all this was in memory, you know, the sitting like this q, w, e, r, t y. So where was the memory assigned or allocated for this? If I start talking about it like this this, you know? Where was the memory dedicated for this.
+
+Interviewer:        42:52          Like where, where in all of the memory?
+
+Subject:            42:55          No, no, not read exactly in this code. I do not see it being referenced anytime before and I have just mentioned it here and um, I'm trying to access the second index of this so I don't understand where was that, where exactly did C find the time to assign or allocate memory to this?
+
+Interviewer:        43:14          Yeah, that's a great question. Um, so you know how in the earlier question with the um, defines uh, we were talking about the multiple steps that compiler takes. Um, and you had actually mentioned that one of the steps that a compiler takes is to first look up all the literal values. So what C does is every time, but before it gets to run time during compilation, it finds all the literals and there's a whole section of memory just for literal values that get allocated in the byte code itself before execution. Um, so by the time this starts running, this literal value has already been replaced with a pointer to pre allocated memory. Um, it's, I think called the bss section of memory. It's kind of neither here nor there, but um, but so it doesn't go on the heap, um, or technically on the stack. I think it's pre allocated memory that every time the program runs it's already there.
+
+Subject:            44:20          So that's typically where the code itself is also sitting. Are you talking about that memory? You know, it has to store some metadata about the program, like the literal symbol table.
+
+Interviewer:        44:30          Exactly right
+
+Subject:            44:32          It's not memory space but it is the space which is used in memory for storing the program and related to that is where put this is
+
+Interviewer:        44:42          Because it's a literal constant. So it's guaranteed not to change for the rest of the program. Yeah. So that's where it lives.
+
+Interviewer:        44:51          Okay, great. Um, cool. Any other questions?
+
+Subject:            44:56          No, no, that will be all.
+
+Interviewer:        44:56          [Snippet 56] Okay. And then now, now the last one. Six confidence? Yeah. Any, any questions about this piece of code?
+
+Subject:            45:05          Mm. Mm.
+
+Subject:            45:07          V2 is also greater than. Oh yeah. I actually, yeah, this was true and I didn't care about the other one, but I should have given our discussion about how or checks for both of these ways.
+
+Interviewer:        45:18          Yeah.
+
+Subject:            45:19          So yeah, my question to you. When one is true, obviously I need to go and check if the second one is. Yeah, I don't need to. If one is true, I can actually just go inside any of it. So that is what happens with this right? With an or.
+
+Interviewer:        45:32          Yeah. With
+
+Subject:            45:33          Yeah. If it is false. Yeah, that's one of them is true. I don't have to check the other day
+
+Interviewer:        45:37          for, for an or that's true for an and it's the opposite.
+
+Subject:            45:41          Yeah. And it's opposite. Yeah, that is what my point was. I did that. So
+
+Interviewer:        45:47          I think you actually said that when you evaluated this, you said yes it short circuits. I don't need to.
+
+Subject:            45:51          Yes. Yes. So yeah. Yeah.
+
+Interviewer:        45:53          Yeah, so I actually thought that was interesting because it's the opposite of what you said.
+
+Subject:            45:57          Yeah, in the first one, right? Yeah, I just thought, you know, I didn't give it a lot of thought in the sense of with and what would happen if I'd have seen an and as part maybe I would've thought harder, but yeah, I do remember some. Something like that happening. And I always get confused with, I don't know if it is Java or C plus plus or something that the evaluation actually has happens from the left to right. I don't know if it happens any where or is it just my memories.
+
+Interviewer:        46:23          Hold on a sec, I have a question. You said left to right, but with your hand you
+
+Subject:            46:26          Oh, move from right to left. Did I? Yes. So yeah, right to left.
+
+Interviewer:        46:31          Okay. So some language goes right to left
+
+Subject:            46:33          is what I have a very big doubt on and I don't know which one and I'm always confused when I come to these boolean conditions where you know, I have to see which one. If you actually asked me which one would have been executed first, I would have taken a minute to say that. Okay. It would be this one first and then it would move. I don't know if it moves from left to right. C, I know it moves from left to right, but I think there is some language which moves from right to left. I might be very wrong. I don't know.
+
+Interviewer:        47:01          Okay. I can't think of any off the top of my head that go right to left, but I'm sure it exists.
+
+Subject:            47:08          I don't know I'll let you know if I do find that.
+
+Interviewer:        47:10          Well if you do, I'd love to hear about it.
+
+Subject:            47:12          Well, it's not maybe because it's not even Java. I don't know why it's just. Maybe you know. I did read it as left to right and I did the same wrong thing that I do. Maybe it stuck with me and that's a doubt. So yeah.
+
+Interviewer:        47:24          It could be.
+
+Subject:            47:24          We got that out of our way now.
+
+Interviewer:        47:26          Okay. So one, one last question for you.
+
+Interviewer:        47:30          This one you read, right. You did it right. By the way your answer is right. Um, can you think of why you didn't have the same thought process on the previous one? Why you got it right? You knew it here and you didn't there.
+
+Subject:            47:44          Can we at the other one?
+
+Interviewer:        47:46          Yeah, I'll try to find it. I forget what number it is
+
+Subject:            47:54          Might be one of the first ones.
+
+Interviewer:        47:56          Yeah, I think it is.
+
+Interviewer:        47:59          Okay. Yeah. So it's question 79. Program sample seventy nine. Huh.
+
+Subject:            48:04          So my thought process was more around the operator than the condition. Hence I missed that evaluation during the first glance that I gave it. And I obviously did not spend too much time thinking about it. Hence you know I didn't get into that, but here it was I was pretty confident about how this would result in. So I was giving more thought about which would evaluated and which would not be. So yeah, if I see. Yes, this kind of operators always get me a little worked up. I start giving them a lot of importance.
+
+Interviewer:        48:34          I see,
+
+Interviewer:        48:43          okay. That, that makes a lot of sense. There's a lot of research that says like, um, the more things you're focusing on cognitively, you're more likely to forget other things. So if you were focusing on the plus plus it makes a lot of sense that you might not have
+
+Subject:            48:57          I did not, it slipped out of my mind. Yes.
+
+Interviewer:        48:59          Okay. Um, but that, that's great to hear about. Um, so do, do you have any more questions about anything we've seen so far? Cus.
+
+Subject:            49:08          I'm pretty. Yeah. I'm, I'm happy with how you have covered everything. So I'm great.
+
+Interviewer:        49:12          Okay. Excellent. Um, in that case, I will stop the audio recording. Um, and I can sort of give you.
+

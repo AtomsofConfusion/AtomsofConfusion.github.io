@@ -1,0 +1,440 @@
+Interviewer:        00:00          Audio recording now.
+
+Subject:            00:00          Okay.
+
+New Speaker:        00:00          So would you mind saying for the recording whether or not you're okay?
+
+Subject:            00:03          Oh yeah, it's totally fine to be recorded.
+
+Interviewer:        00:05          Cool. Thank you. Alright, so I can give you the first program snippet now.
+
+Subject:            00:09          Okay.
+
+Interviewer:        00:09          We can take that and just flip it over. Um, so I'll give you the first snippet now. And the first thing I will ask you to do, um, it's just right down the start time.
+
+Subject:            00:22          Yep.
+
+Interviewer:        00:22          So 3:04 and then as you go, please say aloud any thoughts you have while reading the code.
+
+Subject:            00:28          Okay, this is very awkward. [Subject was seated in a low couch with a lower table]
+
+Interviewer:        00:30          Do you want to switch? This is sort of a much more real chair
+
+Subject:            00:33          Yeah, I'll do that
+
+Subject:            00:33          Woahohoho [subject sits in new chair which sinks a lot with cushion]
+
+Interviewer:        00:33          Yeah, that's what I was saying, it's surprising.
+
+Subject:            00:40          Wow. That's going to go into feed back.
+
+Subject:            00:45          Okay, cool. So, uh, what are you looking? Are you interested in like everything? All my thoughts? Like anything about it?
+
+Interviewer:        00:53          Yeah, I wouldn't filter it, just if it's in your head. Say it.
+
+Subject:            00:56          [Snippet 1] Um, right off the bat it's void main, uh, which is, I feel like I'm back in Java land. So, uh, it should be int, although this is c and c, I believe is totally cool with that. I mean it says a compiled like in the instructions that it compiles, but it's like very weird because it's like the wrong type.
+
+Interviewer:        01:12          Sure.
+
+Subject:            01:12          But it does actually work for whatever reason, um, I wonder if C++ allows that, actually, I don't know. So then you have a int V1 equals zero, so int is the type, V1 is the name and then you're not actually assigning, though it looks like assigning, it's initializing it to zero, which is the value literal. Um, then you have an if conditional, uh, 10 mod three, uh, which off the top of my head I'm terrible at doing. Uh,
+
+Subject:            01:50          why did [inaudible]
+
+Interviewer:        02:00          what are you thinking?
+
+Subject:            02:01          I mean it's like, obviously it's modulus operator, so it's like a, uh, kind of close to the remainder. Although there are edge cases like negative and stuff like that. But anyway, it's like the remainder of division and basically you can take like any number and restricted it into a certain range using the operator, but so it's going to be some value between zero one or two, uh, based on that. Um, and
+
+Subject:            02:28          uh,
+
+Subject:            02:32          oh, okay. Actually now that I think about it. I don't really care what the value is, I guess cause it's like it's just a conditional, so it's like you can convert it to boolean. Um, so in this case, uh, it does not evenly divide into three is not evenly divided into 10. Uh, so there is a remainder and of non zero value. So it's true. Um, which then means that V1 is then later assigned the value of four. Um, the Else block is not executed. And then printf D, %d of V1, so the printed value, which I guess I write where again?
+
+Interviewer:        03:07          In there.
+
+Subject:            03:09          Okay. Uh, it was for with, I guess do you want the full uh backslash N like that
+
+Interviewer:        03:18          Whichever you're more
+
+Subject:            03:19          Okay [laughs] like both of them are, yeah, it's four or that. Um, all right.
+
+Interviewer:        03:24          Yeah. Cool. And so if you can write the end time 3:07 and then your confidence about your answer below that.
+
+Subject:            03:31          Uh, sure. I, yeah, I mean five, unless I'm like totally wrong about the modulus.
+
+Interviewer:        03:41          Um, yeah. Well, I mean, whatever you feel. But so after every question, um, I'll then ask you why you chose that level of confidence.
+
+Subject:            03:49          Okay.
+
+Interviewer:        03:49          So why did you choose five? Uh,
+
+Subject:            03:55          I feel like my only answers are bad. Like, because I, I understand what it's, the, like. Okay. Okay. So I did not put a hundred percent confident because I still would like to write out 10 mod three to make sure that it's a non zero value. But other than that, uh, you know, I'm fully confident.
+
+Interviewer:        04:13          Okay, great. That's a great answer.
+
+Interviewer:        04:16          [Snippet 26] Um, so I'll give you this one and the time is 3:08.
+
+Subject:            04:30          All right. Uh, so it's again void main, um so int V1 equals two plus three, so it's five. Um, and I don't know, do you care about like integer promotions and stuff like that? The fact that it's like these are literals they're both by default integers. So there's no type conversion happening even though if it was defined as a different type it could be. Anyway, uh, then it's just going to print out five.
+
+Interviewer:        05:02          And so your confidence?
+
+Subject:            05:03          Oh, yes, yes [chuckles].
+
+Interviewer:        05:05          Okay. So why, why are you six confident?
+
+Subject:            05:06          Because I did not notice anything that, uh, felt ambig... ambiguous to me or surprising.
+
+Interviewer:        05:13          Mhmm. Okay, great. Um,
+
+Interviewer:        05:27          Ok, so the time's 3:09
+
+Subject:            05:32          [Snippet 11] All right. Starting off with v one zero. Um, so then, uh, in the, if conditional you have false and a logical And, but there's the, there's no parentheses and this is like poorly written code cause it's hard to read and it inherently where the Or uh, follows. And so if I recall correctly, the operator precedence is such that And and Or are the same. Um, they don't, I don't believe either one of them takes precedence over the other. And so it's just left to right. And that's, uh, it would be zero And one which is false And true, which is false Or two, which is a truthy value. Thus the conditional is true. And then V1 equals six, then prints out six. So six, 3:10 and I'm going to throw a four on that because I, I, I believe that that's the, the precedence for operators, but I'm not a hundred percent sure.
+
+Interviewer:        06:42          Ok, cool. Uh, thank you.
+
+Subject:            06:57          [Snippet 14] Ok, so you have V1 is three and then V2, eight, [chuckles] seven, seven. Um, uh, okay. And then, uh, so V2 is seven, then you're incrementing using post, post increments on V1 later on. So it's now four, so you have four and seven and then yeah, it prints out four space seven.
+
+Speaker 2:          07:27          Yeah. And then 3:11. And 6 because,
+
+Interviewer:        07:34          Yeah, so, why 6?
+
+Subject:            07:35          Yeah, because I again, nothing feels ambiguous to me. I feel confident that's the correct answer.
+
+Interviewer:        07:39          Ok, thank you.
+
+Subject:            07:41          [Snippet 105] Oh God, I hate these. Octals. Oh, yeah, sorry. 3:11. So right off the bat I noticed the fact that uh, the one is formed from an octal of as an a leading zero where there's other numbers after the zero. I think even zero zero is considered an octal, although not sure about. Um, so the, the value is base eight, I believe. Um, which means 13. Is actually, so it's actually going to be eight. It's gonna be 11 is the actual value in because d is the regular integer when it actually prints it out,
+
+Subject:            08:37          right?
+
+Subject:            08:41          Yeah.
+
+Subject:            08:46          I'm going to put five only because I'm never confident with octals in general, but I am pretty confident that's correct.
+
+Interviewer:        08:53          Okay. Um, what, what would be the ambiguity?
+
+Subject:            08:58          Oh, just in general. Like we don't really think normally, it's not ambiguous. It's just we don't know. We think about Octals in that, like in general. And so I, I preferred not to use them I guess because they are harder to read.[Excitedly] It's ambiguous in the sense that like we are, we just, we usually read digits in either base 10 or occasionally in programming base 2. So it's introducing a different base for, without making it super obvious.
+
+Interviewer:        09:23          Okay. So maybe it's like the conversion?
+
+Subject:            09:28          Yeah, you'd have to like think about it like, cause we, I mean there's nothing fundamentally different about it. It's just that like we think about numbers usually in base 10 cause that's how we learn numbers. And then I mean base 2, we can, we usually learn that as well as computer scientists. But rarely do we do a lot of, uh, you know, math in base eight in our head or in general. And so we're just not accustomed to it, I guess.
+
+Interviewer:        09:53          Sure. Great. Great answer, thank you.
+
+Subject:            10:04          [Snippet 71] All right. 3:14. Okay. Um, so, oh yeah, that's right [chuckles]. So V1 and V2 are both integers. In this case cus it's a comma, but, uh, you know, fun fact, if you put a pointer in between those int and V1, it would not carry over to the other V2 as crazy as that is, because this language is terrible. Um, so, so it's a int V1 is one and V2 is 2, uh, if V1 is less than tw.. V2 and then we have some crazy macro defines, uh, okay. But yeah, but these defines or like not affected by the condition also. So the conditional actually doesn't matter in this case. Becau... Um, I at first I thought they were, ifdefs, uh, I was going to like work that out, but they're actually not, they're just defines. So because of that, uh, you're just defining values and then for whatever reason macros like can be overwritten. Like if you're defining a value in the preprocessor, and it's already set, but if you set it again, they will not warn you or whatever. It just lets you override it. And so, uh, just because of the latter two defines happened after in code than the first two defines those are the values that are accepted or that are used, uh, in the, uh, like, so basically it does all the preprocessing and then by the time this code actually gets to C code, then it's the last value they were set at. And based on this, I would say it's uh M1 is two and M2 is one, so, uh, two and one and 3:15 and six because that's, uh, I, I'm confident that given this is the entire code, like there's no other defines nothing else being imported then. Yeah, that's the correct answer.
+
+Interviewer:        11:55          Okay, great. Thank you.
+
+Subject:            12:11          [Snippet 25] Okay. So you have V1 is three, V2 is V1 plus two is five. Um, and then V2 is five, so its outputting five,
+
+Subject:            12:28          Six does not feel ambiguous or any question at all.
+
+Interviewer:        12:32          All right, great. Thank you. Last one.
+
+Subject:            12:39          [Snippet 61] Oh, [chuckles] Default initialization. Oh yes, yeah, 3:16. Okay. So right off of the bat, I noticed that you're using default initialization here, which actually might not, I don't know, maybe that word, that terminology does not apply to C, but I can think about it in C plus plus land of default initialization where you have integers where it's undefined to read them, but you're, they're, still created for their, their storage duration exists, but they have no known value. Um, so in, but in this case you're assigning over them anyways, so it's fine. You're not going to get undefined behavior. Um, okay, so it starts by cause of the parentheses. Uh, that is the first, the inner most context. And then left to right because the comm operator, so you have V2 equals one.
+
+Subject:            13:24          So then that value is I guess, cast off into the ether because then the comma operator. So as you go to the next thing to the right and it's two, two was the result of that sub-expression. And that's assigned into V1. So V1 is two and V1 is one. V1 is 2, V2 is 1. 3:17 and six, it feels like very awkwardly written but understandable code, the I can read [chuckles awkwardly].
+
+Interviewer:        13:54          Okay. Um, thank you. So, um, I want to go back through all these and sort of ask some questions but first. Let me get, uh, sort of some information about your experience. So if you can just write down there and then we can go back.
+
+Subject:            14:14          Am I allowed to ask you like if I did anything wrong.
+
+Interviewer:        14:20          Um, well eventually we can get there.
+
+Subject:            14:21          I'm curious.
+
+Interviewer:        14:22          We should go through it one more time and then we can sort of talk openly about it.
+
+Subject:            14:25          That'd be great.
+
+Subject:            14:42          So my, my education is an interesting because like I did a year of college and I dropped out, but I'm going back to school like part time later this year. So should I write any of that because I've not actually completed a degree.
+
+Interviewer:        14:54          Um, I am not sure how it fits into this questions, but I think, I think we like specifically ask number of years so far. So you could just write 1.
+
+Subject:            15:04          Ok, so its, ok
+
+Interviewer:        15:04          Out of curiosity, are you going to manage to work while doing that
+
+Subject:            15:14          Yeah, work full time and study part time. Yeah. Yeah. Not, not both full time.
+
+Interviewer:        15:18          Ok, yeah, cus then you don't need to quit or anything.
+
+Subject:            15:19          No, no. I don't have to. Yeah.
+
+Subject:            16:35          So for the number, question number nine the largest C++ program that you have written or contributed to like,
+
+Interviewer:        16:41          yeah, that's been a tough one here.
+
+Subject:            16:42          [Laughs] So yes, I like literally you contribute to thousands of files across a quarter billion line code base because that's, we do automated changes. But does that really like that?
+
+Interviewer:        16:53          So what I've been saying for that is it should be lines that you personally have like touch a keyboard for.
+
+Subject:            17:03          Okay. Okay. Even then, I'm not sure. Um, all right. It's still a hard question. But you know, not the answer should not be every single line.
+
+Interviewer:        17:16          Of course not. Yeah.
+
+Subject:            17:17          Even though like it could legitimately have been, you know
+
+Subject:            17:20          I dunno may... Probably a few thousand lines. I don't know.
+
+Interviewer:        17:25          Yeah, just ballpark, that's fine.
+
+Subject:            17:26          I'll just put 2 thousand.
+
+Subject:            18:16          How long have you been professional programmer? Should I continue count internship duration as well?
+
+Interviewer:        18:21          Yeah. I think if you got paid with it, I think that counts.
+
+Interviewer:        20:36          Good?
+
+Subject:            20:36          Yeah, I think so.
+
+Interviewer:        20:37          Cool. Great. Okay. So, um, I want to just go back through and first I guess offer you an opportunity to ask any question, um, I prefer not to start with, just did I get it right? [Subject laughs] We will definitely get there, but...
+
+Subject:            20:53          That's fine.
+
+Interviewer:        20:53          [Snippet 1] If there are actually any questions, um, about how the code works or anything.
+
+Subject:            20:57          Okay. Um, what is 10 mod 3
+
+Interviewer:        20:59          Well actually it's, I was going to ask you that.
+
+Subject:            21:02          Okay, that's fair. I don't know. I'm terrible at doing math in my head.
+
+Interviewer:        21:09          Oh yeah, well feel, feel free to. Actually, hold on a sec. Can I get you to switch? [changes from black pen to red]
+
+Subject:            21:12          Yes.
+
+Interviewer:        21:12          Because now it's going to be more of a back and forth conversation
+
+Subject:            21:17          Fair enough, so one, two, three. One, two, three, four, five, six, seven, eight, nine, 10. So that would be... Oh interesting. Actually. Not sure what though, so it's starting at. Would that be one or zero? I mean it's, it can't be zero because it's doesn't evenly divide.
+
+Interviewer:        21:39          So, so where's the, where's the sort of difficulty with this?
+
+Subject:            21:46          [Laughing] My terribleness with doing math in my head, honestly.
+
+Interviewer:        21:48          Um, well, okay, so could, it could either be zero or one yes. So where's... Why?
+
+Subject:            22:05          I mean, so honestly, like I, I think it's one because you know, three, three times three is nine, so then you have like the remainder of that is just, it's one. Right. And that is, that's about right.
+
+Interviewer:        22:15          Uh... Yeah
+
+Subject:            22:19          But like, I dunno, I'm just like terrible with those kinds of things, like in my head.
+
+Interviewer:        22:23          Yeah. Um, well, okay, so you're right. Um, the mod value is one, it is a truthy value, V1 does get set to 4, the output is four? Yeah. So you've got all of those things. Um, but I'm still trying to drill down because you were so confident about all these things. Um, and even even the visual pneumonic you used here with the three bars, that seems like an awesome way to do it. And you sort of ripped through it. So, um, what was the hesitation?
+
+Subject:            22:51          Um, I don't know. I don't know. I just, I'm naturally not good with doing things in my head. And especially with like math in general. And so I'm just never confident basically my own abilities to do math like without using a calculator or like drawing it out.
+
+Interviewer:        23:15          Okay. I mean be that as it may you got it completely right.
+
+Subject:            23:19          So yeah. So basically you do the logic was like do I think this is this zero? No, it is not evenly divided so it's fine. But only because it was in conditional that I was like all right, I can just, I can get past what the actual value is
+
+Interviewer:        23:28          Right, but if it had been assigned.
+
+Subject:            23:30          Right, then I would've taken more time I think yeah.
+
+Interviewer:        23:35          Ultimately you would have written it right because you did get it right here. But yeah, it probably would have taken a little more time. Yeah. But yeah, I just found that interesting that because you were immediately able to decide that that's a non zero value.
+
+Subject:            23:44          Yes. Because it does not evenly divide and I only, the only pattern is like, you know like the Fizz buzz pattern of like does this divide into two and is equal to zero. Then it's an even number. Like, thats the
+
+Interviewer:        23:53          I thought Fizz Buzz was three times five or
+
+Subject:            23:59          Oh yeah, I guess it is three and I guess, but anyway, um, so it actually, that's not the Fizz Buzz, that was a bad example. But the, the, is this an even number pattern I guess?
+
+Interviewer:        24:06          Right, yeah, yeah, yeah.
+
+Subject:            24:08          So and that's where it's most commonly used.
+
+Interviewer:        24:10          Oh wait. The reason its relevant for Fizz Buzz is cause you can just cause you need to find the ones where it's doubly divisible. So you find all of them for one and then you, nevermind, I I think I see what you're getting at.
+
+Subject:            24:23          I was just getting at the fact that like mod is used for "is this even" especially on like non low level languages where like for example in Javascript where it was like my prior background was mostly in the bitwise operators things and like things like modulus or actually slower because it stringifies them first before doing it.
+
+Subject:            24:41          So it's actually better to do. Um, like you can't just say like, oh check a low bit cause that's going to be like more expensive than doing mod 2.
+
+Interviewer:        24:50          Right, that's kind of crazy.
+
+Subject:            24:52          So stuff like that. It's like, that's what I guess my mind was going to, I was like, Oh yeah, I know that pattern cause it's it's not an, it's not evenly divided, therefore it's a true value.
+
+Interviewer:        25:01          Cool. Alright. Well yeah, awesome explanation. Um, yeah. And you got that one right. Um, okay. So does this guy, do you have any questions about that one?
+
+Subject:            25:15          [Snippet 26] Um, no.
+
+Interviewer:        25:16          Yeah, me neither.
+
+Subject:            25:16          Okay. [Laughs] Yeah.
+
+Interviewer:        25:19          Uh, okay. Um, questions about that one?
+
+Subject:            25:29          [Snippet 11] Uh, yeah, definitely. I'm curious the order operations on the logical operators.
+
+Interviewer:        25:35          Yeah. So that was, I was actually going to ask you about that as well. So, um, you said that And and Or have the same precedence and so you can evaluate left to right.
+
+Subject:            25:46          That was my, yeah that's what I think I remember reading before, but actually I'm not sure.
+
+Interviewer:        25:49          Sure. Um, so what if I told you that, um, And and, Or don't have the same, they're actually in different precedence classes.
+
+Subject:            25:57          That would be interesting. Yeah.
+
+Interviewer:        25:59          So would you have a guess about what happens in that case, knowing that they're in different precedence classes?
+
+Subject:            26:07          Um, interesting. Uh,
+
+Subject:            26:15          I mean, I, I'm certainly curious what the difference is, like, which is evaluated which, and, uh, but I, I don't really, I can't, I can take a shot in the dark, which one is higher precedence than the other but like, I don't actually have a good reason for why to believe one or the other. So, I'm not sure.
+
+Interviewer:        26:29          So, um, would you say you ever see code like, er would you say you see it frequently? Or
+
+Subject:            26:36          Certainly not frequently? Um, very occasionally. And if so, uh, I personally always try to wrap things in parentheses to distinguish like, like at the time I'd probably look up online, "Hey, what's the order of operations on this?", and then I would like put parentheses around the things and actually happened first. Not because it changes the functionality, but because it changes the readability of it.
+
+Interviewer:        26:55          Yeah, totally. Okay. Um, well, so it turns out okay that, um, yeah, what is that left associative? I think these are both left associative. Um, which would be relevant if they're the same precedence class. Um, so that, that part's right. So like if it was zero and one and two, it would, it would evaluate exactly like you said, but it turns out that, And is actually in a tighter binding precedence class than Or anyway.
+
+Subject:            27:25          Okay.
+
+Interviewer:        27:25          So it does evaluate how you said.
+
+Subject:            27:29          Interesting.
+
+Interviewer:        27:29          Yeah. But because, And binds tighter than Or anyhow
+
+Subject:            27:34          Binds tighter, it's, I've never heard that term before.
+
+Interviewer:        27:37          Oh yeah. It's in a, well, in a lower precedence... It... The numerical number of its precedence class is lower, which means it has higher precedence. It, it's
+
+Subject:            27:48          So it's evaluated before other things there with a higher number.
+
+Interviewer:        27:52          Yeah. So, um, this is zero And one and that whole thing you can, you can put parentheses around zero and one and then that whole thing gets Or'd with two. So, so it actually evaluates in the same way that you described.
+
+Subject:            28:08          Okay. Um, but if the, if the were swapped and places and then it would evaluate one in one and two
+
+Interviewer:        28:15          Can you write what you mean?
+
+Subject:            28:17          Oh yeah, sure. So if these were swapped, if it was if zero or one? Uh,
+
+Subject:            28:31          how do you, like, I'll just, yeah, I guess [struggling to write ampersand symbol]
+
+Interviewer:        28:34          Yeah. I think when I write them, Ands, I don't actually write it in that way.
+
+Subject:            28:45          I feel silly [laughs].
+
+Subject:            28:48          Okay, well, [laughs] whatever. So if this were the case, you said like, you know, you, you noted that this binds tighter, so one And two would be would happen first. Um,
+
+Subject:            29:04          so then it would be true as well, right?
+
+Interviewer:        29:07          Yeah, it would be true as well. But for a different reason.
+
+Subject:            29:10          Yeah, for different reason, yeah, in a different way.
+
+Interviewer:        29:11          So, you can put the parens around the right hand side, um, around the, the And expression. Um, yeah. So maybe the interesting one is if you switch the zero and the one.
+
+Subject:            29:26          Oh yeah. And then it changes the result. Yeah. I was mostly just curious about like the, the fact that like the, because this has a higher precedence than it ends up. The right side gets not evaluated first, but has the, it splits up in that way.
+
+Interviewer:        29:43          Yeah... Yeah, yeah, yeah.
+
+Subject:            29:44          It's still evaluates left side first, but the, the tree of the, this expression.
+
+Interviewer:        29:48          Yeah, yeah, exactly. Um, yeah. Um, so yeah, your answer's totally right. Um, any other questions about this one?
+
+Subject:            29:58          Um, so you're not curious about like assembly and stuff like that? You're just curious about the language itself? Like the output of it.
+
+Interviewer:        30:06          Um, well what do you mean by that?
+
+Subject:            30:08          Oh, I'm just curious, like I assume the answer is no at this point, but I was wondering if this research study is going to go into the fact that like, uh, this line is never executed at runtime because it has no functionality, like its in all cases it's overwritten so it, it never happens. Stuff like that.
+
+Interviewer:        30:22          Um, yeah, so that's sort of like a meta-question about the study, which I'm glad to talk to you about in like five minutes, Um...
+
+Subject:            30:31          Totally fine.
+
+Interviewer:        30:32          But yeah, for right now we can't...
+
+Subject:            30:33          Yeah, that's fine.
+
+Interviewer:        30:34          All right, cool.
+
+Interviewer:        30:38          All right.
+
+Interviewer:        30:44          [Snippet 14] How about this one? Any questions?
+
+Subject:            30:46          Uh, no, no
+
+Interviewer:        30:58          [Snippet 105] Questions about that?
+
+Subject:            30:58          Um, it, I guess I don't have a better way to ask it. Like, is it 11 in to base ten?
+
+Interviewer:        31:07          Um, it's a good question. Let me think if I have anything in particular I want to ask you. Um, I mean, do you want to expand at all about the sort of unnatural illness of octal numbers or do you feel like you can...
+
+Subject:            31:24          Yeah, I mean sure like the fact that like, so even though syntactically the leading zero is required, it still has meaning in the number, so you can say it's uh, uh, wait, wait, it's a, yeah, it's not 16. It's, Yeah. 16's the zero sixteens one eight and then three ones. Right.
+
+Interviewer:        31:47          I didn't follow, what do you mean?
+
+Subject:            31:50          Just getting at the fact that like this middle digit is a one and that means there is a full number eight in the value.
+
+Interviewer:        31:59          Oh, yeah, yes.
+
+Subject:            31:59          Yeah. And that's like, I don't know. It's, it's, it's, um, it's logical. It's not uh fundamentally different than anything else we do. It's just the fact that it is uncommon in our use case that if feels a natural.
+
+Interviewer:        32:14          Yeah, sure. Um, it's just like a frequency of using it thing.
+
+Subject:            32:17          Yeah, exactly.
+
+Interviewer:        32:18          Yeah. Okay. Great. Well, yeah, no, again, this is another example where your answer is totally right. Um, it might be a little bit awkward, but the way you described it is exactly how it works. Um, okay. So any other questions about this one?
+
+Subject:            32:33          No, I was also worried if like the catch, like I was glad the second the and second sheet both had percent d as like the output. I was like, I'm actually not confident. That's just like the regular entry. I think it is, but the percent, yeah, it was not 100% sure. And so when I saw the second sheet I was "okay, that, that's not the trick here". When I saw the first one, it was like really simple. I was worried. I was like, Oh man, is the, is the trick of this, the fact that that's like the wrong printf, identifier or whatever the, the argument thing is.
+
+Interviewer:        32:59          Yeah, yeah, format specifier.
+
+Subject:            33:01          Format Specifier, yeah.
+
+Interviewer:        33:02          Yeah. Um, yeah, so actually I can say more about that, you know, in a few more minutes.
+
+Subject:            33:06          Yeah, that's fine. I was just remarking on the fact that like, you know, I'm really glad [laughs] that that was not like the issue. That I realize multiple sheets had the exact same format, so it...
+
+Interviewer:        33:14          Gotcha. But that is interesting to know that you were thinking about that and you like, you weren't quite sure.
+
+Subject:            33:19          Well, yeah, it wasn't. It was, uh, after the first sheet, before the second sheet, that I started to second guess myself. Then I saw the second sheet and realize it's not an issue.
+
+Interviewer:        33:27          So it was like way before this question.
+
+Subject:            33:30          Yeah. It wasn't related, I just was thinking about it. I saw it before you were asking if I had other questions and I realized that I had not vocalized that yet. So that's why.
+
+Interviewer:        33:37          Yeah, no, I appreciate that because that's actually very useful. Um, okay.
+
+Subject:            33:43          Cause we don't really use printf at all. like in C++, right. So. Well you sometimes do, but like in general it's c-out.
+
+Interviewer:        33:48          C-out, yeah
+
+Subject:            33:52          [Snippet 71] Uh, yeah. So this one's, um, fun in that. At first glance I didn't actually read the lines below. I just saw hashes and assumed it was if def. And so then my initial reaction was, and I thought I was going to be trying to determine how the braces lined up based off of what blocks were actually included in the code or not.
+
+Interviewer:        34:12          Oh interesting.
+
+Subject:            34:13          That's what I thought I was going to be doing. And then I was like, okay, let me figure it out how it's gonna work out. And then I suddenly realized, oh actually that has nothing to do with anything. It's just, you're just reading the identifier or reading the, the defines and then finding out. But
+
+Interviewer:        34:24          Sure. So why do you, what do you think that was your initial intuition before reading it further?
+
+Subject:            34:28          I suppose that usually when people are using macros in C/C plus plus, it's because they are trying to do um, compiler time conditional logic to decide what code is actually included. Usually around things like is this the right platform and switch, you know, for portability reasons like switch between the code the actually want to use. Um, and so that's why I thought it was going to be, and then I realized it's actually just defining macro values, that you. There's function-style macros and what's the other term? Non-function-style macros but what's the word for that?
+
+Interviewer:        35:03          Object style
+
+Subject:            35:04          Object-style macros? I don't know. Something like that. So when you're just defining them and then it just, you know,
+
+Subject:            35:11          I guess it's the, it occurs, it overwrites the values based off of the order, which it consumes it top to bottom. So, and then it ended up being like that by the time it in, in the preprocessor it gets to this line, it then just inserts literals for the values that it came across last.
+
+Interviewer:        35:30          Yeah. Um. Yeah. That's totally how it works. Um, but yeah, also interesting to hear about your, um, your initial perception of
+
+Subject:            35:40          Yeah, yeah, that's what I thought was gonna be doing. Cause I was like, you know, it made sense that like if there's other branches, you know, the, even if like the thing is true, it could be jumping down to what looks like an else block based off of how the macros lined up. But it wasn't actually the case.
+
+Interviewer:        35:53          Totally. Awesome. Thank you. Alright.
+
+Interviewer:        36:01          [Snippet 25] Any questions about that one?
+
+Subject:            36:01          Um, nope.
+
+Interviewer:        36:03          [Snippet 61] Okay. And the last one,
+
+Subject:            36:12          Uh, because this is C I don't have any like, you know, things of interest or, uh, confusion, but this was C plus plus. Um, actually in C plus plus as well this is fine cause you define it as integer. But if there was some, like if the type was not obviously like a builtin type, then this could be invoking the comma operator could be overloaded by like a function call. That was the only thing that's like a little weird, but in, this is C, so it's like not an issue.
+
+Interviewer:        36:33          That's interesting. Um, yeah. I'd never thought about overloading the comma operator.
+
+Subject:            36:43          It's a thing. [Laughs]
+
+Interviewer:        36:43          You're right. You're absolutely right.
+
+Subject:            36:49           C Plus plus is a terrible language.
+
+Interviewer:        36:46          Yeah. That's not great. Okay. But yeah, given, given that this is C and it can't be overloaded. You're good. Um, cool. Yeah. And that's how it works. Um, okay, so I will turn off the recording and we can sort of talk at sort of a more.
+

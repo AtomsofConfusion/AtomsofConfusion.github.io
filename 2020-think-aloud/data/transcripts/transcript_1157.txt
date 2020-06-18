@@ -1,0 +1,358 @@
+Interviewer:        00:00          Turn on the audio recording and if you could just say whether or not you're okay, being audio recorded
+
+Subject:            00:03          I am okay being audio recorded.
+
+Interviewer:        00:06          Alright, thank you very much. Okay. So we can get started. And the first thing I'll have you do on all of these, is just write down the time.
+
+Subject:            00:12          Uh, okay.
+
+Interviewer:        00:13          [Snippet 1] So 3:04 um, and then as you go, if you could just say aloud what the...
+
+Subject:            00:18          Sure. All right. So V is equal to zero. 10 Mod three is one, one is not zero. So one evaluates to true and uh, integral to bool context making V one now four where it was zero and then we're going to print 4, so it's going to output 4 and a new line.
+
+Interviewer:        00:46          Great. And then if you can just say how confident you are and then after each one of these, I'm just going to ask you, um, why did you select that level of confidence?
+
+Subject:            00:57          Oh, because I know in int to bool conversion, anything with zero, anything equivalent to zero is false and anything else is true cause C is a steaming pile. Um, and so 10 mod three is one which is going to be true.
+
+Interviewer:        01:16          Um, okay, great. Uh, do you want to elaborate at all on your steaming pile comment?
+
+Subject:            01:23          Oh, um, C, like you really shouldn't do int to bool conversions in a language and C, just has this long history of like, uh yeah, if it kind of maybe kind of squawks like a bool. Like if I can represent it as a bit pattern. Oh, I can kind of suss out it's bool-y-ness, it's fine. It does it with pointers too.
+
+Interviewer:        01:43          Sure. Um, so why, why would you say that language shouldn't do that?
+
+Subject:            01:46          It's too easy to write bugs.
+
+Interviewer:        01:48          Oh, okay. Um, have you done one in the past? Is there like a specific bug or something that you're thinking about?
+
+Subject:            01:55          Um, so there is a specific bug I'm thinking about. It's not one I wrote, but if you have a pointer to bool, it's very easy to check the pointer for nullness when you thought you were checking the bool value of the pointer, um, that that particular bug caused a major outage for [company] that very nearly lost customer data in [product]. We had to go to tape backup to get the data back.
+
+Interviewer:        02:19          Tape backup?
+
+Subject:            02:19          Yeah.
+
+Interviewer:        02:19          I didn't realize you guys even wrote to tape.
+
+Subject:            02:23          We do.
+
+Interviewer:        02:25          And apparently for good reason.
+
+Subject:            02:26          Yeah.
+
+Interviewer:        02:26          Um, okay, cool. Um, yeah, thanks.
+
+Subject:            02:31          Yeah, no problem.
+
+Interviewer:        02:31          Um, okay so we can move on to the next one.
+
+Subject:            02:33          Yeah. I'll just set it aside. I assume that's the target goal.
+
+Interviewer:        02:39          Yeah, we will come back to these eventually, but they keep them in order so we're all good.
+
+Interviewer:        02:43          [Snippet 85] So the time is 3:07.
+
+Subject:            02:50          Alright. array of 5, so while item 4, oh man. So we actually have a little bit of arithmetic here. So I'm just going to create my little scratch pad here.
+
+Subject:            03:05          Right
+
+Subject:            03:08          2, 3, 4. All right, so we start off by writing item 4 as 3. Uh, the others are actually in an indeterminate state at the moment because we have no guarantee of like in Java they'd be zero initialized, but this is, C you go to hell and you die. All right, so once again, while three. So that's true. And then we're going to look at three minus three is zero. So into slot zero. We are going to write the three from slot four. All right. And then in slot four, we're just going to subtract one to make that two. We're gonna come back around. That's two, now we're looking three minus two is one and we're going to write in the two here and we're going to come back around. This is going to be now down to one that's still true in slot one. Uh, in slot three minus one which is two. We are going to write one. Hey look at that. And this is going to come down to zero and we're going to come back around and zero is false. So we are done and we are going to print the contents of slot one which is two and slot four which is zero. So it will be a two space zero and then a new line because everybody loves the new line, which is just two zero for those of us who speak English.
+
+Interviewer:        04:27          Sure.
+
+Subject:            04:29          Uh Yeah.
+
+Interviewer:        04:31          Cool. If you'd just write down
+
+Subject:            04:33          Oh, 3:09.
+
+Interviewer:        04:35          If you're done.
+
+Subject:            04:36          Yeah, I'm done. How confident am I
+
+Interviewer:        04:39          Exactly
+
+Subject:            04:39          YeahI'm still pretty positive. You know, on a scale of one to six, I'm probably six. Okay.
+
+Interviewer:        04:48          So why, why are you six confident?
+
+Subject:            04:50          Uh, I mean it's a poorly written just descending loop, but it's structure is relatively obvious once you go through it once. So it's just not that interesting. It's not hard
+
+Interviewer:        05:01          For sure. Um, okay. I just want to ask about one thing. Um, you sort of compared the way that um, C does array initialization with Java. Um, do you have a background in Java?
+
+Subject:            05:15          I used to write a compiler that targeted the JVM. Um, I'm also just a languages nerd. So I know a lot of corner languages, so like an interesting observation in this is this guy at slot three here is never actually initialized to anything. Um, and so it's value is still in determinate. And like had, I didn't know at the time when we got down to it that we were never going to read from anything other than V Bracket 4. But had we read from any of the others, I would have had to start thinking about like, oh, this is undefined behavior or things like that.
+
+Interviewer:        05:49          Sure. Totally. All right. Thank you very much. Okay. The time is
+
+Subject:            05:58          [Snippet 49] 3:10. All right. So okay. V One equals zero, zero is not equal to three. So we're going to go down the false path to get to v two. So this is going to print [aaahhh?? slightly inaudible] and then four. So it's going to print four. V one is zero false. Yep. Okay, here we go. Um, yeah.
+
+Interviewer:        06:26          Great. And so why do you have level six confidence about this one?
+
+Subject:            06:30          Because zero comparing to three is obvious is definitely false. And then you just have a ternary operator, which is fun for the dictation, but other than that, not that interesting.
+
+Subject:            06:46          Um, okay. Awesome. Thank you.
+
+Subject:            06:54          Yeah. Oh I suppose there is a tiny question of operator precedence, but I'm pretty sure the operator precedence works this way. If question mark had a tighter binding, the double equals you would evaluate three, which would be false and then go to four here, which would then say it's v one four which is false, which would put a zero in here. Um, but I'm pretty sure I know the operator precedence rules.
+
+Subject:            07:21          Okay, cool. Thank you.
+
+Subject:            07:29          [Snippet 46] 3:12. Alright, so we have our happy array. All right. Okay. So we take the address of V, V bracket one, so we basically have a pointer stored there. And then we dereference the pointer. Okay. Yeah, there's really nothing much more clever going on. So it's going to print one.
+
+Subject:            07:58          Yup.
+
+Interviewer:        07:58          And so why that confidence level.
+
+Subject:            08:02          Uh, because the pointer arithmetic isn't that clever, right? Like this is just saying like, I want to put a finger here and I want to look at my, where my finger is and I don't have to do any mental jumps.
+
+Interviewer:        08:13          Okay. Um, so "The pointer arithmetic wasn't that clever." So do you have an example of like, what is clever?
+
+Subject:            08:21          I mean if there was a loop where like we were saying like, okay, I'm going to grab, like I'm gonna take the reference from v one to v two and then I'm going to have a loop that does some math and that says V2 plus equals, you know, some bit of math and you're like, okay, now I'm offsetting from here further, deeper and things like that.
+
+Interviewer:        08:40          Okay, great. That's perfect. Okay.
+
+Subject:            08:50          [Snippet 61] Alright. It is 3:13.
+
+Subject:            08:51          All right. Ooh, the comma operator. We're feeling spicy. All right. So, uh, V2 gets one and then the comma operator throws away everything else, So V1 gets two. And then we are going to print two one. Okay. 3:14. Oh, what is the precedence of Comma? That's an interesting question. Oh No, no, no.
+
+Subject:            09:37          Yeah, no, I'm sticking with it. 3:14. I am less certain if this, um, so there's a tiny chance that comma binds less tightly than single equals in which case the result would have been two two. Um, but I don't think it does because that would have made that make, that would make initializers of the form. int i equals one comma j equals two really painful for the parser. So I don't think they did that, but it's also possible that initializers are a special form.
+
+Subject:            10:18          And that's why I'm not a hundred percent certain. I'm just strongly confident in my answer.
+
+Interviewer:        10:21          Sure. Yeah, that's a great explanation. All right. Thank you. Yup.
+
+Subject:            10:30          [Snippet 45] Start time. 3:15. All right. Ooh, let's see. See here, we're starting to get to a pointer arithmetic again. Hmm. All right. So we have our little slots of this is just V1 one plus one. Okay. So we stuck a finger here and then we indexed it. Great. Yup. Okay. So it prints two, right? The only, yeah, it's 3:15 still and I'm completely confident. So the only bit of clever thing here is it this, when you do this plus right here, uh, this is decaying from array to pointer and then you're doing the plus one to get the next pointer. And then we dereference it. It is equivalent to the other form. But mildly more clever, I try not to do implicit decay of array to pointer.
+
+Interviewer:        11:20          So, um, in that context, what would you do instead?
+
+Subject:            11:25          Um, I would probably have used a vector or something. Just like some other data type entirely.
+
+Interviewer:        11:30          I gotcha. Um, okay, great. Thank you.
+
+Interviewer:        11:38          Two more.
+
+Subject:            11:39          [Snippet 11] Great. It is 3:16. All right. So zero is false already and false and anything. Oh crap-monkies. All right. Now you want me to remember what has higher precedence And and Or, but we all know that And is equivalent to multiplication and Or is equivalent to plus and as a result And binds more tightly than Or, so that's this And here and then an Or two, which is going to be true. So the or two is going to win this and make this true. And this is just v one equals six and then prints six
+
+Subject:            12:25          3:17.
+
+Interviewer:        12:30          Okay. And so can you explain that?
+
+Subject:            12:32          Uh, so, um, as we've all been doing arithmetic since we were children, we all know that A times B plus C binds the A times B more tightly than the plus C. Um, and if you look at sort of the rules of logic as conveyed from multiple, from the ring of operations of plus and times, uh, plus is equivalent to Or and times is equivalent to And and thus, And binds more tightly then Or, yeah. And this is just how I remember this. Um, and as a mnemonic I've been using for decades. And so that's how I know that this Or is going to bind more loosely and then I have something some that turns out to be false, but I don't care Or'd with something true. So the end result is true.
+
+Interviewer:        13:22          Great. Last one,
+
+Subject:            13:26          [Snippet 14] 3:18. Did I put the end time on that last one?
+
+Interviewer:        13:29          Uh, yes. We also have the audio.
+
+Subject:            13:34          Yeah, yeah. All right. So V1 equals three V2 equals seven.
+
+Subject:            13:39          Okay, so three seven, four. Four and seven. Uh, seven, Yup. Yup. Yup it up. All right. 3:18.
+
+Subject:            13:56          So why am I positive? Because it's just like straight forward linear control flow.
+
+Interviewer:        14:01          Hmm.
+
+Interviewer:        14:06          Does that imply that? Uh,
+
+Interviewer:        14:12          Well, yeah. I guess why is linear control flow the thing that makes it simple?
+
+Subject:            14:15          Um, because you don't have like. The only mistake feasible for someone to make in this is like, "Ah, well here it's four. And so this should be four plus four, but like there's nothing clever happening like nothing and C allows for that kind of lazy backpropagation like that's much more of a functional reactive programming thing, which C just like does not do. And so you just have to evaluate it from top to bottom and make the obvious things.
+
+Interviewer:        14:43          Sure. Okay, great. Um, okay, so I will ask you to fill out some information about your experience and then if we can go back through and can talk about those a little bit.
+
+Subject:            14:56          All right. Oh Man. What is my age? This is like the hardest numerical question you've asked me. Uh, let's see here.
+
+Interviewer:        15:04          Anything there you can either skip or be vague about?
+
+Subject:            15:07          Oh, yeah, no, I'm just trying to remember. You get to the point where you stop tracking individually and I'm trying to remember if I'm [age] or [age + 1]. Um, so I was born in [year]. It's currently 2019, but my birthday hasn't happened yet, so I'm [age]
+
+Interviewer:        15:20          That's a good algorithm.
+
+Subject:            15:22          Uh, what gender? I am [gender]. What race. Oh, this is a complex one. I am [race].
+
+Subject:            15:35          Please describe your university education. I went to college, you insensitive clod. [college] country U. S A. I have a bachelor of arts in math and CS. Computer Science. Er er er er er [sing-songy]. Number of years 4 what is your current employment? I am a software engineer.
+
+Subject:            16:17          During university. How many courses did you take and what you had to program? All right. So my freshman year I took cs. So I took the SICP structure, interpretation of computer programmings. I took the intro to data structures. I took computer vision my sophomore year. I took compilers, I took AI databases, programming languages, computer architecture,
+
+Subject:            16:47          uhhhhhhhhhh, advanced vision, advanced algorithms, theory, discrete algo... Discrete and algorithmic mathematics. Um,
+
+Subject:            17:02          di du di du di du di duuuuuuuuuu [sing-songy]
+
+Interviewer:        17:07          And an approximate answer would be fine too.
+
+Subject:            17:09          About 10. How did you learn to program? Uh, uh, a mixture of uh, ti-81 calculator,
+
+Interviewer:       17:33          Basic or assembly?
+
+Subject:            17:36          Neither. The ti-81 had a little dedicated thing that was like kind of stripped down Basic. Where like, there were special ways to pull up the keywords into it. Um, you were only allowed the variables a through z single letter
+
+Interviewer:        17:48          All uppercase
+
+Subject:            17:49          And the TI, yeah, the TI-83 added the ability to have multiple, multiple letter variables. I remember at the time I would write programs and I would just start at A and go alphabetically, like the variables had no meaning they were in order. I like somehow I still managed to write reasonably complicated programs despite this atrocious. Uh, and um, and I also took AP CS a few years after that. AP Computer Science. What is your preferred programming language? Oh, please, that's not a real question. You have to specify the size of the program, right? We're going to say c plus plus because that's probably what you want in this context. But like, honestly, if the program is going to be one line, I write it in Perl. If the program is going to be less than 10 lines, I write it in bash. If it's going to be less than a hundred lines, I write it in python and otherwise I read it. And C plus plus.
+
+Interviewer:        18:44          Okay. Um, I'd be pretty impressed though, if you have a, a one line program that is c plus plus
+
+Subject:            18:51          You just have to start far enough to the left and you can't have any pound includes,
+
+Interviewer:        18:55          Right, yeah.
+
+Subject:            18:57          Um, if you're, if you're currently programming on a daily basis, which language do you use, c plus plus. Think about the largest C/C++ program you have ever written or contributed to roughly how many lines is the entire codebase, oh fuck me. The [company] code base is, I forget 3 to 6 million lines or something or was it trillion? I think it's million. I'm going to say I'm going to say 6 million. But you know, you can ask [supervisor] if you want a better number. He's better at that one than I am. [Big laughter] Uh, roughly how many lines did you contribute? So this is funny. My day job is to write tools that refactor the entire code base. Um, so I have,
+
+Interviewer:        19:48          So this is if you blamed the code base, how many would
+
+Subject:            19:50          Right, so if you ran [internal company] blame on the code base, uh, you would discover my name on almost a million lines of code,
+
+Interviewer:        20:00          That's a pretty big contribution.
+
+Subject:            20:01          um, somewhere between 500,000 and a million.
+
+Interviewer:        20:05          So if, if this were, how many did you author by hand?
+
+Subject:            20:09          Ah, how many did I author by hand? That is an entirely different question,
+
+Interviewer:        20:12          That is an entirely different question. But for most people in the world, it's the same question.
+
+Subject:            20:16          Right, hence my laughter. Um, how many did I author by hand? Let's see. Oh, I've done, you know, probably 30,000 lines, of just like one offs here or there and another 30,000 lines of like dedicated, thoughtful code. So probably somewhere between 50 and 100k.
+
+Interviewer:        20:40          Oh, that's a great, yeah.
+
+Subject:            20:49          All right. How would you estimate your programming proficiency?
+
+Subject:            20:56          This is a funny joke in that, um, God, what's the stupid thing where like people who are actually skilled at things underrate their proficiency because they actually know how much they don't know. Whereas like as a sophomore in college, you're like, I'm brilliant, I'm an expert. You're like, no, you don't even know.
+
+Interviewer:        21:12          Um, yeah, so I think that's the Dunning Kruger effect.
+
+Subject:            21:15          Yes. That's the one. Anyway. Uh, I'm going to say I am expert, I am an expert in c plus plus relative to second year programming students. I'm a lot better than them relative to professional programmers. I'm, uh, well there are only six now. Now you have to get into these questions of percentiles. Um, I'm going to go with that again, but it's all rounding error in the percentiles. One of the quirks on the team I work on is I work with several people that hold reasonable claims to be the best programmer at [company]. I like, I'm not as good as them. I know that, but I also run the education for c plus plus at [company] and I know how deep the hole goes.
+
+Interviewer:        21:56          I see.
+
+Subject:            21:57          So, yeah. Have you ever been a professional programmer? Yes. For how long? All right. Well, let's see here. I graduated in '04. I don't know if we really count my internships. Let's not, Um so I graduated in '04 and I've been a professional programmer since, so we'll call it 15 years.
+
+Subject:            22:20          Have you ever been a professional programmer using primarily, yes. Uh, how long? Um, let's see. So at [company], I've been using c plus plus the entire time, which is five years. And then before [company] I was working in Java, but before Java, although, like I spent a quarter of that working in c plus plus probably not enough to count. And then before that I was working on robotics, which were in c plus plus. And that was about three years. So we'll say a total of eight years
+
+Subject:            22:47          Continued on the next page, please list each programming language use you've used along with the year, which you learned, the number of years you've spent actively working with the language and an estimate of the total number of lines of code you've written for each [whistles]. All right. So, um, I learned c plus plus, uh, in 1999 it was quite a party, uh, and worked actively in it from 1999. So this started, that was AP, c plus plus uh, then I used it at my internships in college and on through, uh, up to the end of my robotics. So till 2007, so it was about eight years during which time I wrote. I honestly couldn't tell you, probably not that much code proooobably 20 k lines over the entire time, but God really knows, uh, uh, notes, what book? Uh, I really like Bruce Eckle's Thinking in C++ was like the keystone book for me and it was entirely because of the pdf was available for free.
+
+Subject:            24:04          It was actually interesting because I had originally learned C plus plus at, uh in the AP course and Bruce Eckle's thinking in c plus plus is designed to be a course to teach C programmers how to use C plus plus, but I didn't know C and I ended up reading it and learning how C works. It was really fun. That actually helped me a great deal when I took a compiler's course a few years later. Uh, all right. And then I worked in Java from, uh, 2007 through 2012 ish. Oh, when did I, what did I learn Java? Well, I took a couple of Java courses in college, um, which was probably a 2002. Um, but I was active in Java for like seven years.
+
+Subject:            24:57          Um, uh, and during that time I probably wrote about 50 k lines. Um, I was pretty productive at that startup. Um, I didn't really use any books for it cause I'm not really a book learner for the most part. Um, right. And then after Java I went back to c plus plus at [company] and obviously I learned it above, but I spent another five years doing it, and during which time I produced a bunch of code and I even estimated over here. Yeah, somewhere in the 50 to 100 k range.
+
+Interviewer:        25:39          Nice use of dynamic programming.
+
+Subject:            25:44          Indeed. Uh, this was a return after joining [company]
+
+Subject:            25:57          and it was kind of like a really different language. Like in some ways it was c plus plus 11 when I came back to [company] or when I came to [company], I've been at [company], well, let's see, it's 2019. I've been at [company] a touch over five years, which would have put it 2014, did I start 2014 or 2013? Probably 2014 but it might have been 2013. All right. Please use the space below to share with us anything about your programming knowledge and experience, not captured by the previous questions.
+
+Interviewer:        26:29          Completely optional.
+
+Subject:            26:31          All languages are deeply, deeply flawed and anyone who thinks their language cannot be improved has not really used it. Um, yeah, one of my favorite interview questions is what language do you know best? How would you change it if you had full control over it?
+
+Interviewer:        26:48          Yeah. Do you do interviewing?
+
+Subject:            26:51          When I can't avoid it? I did it a lot more at startups where [company]'s interview process. I'm not huge on it [laughs]. I did it more at startups. When like it mattered a lot more.
+
+Interviewer:        27:05          Yeah, that's certainly true. Each incremental employee is a bigger percentage of the entire employee pool.
+
+Subject:            27:11          Right. Yeah.
+
+Interviewer:        27:13          Um, so, so actually I have other questions,
+
+Subject:            27:16          Great, sure.
+
+Interviewer:        27:18          Let's just finish this up. Then we could sort of talk off the record about the meta-things.
+
+Subject:            27:21          Yeah, totally.
+
+Interviewer:        27:23          But if we can just flip through and just see if there are any questions that you have or I have about any of these questions.
+
+Subject:            27:30          [Subject grabs stack of questions] All right, let's see here.
+
+Interviewer:        27:31          So yeah, do you have a question about any of these? I mean, I'd love to know if I was wrong, but I don't think I was on this one.
+
+Interviewer:        27:37          Okay. Um, well, are there any other Ques? So like where would the,
+
+Subject:            27:42          [Continues flipping through the stack, continuously through this conversation]
+
+Subject:            27:44          [Snippet 1] On that one? I don't really know.
+
+Subject:            27:48          [Snippet 85]
+
+Subject:            27:49          [Snippet 49] The one I think I'm most likely to be wrong on is, I suppose that one kind of prec... This one has an operator precedence that would be very slightly likely to be wrong, but not really.
+
+Subject:            27:56          [Snippet 46]
+
+Subject             27:58          [Snippet 61] Uh, this one had the comma operator, which was the, so this is the one that was least confident on. I guess I would like to double check that comma binds more loosely than equals.
+
+Interviewer:        28:12          Yeah. More loosely than equals. No, that is true. So you did, you did actually get this one, right. One interesting thing that I noticed about this one is, um, and, and you sort of noticed this as well, but, um, initializer lists aren't technically the comma operator. They're a different syntactic element that will
+
+Subject:            28:37          They're a special form. This is especially true. So I know this is true in c plus plus where the initializer list is actually a call to an implicit constructor, well not the initializer list, the equal sign in the declaration. Initializer lists being their own special ball of wax.
+
+Interviewer:        28:55          Right, yeah.
+
+Subject:            28:57          Um, but I wasn't sure if the parser handled declarations differently than statements.
+
+Interviewer:        29:04          Yeah, it does. Um, but regardless, um, I don't know if they have exactly the same precedence, but in either case it is lower than the assignment. Um, what...
+
+Subject:            29:15          [Snippet 49] This one I'm pretty sure equality has tighter assignment than ternary.
+
+Interviewer:        29:19          Um, well the funny thing about Ternary is, uh, it doesn't just have one precedence, but in all cases the answer is yeah, it does. Um, well, so I also, one other question, not related to either of these in particular, but you keep using the phrase the phrase "special form".
+
+Subject:            29:36          Uh, a special form is when the compiler goes through some different code path explicitly for some structure. Um, so in, if we go to c plus plus prior to c plus plus 11, right? [Writes on back of page, last page in pdf] If you had Foo where Foo was a complex type A equals something, um, this is not defined to be operator equals it is defined to be a constructor is a constructor that is implicit for whatever this type is. And it doesn't actually have to be strings. It's just the common case where this happens is where you have stood string S equals "hi there".
+
+Interviewer:        30:25          And so
+
+Subject:            30:25          And so it's, right, there's sort of a rewrite rule that the compiler or applies
+
+Interviewer:        30:30          And so that, that's the special form.
+
+Subject:            30:32          Yeah. Um, the other case where things that are occasionally special forms come up is, uh, I mean macros can all be considered a special form, but they're just macros. They're weird. But like, um, certain system things like memcpy, although the parser doesn't treat them as a special form, the optimizer does.
+
+Interviewer:        30:50          Oh, that's interesting. Okay.
+
+Subject:            30:52          Like memcpy, the optimizer is allowed to be like I have seen deep into the soul of your code and I have taken out all the calls to memcopy. Because I can.
+
+Interviewer:        31:00          Um, so is is that phrase itself special form? Is that like an official C plus plus term?
+
+Subject:            31:09          No, it's a programming languages term.
+
+Interviewer:        31:10          Okay. Cause yeah, I'm familiar with it from Lisp primarily because you have S-expressions and, well I guess everything's an S-expression, but um, you have like function application and then special forms and so that, that's actually the only time I've ever seen it. That term used actually
+
+Subject:            31:27          Uh, for languages that don't have lazy evaluation, like baked up, like Haskell doesn't need to make if a special form, because lazy evaluation is baked into Haskell, like all the way down. But lisp actually needs to say the arguments to if are not laz.. are lazily, evaluated, not eagerly evaluated, which means you can't implement it as a function in the language. You have to implement it directly into the compiler as a special form that
+
+Interviewer:        31:53          You could also do it as a macro. But yeah
+
+Subject:            31:55          As a macro.
+
+Interviewer:        31:56          Yeah. Well, but, um, so I think lisp distinguishes between special forms and macros
+
+Subject:            32:02          It might, I haven't worked that
+
+Interviewer:        32:05          It depends on the Lisp obviously.
+
+Subject:            32:06          The only list I've worked with is, um, Scheme, which I don't even remember if scheme has macros. They didn't cover it and structure an interpretation of computer programming.
+
+Interviewer:        32:17          They didn't. Um, um, but yeah, actually if any flavor of lisp was not going to have special forms, it would be scheme.
+
+Subject:            32:25          But anyway, so, yeah. Um, and so I think the other one that comes up occasionally is some SQL like languages have coalesce as a special form and they're lazy and that they only evaluate to their first non-null argument.
+
+Interviewer:        32:37          Oh really?
+
+Subject:            32:39          Yeah.
+
+Interviewer:        32:39         Oh, I didn't know that.
+
+Interviewer:        32:40          I happen to have implemented a strange dialect of SQL on top of the Jvm, so. Um, and our particular language, cause it kind of came out of a shoe box, all of the builtin functions were special forms because of the way we implemented them. So they all could, they all had the potential to have different evaluation rules.
+
+Interviewer:        33:01          I see. Um, but the only for the built-ins.
+
+Subject:            33:01          [Snippet 45]
+
+Subject:            33:02          [Snippet 11]
+
+Subject:            33:03          [Snippet 14]
+
+Subject:            33:04          Yeah.
+
+Interviewer:        33:04          Yeah. Okay. Cool. Um, so is there anything else you want on the record? Um, if now we can have a disc...
+
+Subject:            33:10          I'm good.
+
+New Speaker:        33:10          I'm going to go ahead and turn this off, but.
+

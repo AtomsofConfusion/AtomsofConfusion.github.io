@@ -57,3 +57,4 @@ gems: [jekyll-paginate]
 
 paper_url:
   atom_finder: "/papers/atom-finder-msr-2018.pdf"
+  think_aloud: "/papers/think-aloud-fse-2020.pdf"

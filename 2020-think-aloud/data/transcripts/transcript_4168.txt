@@ -1,0 +1,588 @@
+Interviewer:        00:00:00       Um, you can, that's actually there by accident because I forgot it was on the other page, but it doesn't matter. Okay, cool. Alright, so I just turned on the mic. If you just say that you're okay being recorded.
+
+Subject:            00:00:13       Yes, I consent to being recorded.
+
+Interviewer:        00:00:15       [Snippet 13] Thank you. Okay, great. So let's get started. The first thing you should write down is the current time, which is exactly 7:00.
+
+Subject:            00:00:28       Seven o'clock.
+
+Interviewer:        00:00:29       Great. Thank you.
+
+Subject:            00:00:31       Oh, and I write it here.
+
+Interviewer:        00:00:33       That's where the output goes.
+ 
+Subject:            00:00:35       Output goes here. Oh notes right.
+
+Interviewer:        00:00:37       Just if you have anything you want to write down.
+
+Subject:            00:00:39       Okay. All right.
+
+Subject:            00:00:43       All right, let's see. So we're printing. I like to work backwards from the printf and then go back and figure things out. Uh, we're printing two integers out based on the %d. So V1 and V2, those are going to be that. All right. Okay. So then we just have to figure it out V2, which does depend on the value of V1. Alright, so we can see V1 initially is 2, but then V2 gets set to 3 plus V1, which is 5. If I can do math, but then V1 also gets incremented, so then V1 becomes 3. Right. I'm just gonna double check that. Yeah, that seems about right. Okay. So then the output would be first V1 so 3, 5, okay,
+
+Interviewer:        00:01:47       great. And if you could write the time is 7:01 now. So, um, and if you could write down how confident you are about your answer.
+
+Subject:            00:01:55       Okay. Yeah. Put that.
+
+Interviewer:        00:01:58       Okay. And can you give me a brief explanation of why you feel that level of confidence?
+
+Subject:            00:02:04       Well, you know, um, I don't know, I guess maybe it's just having seen something exactly like that before, uh, if you work forward, if you work backward, I find when trying to figure out what it's outputting and then later on you work through with forward the way a computer would work through it and you get the same result going backward and forward, then I am pretty, then you can be pretty confident that the answers.
+
+Interviewer:        00:02:35       Okay. So it's a way of sort of double checking yourself
+
+Subject:            00:02:38       Yeah, going backward and then go forward. Yeah. So that's, it's,
+
+Interviewer:        00:02:45       that's great. Thank you. That's excellent. Okay, so we can move on to the next question now.
+
+Subject:            00:02:50       Uh, yeah, we can move on
+
+Interviewer:        00:02:52       unless you want to hold onto that.
+
+Subject:            00:02:54       Yeah, we can move on.
+
+Interviewer:        00:02:55       [Snippet 14] Cool. Um, so the time is now 7:02.
+
+Subject:            00:03:01       Okay, let's take a look. Alright, so again, we're printing two integers working backwards right here. Uh, we can see a increment there and again, V2 depends on the value of the V1. So V1 initially is 3, then V2 becomes that plus 4, which is 7. Yeah. And then after that V1 gets incremented, so that becomes 4. Okay. And then if I run through it forward, V1 equals 3 V2 should then equal 3 before 7 and then V1 becomes 4. Okay. Then we take V1 and V2 and put in there which would be 4 and 7. Okay. What's the time? Oh I see you have that always on display. All right,
+
+Interviewer:        00:04:17       cool. And um, any reason why you chose that confidence for this question?
+
+Subject:            00:04:22       Well, again, working backward and forward getting the same answer, which I tried to say more of out loud this time. I'm getting the same answers, so that makes me really.
+
+Interviewer:        00:04:34       Yeah. To double check again. Yeah. Awesome. Okay, great. Move on to the next one.
+
+Subject:            00:04:39       Uh, yeah.
+
+Subject:            00:04:48       [Snippet 37] Okay. [Laughter] Uh, what time is it? 7:04. So That's interesting. Uh, yeah, yeah, yeah, yeah. Okay. We're only printing out one integer this time and it's V1 which depends on M1. So to no value assigned there. There's only one assignment and that's M1 times 2. Yeah. But okay. Yeah. The way the preprocessor works kinda makes this weird because it really turns out to be 3 minus 1 times 2. And by the order of operations that's going to make 3 minus 2, which is actually 1. Yes. C is weird that way where when you define constants, you have to put the values in parentheses or they're just going to kind of get string substituted into code or at least that's how I think of it. Mm hmm. So, okay, now let me just check my work. 3 minus 1 times 2, right. It is not 2 times 2, which would be 4 and it is not 4 it is 1 so yeah put 1 right there. And I'll do 7:05. Okay.
+
+Subject:            00:06:20       Now. All right. I'm going to put a 4... 5 this time because while I'm 99 percent sure that macros evaluate this way, uh, just being kind of substituted in it and the order of operations taking over into bleeding into other areas. I'm, there's, I'm not 100 percent sure that it does that. So I'm putting, I'm putting a that
+
+Interviewer:        00:06:51       Do you have any sense for, if you were wrong, what the alternative? The answer would be?
+
+Subject:            00:06:58       Yeah, if I were wrong, I kind of said it out loud, but if the macro did get evaluated first then M1 would be 2 and then V1 would be 2 times 2 and that would and then the program would output 4. But that's what it'd be if I was wrong.
+
+Interviewer:        00:07:16       Yeah, yeah. Yeah. But you answered six for both confidences on these and, and five. So I was curious.
+
+Subject:            00:07:22       Um, yeah, no as, because I'm not 100 percent on how and if I remember correctly, but I think that the macro does not get evaluated first.
+
+Interviewer:        00:07:33       Sure. Okay, great. Um, excellent explanation. Um, okay. Cool.
+
+Subject:            00:07:39       Next one?
+
+Interviewer:        00:07:40       Yep.
+
+Subject:            00:07:40       Okay.
+
+Interviewer:        00:07:43       So time. 7:07
+
+Subject:            00:07:45       707 that is a nice airplane. Okay. Oh,
+
+Subject:            00:07:57       [Snippet 61] once again, printing out two integers. Yeah, this is a not very commonly used syntax but I. okay. But yeah, I, I th, this parentheses with a comma in the middle syntax varies by programming language, but if I remember correctly, we're just taking the last value. I mean it wouldn't make sense otherwise, right? Yeah. V2 equals 1, but there is nothing here saying that V1 should be using that number 1. So I've, I'm like 80 percent sure this time that we're taking the last value out of this set of parentheses but uh must admit. I don't think I've personally written code that looks like that. Okay. So let's see. We're starting. Yeah, and then V1, V2, V2 is just 1. Okay. Yeah, I'm going to put V1 as 2 and V2 as 1.
+
+Subject:            00:09:22       Okay. What is it? Seven. Okay. How confident am I? Yeah. I'm going to put a 2 this time because I'm pretty sure I've never seen this syntax used in practice, although I'm sure I'm sure it's valid because I know like JavaScript people do and stuff like that all the time. Uh, I don't, I've never seen that used in C before.
+
+Interviewer:        00:09:52       You, you had mentioned while you were reading through this that it does different things in different languages. Um, was javascript primarily what you were thinking of or were there other languages too?
+
+Subject:            00:10:01       I was thinking of Javascript and also python, python that would become a tuple, but in C that doesn't, that wouldn't fly because V1 has been declared as an integer, so it can't possibly be a pair or tuple. Sure. I'm saying pair that's a C++ construct, but you know what I mean.
+
+Subject:            00:10:21       Yeah. Um, and, and in, in Javascript, um, although I've never actually seen anybody write like this, I have seen like the closure compiler take multiple statements and shove them together into a, a, a statement that looks like this where you have multiple statements in one set of parentheses, but I'm not sure if C does the same thing. So I actually, I actually don't really know.
+
+Interviewer:        00:10:47       Okay, cool. Um, this is one of those things that we can talk more about later. Okay.
+
+Subject:            00:10:54       Yeah, sure.
+
+Interviewer:        00:10:55       Okay, that's great. Again, excellent explanations. And yeah, we can keep going.
+
+Subject:            00:11:02       All right
+
+Interviewer:        00:11:05       [Snippet 1] so time at 7:10
+
+Subject:            00:11:08       Yup, 7:10, right
+
+Subject:            00:11:15       Okay. So I don't see any weird syntax going. Well not weird. I don't see any, not commonly used syntax this time. Once again just printing out one Integer V1. So we only have to figure out what V1. And that's the only variable here. So yup, it's only mentioned three times. Okay. All right. So this has to be evaluated forward. So Initially V1 equals 0 and then when we get to the, if statement, a V1 is not used in there. So that's just 10, module 3, which is 1, right? Yeah, I think the math is what I'm least confident about here. I don't know. It's, it's weird. I can do math now. Okay. Anyway, 1 does evaluate to true-ish. I know C doesn't really have true and false but true-ish. So V1 does become 4 because 10 is true.
+
+Subject:            00:12:23       And then the else statement, we can skip over that because the of the if statement because that's how it works. Uh, and then yeah, then we just print out the value there. Okay, and if we kind of check that going backwards as you, I know that this part isn't evaluated. So I know V1 is set to 4 there and that's the last value that it gets. Okay, alright. We'll put 7:12 and you know, put a 6 again here.
+
+Interview:           00:13:02       Okay, great. Um, and do you have anything to say, say about your confidence level and why you chose it? 
+
+Subject:            00:13:07       Um, yeah, once again, I mean this time you with this kind of code, you can't really go back. You can't really work backward because as you're working backward, you don't know which of these statements is going to get executed, but what I can do is kind of like a compiler would I know that you have a constant value right here with the 10 modulo 3, those are constant. So I know a compiler would just short short that into 1 and that I know a compiler would see, oh well there's a constant there so we can just kind of only take the statement inside the if block, um, and just forget about everything else because the compiler would know that the rest of the code is unreachable. And then from there I can work backwards and I can say, okay, well we need a V1 in order to have an output. That's what we're outputting. Okay. What was the last statement that changed V1? And I go up here to V1 equals 4. And Remember The V1 equals 8 has been kind of erased. Right? And then, because that statement doesn't depend on any other value, right? V1 equals 4 is just 4. There's no, there's no referencing any other value, then I, then I can stop there and just say, okay, so it equals 4, uh, on the, on hand.
+
+Subject:            00:14:27       Working forward is also gives me the same answer because I See V1 initially equals 0 and then I know 10 modulo 3 being 1 would then make that true. So we'd go into the if block and we'd set V1 equals to 4 and then we'd skip over the else block and then at the end we would print out 4. So I know working both forward and backward. I get the value 4, for V1, although to work backward I had to do a little bit of optimization.
+
+Interviewer:        00:15:02       Sure. Yeah. Okay, great. That makes a lot of sense.
+
+Subject:            00:15:05       Okay. All right,
+
+Interviewer:        00:15:07       [Snippet 73] Cool. Let's keep moving. 7:14,
+
+Subject:            00:15:13       7:14. Okay. [Laughter] So yeah. Okay. Um, we're putting one, we're outputting one integer, and uh, what I was just chuckling at was the, if block here where the conditional says V2 equals one with the assignment operator in there.
+
+Subject:            00:15:45       Let's see. Okay. So working backwards from here, we know that V2 equals 1. That's going to be a assignment statement. Now V2 is actually not needed for the program output. So the only thing that we're concerned about is, which one of these V1 statements gets executed, right? So would the assignment operator V2 gets set to 1, and then the value that of the assignment, which was 1 then just gets taken as the result of that expression. So this whole conditional and the if black simply is 1, which means that this is the only statement out of the 2 statements in the middle that set that could possibly set the value of V1. So the one that says V1 equals 3 is the only one that gets executed. So working backward, the output should be 3. Now working forward, uh, we have V1 equals 0, V2 equals 2. And then,
+
+Subject:            00:16:59       uh, yeah, V2 does equal 1 and it would go into the if Block V1 equals 3. And then we skip over the else block and at the end V1 does equal 3. And that is the same answer that I got when going backward. Okay. Right. So what time is it now? Seven. 16. Yeah. Generally I'll be putting fully positive unless there's something in there that I am not sure how it works.
+
+Interviewer:        00:17:37       Okay. Yeah, that makes sense. So, um, this one you notated at six because there is nothing.
+
+Subject:            00:17:45       Yeah. Like I know how assignment works. I know how if statements work and I know how printf works. So there's nothing in here unlike any other question where I couldn't quite remember whether macros get evaluated first or not, or any other other question where they had that new syntax that I had not seen used in C before. Like that kind of thing. If I don't, I'm not. If I'm not sure how that works then I'm not going to be 100 percent positive.
+
+Interviewer:        00:18:13       [Snippet 26] Gotcha. Cool. Great. Alright. So we've got two more. Last one, comment 7:17
+
+Subject:            00:18:23       717. That is another airplane. Yeah. Okay.
+
+Subject:            00:18:29       Uh, we're only out putting one variable here and thats V1 and there's only one statement that sets V1. So that means V1 equals 2 plus 3 is in fact 5. And so yeah. And then working forward, if anyone gets set to five and then that gets outputted so put 5 there and oh well it is 7:18, you know.
+
+Interviewer:        00:18:52       Yeah. You started at 7:17 and 58 seconds
+
+Subject:            00:18:58       or something like that. It switched right after I started. Right. Um, okay. Cool. Alright.
+
+Interviewer:        00:19:06       Um, alright. And then the last one.
+
+Subject:            00:19:12       Okay. What time? 7:18. Still still.
+
+Subject:            00:19:17       [Snippet 25] Okay. We're putting out one integer. That is V2 V2's a value depends on V1. Okay. So that sort of working forward V1 equals 3. Then in the next line V2 gets set to 5 and V2 is not changed again between there and the print statement. So the output would be 5 and working backwards. Yeah that works. Okay.
+
+Subject:            00:19:57       7:19. There we go. Okay.
+
+Interviewer:        00:20:03       Great. Um, so I have a survey about sort of your experience and stuff and if you could fill that out then afterwards we can go through and talk about sort of the interesting things here. But yeah, if you could fill this out.
+
+Subject:            00:20:18       Sure. Two pages. Okay. No, I just want to. Yeah. Okay. What is my age?
+
+Subject:            00:20:42       Okay.
+
+Subject:            00:21:21       It's been three and a half years for this degree.
+
+Subject:            00:22:25       So what if I'm a student but also employed?
+
+Interviewer:        00:22:29       Which question?
+
+Subject:            00:22:29       What is your current employment role?
+
+Interviewer:        00:22:31       I guess, write both. I don't think it trickles down to the other questions.
+
+Subject:            00:22:35       Okay.
+
+Subject:            00:22:50       My job isn't really programming a hundred percent. It's more support, so I'll put that.
+
+Interviewer:        00:22:59       Yeah. I think for the rest of the questions, if your job isn't programming, then we can focus on like the school which is focused on programming.
+
+Subject:            00:23:10       Oh, okay. Okay. Okay.
+
+Interviewer:        00:23:12       Unless you're a business major or something.
+
+Subject:            00:23:13       Right. Which I'm not a let me courses. Geez. It's been a lot open,
+
+Subject:            00:23:32       but not every course had programming so. Is it okay if this. This is not exact.
+
+Interviewer:        00:23:40       Yeah, an estimate.
+
+Subject:            00:23:42       Yeah. I want to put
+
+Subject:            00:23:44       Yeah. I'll put that as an estimate because I know I've taken a number of classes that do not involve programming, like algorithms actually did not involve programming. It's just algorithms.
+
+Interviewer:        00:24:01       That's a great example actually.
+
+Subject:            00:24:02       Of course there are also programs like classes like psych or whatever. Whatever keeps you. If you're your humanities classes.
+
+Interviewer:        00:24:09       Yeah. Not Interested in having an English class that you've taken.
+
+Subject:            00:24:12       Right.
+
+Subject:            00:24:16       How did I learn? Like just kind of read books so I'll read that or write then of course I can't spell the word. Read the
+
+Interviewer:        00:24:28       At least you're saying read the books and not that you wrote the books,
+
+Subject:            00:24:32       right?
+
+Subject:            00:24:36       Preferred. Oh, can I put two here? I kinda like the equally
+
+Interviewer:        00:24:45       great, do it
+
+Interviewer:        00:24:49       Yeah. In general I will never, never discourage you from writing more.
+
+Subject:            00:24:52       Okay.
+
+Interviewer:        00:24:53       Or saying more.
+
+Subject:            00:24:54       Yeah. I mean it's just uh, each, each programming language has its use cases, you know, and in fact there's some cases where windows powershell is like the best is the best for that specific use case.
+
+Interviewer:        00:25:06       Sure.
+
+Subject:            00:25:08       You're training me in daily basis. Well, same ones really.
+
+Subject:            00:25:15       Although actually I got now I got to throw powershell in there because I read the question, although that's more of a scripting language. Not really pretty well, so
+
+Interviewer:        00:25:26       totally fine to write down.
+
+Subject:            00:25:31       I think sometimes cs majors like the beat each other up over what's a real programming language and what's not.
+
+Interviewer:        00:25:37       Yeah. Yeah. That is less of what I'm interested in now. Do you use it to write things? Great.
+
+Subject:            00:25:47       Okay. Now it's C++ program that I've contributed to. I think some of these open source projects are pretty huge. So Gee, I don't even know.
+
+Interviewer:        00:26:08       Again, best estimate is fine. We're not going to fact check you.
+
+Subject:            00:26:13       Yeah. Yeah. Wow. Uh, uh. Yeah. I'm just going to take a wild guess here. Oh, but this, this should be. This should be pretty. Okay. Yeah. All right. Uh, let's see. How would you estimate your programming proficiency? General programming?
+
+Subject:            00:27:11       Yeah. I'm not putting full confidence on the compared to professional programmers a question because I know they use some tools that are really not covered in school. Like, um, well I know how to use revision control, but maybe some of the finer aspects of git like, like they're, uh, like when you go like cherry picking and uh, well I've, well I know how to do cherry picking, but I'm sure there are other ones that I don't know.
+
+Interviewer:        00:27:45       Would you say it's mostly the tools and not the programming itself?
+
+Subject:            00:27:51       Yeah, yeah, yeah. Especially then, then you get into some companies environments where they have custom data types for everything. Even like integers because that's how they do quality assurance.
+
+Interviewer:        00:28:03       Yeah, sure.
+
+Subject:            00:28:04       Um, you know, so somebody who's been programming professionally for a while, it will probably have a easier time in a nonacademic environment where everything is pretty controlled and also textbook. Alright, next page. Well, I mean to be fair it's not like I can write entire programs without looking at a reference. Right? Yeah. I will pull up cplusplus.com and just look and look and look up interfaces and stuff and.
+
+Interviewer:        00:28:55       Sure. I think that's pretty common.
+
+Subject:            00:28:56       Yeah.
+
+Subject:            00:29:06       And I think professionals would also have a better understanding of maybe, how big, how it works, big picture, you know, like, um,
+
+Subject:            00:29:20       how things are going to tie into their database system and maybe what kinds of normalization they're doing on there and they maybe be able to spot a spot opportunities for optimization more easily. But then on the other hand, uh, one thing I read once was you can tell a junior developer from a senior developer just by looking at their code and it turns out that senior code looks doesn't look as sophisticated, but what it really is, is easier to read a junior developers have a tendency to engage in what we call clever code where the code is cleverly written, but maybe not all that easy to maintain or understand, you know, like when they start putting increment inside the conditionals of if statements as like, or they start using arrow operators and using. Yeah. It's just like when they want to do that kind of thing. You know? See a students love to do that because it makes them feel good.
+
+Subject:            00:30:34       All right. I got to think about one year I learned this. Sure, sure.
+
+Subject:            00:30:55       Yeah. I want to say I was.
+
+Subject:            00:31:01       So that would've been 2008 or was here an action script died like right there. So maybe I'll put three. Um, and I actually did study Pascal once, but yeah, that also is no longer around.
+
+Subject:            00:31:34       And if you were to ask me to write Pascal today, I wouldn't, I wouldn't be able to. It's been too long.
+
+Interviewer:        00:31:39       You're in luck because I wouldn't ask you to do that.
+
+Subject:            00:31:42       Right.
+
+Subject:            00:31:45       Although I still see fortran being used in various industries. Other Java seems to be the king for new Fintech, which is where I tend to see a fortran. Alright, what year did I learn C++.
+
+Subject:            00:32:13       Yeah. Once he was like only a year after action script and has been pretty much active sense. So there Python I did not pick up until 2015 and I distinctly remember that because that's the year I graduated high school and I started python then. Javascript. I'll put that there. I'm sorry to say I do know php trying to put in more compiled languages first, but I guess I can throw in scripted languages to now. I will put powershell in there and yeah
+
+Subject:            00:33:16       I haven't touched php and maybe a year or so.
+
+Subject:            00:33:20       Put that
+
+Subject:            00:33:24       Java script. On the other hand, it's somewhere between. I mean it was after action script. Yeah, we'll just estimating at this point.
+
+Interviewer:        00:33:42       Yeah. Especially for these things doesn't need to be perfect.
+
+Subject:            00:33:46       I applied to a company called DE Shaw and their application required me to state how many lines of each language I've written.
+
+Interviewer:        00:33:55       Right
+
+Subject:            00:33:55       So I wrote a python script to go back through the source code and count, but then of course then I had to add that number of lines of the python count. Yes. Yeah. I've been long. I feel like Powershell long enough to remember before we had back when it was Powershell 2. Uh,
+
+Subject:            00:34:26       and I don't know if the top of my head what year that was just put. Well when, when did, when did Windows Vista come out? Was that 2006? Yeah, we'll put that because Powershell wasn't really a thing in XP.
+
+Subject:            00:34:52       Okay.
+
+Subject:            00:34:56       Huh. That's funny. So I've been active with powershell, but it's definitely not my strongest language. Oh, okay. And now we have the lines column oh Jeez.
+
+Interviewer:        00:35:05       Yeah, rough estimates. We definitely don't need to run a script over each of those.
+
+Subject:            00:35:11       Right. I remember how I got started in python. Someone asked me, hey, can you write this in python? And I said yes, even though I didn't actually know Python. That's how I learned.
+
+Interviewer:        00:35:59       You got some pressure to get started.
+
+Subject:            00:36:15       I did read a book on JavaScript, but it was very outdated. I remember it saying the author repeatedly said you don't need to worry about any web browser other than Internet Explorer. And that was true at one point. It was true when the book was published.
+
+Subject:            00:36:52       Yeah. For Php, I remember the name and the author of that book,
+
+Subject:            00:37:17       Man, I've written tens of thousands of lines in Python maybe
+
+Subject:            00:37:51       Javascript
+
+Subject:            00:38:12       Okay. Anything about your programming knowledge and experience, not captured by the previous questions.
+
+Interviewer:        00:38:23       It's optional.
+
+Subject:            00:38:24       I mean, so
+
+Subject:            00:38:36       no, no. Can't really think of anything. I've been mad.
+
+Interviewer:        00:38:40       It's only if you feel like this doesn't capture.
+
+Subject:            00:38:43       Oh, okay. Yeah. I don't have a strong feeling that this didn't capture total experience.
+
+Interviewer:        00:38:49       Great. Um,
+
+Subject:            00:38:51       Oh maybe I could write that I've done various scripting languages but maybe less than a thousand lines in those actually.
+
+Interviewer:        00:38:56       Ok, yeah.
+
+Subject:            00:38:59       Like the bash scripting or whatever, right?
+
+Interviewer:        00:39:02       Yeah, that's a fine note.
+
+Subject:            00:39:56       Okay,
+
+Interviewer:        00:39:57       Okay great. So we can put these out of the way.
+
+Subject:            00:40:01       Great.
+
+Interviewer:        00:40:01       And then we can go through swap pens. Don't confuse what was written
+
+Interviewer:        00:40:12       [Snippet 13] Uh, so, you know, if we write anything down now, it'd be red, so we know. Um, okay. So, so the first question, um, you were very positive about it on the output was 3 and 5 and this one, the way you read through it and told me what happened, uh, you got this one entirely correct. Your positive was justified. Um, quick question though. So you use this method for basically all the questions, but you first described it in this one where you started from the bottom, work backwards and then work downwards. Would you say that that's a technique that you use when writing code or reading code in the wild or is that something more that you use on like tests for school or
+
+Subject:            00:40:55       Well, I don't think I used, well I kind of use it for writing code too actually, but it's more a reading technique for reading and also checking code and then optimizing code. Um, the because when I work backwards I know exactly what the result needs to be or at least I know that data type of the result and then I can go back and see which statements affect the result and then I can sort of build a tree to see which statements affect statements that affect the result. And I can go down many layers. I mean there's a limit to how many I can keep track of at a time, but that's why I like to write smaller functions rather than giant functions that do many, many things, which is also nice because then more that's reusable. Right. Um, so this allows me to see if I've written something that's useless.
+
+Subject:            00:41:56       Right. That's never gonna have any effect on the result because that's all we care about when we're writing a function where we only really care about its output or its return value or in a case of this, whatever value is printing out, we only care about the output. So if the programming is, if the program is doing something that does not affect the output whatsoever under any, under any circumstance, I can go back and delete it and by working backwards to build that tree of what statements affect which statements, I can then just kind of see, okay, which statements are not at all in this tree? And then I can prune them out for reading code. It's useful I think because you get an idea of what the author's intentions were, right? Uh, when I read code I, well there's not a lot of intention to read from this, but if I'm reading a code in the wild, the first thing I try to do is not understand what the code is doing, but understand what the author intended the code to do a just in case those two are not actually the same thing.
+
+Subject:            00:42:57       And if I'm ever unclear on the intention, uh, I may go ahead and just figure out what the code does anyway. Um, but oftentimes I will, if I have the opportunity to, I'll ask the author, what is the purpose of this function? What is it doing? Right now when I'm writing code, the approach that I usually take involves actually writing out comments first, uh, to outline the algorithm and what it's going to do. And then I go back and write the code in. Um, when I think about what the code needs to do to achieve the result, uh, I'm not, I'm not really working backwards because, um, I, I kind of work from the start and the end and then work into the middle, right? Like, because when I'm writing code I need to worry about the inputs as well. So I look at the inputs and outputs and I, and I think of the ways I could transform the input.
+
+Subject:            00:43:59       And then I work at and I work backwards from the output to look at what could be done to arrive at that output. And then those meet in the middle, sometimes closer to the top or the bottom. So writing code involves coming, coming down and meeting in the middle or coming, going up and coming down and meeting in the middle. Whereas reading code is where I'll generally start from the end and then just work all the way back to the beginning. It's also a nice way to find out if any of the arguments or the inputs are not needed either.
+
+Interviewer:        00:44:33       Okay. Excellent explanation. Thank you. Right. So again, you got this one completely correct and yeah. So that was your six um, confidence.
+
+Interviewer:        00:44:44       [Snippet 14] And so for the second question, you put the same six confidence and um, again, uh, the output that you got and the way you described it is exactly how it works.
+
+Subject:            00:44:57       This is what I feel should have been easier to read. Then the last one because the increment, because this statement, the plus plus shows on its own line and you can clearly see that that's a separate line. I see. And this is probably one of those examples of junior versus senior code, right? Junior developer would write that because it's clever. Senior code would just put it on, just put it on a separate line because it's easier to read.
+
+Interviewer:        00:45:20       So the you felt like the having the increment on the same line as the addition and assignment could have been a problem?
+
+Interviewer:        00:45:32       Could have made this, made that one less easy to read?
+
+Subject:            00:45:35       Yeah, I do think so. And it's not that it's ambiguous or anything, it just that it takes a couple extra seconds to process and make sure that you did interpret correctly. Especially when you mix multiple operators together, then you have to work out which operator comes before which operator. So here you just have one operator, the plus sign and then in a completely separate statement, another operator plus plus there you had plus mixed in with plus plus. So part of it is trying to remember which, which uh, which unary operator is a comes before, um, which one takes effect after. But part of it is also just the mixing of operators into one statement also actually makes it harder to read.
+
+Interviewer:        00:46:16       I see. Um, but ultimately that didn't affect your decision to make that six confidence.
+
+Subject:            00:46:22       Correct
+
+Interviewer:        00:46:22       So you were still.
+
+Subject:            00:46:23       Yeah, no. Yeah, that's because I've seen that enough times. I know what it is, but I also know that maybe someone with less experience would have more trouble, would have, might get caught up on that. Yes. Right. This is almost as long as you know, a plus plus means you don't even have to remember whether it comes before or after, whereas there you do need to remember the specifics of that operator.
+
+Interviewer:        00:46:49       Yeah. So more things to remember. Okay. Yeah, that makes a lot of sense. Cool. All right, so let's look at the third question.
+
+Subject:            00:46:59       [Snippet 37] Oh, okay.
+
+Interviewer:        00:47:01       Um, okay. So this is the first one that you didn't have a completely positive confidence. Um, I believe you still did get this one, correct? Yeah. So in fact, the way that you described this one, I think I pushed you a little bit on describing how this works, but
+
+Subject:            00:47:18       yeah, you did.
+
+Interviewer:        00:47:19       The way that you talked through it again was absolutely correct that the M1, gets
+
+Subject:            00:47:27       substituted in here
+
+Interviewer:        00:47:28       almost like a string and then the, um, the operator precedence binds the 2, um, and the 1 together.
+
+Subject:            00:47:34       Yup
+
+Interviewer:        00:47:34       Um, so again, you explained why you weren't at a 6 but you were completely correct. Um, I do agree with, you know, why it wasn't a 6, is that maybe the M gets evaluated first. I think that's a common mistake that people make
+
+Subject:            00:47:54       Especially since not all programming languages will do it like that or if you use a typed constant then it won't, then it won't do that, they will evaluate it first.
+
+Interviewer:        00:48:04       Okay. Um, so you when you talk about other languages that don't do it like this. What do you, what do you mean there.
+
+Subject:            00:48:10       Well, okay, well, the thing I thought of immediately was typed constants, uh, in, I don't know if C has them, but in C++ there's the const keyword. You say const int M1 equals 3 minus 1.
+
+Subject:            00:48:25       I know in that case it will evaluate the three minus one first. Um, some other programming languages. Oh yeah. And PHP, if you use the define function that defines a constant and in that situation because you're doing a function call, then the arguments do have to get evaluated before the function can be called. And I know that the subtraction would be evaluated before they function call to define the constant. And I know the concept would be defined after the evaluation of subtraction.
+
+Interviewer:        00:49:02       Interesting
+
+Subject:            00:49:03       some other languages. Don't really have constants. Python doesn't really have constants and neither does Javascript, in which case you would, if you wanted to do something like this, you would be making a variable instead and then it just becomes like any other variable. The subtraction is evaluated first. I'm actually not too sure about Java. It's been a while since I've done constants with Java.
+
+Subject:            00:49:28       Yeah. Hm. Yeah. I don't really remember, remember that one, but let's say php python. Just trying to remember.
+
+Interviewer:        00:49:39       Well, I was just curious. Um, and I think you gave me a good explanation for different ways that it's done in.
+
+Subject:            00:49:46       Yeah. Yeah. I, this, I, this just happens to be one of the quirks that I remember about C++ for
+
+Interviewer:        00:49:53       you, remember from?
+
+Subject:            00:49:54       from experience really, because I think I ran into this problem once where I was getting the wrong value in a statement that used a that used a macro and I wasn't really sure why. Um, and then what happened was after banging my head for a few hours, um, I figure I found out, I looked up the command with GCC to simply print out the preprocessed a C++. So the output of the preprocessor but without compiling. So just the preprocessor output. And I looked at it and I saw and I looked at the statement, I saw that you macro substituted in and I said, oh, okay, that makes sense now.
+
+Subject:            00:50:41       So I think it's because I spent so much time figuring, figuring out that one problem that I just, it got burned into my head. Like that's how C++ works. But that was also a long time ago. So I wasn't 100 percent confident.
+
+Interviewer:        00:50:57       Sure. But that's cool. That's, um, that's interesting that that's how you learned it and yeah, things like that
+
+Subject:            00:51:04       Yeah, from just making that mistake. It wasn't like anybody told me that it does this.
+
+Interviewer:        00:51:09       Sure, sure.
+
+Subject:            00:51:10       I remember another big mistake that I made in python was that for optional arguments to a function if the argument, well, any value, anytime you specify a value that is the default value that makes the argument optional, uh, which is how it works in many programming languages, but the value for the default or the default values are evaluated in python at the time that the function is defined, not when the function is called.
+
+Subject:            00:51:43       So if you have a mutable object as a default value, say an empty list as a default value. Every time you call that function, it's referencing the same mutable list as an all the previous calls, as long as you haven't specified a value to override the default value. So every time you call that function, if you're just letting it, if you haven't overwritten the default value, yeah, it's just going and using that same list. Even though you might expect it to start over with an empty list, every time you start, every time you call the function, without overriding that default argument. Yeah, that was another huge mistake that I ran into and spent quite a few hours on in python until I finally came across the stack overflow post that, uh, explained what was going on. And then after I read it, I said, oh yeah, that makes. That makes sense.
+
+Interviewer:        00:52:32       Sure. But it's not necessarily what you expect.
+
+Subject:            00:52:33       It's not what I expected. So I get it now, I understand why they did it that way, but it was definitely not what I expected. And this is one of those things as well where you wouldn't expect the 1 to bind to the 2 here, but it does it.
+
+Interviewer:        00:52:55       [Snippet 61] Cool. All right, so let's keep going. All right. So for whatever question 61 is, um, all right, so this was the lowest confidence you had. 2 out of 6.
+
+Subject:            00:53:09       Yeah.
+
+Interviewer:        00:53:09       And um, so do you want to just one more time what the, the thing that made you unsure here was?
+
+Subject:            00:53:17       Yeah, it was this, it was this syntax where you have two statements surrounded by parentheses and separated with a comma and you say. Yeah, I've never seen that in C before. Okay. Hands down.
+
+Interviewer:        00:53:34       Well, so you mentioned that you have seen something like this in python to define a tuple, but that didn't make sense because V1 had the wrong type.
+
+Subject:            00:53:41       Right.
+
+Interviewer:        00:53:42       But then you said you saw something like this in Javascript, but why didn't that one makes sense?
+
+Subject:            00:53:50       Why it? Well, because as javascript and javascript is known for doing things really strangely, so you don't know how much of it inherited from other languages and how much of it is just Javascript being Javascript.
+
+Interviewer:        00:54:03       Sure. Well, I mean I forget that. I forget what you said about javascript though. What would this be in Javascript
+
+Subject:            00:54:12       Right. Now, I wouldn't write this myself in javascript. So even not. Yeah. Even in Javascript, I wouldn't be 100 percent on this, but I've seen output from the Google's, from Google's Closure compiler
+
+Interviewer:        00:54:24       that's right
+
+Subject:            00:54:24       Closure compiler, and it will take if you have several successive statements and only the value of the last one matters. Closure compiler will sometimes take those statements and smash them together into this little sandwich here and only the value of the last statement gets returned, if you will, and not really function but gets returned out of these parentheses. So I thought, well, okay, it's possible that this is one of those things that javascript inherited instead of just made up. And I thought, well, okay, maybe that's how it works in C.
+
+Interviewer:        00:55:00       for sure.
+
+Subject:            00:55:03       But I obviously I don't actually know.
+
+Interviewer:        00:55:05       Right. Yeah. A confidence of 2 out of 6. Well, it turns out that is one of the things that javascript inherited from C
+
+Subject:            00:55:11       Oh how about that.
+
+Interviewer:        00:55:11       And that's exactly how this works on. It. Turns out the comma is one of two. Well, it's one of the sequencing operators. Um, so it's actually very similar to the semicolon, except the only difference is they're very similar and precedence. But like you said, the value of the expression is the right hand argument.
+
+Subject:            00:55:35       And for a second, someone might read it as V2 equals and then read that as one unit 1 comma 2. That also wouldn't have made sense because V2 was of type int.
+
+Interviewer:        00:55:45       Yeah. Um, so you could, for the record, if, uh, if this parentheses, that's before the V2, if that went before the one I'm instead of before the B two, this would still be about a valid statement.
+
+Subject:            00:55:59       Oh, it would how about that.
+
+Interviewer:        00:56:02       Yeah.
+
+Subject:            00:56:03       So if it was here. Yeah.
+
+Interviewer:        00:56:04       So you totally could do that. And the only reason this isn't read like that, it's just because of the precedence of the comma, like I said, is it's super low. Like the semi colon.
+
+Subject:            00:56:12       Yeah.
+
+Interviewer:        00:56:12       Um, if the precedence were higher, if the precedence of the comma were higher than the equal sign, um then the value of V2 would be 2 not 1.
+
+Subject:            00:56:21       Right. Oh that's true, right. Yeah. I see what you're saying, Okay. Yeah.
+
+Interviewer:        00:56:27       Regardless. Um, you again, you got this one right. Despite being unsure about it.
+
+Subject:            00:56:33       I mean, I don't know. It came. A lot of this came down to just intuitive guessing
+
+Interviewer:        00:56:38       sure, but that can make sense sometimes,
+
+Subject:            00:56:40       but I guess I've seen enough C++ to kind of know what the conventions of the language maybe.
+
+Interviewer:        00:56:46       Yeah. Although conventional code
+
+Subject:            00:56:49       Well, yeah. But there's a philosophy surrounding.
+
+Interviewer:        00:56:52       Sure, well, especially language like Python.
+
+Subject:            00:56:54       Oh, especially Python, there's a way to do things that's like C and then there's a pythonic way to do it in Python.
+
+Interviewer:        00:57:03       [Snippet 1] Okay. So, uh, so the next question, um, number 1, um, another confidence 6 question, um, you noted that a C or C++ or C++ does but C itself doesn't have a true value, but
+
+Subject:            00:57:20       But 1 and 0
+
+Interviewer:        00:57:20       But one is true-ish
+
+Interviewer:        00:57:24       Yeah, you were absolutely right about that and you're correct that the outputs for, um, I didn't think it was interesting that you talked about working through this like a compiler and actually eliminating, uh, branches of the if statement trying to sort of in line it.
+
+Subject:            00:57:44       Oh yeah, that's the word I was looking for in line. Um, yeah, I guess that's just kinda how I see it. Once again, going back to how I was saying that, you know, I can, this is a way to look for useless code and I do that a lot actually. So I'm used to finding. I'm used to finding code that is unreachable such as the else block. Right.
+
+Interviewer:        00:58:16       Yeah. No, that seems like a completely reasonable.
+
+Subject:            00:58:18       And it was also necessary to work backwards, right? Because you know, only one of these statements is going to get executed. So if you're, if I'm working backwards, I need to figure out which, which statement is the one that gets executed.
+
+Interviewer:        00:58:31       Right, yeah, you can't execute branched code backwards
+
+Subject:            00:58:35       Right, and that is the working backwards on this problem was actually kind of interesting because if you work backwards, you get from the printf statement and you get all the way up. You have to kind of skip the, these um, assignment here. But then you get up to the conditional in the if-block or the if-statements and you run the and you evaluate the conditional and then you know that one of. And then you can figure out which one of these statements applies. But then once you look at these statements, you realize neither of them depends on the value that was assigned to V1 initially.
+
+Interviewer:        00:59:11       Yes.
+
+Subject:            00:59:11       So you actually don't need to look at what value was assigned to V1 up here.
+
+Interviewer:        00:59:19       Um, one quick question about this sort of evaluating backwards thing. Um, so this is sort of toy code, but it sounds like you use this sort of reading backwards technique on larger pieces of code. You were talking about how you sort of have to skip the body of the if statement because while evaluating backwards, the first thing you'd have to read is the condition.
+
+Interviewer:        00:59:46       So does that impact you when maybe there's like nested if blocks or, or there's more code inside the if statement?
+
+Subject:            00:59:54       Oh yeah. If there were nested if blocks. Um, yeah, there were a nested. If blocks then it might get kind of complex to read things backwards now if there was just more code, but it was, but there were no, there was no branching. No, that wouldn't really complicate this part. But I think what would end up happening is, you know, if we is, I would still go back up to the top and then I'd have to read the conditionals going from top to bottom and I don't know, in the real world you don't see too much of, of conditionals that are constant because people usually are smart enough not to code like that
+
+Interviewer:        01:00:42       for sure
+
+Subject:            01:00:43       So you usually. And so I usually ended up having to read all the statements anyway. Right? Um, but I can look at it, but this is also another way to try to understand the programmers intentions. Right. You can see, you can look at, I can add to my mental picture what the code does under certain circumstances and then I can look at what those circumstances are. And then I can ask myself why those circumstances were picked. And it usually has something to do with, uh, the purpose of the overall, of the overall function.
+
+Interviewer:        01:01:26       Sure.
+
+Subject:            01:01:30       Yeah. I guess when, so yes, to answer your question, if there were nested, if blocks I could still just eliminate blocks one at a time, but in the real, in practice I don't do that all all that often because most of the time most of the time the blocks are both there and both and both of them get executed sometimes,
+
+Interviewer:        01:01:53       so in that case you just default to reading top down?
+
+Subject:            01:01:57       I would say I read the conditions top down, but then the code in the blocks I might still read bottom up,
+
+Interviewer:        01:02:05       so it's a lot of sorta zigzagging through the code.
+
+Subject:            01:02:08       Yeah. Yeah, and I think there's a certain point where you don't really see individual lines anymore, but you can kind of see what a group lines are doing altogether. You kind of like how you see people who played piano for 30 years. When they read music, they're not reading individual notes. They're just seeing an entire chord and they know how to play that chord rather than thinking about what each finger is doing or wage note is. I see. It makes sense. Yeah. Once you've done it, you see more of it at a time. Sure. Okay. That makes sense. Cool. Great. Thank you.
+
+Interviewer:        01:02:50       [Snippet 73] Okay. So moving on to the next question. Um, this one was another, uh, six confidence and um, you laughed at the beginning. You spotted right away that the condition of the, if statement was an assignment.
+
+Subject:            01:03:07       Yeah,
+
+Interviewer:        01:03:07       not a, uh, a logical test
+
+Subject:            01:03:11       Although actually looking back at it now, it doesn't matter whether V2 was 2 or 1, it would have been true anyway.
+
+Interviewer:        01:03:18       Yes.
+
+Subject:            01:03:18       So the assignment doesn't really matter.
+
+Interviewer:        01:03:20       That is also true. Um, yeah. And then the way you described how it all works was a spot on. So yeah, I guess we can just move to the next one.
+
+Subject:            01:03:30       So here you know, the output that only be one gets output and then you see these statements here that affect V1, but then you have to come up and evaluate the conditional. So you do end up having to look at the... Well, actually, no, you don't have to look at either these initial values because it doesn't matter the V1, zero initially or V2 is to initially everything gets reset down here. So when working back, if I was working backwards, I might actually, one of the things I might be able to eliminate as these assignments save a couple instructions and these in the machine code.
+
+Interviewer:        01:04:08       Yep. Totally. Yep. But you got that one completely right.
+
+Subject:            01:04:15       Okay.
+
+Interviewer:        01:04:15       [Snippet 26] I'm going to the next question. Um, this one was pretty straightforward.
+
+Subject:            01:04:21       Yeah. Almost to a point where I said is there some trick?
+
+Interviewer:        01:04:26       Right, right. Um, yeah. Well, do you think there's a trick?
+
+Subject:            01:04:31       Well, no, but part of, but part of me always thinks this is too easy.
+
+Interviewer:        01:04:40       Yeah. Um, well I'll describe it more in a second, but no, there is no trick. The answer, the answer is 5.
+
+Interviewer:        01:04:50       [Snippet 25] And so the next question, um, incidentally the answer is also 5, but um, yeah, so you were again, perfect, confident. Um, I don't know if there's much to say about this one either. yeah, but, so, um, unless, unless you want to talk about this anymore, I can give you a brief overview of what we're studying. We're studying it and um maybe give you some insight into why there is no trick in the last question.
+
+Subject:            01:05:21       Oh really?
+
+Interviewer:        01:05:22       Yeah.
+
+Subject:            01:05:22       Well I just want to talk about the tree here. Which statements, depend on which statements because you'll notice it's a neat little line. The last line depends on the second to last line which, depends on the third to last line. So it was a neat little line which actually. Well yeah, I don't know, I just thought it was neat how it's aligned like that.
+
+Interviewer:        01:05:47       Um, yeah. So I've actually seen that sort of thing happen a lot in like functional code, you know, where every line is a transformation on the data from before.
+
+Subject:            01:05:56       Right. I think it makes it easier to read if you separate this out because you could easily have written, you could have easily skipped the first two lines and just printf 5. Yes. Or I guess if you really wanted to optimize it, you, you don't even have to do the integer conversion, you could just actually have 5 written in the string.
+
+Interviewer:        01:06:16       Oh, for sure you could.
+
+Subject:            01:06:17       If you are really optimizing the heck out of this linear code is easy and because the tree is linear, reading it backwards is the exact reverse of reading it forward. So in this case, reading it backwards and forwards Kinda didn't feel any different for me.
+
+Interviewer:        01:06:38       Yeah. Um, cool. Um, okay. So yeah, if you're interested I can give you a description of what we're trying to look for here.
+
+Interviewer:        01:06:50       Yeah, yeah. Um, yeah, I am interested.
+
+Interviewer:        01:06:52       Okay. So basically, um, what we found through other studies is that there are certain tiny level patterns, patterns that you can fit into pieces of code this big that when programmers read them, think the code does one thing, but actually it doesn't other. So an example I was so probably the most blatant example was the one with, uh, with the macro. This is a very common one that people will read one way and be positive that the output is one thing when in reality it's something else. And so basically what we did is we took a bunch of these patterns and we compared them, we had people hand evaluate them and compare them against one that has this pattern and then a version of the same code which, uh, doesn't have this pattern in it. So probably one of the, one of the code samples you did was this same question without the macro maybe or not?
+
+Interviewer:        01:08:04       Oh No, I guess we didn't know that one, but you know, you can see. You can see in these two, in the last two, the answer was both. No, these were the first two that I did. Yes. I have mixed up the order in the last two questions you did. The output is both five because these are the same question and the only difference is that there is a constant variable and it turns out that neither of these are confusing patterns, but this shows you an example of the same program represented slightly differently. And what we wanted to find out is whether or not the way that people evaluated the same program written differently changes and for these questions, it probably not going to be that interesting. But for questions like the one with the, um, with the macro in it, you would imagine there's a vast difference between, uh, the one with the macro, and the one without the macro.
+
+Interviewer:        01:09:04       so we already have numbers that show that the macro one is, for example, like I think two times more likely to have errors in it. Then the one without macro. Yeah.
+
+Subject:            01:09:15       Okay. Um,
+
+Interviewer:        01:09:18       but no, you did great. You a spotted at all the things
+
+Interviewer:        01:09:21       that, like the macro thing that really only came just from experience. I don't think any of the books I've read covered that. Yeah. And it's not taught any classes I guess.
+
+Interviewer:        01:09:34       Well that's interesting for us to know because one of the things that we're looking at is when people learn these things, when people know these things, how do they learn them? And in your case, you said it was directly from firsthand experience. And so what if we find that, like when people know these patterns, it's from firsthand experience that might indicate to like teachers have kids do more assignments, have kids do more assignments that hit these real world things that they might use in the future.
+
+Interviewer:        01:10:03       Oh yeah. Okay. Makes Sense. Yeah.
+
+Interviewer:        01:10:06       So anyhow, thanks
+

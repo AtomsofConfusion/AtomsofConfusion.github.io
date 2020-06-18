@@ -1,0 +1,500 @@
+Interviewer:        00:01          Okay, so the audio recording is on and can you just say whether or not you're okay being audio recorded?
+
+Subject:            00:06          Yes, I'm perfectly fine being audio recorded.
+
+Interviewer:        00:09          So here's the first question. So the time will be here.
+
+Subject:            00:17          Okay.
+
+Interviewer:        00:18          [Snippet 11] So if you could just write that down and then if you can just think aloud your thoughts as you go.
+
+Subject:            00:27          So, uh, so integer the variable integer is assigned 0. So we have 0. So you have a if-statement here? So if 0 and 1 or 2. Okay.
+
+Subject:            00:45          V-eye is 6 else V-eye is 3. Huh.
+
+Subject:            00:49          So. Hmm. Okay. And 1 or 2.
+
+Interviewer:        01:02          What are you thinking?
+
+Subject:            01:04          I'm, I haven't used this notation anywhere. Can I mark on the code
+
+Interviewer:        01:08          please.
+
+Subject:            01:09          Okay. So if 0 and 1 or 2
+
+Subject:            01:16          If I'm correct, these are, this is And and Or,
+
+Interviewer:        01:20          So I can't answer yes or no questions but keep, keep talking.
+
+Subject:            01:28          Okay.
+
+Subject:            01:30          So our variable here is 0. If it's 0 and 1 I'm not really sure what the output of this is, I guess it would still be 3, it'll be 0. So where do I write?
+
+Interviewer:        01:48          Um, yeah, just the results of that line.
+
+Subject:            01:50          Okay.
+
+Interviewer:        01:51          I guess that's not clear.
+
+Subject:            02:03          Okay. So do I? [softly] How confident are you that you evaluated the code correctly? I am not sure. I'll mark it as a 2.
+
+Interviewer:        02:18          Okay, so before we go on what? I just can't read that
+
+Subject:            02:22          That's output O/P.
+
+Interviewer:        02:23          Oh, okay, cool. Um, and then output 0, cool. And so can I just ask, I'll after everyone, I'll just ask you why you put down that value for your confidence.
+
+Subject:            02:34          So right, it was partly because I'm not familiar with this notation [if (0 && 1 || 2)] so I didn't know, uh, what. So will the variable will be affected by this or it will just completely skip this and just print out the variable value which initially was assigned here. So yeah, so I'm just sticking to this rather than, you know, the code entering into the if statement.
+
+Interviewer:        03:03          Sure. So have you seen any, any parts of this notation before or is it all new to you?
+
+Subject:            03:11          Um, I mean, uh, so what I've seen is, I've seen variables, so like if we could
+
+Interviewer:        03:18          Yeah, you can write anywhere.
+
+Subject:            03:19          Okay. So if you have a variable V1 and so we have an if-statement here, if V1, let's say is we're just checking if it's 0.
+
+Interviewer:        03:27          Sure.
+
+Subject:            03:28          Our, our lists and over here we have a. So this is the and statement, right. This is and so V1 equals equals 1. So yeah, this makes sense because it's comparing the variables to 0s and 1s here. But this, I'm not sure what it is actually.
+
+Interviewer:        03:49          Okay, cool. Thank you. Um, and uh, so we will get a chance to go back and talk about all of these once we go through them all. Okay. Um, so if you could write that start time.
+
+Subject:            04:04         [Snippet 50]  Yeah. 7:10
+
+Subject:            04:07          V1, V2, V3. If V1 is 2, else V3 is 5, printf V3
+
+Subject:            04:24          So'll this just print out a 5 because our variable 1 and 2 are 0 and 4 respectively. Nothing is assigned to V3. So if V1 is 2, which is, if it is not, it will go to the else which just assigns 5 to V3 and we're just printing V3. So that would be 5. Yeah. Yeah. And the time is 7:11
+
+Interviewer:        04:50          Yep, you marked your conference level. So why, why did you pick that confidence level? Why did you pick 6?
+
+Subject:            04:56          Because this makes sense like I showed you in the previous page. So we're just comparing the variables here. Uh, so if the variable is, if the, if the if-statement doesn't work it'll go to the else and uh, because else doesn't take any, a condition into factor. So it just assigns the value to it, which is 5 and we're just printing the value V3, so, yeah. Pretty confident it works. Yeah.
+
+Interviewer:        05:24          [Snippet 71] Cool. Thank you. The time is 7:12.
+
+Subject:            05:40          Int V1 is 1, V2 is 2, if V1 is less than V2. V1 is less than V... Okay. So I, I speak out loudly, right?
+
+Interviewer:        05:55          Oh, I think it's okay.
+
+Subject:            05:57          Okay. So V1 is 1 V2 is 2. V1 is less than 2, V2, yes. So we go here. Define. So we define and this as 1 M2 is 2, right. So percentage d, M1 M2. So we just print out 1 and 2.
+
+Subject:            06:21          Yep.
+
+Interviewer:        06:22          Okay. And why did you choose that confidence level?
+
+Subject:            06:27          Because, uh, the, if statement. So if condition holds. So it goes inside the if statement where it assigns M1 and M2 as 1 and 2 respectively and we just print them out afterwards without any problems. So yeah.
+
+Interviewer:        06:45          Okay, great. Oh, can you also write, sorry about that.
+
+Interviewer:        06:58          [Snippet 25] 7:13 again
+
+Subject:            07:04          V1 is three, V2 is V1 plus 3 plus 2, which is 5. Print V2, 5 and time is 7:14.
+
+Subject:            07:22          So here we just have a variable. We take a second variable, add it, add 2 the first variable and store it in the second variable and just print out the value. So yeah, 5
+
+Interviewer:        07:33          All right, cool.
+
+Subject:            07:44          Oh did I write a finish time on that though?
+
+Interviewer:        07:46          You did, yeah. Thank you.
+
+Subject:            07:51          [Snippet 109] Int V1. Okay. If zero will be one plus plus. Okay. It's printed. If 0. Hmm.
+
+Subject:            08:03          Okay. So if 0.
+
+Subject:            08:07          Huh?
+
+Subject:            08:10          So zero is... So we have, in my opinion, it'll, it'll go inside the if statement because zero is, you know, we're not assigning it to anything. We're just moving forward with XXX. So zero exists, right. So if zero we have, we increment the value of V1 which is, which becomes three exiting that again V1 plus plus would be 4 and we just print out V1 which is 4
+
+Subject:            08:46          The time is 7:15 confidence value would be a five.
+
+Interviewer:        08:49          Okay. Can you explain um, why five?
+
+Subject:            08:53          Why five? Because uh, because the if statement isn't something which is clear and I'm hoping that the answer would be correct. So which I think it is, but I'm not gonna completely confident that it is so.
+
+Interviewer:        09:11          Sure. Okay. Thank you.
+
+Subject:            09:47          [Snippet 37] I'm not sure if we can write, a hash define in this fashion, but if we can, we have a certain output her otherwise. Okay. So every code executes. Right?
+
+Interviewer:        10:02          Yeah
+
+Subject:            10:02          So this, this works. Okay.
+
+Interviewer:        10:04          That's correct. Yeah.
+
+Subject:            10:06          Three minus one mhmm, int V1, V1 is M1 into two. Two into two. Four. So I think the output would be four and I'll go with a five. I'll go with the six, yeah.
+
+Interviewer:        10:23          Okay, cool. And why that confidence level?
+
+Subject:            10:26          Um, because, uh, I just remembered every program executes. So this, my thinking of this not working is wrong. So yeah. So three minus one should be two and uh, Yeah, it's just straightforward after that.
+
+Interviewer:        10:43          Okay. Um, so you are right, it will execute. But um, if it weren't, if this were a problem, what a error would you expect to see? Like in what way wouldn't it work?
+
+Subject:            11:00          Um okay.
+
+Subject:            11:05          mhmm
+
+Subject:            11:06          So, uh, so the hash define variable with the value. Uh, I'm not certain if the values can be distributed in a long, uh, in a, in a, in a statement sort of a thing because as, as over here it's three minus one. So if it's, if and it's separated by a space, so I'm not sure if hash define takes into account the spaces.
+
+Interviewer:        11:33          I see. So. Okay. So what would you be more used to seeing or what would you expect to see there instead?
+
+Subject:            11:45          Um, if, uh, if it was three, uh, without any spaces, one that would. Yeah, that would work, I think, perfectly. This is sort of confusing because no spaces and uh, yeah.
+
+Interviewer:        12:00          Okay, cool. Thank you. One more after this one.
+
+Subject:            12:19          [Snippet 85] So we have an array here holding five places. So the fourth place, we assign It as a three. So while this exists, we have the variable V1 three minus. V1 of V4 would be three which would be three so V1 of three minus V1 of 4 is three, which is V0, which will be assigned as V4 which in fact is three. So V1 would be three,
+
+Subject:            13:11          right
+
+Subject:            13:22          So V1 4 minus one. V1 one XXX V1 4. V1 4 is three minus one is two. And V1 4 is updated as 2 so V1 4 is 2 now.
+
+Subject:            13:37          Hm.
+
+Subject:            13:37          So it'll be two now. It will be 2 which exists over here. It will be updated again. So this will run for a while or is it okay if I write it here?
+
+Interviewer:        13:55          Oh yeah, wherever you want
+
+Subject:            13:56          So V1 of three minus two would be V1 of 4, for, for V1 of 4 is 2. Okay. So V1 of 1 will be 2 now so V1 of 4 is V1 of 4 minus one which is one. V1 of hmm.
+
+Subject:            14:19          Hmm.
+
+Interviewer:        14:20          What are you thinking?
+
+Subject:            14:24          I'm thinking whether the while loop would exit anytime soon or would it just keep on? Because in each case we have a V1 which V1 4 which exists. Right. So, so V1 4 is V1, two minus one, so we'll have the next one will be one minus one. And the next one I got to be. So, hmm
+
+Subject:            14:53          So V1 of. Okay. Three minus three, three minus one would be three minus, minus one would be four where it will change it again.
+
+Subject:            15:38          I think we have an infinite loop here.
+
+Subject:            16:12          I don't think we'll ever reach here because, because of the while loop.
+
+Interviewer:        16:19          Okay, can you just write that?
+
+Subject:            16:22          Okay.
+
+Subject:            16:44          Is it readable?
+
+Interviewer:        16:44          Um, I think we talked about it. So between it, we'll figure it out. Okay. Um, the time is 7:23. And then same question, um, why this confidence level?
+
+Subject:            16:57          Uh, because I'm certain I haven't thought of all the cases in the while loop, so there might be a case where V1, doesn't exist, which I don't think there is.
+
+Subject:            17:11          can I change the confidence value?
+
+Interviewer:        17:16          Okay. So it was a four, now it's five.
+
+Subject:            17:17          Yeah.
+
+Interviewer:        17:18          Okay, cool. Um, all right, great. So then the last one,
+
+Subject:            17:31          [Snippet 26] Int V1 is [laughs] okay. I can just read this carefully. V1, two plus three, printf V1. That's a five.
+
+Subject:            17:49          This is not a trick question?
+
+Interviewer:        17:52          I can't answer that.
+
+Subject:            17:56          It looks, it looks, yeah. End time is 7:24.
+
+Interviewer:        18:02          Okay. And why that confidence level?
+
+Subject:            18:05          Uh, so this is a straightforward arithmetic. So and we're just printing out the summation of the values, which it's pretty straightforward. It's, it's, yeah.
+
+Interviewer:        18:17          Okay.
+
+Interviewer:        18:19          Okay, cool. Um, well that was all the questions, so thank you. Um, so if I could have you fill out just like a survey, like your experience and then we can go back and talk about all the questions.
+
+Interviewer:        24:12          Okay, great. Um, cool. So now we can go back and talk about the questions, um, for all of them. I'll just start by asking you if you have any questions about the code or your answer or anything.
+
+Subject:            24:41          [Snippet 11] I just have a problem with this statement here [points at if-condition]. So, if you could...
+
+Interviewer:        24:46          Um, so can you be a little bit more specific about what part of it, um, because you mentioned before that you've seen if statements before. Um, so, so what about it in particular? Um, is unusual?
+
+Subject:            25:03          Um, uh, so one thing that strikes me here is, uh, so the, the order in which it'll uh, it'll uh, use the And, and, the Or statements, so would And be considered before Or the order of precedence. So, uh, how would that work for a statement with out brackets? So that is one of my concerns.
+
+Subject:            25:30          What else?
+
+Interviewer:        25:34          If I were to tell you that order, would the rest of it makes sense?
+
+Subject:            25:41          It might, I think. Yeah, you tell me the order.
+
+Interviewer:        25:46          Okay. So it's good that you noticed that it could go either direction. So, um, the, the And has a tighter precedence.
+
+Subject:            25:57          Okay.
+
+Interviewer:        25:57          So the And goes first. So knowing that, um, are you, how would you evaluate it then?
+
+Subject:            26:04          So, uh, so zero.
+
+Interviewer:        26:07          Can I just [Hands subject red pen instead of black]
+
+Subject:            26:08          Okay.
+
+Interviewer:        26:11          Alright. You can write all you want, but we'll know that it's from later.
+
+Subject:            26:16          So zero and one. Okay. So this is this proceeds or two over two? Zero and one.
+
+Subject:            26:33          Yeah.
+
+Subject:            26:35          It's confusing because zero and one... what? What does, what's zero and one, what does. How would I, I don't know what it means. Yeah, it's, it's ambiguous.
+
+Interviewer:        26:50          Yeah. So before you brought up on the sort of more common thing of saying a variable equals something, um, actually, well, before, before I go into this. Oh, what? I didn't look at your, a thing to be a can, but what, what languages are you most familiar with? Like what's your, what's the language you're most familiar with? What programming language?
+
+Subject:            27:15          Uh, python, yeah.
+
+Interviewer:        27:17          Python? Okay, cool. Um, so, uh, the way that I think python if statements and things like that work are, you'll have an expression like this and it will evaluate to true or false. If it's true, the first part of the if goes, and if its false the other part. C, it turns out, doesn't actually have true and false. Instead, true and false are represented by, uh...
+
+Subject:            27:50          Zero's and ones.
+
+Interviewer:        27:51          Yeah. Well basically zero is false and any other value is true.
+
+Subject:            27:58          Okay. Okay
+
+Interviewer:        27:59          Um, so when you see something like zero An And one, and you can think of it like false and true.
+
+Subject:            28:06          Right
+
+Interviewer:        28:07          Um, so that's, that's essentially what it's saying.
+
+Subject:            28:10          Okay, Okay, Right, Hmm.
+
+Subject:            28:14          So this would become uh, so this is so false and true.
+
+Subject:            28:24          Again, it, it's, it's, How would a program proceed from this because in, in. Okay. So, so we're not checking for anything, we just know that zeros and ones are... if. I mean, I guess some of it.
+
+Interviewer:        28:50          Well, can I, can I ask you, um, sort of a different form of this question.
+
+Subject:            28:54          Mhmm
+
+Interviewer:        28:54          So if you were to take, if you were to replace in the statement that you've written zero and, and one or two [(0&&1)||2], um, if you were to replace zero with false and um, all the other numbers with true. So like actually write it down in that way.
+
+Subject:            29:15          True, uh false and and true, or two is true in general.
+
+Interviewer:        29:18          Yeah, sure.
+
+Subject:            29:19          Yeah.
+
+Interviewer:        29:19          Um, so is this the kind of thing that you would expect to see in python? Like does this make sense or does this.
+
+Subject:            29:30          Yeah, ok, I think this is much more clearer. Okay. So if the statement is false and true would be, it would be a false right? False and true.
+
+Interviewer:        29:45          False and true, um, well, so, um, what makes in, in an an statement, what makes the whole thing true or false
+
+Subject:            29:56          in an and-statement so. Okay. So it has to be true on both the sides to be a true otherwise it's a false.
+
+Interviewer:        30:01          Yeah.
+
+Subject:            30:02          Yeah. So this is a false. Yeah.
+
+Interviewer:        30:04          Yeah.
+
+Subject:            30:04          False or true. This is false or true. So this going to be boiled down to this [F || T], right?
+
+Interviewer:        30:14          Yeah, exactly
+
+Subject:            30:16          Right. So if it's. Hmm, which is, I mean because if it's an if statement, so V1 would be assigned to six, it'll definitely be because it's either false or true, which if it's, you know, it's false and true would be true
+
+Interviewer:        30:40          following and true?
+
+Subject:            30:41          or or true, or true
+
+Interviewer:        30:43          false or true.
+
+Subject:            30:43          Yeah, yeah, yeah.
+
+Interviewer:        30:44          Yeah. You're right.
+
+Subject:            30:44          Yeah. So, so the V1 value would be six here. Yeah.
+
+Interviewer:        30:48          Yeah. So yeah. Um, and is there something else? I think maybe it was a different question, but yeah. So the way that you evaluated this with the falses and the trues that's exactly how this works. And so you eventually get to six. And so when originally when you wrote zero, um, that was just assuming that the, if statement didn't make sense and wouldn't even get executed. Okay, cool. That totally makes sense. Um, do you have any other questions about uh
+
+Subject:            31:26          No. I think I'm good
+
+Interviewer:        31:28          [Snippet 50] Okay, cool. Um, so look it over and let me know if you have any questions about that one.
+
+Subject:            31:54          Nope. No questions.
+
+Interviewer:        31:57          Okay. Did I have any questions about this one? No. I mean you were confident about it. You got it right. I don't really have anything to ask you about it.
+
+Subject:            32:13          Okay.
+
+Interviewer:        32:15          [Snippet 71] So do you have any questions about this one?
+
+Subject:            32:23          So, uh, can we write hash-define statements inside the main code?
+
+Interviewer:        32:30          Uh, I mean you can, um, is, is that uncommon or?
+
+Subject:            32:39          Yeah, that's not too common.
+
+Subject:            32:42          so I think it's, I think it works. Yeah.
+
+Interviewer:        32:47          Um, I guess so, so what, what are you used to seeing or what would you have expected here instead?
+
+Subject:            32:58          So hash-define over here
+
+Interviewer:        33:03          At the top?
+
+Subject:            33:03          Yeah, that would, yeah.
+
+Interviewer:        33:04          So that's just what you see more often?
+
+Subject:            33:06          Yeah, that's, yeah.
+
+Interviewer:        33:07          Okay. Are you familiar with uh, sorta how hash-defines work? Well, so what, what is, what is this notation doing?
+
+Subject:            33:25          I know that hash-defines they, they take less time to execute than a normal variable.
+
+Interviewer:        33:32          Sure.
+
+Subject:            33:32          Yes. But I'm not certain how that is, but.
+
+Interviewer:        33:37          So they're similar to a variable.
+
+Subject:            33:38          Yeah, yeah, yeah. Okay.
+
+Interviewer:        33:40          Um, do you know of any difference between them and a variable
+
+Subject:            33:46          um, I'm certain I've studied it, but I do not remember it right now.
+
+Interviewer:        33:49          Ok, no problem. So, um, usually you only see this kind of thing, um, as a replacement for a variable when the variables constant
+
+Subject:            34:00          Right
+
+Interviewer:        34:01          Um, so, you know, with other variables you might be able to assign something to it, assign a different value, like for example, a counter. First. it's one then its two, then its three. These, the number's always the same, you can't update it and you're right that these things often do. They can be used for an optimization and the reason is because, um, whereas variables are stuck in memory and they actually have like an address, uh, these, uh, defines are actually done by the preprocessor or have you heard of the processor before? So, um, when a define is used, it actually updates the source code itself and then later it gets compiled. Um, so what happens is these get a evaluated, the defines, get evaluated, and then down here where the values M1 and M2 are, um, those, those don't stay there as positions in memory.
+
+Interviewer:        35:02          They actually get replaced before compilation so that the value of M1 is there. And so if it gets compiled as if there are constants in there. Now, the tricky part about this one is that since the defines happen first and then the code is compiled and then the code is run. So it's like preprocessor, compilation, than execution, right? It means that Um, the preprocessor doesn't even know anything about the code, um, it just looks for the hashes. So, so what it does is it comes down here and assigns um one to M1, two to M2, but then it comes down here and reads this one and assigns two to M1, one to M2, and then comes down here. So actually by the time this actually gets compiled and, then run, uh the value two to is in M1, the value one is in M2. Um, and it's just like you would put those numbers right in there themselves.
+
+Subject:            35:55          Okay. So it doesn't read the code, it just replaces the hash defines with the, with the updated values.
+
+Interviewer:        36:02          Exactly. And that's it. This way. It's much simpler than a normal variable, which is why you're right, it runs faster. Um, so any, any other questions about this one?
+
+Subject:            36:13          No.
+
+Subject:            36:26          [Snippet 25] Okay, no questions.
+
+Interviewer:        36:27          Okay. No questions at this one? Yeah, I mean, what can I say? You got the arithmetic correct? No, nothing.
+
+Subject:            36:42          Okay.
+
+Interviewer:        36:45          [Snippet 109] Um, any questions about this one?
+
+Subject:            36:50          No.
+
+Interviewer:        36:52          Okay. Um, so I, um, I have one.
+
+Interviewer:        37:06          You used a specific phrase. So, um, we, we had talked before about how zero is false and any other value is true, but at the time, um, you did say that this would evaluate as true. Um, do you remember what your thought process was in making that decision?
+
+Subject:            37:29          Uh, I, it was, it was similar to something like a while one.
+
+Interviewer:        37:36          Okay.
+
+Subject:            37:37          So while keep on. So this is true [pointing at while(1) ], right? For all the cases. So I just assumed that since we have no other variable than one, I mean we're using zero here for the if, and zero is an integer. So it, it is true. I mean zero does exist. Yeah. So it'll just go into the if statement and yeah.
+
+Interviewer:        38:04          So, um, yeah, so I guess the logic there sounds like. Well, yeah. So what I guess what, when you say zero exists, um, is what is something in the code that would not exist, you know?
+
+Subject:            38:23          Um hmm.
+
+Subject:            38:26          I mean, yeah, that's, that's an interesting question.
+
+Interviewer:        38:31          So, um, this, this is like a very common idiom [pointing to while(1)], you see that all the time, while one, um, and so in your head if you wanted to do the opposite of that, I mean like I understand logically where you're coming from, but I'm trying to think.
+
+Subject:            38:47          Yeah. So it'll be at a, I guess a not here.
+
+Interviewer:        38:51          Oh, that makes sense. Yeah. Okay. Yeah. Not One.
+
+Subject:            38:55          Yeah, but not one would be a zero so.
+
+Interviewer:        38:58          Right. So yeah, yeah, it's just one of those things, but I definitely see what you're getting, getting at, like integers just seem like sort of basic thing, so it could just be true. Um, okay. But any, any anyway, like the other one, zero. Zero is a fault in C just means false. Um, so in that case, would that change your answer?
+
+Subject:            39:25          I suppose so, I don't think. No. No. Okay. So um just run through it one more time. V1 is two if false. Okay. I see that it changes it. Okay. So if it won't go inside the false statement, so it'll be. It'll just increment it by one. So it'd be four minus one, which is three
+
+Interviewer:        40:01          Right. Okay. Yeah. So that, that's exactly how it goes. So it's just like knowing that one thing about zero being false. Um, any other questions about.
+
+Subject:            40:11          No. No.
+
+Interviewer:        40:13          Cool.
+
+Subject:            40:24          [Snippet 37] Mm hmm.
+
+Subject:            40:36          I have a question here. So would it, would the preprocessing compute? This is two or would it be kept us three minus one?
+
+Interviewer:        40:46          Yeah, that is a really good question. Um, and I thought, well yeah. So let me, let me ask a quick question before that because you had mentioned that, um,
+
+Subject:            40:55          the spaces,
+
+Interviewer:        40:56          Right, so why, why did you ask that question? Ask this question about the spaces, um, or why did that seem maybe off to you
+
+Subject:            41:07          because that in C I have encountered certain places where having a space generally messed up my execution. So, and I, I haven't, uh, maybe I have but I don't remember seeing spaces in hash-defines. So
+
+Interviewer:        41:31          Can you think of um, a place where the space messed up your execution? Do you remember a time where it screwed up the code?
+
+New Speaker:        41:46          So I'm so, so the Linux compiler GCC. Uh, so I think there was a, so the printf statements would, wouldn't run because I had a space involved, a space or a tab involved. Interesting. Yeah. So that was something which was weird because again, that shouldn't matter in C, C plus plus, but it did.
+
+Interviewer:        42:18          like in, in the string part or in the. You, do you remember like where the space or the tab was? Like for example, could you write it? And no worries if you can't remember.
+
+Subject:            42:31          I don't remember it though. It's a, it's a, it's a sort of hint that it was C. [Writing printf("yolo", "lola", "rn") ] How did it go? Okay. So it was, it was something here and so let's, we're printing out multiple in one statement, we're printing multiple, uh, uh, uh, uh
+
+Interviewer:        43:01          Values
+
+Subject:            43:02          Yeah. Printing multiple things here. So this would, guess it was this which created problems. Okay. So you're trying to. Yeah,
+
+Interviewer:        43:17          you're trying to print out a tab.
+
+Subject:            43:18          No, no, not a tab. But uh, so there's something here. So there's, as you know, those data is something else. And uh, yeah. So, so the space here I think was something which one of our professors pointed out that that you just remove the space and it'll work, and which it did. Which was funny.
+
+Interviewer:        43:47          So I, I might have a theory about that. There are some things, um, so the, the first argument of print death isn't, is different than the other ones. So the like the second and the third those are like things that get used the first one, but the first one is what's called a format specifier. So like here, if you look at this, it has percent-d in it, right? Which means you expect an Integer, but I can imagine if you had like a space between the percent and the d, it's no longer a special character or something like that.
+
+Subject:            44:23          Um, no, no, no, no. It was.
+
+Interviewer:        44:29          Well, don't worry about it now, but you think of if you think of it like later if you go home and it just pops in your head and you email it to me, I would love that.
+asked a really good question, which is, does the preprocessor evaluate that expression or not? Um, and that's an excellent question because the answer is it doesn't.
+
+Subject:            45:00          It does not.
+
+Interviewer:        45:01          No, no, it, it leaves it as.
+Subject:            44:37          Cool, I'll try to find that out.
+
+Interviewer:        44:39          Okay, cool. Um, okay. But, so, so back to this guy. Uh, so you, you 
+
+Subject:            45:04          Oh right.
+
+Interviewer:        45:05          But why, why did you think to ask that question?
+
+Subject:            45:08          Um, because of, because we're using and one here and as you said, M1 hash-defines. So the preprocessor just changes the value of the, the define, hash-define variable into the variable itself. So that's how I like. So it struck me whether it, it, it could be three minus one times two, or it could be just three minus one or it could be just this being evaluated. Which is two into two. Okay. Yeah. So I was not sure which one would this
+
+Interviewer:        45:47          Would that make a difference to the program?
+
+Subject:            45:51          Um three minutes one, it would not. It does not.
+
+Subject:            45:56          Or hold on. Or could it or hm three minus one into two. This is the correct notation. Right? So this is what it does. So it would be three minus two, which is one.
+
+Subject:            46:11          Hmm.
+
+Subject:            46:13          So if we have the, if, if.
+
+Subject:            46:23          So I guess the output is one then because there are no brackets here.
+
+Interviewer:        46:29          Yeah. So it turns out that you're correct about all those things. Um, and yeah, the output is one for exactly that reason.
+
+Subject:            46:38          So yeah, the bracket doesn't come into picture.
+
+Interviewer:        46:40          Yeah. Um, which it causes no end of issues. Um, but, so that's, that's actually another reason why um sort of the spaces I find interesting because you know, you expect that if it's altogether it would happen first, but if they're spaced out and feels like it wouldn't, um, but anyway, um, okay. Um, so do you have any more questions about this?
+
+Subject:            47:07          No.
+
+Interviewer:        47:09          Cool. One or two more.
+
+Subject             47:29          [Snippet 85] So yeah. So the while loop here would. So the while would just be while V1 4 exists. So that's what's happening, right? Because it's neither zero. Oh, okay. Okay. Now I see. Huh. [Laughs]
+
+Interviewer:        47:48          It's like that one thing.
+
+Subject:            47:59          Okay. So V1 is three here, three minus three, Zero V1, zero is three.
+
+Subject:            48:11          V1 of four is assigned to V... Okay. So this is two now the next one, it would be V1 of three minus two, which is the V1 of four which is two, so V1 of 2 would be two, and V1 of V1 of four is one, the next one. The next one is V1 of 3 minus one, which is two, V1 of 4 which is one, so V1 of 2 is one and v1 of 4 is zero. So it'll terminate after that. So V1 is zero and uh V1 4 is zero. And V1 of one is, where is that, two. So I guess two and zero would be the output.
+
+Interviewer:        49:23          Okay. Can you write that down here? Okay. So yeah, that's exactly what the answer is. So it's just knowing that one little detail and you were able to do the rest of it. Um perfectly, um, which is interesting to me for reasons why I will explain after we talk about this next one
+
+Interviewer:       49:45          [Snippet 26] Last one. Do you have questions about this?
+
+Subject:            49:52          No. No questions.
+
+Interviewer:        49:54          Okay. Yeah. Good. All right, thank you very much. I'm gonna. Go ahead and turn off the thing and then we can talk about sort of how the study worked.
+
