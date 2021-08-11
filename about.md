@@ -15,7 +15,7 @@ fundamental secrets of confusing code. We are:
  * [Lois DeLong](https://ssl.engineering.nyu.edu/people#lois_delong), NYU
  * [Dan Gopstein](https://ssl.engineering.nyu.edu/people#dan_gopstein), NYU
  * [Devon Powell](https://ssl.engineering.nyu.edu/people#devon_powell), NYU
- * Apple Yu Yan, Penn State
+ * [April Yu Yan](https://commons.ucsd.edu/who/team/april-yan.html), University of California, San Diego 
  * [Jake Iannacone](https://ssl.engineering.nyu.edu/people#jake_iannacone)
  * Hongwei (Henry) Zhou, NYU
 
